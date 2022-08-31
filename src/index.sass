@@ -1,0 +1,27 @@
+@import url("./components/Main/main.sass")
+@import url("./app.sass")
+@import url("./components/BookItem/book-item.sass")
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  color: #e8e8e9
+
+body
+  position: relative
+  padding-top: 30px
+  width: 100vw
+  height: 100vh
+  &::before
+    position: fixed
+    top: 0
+    content: " "
+    width: inherit
+    height: inherit
+    background-image: url("./assets/images/main/main-background.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
+    background-position: 0 0
+    z-index: -5
