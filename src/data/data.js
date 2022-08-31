@@ -18,6 +18,9 @@ import javaIcon from "../assets/images/technologies/java.svg";
 import awsIcon from "../assets/images/technologies/aws.svg";
 import apiIcon from "../assets/images/technologies/api.png";
 import otherIcon from "../assets/images/technologies/book.png";
+import gitIcon from "../assets/images/technologies/git.svg";
+import devopsIcon from "../assets/images/technologies/devops.png";
+import iOSIcon from "../assets/images/technologies/ios.png";
 
 
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
@@ -86,19 +89,29 @@ import VSCode1 from "../assets/images/books/VS Code/1. Visual Studio Code. End-t
 import Angular1 from "../assets/images/books/Angular/1. Learning Angular.jpg";
 
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
+import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
 
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 
 import JAVA1 from "../assets/images/books/Java/1. Mastering Java. A Beginner's Guide.jpg";
 import JAVA2 from "../assets/images/books/Java/2. Selenium with Java – A Beginner’s Guide.jpg";
+import JAVA3 from "../assets/images/books/Java/3. Java 17 Recipes. A Problem-Solution Approach.jpg";
 
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
+import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
 
 import API1 from "../assets/images/books/API/1. Mastering API Architecture.jpg";
 
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 
 import Other1 from "../assets/images/books/Other/1. Control Systems Engineering.jpg";
+import Other2 from "../assets/images/books/Other/2. The Book of Crypto.jpg";
+
+import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
+
+import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
+
+import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 
 
 export const data = [
@@ -775,6 +788,18 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null
   },
+  {
+    title: "The Complete Cyber Security Course, Volume 1: Hackers Exposed",
+    img: Security2,
+    link: "https://drive.google.com/file/d/1v0G81idQpo4jxixD2UDOA_LJPvQsprfS/view?usp=sharing",
+    author: "Nathan House",
+    year: ["2017", "All"],
+    sheets: "282",
+    description: "Станьте специалистом по кибербезопасности - пройдите путь от новичка до продвинутого. Книга охватывает основные аспекты вашего необходимого набора навыков - вы поймете направление угроз и уязвимостей с помощью моделирования и оценки рисков. Вы поймете основы безопасности и конфиденциальности операционных систем. Пройдете ускоренный курс по криптографии: узнаете о том, как можно обойти шифрование и что вы можете сделать, чтобы снизить риски распространения конфиденциальной информации.",
+    stack: "Web security All",
+    stackIcon: lockIcon,
+    borderColor: null
+  },
   //UI
   {
     title: "Mastering Unreal Engine: A Beginner's Guide, First Edition",
@@ -813,6 +838,18 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a"
   },
+  {
+    title: "Java 17 Recipes: A Problem-Solution Approach",
+    img: JAVA3,
+    link: "https://drive.google.com/file/d/1n4sl_iXWMSx4-ucwBeLOcGL5dfNupfuv/view?usp=sharing",
+    author: "Josh Juneau",
+    year: ["2022", "All"],
+    sheets: "619",
+    description: "Книга получила обновление, отражающее изменения в спецификации и реализации, произошедшие со времени выпуска этой книги на Java 9. Java 17 - это следующий выпуск долгосрочной поддержки (LTS) Java Standard Edition (SE), который также включает в себя некоторые функции из предыдущих выпусков краткосрочной поддержки (STS) Java 16 и предыдущих версий.",
+    stack: ["Java", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a"
+  },
   //AWS
   {
     title: "AWS All-in-One Security Guide: Design, Build, Monitor, and Manage a Fortified Application Ecosystem on AWS",
@@ -822,6 +859,18 @@ export const data = [
     year: ["2022", "All"],
     sheets: "296",
     description: "В книге используется комплексный многоуровневый подход к обеспечению безопасности для изучения соответствующих сервисов AWS на каждом уровне и обсуждается, как их использовать. Он начинается с обзора облачной модели совместной ответственности и того, как эффективно использовать службу AWS Identity and Access Management (IAM) для настройки удостоверений и контроля доступа для различных служб и компонентов. В других главах рассматриваются вопросы безопасности инфраструктуры AWS, безопасности данных и безопасности уровня приложений AWS. В заключительных главах рассказывается о различных службах ведения журнала, мониторинга и аудита, доступных в AWS, а в конце книги приводится глава, посвященная передовым методам обеспечения безопасности AWS.",
+    stack: ["AWS", "All"],
+    stackIcon: awsIcon,
+    borderColor: "#ff9a00"
+  },
+  {
+    title: "Serverless Architectures on AWS, 2nd Edition (Final Release)",
+    img: AWS2,
+    link: "https://drive.google.com/file/d/1sbrppNXRc63-0D2p4nRRP4tj0pewiv4g/view?usp=sharing",
+    author: "Peter Sbarski",
+    year: ["2022", "All"],
+    sheets: "257",
+    description: "Вы узнаете, как проектировать бессерверные системы с использованием Lambda и других сервисов на платформе AWS. Вы познакомитесь с вычислениями, управляемыми событиями, и узнаете, как другие компании используют бессерверные технологии. Это новое издание предлагает реальные примеры использования и практические идеи из нескольких крупных бессерверных систем. Главы, посвященные шаблонам и архитектурам бессерверного проектирования, помогут вам стать профессионалом в области облачных вычислений.",
     stack: ["AWS", "All"],
     stackIcon: awsIcon,
     borderColor: "#ff9a00"
@@ -864,5 +913,56 @@ export const data = [
     stack: ["Other", "All"],
     stackIcon: otherIcon,
     borderColor: null
+  },
+  {
+    title: "The Book of Crypto: The Complete Guide to Understanding Bitcoin, Cryptocurrencies and Digital Assets",
+    img: Other2,
+    link: "https://drive.google.com/file/d/1MEbejAnrQ8dxZ_41LJ-c6Zg6W4kH5FZN/view?usp=sharing",
+    author: "Henri Arslanian",
+    year: ["2022", "All"],
+    sheets: "678",
+    description: "Книга предоставляет краткий и увлекательный обзор всех тем, которые необходимо знать тем, кто интересуется цифровыми активами, включая то, как работает биткойн, эфириум, и наиболее важные крипто-активы. Книга также охватывает все основные вопросы, включая DeFi, крипто-майнинг, крипторегулирование, криптобиржи и других игроков экосистемы, а также некоторые из последних глобальных крипто-трендов от Web 3.0 и Метавселенной до DAOs и квантовых вычислений.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null
+  },
+  //Git
+  {
+    title: "Head First Git",
+    img: Git1,
+    link: "https://drive.google.com/file/d/1-GQWIzqx8kLlCLaX4-s9jM5xTziAwyXJ/view?usp=sharing",
+    author: "Raju Gandhi",
+    year: ["2022", "All"],
+    sheets: "92",
+    description: "Многие люди, использующие Git, полагаются на «рецепты» — копирование и вставку команд, которые они находят в Интернете, не понимая, как на самом деле работает Git. Но что делать, если вы оказались в затруднительном положении, которое уже не исправить чьей-то готовой командой? С помощью этого уникального практического руководства вы изучите способы работы с Git и получите от этого удовольствие.",
+    stack: ["Git", "All"],
+    stackIcon: gitIcon,
+    borderColor: "#f34e24"
+  },
+  //DevOps
+  {
+    title: "Lean DevOps: A Practical Guide to On Demand Service Delivery",
+    img: DevOps1,
+    link: "https://drive.google.com/file/d/17LQNesPpboDrc1-AhInfMGWT-pYLdqFY/view?usp=sharing",
+    author: "Raju Gandhi",
+    year: ["2022", "All"],
+    sheets: "330",
+    description: "Роберт Бенефилд опирается на многолетний опыт создания и руководства ИТ-командами от стартапов до гигантских корпораций, включая первых поставщиков программного обеспечения как услуги, ведущие инвестиционные банки и  телекоммуникационные и энергетические компании. На примерах из практики он показывает, как применение DevOps может значительно повысить скорость разработки, качество и понимание бизнеса для того, чтобы обойти конкурентов.",
+    stack: ["DevOps", "All"],
+    stackIcon: devopsIcon,
+    borderColor: null
+  },
+  //iOS
+  {
+    title: "Computer Vision and Augmented Reality in iOS: OpenCV and ARKit Applications",
+    img: iOS1,
+    link: "https://drive.google.com/file/d/1X62yTqpOBImc5s2bEuO68wDFXLds7A4l/view?usp=sharing",
+    author: "Ahmed Fathi Bekhit",
+    year: ["2022", "All"],
+    sheets: "172",
+    description: "Эта книга научит вас использовать компьютерное зрение. Вы разработаете распознавание лиц, преобразование изображений в текст и, конечно же, запись видео с танцующим хот-догом в вашей гостиной. Начиная с истории компьютерного зрения, основ обработки изображений и видео и введения в разработку приложений дополненной реальности, вы научитесь включать компьютерное зрение как в создаваемый вами контент, так и в приложения, которые вы разрабатываете для конечных пользователей.",
+    stack: ["iOS", "All"],
+    stackIcon: iOSIcon,
+    borderColor: "#000"
   },
 ];
