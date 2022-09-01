@@ -13,25 +13,24 @@
     box-shadow: 0 0 20px #000
   &__image
     margin-right: 30px
-  &__stack-icon
-    position: absolute
-    left: 20px
-    width: 60px
-  &__stack-icon-second
-    position: absolute
-    left: 20px
-    top: 90px
-    width: 60px
-  &__stack-icon-third
-    position: absolute
-    left: 20px
-    top: 160px
-    width: 60px
+  &__stack-icon,
+  &__stack-icon-second,
+  &__stack-icon-third,
   &__stack-icon-fourth
     position: absolute
     left: 20px
-    top: 225px
     width: 60px
+    cursor: pointer
+    transition: .2s
+    &:hover
+      scale: 1.15
+
+  &__stack-icon-second
+    top: 90px
+  &__stack-icon-third
+    top: 160px
+  &__stack-icon-fourth
+    top: 225px
 
 .description
   width: 100%

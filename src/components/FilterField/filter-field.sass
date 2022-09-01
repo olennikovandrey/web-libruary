@@ -1,4 +1,4 @@
-.filter-field
+.filter-form
   width: 400px
   height: 94vh
   padding: 20px
@@ -16,6 +16,7 @@
     color: #5c5c5c
     font-size: 1.2rem
   & label
+    width: 90%
     font-size: 1.2rem
     position: relative
   & select
@@ -28,3 +29,20 @@
     font-size: 1.2rem
   & option
     color: #5c5c5c
+  & span
+    font-size: 1.2rem
+
+.input-wrapper
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.clear-btn
+  width: 20px
+  height: 20px
+  content: url("../../assets/images/filter-form/close.svg")
+  cursor: pointer
+  transition: .3s
+  &:hover
+    transform: rotate(90deg)
