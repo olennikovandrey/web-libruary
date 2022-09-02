@@ -1,6 +1,7 @@
 import BookItem from "../BookItem/BookItem";
 import FilterField from "../FilterField/FilterField";
 import { data } from "../../data/data";
+import SortField from "../SortField/SortField";
 import React, { useState } from "react";
 
 export default function Main() {
@@ -8,6 +9,12 @@ export default function Main() {
   const [searchAuthor, setSearchAuthor] = useState("");
   const [searchYear, setSearchYear] = useState("All");
   const [searchStack, setSearchStack] = useState("All");
+  const [isTitleAToB, setTitleAToB] = useState(false);
+  const [isTitleBToA, setTitleBToA] = useState(false);
+  const [isYearAToB, setYearAToB] = useState(false);
+  const [isYearBToA, setYearBToA] = useState(false);
+  const [isSheetsAToB, setSheetsAToB] = useState(false);
+  const [isSheetsBToA, setSheetsBToA] = useState(false);
 
   const filteredData = data.filter(item =>
     item.stack.includes(searchStack) &&
@@ -31,6 +38,61 @@ export default function Main() {
     setSearchStack(stack);
   };
 
+  const stateSortChanger = (stateFnTitle) => {
+    if (stateFnTitle === "setTitleAToB") {
+      setTitleAToB(!isTitleAToB);
+      setTitleBToA(false);
+      setYearAToB(false);
+      setYearBToA(false);
+      setSheetsAToB(false);
+      setSheetsBToA(false);
+    } else if (stateFnTitle === "setTitleBToA") {
+      setTitleBToA(!isTitleBToA);
+      setTitleAToB(false);
+      setYearAToB(false);
+      setYearBToA(false);
+      setSheetsAToB(false);
+      setSheetsBToA(false);
+    } else if (stateFnTitle === "setYearAToB") {
+      setYearAToB(!isYearAToB);
+      setYearBToA(false);
+      setTitleBToA(false);
+      setTitleAToB(false);
+      setSheetsAToB(false);
+      setSheetsBToA(false);
+    } else if (stateFnTitle === "setYearBToA") {
+      setYearBToA(!isYearBToA);
+      setYearAToB(false);
+      setTitleBToA(false);
+      setTitleAToB(false);
+      setSheetsAToB(false);
+      setSheetsBToA(false);
+    } else if (stateFnTitle === "setSheetsAToB") {
+      setSheetsAToB(!isSheetsAToB);
+      setSheetsBToA(false);
+      setYearBToA(false);
+      setYearAToB(false);
+      setTitleBToA(false);
+      setTitleAToB(false);
+    } else if (stateFnTitle === "setSheetsBToA") {
+      setSheetsBToA(!isSheetsBToA);
+      setSheetsAToB(false);
+      setYearBToA(false);
+      setYearAToB(false);
+      setTitleBToA(false);
+      setTitleAToB(false);
+    }
+    return;
+  };
+
+  function byStringFieldAToB(field) {
+    return (a, b) => a[field] > b[field] ? 1 : -1;
+  }
+
+  function byStringFieldBToA(field) {
+    return (a, b) => a[field] < b[field] ? 1 : -1;
+  }
+
   return (
     <div className="main">
       <FilterField
@@ -44,14 +106,30 @@ export default function Main() {
         searchStack={ searchStack }
         result={ filteredData.length }
       />
+      <SortField
+        stateSortChanger={ stateSortChanger }
+        isTitleAToB={ isTitleAToB }
+        isTitleBToA={ isTitleBToA }
+        isYearAToB={ isYearAToB }
+        isYearBToA={ isYearBToA }
+        isSheetsAToB={ isSheetsAToB }
+        isSheetsBToA={ isSheetsBToA }
+      />
       {
-        filteredData.map(item =>
-          <BookItem
-            key={ item.title + item.author}
-            data={ item }
-            setStackFilter={ setStackFilter }
-          />
-        )
+        filteredData
+          .sort(isTitleAToB ? byStringFieldAToB("title") : undefined)
+          .sort(isTitleBToA ? byStringFieldBToA("title") : undefined)
+          .sort(isYearAToB ? (a, b) => a.year[0] - b.year[0] : undefined)
+          .sort(isYearBToA ? (a, b) => a.year[0] + b.year[0] : undefined)
+          .sort(isSheetsAToB ? byStringFieldAToB("sheets") : undefined)
+          .sort(isSheetsBToA ? byStringFieldBToA("sheets") : undefined)
+          .map(item =>
+            <BookItem
+              key={ item.title + item.author}
+              data={ item }
+              setStackFilter={ setStackFilter }
+            />
+          )
       }
     </div>
   );

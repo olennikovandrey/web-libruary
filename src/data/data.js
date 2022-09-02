@@ -25,7 +25,6 @@ import agileIcon from "../assets/images/technologies/agile.png";
 import cPlusIcon from "../assets/images/technologies/C++.png";
 import rubyIcon from "../assets/images/technologies/ruby.svg";
 
-
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
 import JS3 from "../assets/images/books/JS/3. Html, Css & Javascript in easy steps Special Edition (2020), Mike McGrath.jpg";
