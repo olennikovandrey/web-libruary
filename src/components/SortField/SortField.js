@@ -14,6 +14,8 @@ export default function SortField(props) {
         isBToA={ isTitleBToA }
         stateAToBFnName="setTitleAToB"
         stateBToAFnName="setTitleBToA"
+        sortValueAToB="A - Z"
+        sortValueBToA="Z - A"
       />
       <SortItem
         title="По году выпуска:"
@@ -22,6 +24,8 @@ export default function SortField(props) {
         isBToA={ isYearBToA }
         stateAToBFnName="setYearAToB"
         stateBToAFnName="setYearBToA"
+        sortValueAToB="1 - 10"
+        sortValueBToA="10 - 1"
       />
       <SortItem
         title="По объему:"
@@ -30,6 +34,8 @@ export default function SortField(props) {
         isBToA={ isSheetsBToA }
         stateAToBFnName="setSheetsAToB"
         stateBToAFnName="setSheetsBToA"
+        sortValueAToB="1 - 10"
+        sortValueBToA="10 - 1"
       />
     </div>
   );

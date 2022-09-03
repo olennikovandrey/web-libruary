@@ -85,11 +85,11 @@ export default function Main() {
     return;
   };
 
-  function byStringFieldAToB(field) {
+  function byFieldAToB(field) {
     return (a, b) => a[field] > b[field] ? 1 : -1;
   }
 
-  function byStringFieldBToA(field) {
+  function byFieldBToA(field) {
     return (a, b) => a[field] < b[field] ? 1 : -1;
   }
 
@@ -117,12 +117,12 @@ export default function Main() {
       />
       {
         filteredData
-          .sort(isTitleAToB ? byStringFieldAToB("title") : undefined)
-          .sort(isTitleBToA ? byStringFieldBToA("title") : undefined)
-          .sort(isYearAToB ? (a, b) => a.year[0] - b.year[0] : undefined)
-          .sort(isYearBToA ? (a, b) => a.year[0] + b.year[0] : undefined)
-          .sort(isSheetsAToB ? byStringFieldAToB("sheets") : undefined)
-          .sort(isSheetsBToA ? byStringFieldBToA("sheets") : undefined)
+          .sort(isTitleAToB ? byFieldAToB("title") : undefined)
+          .sort(isTitleBToA ? byFieldBToA("title") : undefined)
+          .sort(isYearAToB ? byFieldAToB("year") : undefined)
+          .sort(isYearBToA ? byFieldBToA("year") : undefined)
+          .sort(isSheetsAToB ? byFieldAToB("sheets") : undefined)
+          .sort(isSheetsBToA ? byFieldBToA("sheets") : undefined)
           .map(item =>
             <BookItem
               key={ item.title + item.author}

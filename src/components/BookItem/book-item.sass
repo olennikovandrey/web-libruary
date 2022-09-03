@@ -11,8 +11,22 @@
   transition: .2s
   &:hover
     box-shadow: 0 0 20px #000
-  &__image
+  &__image-wrapper
+    position: relative
+  & .image
     margin-right: 30px
+  & .format-name
+    position: absolute
+    left: 10px
+    top: 10px
+    height: 30px
+    width: 60px
+    border-radius: 6px
+    background-color: #5c5c5c
+    color: #fff
+    text-align: center
+    line-height: 30px
+    font-size: 1.3rem
   &__stack-icon,
   &__stack-icon-second,
   &__stack-icon-third,
