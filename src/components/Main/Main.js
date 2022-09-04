@@ -115,22 +115,24 @@ export default function Main() {
         isSheetsAToB={ isSheetsAToB }
         isSheetsBToA={ isSheetsBToA }
       />
-      {
-        filteredData
-          .sort(isTitleAToB ? byFieldAToB("title") : undefined)
-          .sort(isTitleBToA ? byFieldBToA("title") : undefined)
-          .sort(isYearAToB ? byFieldAToB("year") : undefined)
-          .sort(isYearBToA ? byFieldBToA("year") : undefined)
-          .sort(isSheetsAToB ? byFieldAToB("sheets") : undefined)
-          .sort(isSheetsBToA ? byFieldBToA("sheets") : undefined)
-          .map(item =>
-            <BookItem
-              key={ item.title + item.author}
-              data={ item }
-              setStackFilter={ setStackFilter }
-            />
-          )
-      }
+      <section className="content">
+        {
+          filteredData
+            .sort(isTitleAToB ? byFieldAToB("title") : undefined)
+            .sort(isTitleBToA ? byFieldBToA("title") : undefined)
+            .sort(isYearAToB ? byFieldAToB("year") : undefined)
+            .sort(isYearBToA ? byFieldBToA("year") : undefined)
+            .sort(isSheetsAToB ? byFieldAToB("sheets") : undefined)
+            .sort(isSheetsBToA ? byFieldBToA("sheets") : undefined)
+            .map(item =>
+              <BookItem
+                key={ item.title + item.author}
+                data={ item }
+                setStackFilter={ setStackFilter }
+              />
+            )
+        }
+      </section>
     </div>
   );
 }

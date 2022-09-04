@@ -1,3 +1,31 @@
 .app
-  max-width: 1440px
-  margin: 0 auto
+  position: relative
+  &__to-top-btn
+    position: fixed
+    width: 70px
+    bottom: 30px
+    right: 30px
+    border-radius: 50%
+    cursor: pointer
+    opacity: 0
+    content: url("../src/assets/images/main/up.svg")
+    transition: .2s
+    &:hover
+      box-shadow: 0 0 20px #000
+
+.progress-container
+  position: fixed
+  top: 0
+  z-index: 100
+  width: 100%
+  margin: 0
+  height: 10px
+  background: #ccc
+
+.progress-bar
+  display: block
+  margin: 0
+  height: 10px
+  background: #fffb00
+  z-index: 100
+  transition: .2s

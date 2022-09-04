@@ -1,6 +1,6 @@
 import { stack, year } from "./filterFieldData";
-import Select from "./Select";
 import Input from "./Input";
+import Select from "../Select/Select";
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -22,12 +22,14 @@ export default function FilterField(props) {
         stateFunc={ props.setStackFilter }
         labelText="Поиск по технологическому стэку: "
         searchValue={ props.searchStack }
+        preClassName="stack"
       />
       <Select
         data={ year }
         stateFunc={ props.setYearFilter }
         labelText="Поиск по году издания: "
         searchValue={ props.searchYear }
+        preClassName="year"
       />
       <span>Найдено: { props.result }</span>
     </div>
@@ -40,7 +42,10 @@ FilterField.propTypes = {
   setTitleFilter: PropTypes.func,
   setAuthorFilter: PropTypes.func,
   searchStack: PropTypes.string,
-  searchYear: PropTypes.string,
+  searchYear: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ]),
   searchTitle: PropTypes.string,
   searchAuthor: PropTypes.string,
   result: PropTypes.number
