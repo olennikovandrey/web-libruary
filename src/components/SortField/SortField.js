@@ -3,7 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function SortField(props) {
-  const { stateSortChanger, isTitleAToB, isTitleBToA, isYearAToB, isYearBToA, isSheetsAToB, isSheetsBToA } = props;
+  const { stateSortChanger, isTitleAToB, isTitleBToA, isYearAToB, isYearBToA, isSheetsAToB, isSheetsBToA, isFileSizeAToB, isFileSizeBToA } = props;
 
   return (
     <div className="sort-field-wrapper">
@@ -28,12 +28,22 @@ export default function SortField(props) {
         sortValueBToA="10 - 1"
       />
       <SortItem
-        title="По объему:"
+        title="По объему издания:"
         stateSortChanger={ stateSortChanger }
         isAToB={ isSheetsAToB }
         isBToA={ isSheetsBToA }
         stateAToBFnName="setSheetsAToB"
         stateBToAFnName="setSheetsBToA"
+        sortValueAToB="1 - 10"
+        sortValueBToA="10 - 1"
+      />
+      <SortItem
+        title="По размеру файла:"
+        stateSortChanger={ stateSortChanger }
+        isAToB={ isFileSizeAToB }
+        isBToA={ isFileSizeBToA }
+        stateAToBFnName="setFileSizeAToB"
+        stateBToAFnName="setFileSizeBToA"
         sortValueAToB="1 - 10"
         sortValueBToA="10 - 1"
       />
@@ -48,12 +58,7 @@ SortField.propTypes = {
   isYearAToB: PropTypes.bool,
   isYearBToA: PropTypes.bool,
   isSheetsAToB: PropTypes.bool,
-  isSheetsBToA: PropTypes.bool
+  isSheetsBToA: PropTypes.bool,
+  isFileSizeAToB: PropTypes.bool,
+  isFileSizeBToA: PropTypes.bool
 };
-
-
-
-//.sort(isTitleAToB ? byFieldAToB("title") : null)
-//.sort(isTitleBToA ? byFieldBToA("title") : null)
-//.sort(isYearAToB ? byFieldAToB("year") : null)
-//.sort(isYearBToA ? byFieldBToA("year") : null)

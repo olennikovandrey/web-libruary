@@ -1,6 +1,6 @@
-import { stack, year } from "./filterFieldData";
-import Input from "./Input";
-import Select from "../Select/Select";
+import { stack, year, formats } from "./data/filterFieldData";
+import Input from "./Input/Input";
+import Select from "./Select/Select";
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -31,6 +31,13 @@ export default function FilterField(props) {
         searchValue={ props.searchYear }
         preClassName="year"
       />
+      <Select
+        data={ formats }
+        stateFunc={ props.setFormatFilter }
+        labelText="Поиск по формату файла: "
+        searchValue={ props.searchFileFormat }
+        preClassName="format"
+      />
       <span>Найдено: { props.result }</span>
     </div>
   );
@@ -41,6 +48,7 @@ FilterField.propTypes = {
   setYearFilter: PropTypes.func,
   setTitleFilter: PropTypes.func,
   setAuthorFilter: PropTypes.func,
+  setFormatFilter: PropTypes.func,
   searchStack: PropTypes.string,
   searchYear: PropTypes.oneOfType([
     PropTypes.string,
@@ -48,5 +56,6 @@ FilterField.propTypes = {
   ]),
   searchTitle: PropTypes.string,
   searchAuthor: PropTypes.string,
+  searchFileFormat: PropTypes.string,
   result: PropTypes.number
 };

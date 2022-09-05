@@ -2,6 +2,7 @@ import BookItem from "../BookItem/BookItem";
 import FilterField from "../FilterField/FilterField";
 import { data } from "../../data/data";
 import SortField from "../SortField/SortField";
+import NoResults from "../NoResults/NoResults";
 import React, { useState } from "react";
 
 export default function Main() {
@@ -9,18 +10,23 @@ export default function Main() {
   const [searchAuthor, setSearchAuthor] = useState("");
   const [searchYear, setSearchYear] = useState("All");
   const [searchStack, setSearchStack] = useState("All");
+  const [searchFileFormat, setSearchFileFormat] = useState("");
   const [isTitleAToB, setTitleAToB] = useState(false);
   const [isTitleBToA, setTitleBToA] = useState(false);
   const [isYearAToB, setYearAToB] = useState(false);
   const [isYearBToA, setYearBToA] = useState(false);
   const [isSheetsAToB, setSheetsAToB] = useState(false);
   const [isSheetsBToA, setSheetsBToA] = useState(false);
+  const [isFileSizeAToB, setFileSizeAToB] = useState(false);
+  const [isFileSizeBToA, setFileSizeBToA] = useState(false);
 
   const filteredData = data.filter(item =>
     item.stack.includes(searchStack) &&
     item.year.includes(searchYear) &&
-    item.title.toLowerCase().includes(searchTitle.toLowerCase()) &&
-    item.author.toLowerCase().includes(searchAuthor.toLowerCase()));
+    item.title.toLowerCase().trim().includes(searchTitle.toLowerCase().trim()) &&
+    item.author.toLowerCase().trim().includes(searchAuthor.toLowerCase().trim()) &&
+    item.fileFormat.includes(searchFileFormat)
+  );
 
   const setTitleFilter = (title) => {
     setSearchTitle(title);
@@ -38,6 +44,10 @@ export default function Main() {
     setSearchStack(stack);
   };
 
+  const setFormatFilter = (format) => {
+    setSearchFileFormat(format);
+  };
+
   const stateSortChanger = (stateFnTitle) => {
     if (stateFnTitle === "setTitleAToB") {
       setTitleAToB(!isTitleAToB);
@@ -46,6 +56,8 @@ export default function Main() {
       setYearBToA(false);
       setSheetsAToB(false);
       setSheetsBToA(false);
+      setFileSizeAToB(false);
+      setFileSizeBToA(false);
     } else if (stateFnTitle === "setTitleBToA") {
       setTitleBToA(!isTitleBToA);
       setTitleAToB(false);
@@ -53,6 +65,8 @@ export default function Main() {
       setYearBToA(false);
       setSheetsAToB(false);
       setSheetsBToA(false);
+      setFileSizeAToB(false);
+      setFileSizeBToA(false);
     } else if (stateFnTitle === "setYearAToB") {
       setYearAToB(!isYearAToB);
       setYearBToA(false);
@@ -60,6 +74,8 @@ export default function Main() {
       setTitleAToB(false);
       setSheetsAToB(false);
       setSheetsBToA(false);
+      setFileSizeAToB(false);
+      setFileSizeBToA(false);
     } else if (stateFnTitle === "setYearBToA") {
       setYearBToA(!isYearBToA);
       setYearAToB(false);
@@ -67,6 +83,8 @@ export default function Main() {
       setTitleAToB(false);
       setSheetsAToB(false);
       setSheetsBToA(false);
+      setFileSizeAToB(false);
+      setFileSizeBToA(false);
     } else if (stateFnTitle === "setSheetsAToB") {
       setSheetsAToB(!isSheetsAToB);
       setSheetsBToA(false);
@@ -74,6 +92,8 @@ export default function Main() {
       setYearAToB(false);
       setTitleBToA(false);
       setTitleAToB(false);
+      setFileSizeAToB(false);
+      setFileSizeBToA(false);
     } else if (stateFnTitle === "setSheetsBToA") {
       setSheetsBToA(!isSheetsBToA);
       setSheetsAToB(false);
@@ -81,6 +101,26 @@ export default function Main() {
       setYearAToB(false);
       setTitleBToA(false);
       setTitleAToB(false);
+      setFileSizeAToB(false);
+      setFileSizeBToA(false);
+    } else if (stateFnTitle === "setFileSizeAToB") {
+      setFileSizeAToB(!isFileSizeAToB);
+      setSheetsAToB(false);
+      setSheetsBToA(false);
+      setYearBToA(false);
+      setYearAToB(false);
+      setTitleBToA(false);
+      setTitleAToB(false);
+      setFileSizeBToA(false);
+    } else if (stateFnTitle === "setFileSizeBToA") {
+      setFileSizeBToA(!isFileSizeBToA);
+      setSheetsBToA(false);
+      setSheetsAToB(false);
+      setYearBToA(false);
+      setYearAToB(false);
+      setTitleBToA(false);
+      setTitleAToB(false);
+      setFileSizeAToB(false);
     }
     return;
   };
@@ -100,10 +140,12 @@ export default function Main() {
         setAuthorFilter={ setAuthorFilter }
         setYearFilter={ setYearFilter }
         setStackFilter={ setStackFilter }
+        setFormatFilter={ setFormatFilter }
         searchTitle={ searchTitle }
         searchAuthor={ searchAuthor }
         searchYear={ searchYear }
         searchStack={ searchStack }
+        searchFileFormat={ searchFileFormat }
         result={ filteredData.length }
       />
       <SortField
@@ -114,23 +156,28 @@ export default function Main() {
         isYearBToA={ isYearBToA }
         isSheetsAToB={ isSheetsAToB }
         isSheetsBToA={ isSheetsBToA }
+        isFileSizeAToB={ isFileSizeAToB }
+        isFileSizeBToA={ isFileSizeBToA }
       />
       <section className="content">
         {
-          filteredData
+          filteredData.length !== 0 ? filteredData
             .sort(isTitleAToB ? byFieldAToB("title") : undefined)
             .sort(isTitleBToA ? byFieldBToA("title") : undefined)
             .sort(isYearAToB ? byFieldAToB("year") : undefined)
             .sort(isYearBToA ? byFieldBToA("year") : undefined)
             .sort(isSheetsAToB ? byFieldAToB("sheets") : undefined)
             .sort(isSheetsBToA ? byFieldBToA("sheets") : undefined)
+            .sort(isFileSizeAToB ? byFieldAToB("fileSize") : undefined)
+            .sort(isFileSizeBToA ? byFieldBToA("fileSize") : undefined)
             .map(item =>
               <BookItem
                 key={ item.title + item.author}
                 data={ item }
                 setStackFilter={ setStackFilter }
               />
-            )
+            ) :
+            <NoResults />
         }
       </section>
     </div>

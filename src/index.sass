@@ -2,14 +2,19 @@
 @import url("./app.sass")
 @import url("./components/BookItem/book-item.sass")
 @import url("./components/FilterField/filter-field.sass")
-@import url("./components/Select/select.css")
+@import url("./components/FilterField/Select/select.sass")
 @import url("./components/SortField/sort-field.sass")
+@import url("./components/NoResults/no-results.sass")
 
 *
   margin: 0
   padding: 0
   box-sizing: border-box
   color: #e8e8e9
+
+html
+  overflow-x: hidden
+  margin-right: calc(-1 * (100vw - 100%))
 
 body
   position: relative

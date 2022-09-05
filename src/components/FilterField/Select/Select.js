@@ -21,11 +21,12 @@ export default function Select(props) {
         selectSingle.setAttribute("data-state", "");
         preClassName === "year" && stateChangerFunc(+selectSingleTitle.textContent);
         preClassName === "stack" && stateChangerFunc(selectSingleTitle.textContent);
+        preClassName === "format" && stateChangerFunc(selectSingleTitle.textContent);
       });
     }
 
     document.addEventListener("click", (event) => {
-      if (!event.target.matches(".select-year, .select-stack, .select-year *, .select-stack *")) {
+      if (!event.target.matches(".select-year, .select-stack, .select-format, .select-year *, .select-stack *, .select-format *")) {
         selectSingle.setAttribute("data-state", "");
       }
     });
@@ -58,7 +59,10 @@ export default function Select(props) {
           </div>
         </div>
       </label>
-      <span className="clear-btn" onClick={ () => stateFunc("All") }></span>
+      <span
+        className={`select-${ preClassName }__clear-btn`}
+        onClick={ (event) => event.target.matches(".select-format__clear-btn") ? stateFunc("") : stateFunc("All") }
+      ></span>
     </div>
   );
 }

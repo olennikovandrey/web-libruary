@@ -25,7 +25,8 @@ import agileIcon from "../assets/images/technologies/agile.png";
 import cPlusIcon from "../assets/images/technologies/C++.png";
 import rubyIcon from "../assets/images/technologies/ruby.svg";
 import cSharpIcon from "../assets/images/technologies/cSharp.svg";
-import netIcon from "../assets/images/technologies/net.svg";
+import netIcon from "../assets/images/technologies/net-without-word.svg";
+import kotlinIcon from "../assets/images/technologies/kotlin.svg";
 
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
@@ -54,7 +55,7 @@ import JS24 from "../assets/images/books/JS/24. You Don't Know JS Yet. Get Start
 import JS25 from "../assets/images/books/JS/25. Clean Code in JavaScript.jpg";
 import JS26 from "../assets/images/books/JS/26. JavaScript Frameworks for Modern Web Development.jpg";
 import JS27 from "../assets/images/books/JS/27. Advanced JavaScript.jpg";
-
+//REACT comment
 import React1 from "../assets/images/books/React/1. Building React Apps with Server-Side Rendering.jpg";
 import React2 from "../assets/images/books/React/2. Learning React.jpg";
 import React3 from "../assets/images/books/React/3. React. Up and Running. Building Web Applications.jpg";
@@ -64,10 +65,12 @@ import React6 from "../assets/images/books/React/6. Full-Stack React Projects.jp
 import React7 from "../assets/images/books/React/7. React and React Native.jpg";
 import React8 from "../assets/images/books/React/8. Full Stack Serverless. Modern Application Development with React, AWS, and GraphQL.jpg";
 import React9 from "../assets/images/books/React/9. The React beginners handbook.jpg";
-
+import React10 from "../assets/images/books/React/10. React Hooks in Action. With Suspense and Concurrent Mode.jpg";
+//HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
 import HTML3 from "../assets/images/books/HTML/3. HTML & CSS Handbook. Learn HTML and CSS in just 1 hour.jpg";
+import HTML4 from "../assets/images/books/HTML/4. New Perspectives HTML5 and CSS3. Comprehensive.jpg";
 
 import NODE1 from "../assets/images/books/NodeJS/1. Serverless Applications with Node.js. Using AWS Lambda and Claudia.js.jpg";
 import NODE2 from "../assets/images/books/NodeJS/2. Nest.js A Progressive Node.js Framework.jpg";
@@ -81,7 +84,7 @@ import TS1 from "../assets/images/books/TS/1. TypeScript Quickly.jpg";
 import TS2 from "../assets/images/books/TS/2. Essential TypeScript.jpg";
 import TS3 from "../assets/images/books/TS/3. Programming TypeScript. Making Your JavaScript Applications Scale.jpg";
 import TS4 from "../assets/images/books/TS/4. TypeScript in 50 Lessons.jpg";
-
+//Python comment
 import PT1 from "../assets/images/books/Python/1. Building Versatile Mobile Apps with Python and REST.jpg";
 import PT2 from "../assets/images/books/Python/2. Fluent Python, 2nd Edition .jpg";
 import PT3 from "../assets/images/books/Python/3. Python Artificial Intelligence Projects for Beginners.jpg";
@@ -96,6 +99,14 @@ import PT11 from "../assets/images/books/Python/11. Python by Example. Learning 
 import PT12 from "../assets/images/books/Python/12. Data Science Bookcamp. Five real-world Python projects.jpg";
 import PT13 from "../assets/images/books/Python/13. Deep Learning with Python.jpg";
 import PT14 from "../assets/images/books/Python/14. Modern Python Cookbook. 133 recipes to develop flawless and expressive programs in Python 3.8.jpg";
+import PT15 from "../assets/images/books/Python/15. Practical Python Data Wrangling and Data Quality.jpg";
+import PT16 from "../assets/images/books/Python/16. Real-World Python. A Hacker's Guide to Solving Problems with Code.jpg";
+import PT17 from "../assets/images/books/Python/17. Machine Learning for Financial Risk Management with Python.jpg";
+import PT18 from "../assets/images/books/Python/18. Natural Language Processing in Action. Understanding, analyzing, and generating text with Python.jpg";
+import PT19 from "../assets/images/books/Python/19. Introduction to Scientific Programming with Python.jpg";
+import PT20 from "../assets/images/books/Python/20. Python for Excel. A Modern Environment for Automation and Data Analysis.jpg";
+import PT21 from "../assets/images/books/Python/21. Classic Computer Science Problems in Python.jpg";
+import PT22 from "../assets/images/books/Python/22. Python Crash Course, 2nd Edition. A Hands-On, Project-Based Introduction to Programming.jpg";
 
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -113,18 +124,19 @@ import VSCode1 from "../assets/images/books/VS Code/1. Visual Studio Code. End-t
 
 import Angular1 from "../assets/images/books/Angular/1. Learning Angular.jpg";
 import Angular2 from "../assets/images/books/Angular/2. Building Offline Applications with Angular.jpg";
-
+//Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
 import Security3 from "../assets/images/books/Security/3. Understanding Network Hacks. Attack and Defense with Python 3.jpg";
 import Security4 from "../assets/images/books/Security/4. Practical Security for Agile and DevOps.jpg";
 import Security5 from "../assets/images/books/Security/5. Cross-Site Scripting Attacks. Classification, Attack, and Countermeasures.jpg";
 import Security6 from "../assets/images/books/Security/6. Web Application Security.jpg";
+import Security7 from "../assets/images/books/Security/7. Spring Security in Action.jpg";
 
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
 import UI3 from "../assets/images/books/UI/3. Think Like a UX Researcher.jpg";
-
+//Java comment
 import JAVA1 from "../assets/images/books/Java/1. Mastering Java. A Beginner's Guide.jpg";
 import JAVA2 from "../assets/images/books/Java/2. Selenium with Java – A Beginner’s Guide.jpg";
 import JAVA3 from "../assets/images/books/Java/3. Java 17 Recipes. A Problem-Solution Approach.jpg";
@@ -137,6 +149,9 @@ import JAVA9 from "../assets/images/books/Java/9. Java. The Complete Reference, 
 import JAVA10 from "../assets/images/books/Java/10. Java Language Features, 2nd Edition.jpg";
 import JAVA11 from "../assets/images/books/Java/11. Java Programming.jpg";
 import JAVA12 from "../assets/images/books/Java/12. Building Java Programs. A Back to Basics Approach.jpg";
+import JAVA13 from "../assets/images/books/Java/13. Enterprise Java Microservices.jpg";
+import JAVA14 from "../assets/images/books/Java/14. Modern Java in Action. Lambdas, streams, functional and reactive programming.jpg";
+import JAVA15 from "../assets/images/books/Java/15. Reactive Systems in Java. Resilient, Event-Driven Architecture with Quarkus.jpg";
 
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -153,7 +168,7 @@ import API6 from "../assets/images/books/API/6. Web API Development with Python.
 
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
-
+//Other comment
 import Other1 from "../assets/images/books/Other/1. Control Systems Engineering.jpg";
 import Other2 from "../assets/images/books/Other/2. The Book of Crypto.jpg";
 import Other3 from "../assets/images/books/Other/3. Visualizing Google Cloudю 101 Illustrated References for Cloud Engineers and Architects.jpg";
@@ -163,6 +178,10 @@ import Other6 from "../assets/images/books/Other/6. Grokking Streaming Systems. 
 import Other7 from "../assets/images/books/Other/7. Гид по Computer Science. Расширенное издание.jpg";
 import Other8 from "../assets/images/books/Other/8. Надежность нейронных сетей. укрепляем устойчивость ИИ к обману.jpg";
 import Other9 from "../assets/images/books/Other/9. Pro Go. The Complete Guide to Programming Reliable and Efficient Software Using Golang.jpg";
+import Other10 from "../assets/images/books/Other/10. Refactoring at Scale.jpg";
+import Other11 from "../assets/images/books/Other/11. Building Micro-Frontends.jpg";
+import Other12 from "../assets/images/books/Other/12. AI and Machine Learning for Coders.jpg";
+import Other13 from "../assets/images/books/Other/13. Fundamentals of Software Architecture. An Engineering Approach.jpg";
 
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
@@ -171,13 +190,14 @@ import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical G
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
 
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
-
+//Cplus comment
 import cPlus1 from "../assets/images/books/C++/1. Beautiful C++. 30 Core Guidelines for Writing Clean, Safe, and Fast Code.jpg";
 import cPlus2 from "../assets/images/books/C++/2. C++. Практика многопоточного программирования, Второе издание.jpg";
 import cPlus3 from "../assets/images/books/C++/3. C++ Programming. Program Design Including Data Structures.jpg";
 import cPlus4 from "../assets/images/books/C++/4. Large-Scale C++ Volume I. Process and Architecture.jpg";
 import cPlus5 from "../assets/images/books/C++/5. C++ Programming. From Problem Analysis to Program Design .jpg";
 import cPlus6 from "../assets/images/books/C++/6. Starting Out with C++. Early Objects.jpg";
+import cPlus7 from "../assets/images/books/C++/7. Data Parallel C++.jpg";
 
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 
@@ -189,7 +209,8 @@ import ruby1 from "../assets/images/books/Ruby/1. Ruby on Rails Tutorial.jpg";
 import cSharp1 from "../assets/images/books/CSharp/1. The Ultimate Beginners Guide to cSharp  Programming.jpg";
 
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
-
+//kotlin comment
+import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 
 export const data = [
   //JS comment
@@ -205,7 +226,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 6.7
   },
   {
     title: "Deep Learning with JavaScript: Neural networks in TensorFlow.js",
@@ -219,7 +241,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 1.9
   },
   {
     title: "Html, CSS & Javascript in easy steps Special Edition",
@@ -237,7 +260,8 @@ export const data = [
     clickFilterValue: "JavaScript",
     clickFilterValue2: "HTML",
     clickFilterValue3: "CSS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16.7
   },
   {
     title: "JavaScript Everywhere: Building Cross-Platform Applications with GraphQL, React, React Native, and Electron",
@@ -251,7 +275,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 9.1
   },
   {
     title: "JavaScript. A Beginner's Guide, Fifth Edition",
@@ -265,7 +290,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 51.5
   },
   {
     title: "Testing JavaScript Applications",
@@ -279,7 +305,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 6.2
   },
   {
     title: "How JavaScript Works",
@@ -293,7 +320,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.2
   },
   {
     title: "Secrets of the JavaScript Ninja",
@@ -307,7 +335,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16
   },
   {
     title: "Professional JavaScript for Web Developers",
@@ -321,7 +350,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: "20.2 Мб"
   },
   {
     title: "JavaScript Next",
@@ -335,7 +365,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.4
   },
   {
     title: "Multithreaded JavaScript: Concurrency Beyond the Event Loop",
@@ -349,7 +380,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 8
   },
   {
     title: "Programming Fundamentals in JavaScript",
@@ -363,7 +395,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.2
   },
   {
     title: "Roguelike Development with JavaScript",
@@ -377,7 +410,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.9
   },
   {
     title: "Learning PHP, MySQL & JavaScript: A Step-by-Step Guide to Creating Dynamic Websites",
@@ -395,7 +429,8 @@ export const data = [
     clickFilterValue: "JavaScript",
     clickFilterValue2: "PHP",
     clickFilterValue3: "MySQL",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 13.5
   },
   {
     title: "JavaScript Cookbook: Programming the Web",
@@ -409,7 +444,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 5.4
   },
   {
     title: "JavaScript for impatient programmers",
@@ -423,7 +459,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 6.7
   },
   {
     title: "JavaScript Data Structures and Algorithms",
@@ -437,7 +474,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 5.9
   },
   {
     title: "Modern JavaScript for the Impatient",
@@ -451,7 +489,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 31.6
   },
   {
     title: "JavaScript. Novice to Ninja",
@@ -465,7 +504,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 7.9
   },
   {
     title: "Practical Machine Learning in JavaScript",
@@ -479,12 +519,13 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.9
   },
   {
     title: "JavaScript in 24 Hours, Sams Teach Yourself",
     img: JS21,
-    link: "https://drive.google.com/file/d/15uXEsuJ5DYT03XktaOs0nXJVxdlZch76/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1w4pzAYdOctMEVuTELxa6MSBLhTGuIhT8/view?usp=sharing",
     author: "Phil Ballard",
     year: [2015, "All"],
     sheets: 432,
@@ -493,7 +534,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 15.6
   },
   {
     title: "Mastering JavaScript Functional Programming",
@@ -507,7 +549,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 6.6
   },
   {
     title: "The Joy of JavaScript",
@@ -521,7 +564,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 3.8
   },
   {
     title: "You Don't Know JS Yet: Get Started",
@@ -535,7 +579,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "mobi"
+    fileFormat: "MOBI",
+    fileSize: 0.6
   },
   {
     title: "Clean Code in JavaScript",
@@ -549,7 +594,8 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 13.6
   },
   {
     title: "JavaScript Frameworks for Modern Web Development",
@@ -569,7 +615,8 @@ export const data = [
     clickFilterValue2: "React",
     clickFilterValue3: "Angular",
     clickFilterValue4: "Vue.js",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.3
   },
   {
     title: "Advanced JavaScript",
@@ -583,9 +630,9 @@ export const data = [
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 3.3
   },
-  //REACT comment
   {
     title: "Building React Apps with Server-Side Rendering",
     img: React1,
@@ -598,7 +645,8 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.7
   },
   {
     title: "Learning React",
@@ -612,7 +660,8 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 4.7
   },
   {
     title: "React: Up & Running: Building Web Applications",
@@ -626,7 +675,8 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 4.5
   },
   {
     title: "Modern Full-Stack Development",
@@ -644,7 +694,8 @@ export const data = [
     clickFilterValue: "React",
     clickFilterValue2: "TypeScript",
     clickFilterValue3: "NodeJS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 5.6
   },
   {
     title: "The Road to React with Firebase",
@@ -658,7 +709,8 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 1.5
   },
   {
     title: "Full-Stack React Projects",
@@ -672,7 +724,8 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 26.7
   },
   {
     title: "React and React Native",
@@ -686,7 +739,8 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.5
   },
   {
     title: "Full Stack Serverless: Modern Application Development with React, AWS, and GraphQL",
@@ -704,7 +758,8 @@ export const data = [
     clickFilterValue: "React",
     clickFilterValue2: "AWS",
     clickFilterValue3: "GraphQL",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 7.2
   },
   {
     title: "The React beginners handbook",
@@ -718,9 +773,25 @@ export const data = [
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 1.6
   },
-  //HTML comment
+  {
+    title: "React Hooks in Action: With Suspense and Concurrent Mode ",
+    img: React10,
+    link: "https://drive.google.com/file/d/1lOBHupDGslaqXqn8zqBosS2lFliMN6R2/view?usp=sharing",
+    author: "John Larsen",
+    year: [2020, "All"],
+    sheets: 376,
+    description: "Создавайте стильные, удобные и быстро загружаемые пользовательские интерфейсы в React без написания пользовательских классов. React Hooks - это новая категория функций, которые помогают управлять состоянием, жизненным циклом и сторонними эффектами в функциональных компонентах. Книга учит использовать готовые хуки, такие как useState, useReducer и useEffect, для создания собственных хуков. Ваш код станет более реюзабельным, будет требовать меньше шаблонов, и вы станете более эффективным разработчиком.",
+    stack: "React All",
+    stackIcon: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    fileFormat: "PDF",
+    fileSize: 25.2
+  },
+  //REACT comment
   {
     title: "HTML5 and CSS3 All-in-One For Dummies",
     img: HTML1,
@@ -735,7 +806,8 @@ export const data = [
     borderColor: "#df4a17",
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 20.6
   },
   {
     title: "Learning Web Design: A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics",
@@ -753,13 +825,14 @@ export const data = [
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
     clickFilterValue3: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 76
   },
   {
     title: "HTML & CSS Handbook: Learn HTML and CSS in just 1 hour",
     img: HTML3,
     link: "https://drive.google.com/file/d/132u9kXlacZN-mV19j6dJuELTEE2qLb58/view?usp=sharing",
-    author: "Kaushik, Vikalp",
+    author: "Vikalp Kaushik",
     year: [2022, "All"],
     sheets: 50,
     description: "В этой книге рассматривается что такое HTML и CSS и как их использовать для разработки веб приложений. Вы узнаете, как создавать веб-страницы с текстом, графикой и многим другим с помощью HTML. Вы будете использовать CSS для оформления текста, создания целевых макетов страниц, добавления фоновых изображений, дизайна навигации и придания адаптивности веб-сайту, применяя медиазапросы для адаптации к различным размерам экрана.",
@@ -769,8 +842,27 @@ export const data = [
     borderColor: "#df4a17",
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 1.2
   },
+  {
+    title: "New Perspectives HTML5 and CSS3: Comprehensive",
+    img: HTML4,
+    link: "https://drive.google.com/file/d/1c7PQl_Stwy81V5Yjbxmi4oOSeIWY_rKJ/view?usp=sharing",
+    author: "Patrick M. Carey",
+    year: [2017, "All"],
+    sheets: 872,
+    description: "Данная книга позволяет в совершенстве выучить особенности HTML и CSS для практического использования. Каждая глава включает в себя постановку проблемы, цели, которые вы должны достичь, и демонстрацию того, как выполнить конкретную задачу. Книга постоянно дает вам применить на практике только что изученные концепции.",
+    stack: "HTML CSS All",
+    stackIcon: htmlIcon,
+    stackIcon2: cssIcon,
+    borderColor: "#df4a17",
+    clickFilterValue: "HTML",
+    clickFilterValue2: "CSS",
+    fileFormat: "PDF",
+    fileSize: 43.6
+  },
+  //HTML comment
   //NODE comment
   {
     title: "Serverless Applications with Node.js: Using AWS Lambda and Claudia.js",
@@ -784,7 +876,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 27.5
   },
   {
     title: "Nest.js: A Progressive Node.js Framework",
@@ -798,7 +891,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.7
   },
   {
     title: "Get Programming with Node.js",
@@ -812,7 +906,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 5.6
   },
   {
     title: "Node.js Design Patterns",
@@ -826,7 +921,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.1
   },
   {
     title: "Beginning API Development with Node.js",
@@ -840,7 +936,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 1.6
   },
   {
     title: "Node.js: Novice to Ninja",
@@ -854,7 +951,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 4.4
   },
   {
     title: "Distributed Systems with Node.js",
@@ -868,7 +966,8 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF"
+    fileFormat: "EPUB",
+    fileSize: 3.7
   },
   //TS comment
   {
@@ -883,7 +982,8 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 30.7
   },
   {
     title: "Essential TypeScript",
@@ -897,7 +997,8 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 10.3
   },
   {
     title: "Programming TypeScript: Making Your JavaScript Applications Scale",
@@ -911,7 +1012,8 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 3.4
   },
   {
     title: "TypeScript in 50 Lessons",
@@ -925,9 +1027,10 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.7
   },
-  //Python comment
+  //TS comment
   {
     title: "Building Versatile Mobile Apps with Python and REST",
     img: PT1,
@@ -940,7 +1043,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 9.7
   },
   {
     title: "Fluent Python, 2nd Edition",
@@ -954,7 +1058,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 15.7
   },
   {
     title: "Python Artificial Intelligence Projects for Beginners - Get up and running with 8 smart and exciting AI applications",
@@ -968,7 +1073,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16.1
   },
   {
     title: "Python for Algorithmic Trading: From Idea to Cloud Deployment (EARLY RELEASE)",
@@ -982,7 +1088,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 9.8
   },
   {
     title: "Python Web Scraping Cookbook: Over 90 proven recipes to get you scraping with Python, micro services, Docker and AWS",
@@ -996,7 +1103,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16
   },
   {
     title: "The Most Complete Step-by-Step Guide to Python Programming",
@@ -1010,7 +1118,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.5
   },
   {
     title: "Python for Unix and Linux System Administration",
@@ -1024,7 +1133,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.5
   },
   {
     title: "Python Workbook: Learn Python in one day and Learn It Well",
@@ -1038,7 +1148,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 0.7
   },
   {
     title: "Python Testing with pytest",
@@ -1052,7 +1163,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.9
   },
   {
     title: "Beginning Python: From Novice to Professional",
@@ -1066,7 +1178,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 1.6
   },
   {
     title: "Python by Example: Learning to Program in 150 Challenges",
@@ -1080,7 +1193,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 9.8
   },
   {
     title: "Data Science Bookcamp: Five real-world Python projects",
@@ -1094,7 +1208,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 42.4
   },
   {
     title: "Deep Learning with Python",
@@ -1108,7 +1223,8 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 14.4
   },
   {
     title: "Modern Python Cookbook: 133 recipes to develop flawless and expressive programs in Python 3.8",
@@ -1122,8 +1238,130 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 1.5
   },
+  {
+    title: "Practical Python Data Wrangling and Data Quality",
+    img: PT15,
+    link: "https://drive.google.com/file/d/1eKjjkMgOqDuilTWgM_Fu0syQ_koRox-A/view?usp=sharing",
+    author: "Susan E. McGregor",
+    year: [2021, "All"],
+    sheets: 675,
+    description: "Окружающий мир полон данных, содержащих уникальные идеи и ценные истории, и эта книга поможет вам их раскрыть. Независимо от того, работаете ли вы с данными или хотите больше узнать о имеющихся возможностях, примеры и методы в этой практической книге помогут вам легче очищать, оценивать и анализировать данные, чтобы вы могли получать значимые выводы и убедительные визуализации.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "PDF",
+    fileSize: 7.5
+  },
+  {
+    title: "Real-World Python: A Hacker's Guide to Solving Problems with Code",
+    img: PT16,
+    link: "https://drive.google.com/file/d/1EtuQMG62VJkVqX2_oyPGQLgWVioBb2Sb/view?usp=sharing",
+    author: "Lee Vaughan",
+    year: [2020, "All"],
+    sheets: 360,
+    description: "Если вы освоили основы и готовы изучить некоторые из более мощных инструментов, доступных на Python, данная книга покажет вам, как это сделать. В рамках серии практических проектов вы исследуете и решите реальные задачи с помощью сложных инструментов компьютерного зрения, машинного обучения, анализа данных и языковой обработки. Вы познакомитесь с важными модулями, такими как OpenCV, NumPy, Pandas, NLTK, Bokeh, Beautiful Soup, Requests, HoloViews, Tkinter, turtle, matplotlib и другими.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "PDF",
+    fileSize: 16
+  },
+  {
+    title: "Machine Learning for Financial Risk Management with Python",
+    img: PT17,
+    link: "https://drive.google.com/file/d/1p4No3Dj7kU_L7kD63CnhBNIoDSjVwJSf/view?usp=sharing",
+    author: "Abdullah Karasan",
+    year: [2021, "All"],
+    sheets: 519,
+    description: "Управление финансовыми рисками быстро развивается с помощью искусственного интеллекта. С помощью этой практической книги разработчики, программисты, инженеры, финансовые аналитики, а также кванты изучат основанные на Python модели машинного обучения и глубокого обучения для оценки финансового риска. Получив практические навыки финансового моделирования на основе ИИ, вы узнаете, как заменить традиционные модели финансовых рисков моделями машинного обучения.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "EPUB",
+    fileSize: 3.5
+  },
+  {
+    title: "Natural Language Processing in Action: Understanding, analyzing, and generating text with Python",
+    img: PT18,
+    link: "https://drive.google.com/file/d/10XfihLCwAWhDAkf4QPopPHtpD9y2oDdr/view?usp=sharing",
+    author: "Hobson Lane, Hannes Hapke, Cole Howard",
+    year: [2019, "All"],
+    sheets: 544,
+    description: "Книга является руководством по созданию программ, обрабатывающих человеческий язык, используя возможности Python с его фреймворками, предназначенными для работы с AI и NLP. Книга расширяет традиционные подходы к NLP, включая нейронные сети, современные алгоритмы глубокого обучения, и объясняет работу решений реальных задач, таких как составление текста и ответы на вопросы в свободной форме. Для комфортного чтения требуется базовое понимание глубокого обучения и средние знания Python.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "PDF",
+    fileSize: 9.7
+  },
+  {
+    title: "Introduction to Scientific Programming with Python",
+    img: PT19,
+    link: "https://drive.google.com/file/d/1huTQ-jxXStkQgxCLblwWuxBe6PybX10u/view?usp=sharing",
+    author: "Joakim Sundnes",
+    year: [2020, "All"],
+    sheets: 164,
+    description: "Эта книга предлагает начальное введение в программирование научных и вычислительных приложений с использованием языка программирования Python. Стиль изложения компактный и основан на примерах, что делает его подходящим для студентов и исследователей с небольшим опытом программирования или вообще без него.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "PDF",
+    fileSize: 1.9
+  },
+  {
+    title: "IPython for Excel: A Modern Environment for Automation and Data Analysis",
+    img: PT20,
+    link: "https://drive.google.com/file/d/1eJHc5mgCQMTT-Cr0olP_y2vyzCLzv3tH/view?usp=sharing",
+    author: "Felix Zumstein",
+    year: [2021, "All"],
+    sheets: 338,
+    description: "Хотя Excel остается популярным в деловом мире, новые форумы обратной связи от Microsoft полны запросов на включение Python в качестве языка Excel скриптов. Фактически, это самая востребованная функция. Что делает данную комбинацию такой привлекательной? В своём практическом руководстве Феликс Замштейн - создатель xlwings, популярного пакета с открытым исходным кодом для автоматизации Excel с помощью Python - показывает опытным пользователям Excel, как эффективно интегрировать код.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "EPUB",
+    fileSize: 7.7
+  },
+  {
+    title: "Classic Computer Science Problems in Python",
+    img: PT21,
+    link: "https://drive.google.com/file/d/1PvAiEc8Wa3yANYzqPmSTUrfm_9yZn1gy/view?usp=sharing",
+    author: "David Kopec",
+    year: [2019, "All"],
+    sheets: 224,
+    description: "Книга углубляет знания читателя о методах решения задач из области компьютерных наук, предлагая упражнения, известные методы решения и алгоритмы. Работая с примерами в области поиска, кластеризации, графов и много другого, вы вспомните важные вещи, которые, возможно, забыли и найдёте классические решения ваших 'новых' задач. В книге представлены десятки задач программирования от простых до очень сложных. Она подойдёт программистам Python среднего уровня и студентам, изучающим компьютерные науки.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "PDF",
+    fileSize: 4.3
+  },
+  {
+    title: "Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming",
+    img: PT22,
+    link: "https://drive.google.com/file/d/1-bU6Fz7kGRZqAo_u3i2nhIGlYoRcrumK/view?usp=sharing",
+    author: "Eric Matthes",
+    year: [2019, "All"],
+    sheets: 544,
+    description: "Это второе издание одной из самых продаваемых книг по Python. Она представляет собой простое введение в программирование на этом языке. Автор пишет об общих концепциях программирования, разбирает основы языка и решения типичных задач. Три реальных проекта во второй части книги позволяют читателям применить свои знания.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "PDF",
+    fileSize: 7.4
+  },
+  //Python comment
   //PHP comment
   {
     title: "PHP, MySQL, & JavaScript All-in-One For Dummies",
@@ -1141,7 +1379,8 @@ export const data = [
     clickFilterValue: "PHP",
     clickFilterValue2: "MySQL",
     clickFilterValue3: "JavaScript",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 23.3
   },
   {
     title: "PHP Objects, Patterns, and Practice",
@@ -1155,7 +1394,8 @@ export const data = [
     stackIcon: phpIcon,
     borderColor: "#6181b6",
     clickFilterValue: "PHP",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 7.5
   },
   {
     title: "Learn PHP in One Day and Learn It Well",
@@ -1169,7 +1409,8 @@ export const data = [
     stackIcon: phpIcon,
     borderColor: "#6181b6",
     clickFilterValue: "PHP",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 1.7
   },
   //GraphQL comment
   {
@@ -1184,7 +1425,8 @@ export const data = [
     stackIcon: graphqlIcon,
     borderColor: "#e10098",
     clickFilterValue: "GraphQL",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 1.2
   },
   {
     title: "GraphQL in Action",
@@ -1198,7 +1440,8 @@ export const data = [
     stackIcon: graphqlIcon,
     borderColor: "#e10098",
     clickFilterValue: "GraphQL",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 21.7
   },
   //Bootstrap comment
   {
@@ -1213,7 +1456,8 @@ export const data = [
     stackIcon: bootstrapIcon,
     borderColor: "#5b4083",
     clickFilterValue: "Bootstrap",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 20.1
   },
   //Vue comment
   {
@@ -1228,7 +1472,8 @@ export const data = [
     stackIcon: vueIcon,
     borderColor: "#41b883",
     clickFilterValue: "Vue.js",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 31.7
   },
   {
     title: "Fullstack Vue",
@@ -1242,7 +1487,8 @@ export const data = [
     stackIcon: vueIcon,
     borderColor: "#41b883",
     clickFilterValue: "Vue.js",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 18.6
   },
   //VS Code comment
   {
@@ -1257,9 +1503,9 @@ export const data = [
     stackIcon: VSCodeIcon,
     borderColor: "#2489ca",
     clickFilterValue: "Visual Studio Code",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 14.5
   },
-  //Angular comment
   {
     title: "Learning Angular",
     img: Angular1,
@@ -1272,7 +1518,8 @@ export const data = [
     stackIcon: angularIcon,
     borderColor: "#dd0031",
     clickFilterValue: "Angular",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.5
   },
   {
     title: "Building Offline Applications with Angular: Develop Reliable, Performant Web Applications for Desktop and Mobile Platforms",
@@ -1286,9 +1533,10 @@ export const data = [
     stackIcon: angularIcon,
     borderColor: "#dd0031",
     clickFilterValue: "Angular",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 12.8
   },
-  //Security comment
+  //Angular comment
   {
     title: "Web Security for Developers",
     img: Security1,
@@ -1301,7 +1549,8 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.5
   },
   {
     title: "The Complete Cyber Security Course, Volume 1: Hackers Exposed",
@@ -1315,7 +1564,8 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 40.8
   },
   {
     title: "Understanding Network Hacks: Attack and Defense with Python 3",
@@ -1331,7 +1581,8 @@ export const data = [
     borderColor: null,
     clickFilterValue: "Web security",
     clickFilterValue2: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 10.9
   },
   {
     title: "Practical Security for Agile and DevOps",
@@ -1349,7 +1600,8 @@ export const data = [
     clickFilterValue: "Web security",
     clickFilterValue2: "DevOps",
     clickFilterValue3: "Agile",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.2
   },
   {
     title: "Cross-Site Scripting Attacks: Classification, Attack, and Countermeasures (Security, Privacy, and Trust in Mobile Communications)",
@@ -1363,7 +1615,8 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.8
   },
   {
     title: "Web Application Security: Exploitation and Countermeasures for Modern Web Applications",
@@ -1372,14 +1625,30 @@ export const data = [
     author: "Andrew Hoffman",
     year: [2020, "All"],
     sheets: 331,
-    description: "Эндрю Хоффман, старший инженер по безопасности в Salesforce, представляет три основных компонента безопасности веб-приложений: разведка, нападение и защита. Вы изучите методы эффективного исследования и анализа современных веб—приложений, в том числе тех, к которым у вас нет прямого доступа. Также, вы узнаете, как разработать меры по смягчению последствий для использования в ваших собственных веб-приложениях для защиты от хакеров",
+    description: "Эндрю Хоффман, старший инженер по безопасности в Salesforce, представляет три основных компонента безопасности веб-приложений: разведка, нападение и защита. Вы изучите методы эффективного исследования и анализа современных веб—приложений, в том числе тех, к которым у вас нет прямого доступа. Также, вы узнаете, как разработать меры по смягчению последствий для использования в ваших собственных веб-приложениях для защиты от хакеров.",
     stack: ["Web security", "All",],
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 4.7
   },
-  //UI comment
+  {
+    title: "Spring Security in Action",
+    img: Security7,
+    link: "https://drive.google.com/file/d/1AbLoKJur5vb5ht3h8EyMxpKpu972WAPU/view?usp=sharing",
+    author: "Laurentiu Spilca",
+    year: [2020, "All"],
+    sheets: 560,
+    description: "Автор показывает, как предотвратить атаки с использованием межсайтовых скриптов и подделки запросов до того, как они нанесут ущерб. Вы начнете с основ, моделируя обновление паролей и добавляя несколько типов авторизации. По мере роста ваших навыков вы адаптируете Spring к новым архитектурам и создадите расширенные конфигурации OAuth2. К концу работы с книгой у вас будет настроенная конфигурация, которая защитит от угроз.",
+    stack: ["Web security", "All",],
+    stackIcon: lockIcon,
+    borderColor: null,
+    clickFilterValue: "Web security",
+    fileFormat: "PDF",
+    fileSize: 13.6
+  },
+  //Security comment
   {
     title: "Mastering Unreal Engine: A Beginner's Guide, First Edition",
     img: UI1,
@@ -1392,7 +1661,8 @@ export const data = [
     stackIcon: uiIcon,
     borderColor: null,
     clickFilterValue: "UI/UX",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 4.3
   },
   {
     title: "No bullshit guide to UX",
@@ -1406,7 +1676,8 @@ export const data = [
     stackIcon: uiIcon,
     borderColor: null,
     clickFilterValue: "UI/UX",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 12.8
   },
   {
     title: "Think Like a UX Researcher",
@@ -1420,9 +1691,10 @@ export const data = [
     stackIcon: uiIcon,
     borderColor: null,
     clickFilterValue: "UI/UX",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 10.8
   },
-  //Java comment
+  //UI comment
   {
     title: "Mastering Java: A Beginner's Guide",
     img: JAVA1,
@@ -1435,7 +1707,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 5.4
   },
   {
     title: "Selenium with Java – A Beginner’s Guide: Web Browser Automation for Testing using Selenium with Java",
@@ -1449,7 +1722,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 7.8
   },
   {
     title: "Java 17 Recipes: A Problem-Solution Approach",
@@ -1463,7 +1737,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 7.8
   },
   {
     title: "Java Cookbook - Problems and Solutions for Java Developers (Early Release)",
@@ -1477,7 +1752,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 2.3
   },
   {
     title: "Grokking The Java Developer Interview: More Than 200 Questions To Crack The Java, Spring, SpringBoot & Hibernate Interview",
@@ -1491,7 +1767,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 19.5
   },
   {
     title: "The Java Workshop - A practical, no-nonsense guide to Java",
@@ -1505,7 +1782,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 6.7
   },
   {
     title: "Java Challenges: 100+ Proven Tasks that Will Prepare You for Anything",
@@ -1519,7 +1797,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 5.4
   },
   {
     title: "The Well-Grounded Java Developer, 2nd Edition",
@@ -1533,7 +1812,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 11.2
   },
   {
     title: "Java: The Complete Reference, Twelfth Edition, 12th Edition",
@@ -1547,7 +1827,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 122.3
   },
   {
     title: "Java Language Features, 2nd Edition",
@@ -1561,7 +1842,8 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.6
   },
   {
     title: "Java Programming",
@@ -1575,12 +1857,13 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 11.3
   },
   {
     title: "Building Java Programs: A Back to Basics Approach",
     img: JAVA12,
-    link: "https://drive.google.com/file/d/1wQPyLukYZXPB7rK5cikMriRVGihenG7r/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1qn0iZ3i5Pcoub_eypEGymaqGm_ao4Yr6/view?usp=sharing",
     author: "Stuart Reges, Marty Stepp",
     year: [2019, "All"],
     sheets: 1232,
@@ -1589,9 +1872,55 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 32.5
   },
-  //AWS comment
+  {
+    title: "Enterprise Java Microservices",
+    img: JAVA13,
+    link: "https://drive.google.com/file/d/1-6ar36asuavibfJFmkXFpsGqTGMtzWJ9/view?usp=sharing",
+    author: "Ken Finnigan",
+    year: [2018, "All"],
+    sheets: 272,
+    description: "Большие приложения легче разрабатывать и поддерживать, если вы создаете их из небольших простых компонентов. Разработчики Java теперь могут пользоваться широким набором инструментов, включая фреймворки и четко определённые шаблоны, позволяющие разрабатывать микросервисные приложения. Книга научит вас планировать и создавать проекты, основанные на микросервисной архитектуре. Она рассчитана на Java-разработчиков, знакомых с Java EE.",
+    stack: ["Java", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "EPUB",
+    fileSize: 2.9
+  },
+  {
+    title: "Modern Java in Action: Lambdas, streams, functional and reactive programming",
+    img: JAVA14,
+    link: "https://drive.google.com/file/d/1-WFP8iBOqCr9Auz3DVZ6751rmne8aNxt/view?usp=sharing",
+    author: "Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft",
+    year: [2018, "All"],
+    sheets: 592,
+    description: "С помощью книги вы сможете развить свои навыки программирования на Java. В ней для опытных разработчиков описываются особенности версий Java 9 и 10. Авторы предоставляют пользователям новый взгляд на программирование и написание кода, который легче читать и поддерживать.",
+    stack: ["Java", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "PDF",
+    fileSize: 8.3
+  },
+  {
+    title: "Reactive Systems in Java: Resilient, Event-Driven Architecture with Quarkus",
+    img: JAVA15,
+    link: "https://drive.google.com/file/d/1jqKjG7eCtQbt5qPxjBQjleBY3CK_mDYp/view?usp=sharing",
+    author: "Ken Finnigan, Clement Escoffier",
+    year: [2021, "All"],
+    sheets: 298,
+    description: "Реактивные системы и архитектура, управляемая событиями, становятся незаменимыми при разработке приложений, и компании это понимают. Реактивные системы гарантируют, что приложения будут отзывчивыми, отказоустойчивыми и гибкими независимо от того, какие сбои или ошибки могут произойти, в то время как архитектура, управляемая событиями, предлагает гибкий и компоновочный вариант для распределенных систем. Эта практическая книга помогает разработчикам Java объединить эти подходы с помощью Quarkus 2.x, среды Java, родной для Kubernetes.",
+    stack: ["Java", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "PDF",
+    fileSize: 4.8
+  },
+  //Java comment
   {
     title: "AWS All-in-One Security Guide: Design, Build, Monitor, and Manage a Fortified Application Ecosystem on AWS",
     img: AWS1,
@@ -1604,7 +1933,8 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 5
   },
   {
     title: "Serverless Architectures on AWS, 2nd Edition (Final Release)",
@@ -1618,7 +1948,8 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16.5
   },
   {
     title: "AWS Certified Cloud Practitioner Practice Tests 2019: 390 AWS Practice Exam Questions with Answers & detailed Explanations",
@@ -1632,7 +1963,8 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 0.5
   },
   {
     title: "Programming AWS Lambda: Build and Deploy Serverless Applications with Java",
@@ -1648,7 +1980,8 @@ export const data = [
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
     clickFilterValu2: "Java",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 8.5
   },
   {
     title: "AWS Cookbook: Recipes for Success on AWS",
@@ -1662,9 +1995,10 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.2
   },
-  //API comment
+  //AWS comment
   {
     title: "Mastering API Architecture",
     img: API1,
@@ -1677,7 +2011,8 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 4.5
   },
   {
     title: "Traefik API Gateway for Microservices: With Java and Python Microservices Deployed in Kubernetes",
@@ -1695,7 +2030,8 @@ export const data = [
     clickFilterValue: "API",
     clickFilterValue2: "Java",
     clickFilterValue3: "Python",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 6.1
   },
   {
     title: "Continuous API Management: Making the Right Decisions in an Evolving Landscape, 2nd Edition",
@@ -1709,7 +2045,8 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.5
   },
   {
     title: "Principles of Web API Design : Delivering Value with APIs and Microservices (Final Release)",
@@ -1723,7 +2060,8 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.7
   },
   {
     title: "Advanced API Security: OAuth 2.0 And Beyond",
@@ -1737,7 +2075,8 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 11.8
   },
   {
     title: "Web API Development with Python: A Beginner's Guide using Flask and FastAPI",
@@ -1751,9 +2090,10 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.6
   },
-  //MySQL comment
+  //API comment
   {
     title: "High Performance MySQL: Proven Strategies for Operating at Scale, 4th Edition",
     img: SQL1,
@@ -1766,7 +2106,8 @@ export const data = [
     stackIcon: sqlIcon,
     borderColor: "#0b6084",
     clickFilterValue: "MySQL",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 7.2
   },
   {
     title: "Efficient MySQL Performance: Best Practices and Techniques",
@@ -1780,9 +2121,10 @@ export const data = [
     stackIcon: sqlIcon,
     borderColor: "#0b6084",
     clickFilterValue: "MySQL",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 3.9
   },
-  //Other comment
+  //MySQL comment
   {
     title: "Control Systems Engineering: Design and Implementation using Arm Cortex-M Microcontrollers",
     img: Other1,
@@ -1795,7 +2137,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 65.2
   },
   {
     title: "The Book of Crypto: The Complete Guide to Understanding Bitcoin, Cryptocurrencies and Digital Assets",
@@ -1809,7 +2152,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 29
   },
   {
     title: "Visualizing Google Cloud: 101 Illustrated References for Cloud Engineers and Architects",
@@ -1823,7 +2167,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 47.9
   },
   {
     title: "Networking and Kubernetes: A Layered Approach",
@@ -1837,7 +2182,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 18.4
   },
   {
     title: "Oop - Learn Object Oriented Thinking and Programming",
@@ -1851,7 +2197,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 5.9
   },
   {
     title: "Grokking Streaming Systems: Real-time event processing",
@@ -1865,7 +2212,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 36.5
   },
   {
     title: "Гид по Computer Science. Расширенное издание",
@@ -1879,7 +2227,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 6.4
   },
   {
     title: "Надежность нейронных сетей: укрепляем устойчивость ИИ к обману",
@@ -1893,7 +2242,8 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 10
   },
   {
     title: "Pro Go: The Complete Guide to Programming Reliable and Efficient Software Using Golang",
@@ -1907,9 +2257,70 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 17.1
   },
-  //Git comment
+  {
+    title: "Refactoring at Scale",
+    img: Other10,
+    link: "https://drive.google.com/file/d/160ebsdPjkkOmx_9MvDLjiHdzR6R7goCx/view?usp=sharing",
+    author: "Maude Lemaire",
+    year: [2020, "All"],
+    sheets: 246,
+    description: "Внесение значительных изменений в большие и сложные кодовые базы - непростая задача, которую практически невозможно решить, если у вас нет правильной команды, инструментов и мышления. Если ваше приложение нуждается в существенной переработке, и вы не знаете, как реализовать изменения устойчивым образом, то эта книга для вас.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "PDF",
+    fileSize: 8.4
+  },
+  {
+    title: "Building Micro-Frontends",
+    img: Other11,
+    link: "https://drive.google.com/file/d/1mrYlDIYoI4jdNULuGWhq37K1R9RtfF5r/view?usp=sharing",
+    author: "Luca Mezzalira",
+    year: [2021, "All"],
+    sheets: 576,
+    description: "Каков ответ сегодняшним все более усложняющимся веб-приложениям? Микрофронтенды. Этот подход, вдохновленный моделью микросервисов, позволяет разбивать интерфейсы на отдельные функции, которыми управляют разные группы разработчиков. В этом практическом руководстве автор показывает архитекторам, руководителям технических специалистов и разработчикам, как работать с новым подходом к фронтенд-разработке.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "PDF",
+    fileSize: 6.7
+  },
+  {
+    title: "AI and Machine Learning for Coders",
+    img: Other12,
+    link: "https://drive.google.com/file/d/1-du14BRSH6Vopk5R17cCZXhcUSTO0LML/view?usp=sharing",
+    author: "Laurence Moroney",
+    year: [2020, "All"],
+    sheets: 390,
+    description: "Если вы хотите перейти из разработки ПО в сферу искусственного интеллекта, данная книга отлично подойдет для старта. Она основана на чрезвычайно успешных курсах по ИИ от Лоуренса Морони и предлагает практическое введение, которое поможет вам обрести уверенность при изучении ключевых тем. Вы поймете, как реализовываются наиболее распространенные сценарии машинного обучения, такие как компьютерное зрение, обработка естественного языка и sequence modeling для Интернета, мобильных устройств, облака и встроенных сред выполнения. Большинство книг по машинному обучению начинаются с устрашающего количества продвинутой математики. Это руководство построено на практических уроках, которые позволят вам работать непосредственно с кодом.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "PDF",
+    fileSize: 34.5
+  },
+  {
+    title: "Fundamentals of Software Architecture: An Engineering Approach",
+    img: Other13,
+    link: "https://drive.google.com/file/d/196hbRSnztSucM8wrrRn2N7mMXyNtSySZ/view?usp=sharing",
+    author: "Mark Richards, Neal Ford",
+    year: [2020, "All"],
+    sheets: 426,
+    description: "Эта книга представляет собой первый всеобъемлющий обзор многих аспектов архитектуры программного обеспечения. Как начинающие, так и продолжающие архитекторы могут изучить архитектурные характеристики, архитектурные шаблоны, определение компонентов, составление схем и представление архитектуры, эволюционную архитектуру и многое другое.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "EPUB",
+    fileSize: 52.2
+  },
+  //Other comment
   {
     title: "Head First Git",
     img: Git1,
@@ -1922,7 +2333,8 @@ export const data = [
     stackIcon: gitIcon,
     borderColor: "#f34e24",
     clickFilterValue: "Git",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 7.5
   },
   {
     title: "GitHub For Dummies",
@@ -1936,9 +2348,10 @@ export const data = [
     stackIcon: gitIcon,
     borderColor: "#f34e24",
     clickFilterValue: "Git",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 51.4
   },
-  //DevOps comment
+  //Git comment
   {
     title: "Lean DevOps: A Practical Guide to On Demand Service Delivery",
     img: DevOps1,
@@ -1951,7 +2364,8 @@ export const data = [
     stackIcon: devopsIcon,
     borderColor: null,
     clickFilterValue: "DevOps",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 10.5
   },
   {
     title: "DevOps for the Desperate: A Hands-On Survival Guide",
@@ -1965,9 +2379,10 @@ export const data = [
     stackIcon: devopsIcon,
     borderColor: null,
     clickFilterValue: "DevOps",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 3.5
   },
-  //iOS comment
+  //DevOps comment
   {
     title: "Computer Vision and Augmented Reality in iOS: OpenCV and ARKit Applications",
     img: iOS1,
@@ -1980,9 +2395,10 @@ export const data = [
     stackIcon: iOSIcon,
     borderColor: "#000",
     clickFilterValue: "iOS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 8.8
   },
-  //Cplus comment
+  //iOS comment
   {
     title: "Beautiful C++: 30 Core Guidelines for Writing Clean, Safe, and Fast Code",
     img: cPlus1,
@@ -1995,7 +2411,8 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 11.4
   },
   {
     title: "C++. Практика многопоточного программирования, Второе издание",
@@ -2009,7 +2426,8 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16.5
   },
   {
     title: "C++ Programming: Program Design Including Data Structures",
@@ -2023,7 +2441,8 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 16.6
   },
   {
     title: "Large-Scale C++ Volume I: Process and Architecture",
@@ -2037,7 +2456,8 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 42.3
   },
   {
     title: "C++ Programming: From Problem Analysis to Program Design",
@@ -2051,7 +2471,8 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 51.7
   },
   {
     title: "Starting Out with C++: Early Objects",
@@ -2065,9 +2486,25 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "EPUB"
+    fileFormat: "EPUB",
+    fileSize: 8.9
   },
-  //agile comment
+  {
+    title: "Data Parallel C++",
+    img: cPlus7,
+    link: "https://drive.google.com/file/d/1-6YHAxFBcJLImlGifo9BC8K4KfMYqI1S/view?usp=sharing",
+    author: "James Reinders, Ben Ashbaugh, James Brodman, Michael Kinsner, John Pennycook, Xinmin Tian",
+    year: [2020, "All"],
+    sheets: 541,
+    description: "Узнайте, как ускорить программы на C++ с помощью параллелизма. Эта книга позволит C++ программистам быть в авангарде этой захватывающей и важной технологии, которая помогает вывести вычисления на новый уровень. Она полна практических советов, подробных объяснений и примеров кода, иллюстрирующих ключевые темы.",
+    stack: ["C++", "All"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "PDF",
+    fileSize: 15.3
+  },
+  //Cplus comment
   {
     title: "AGILE in Practice: Practical Use-cases on Project Management Methods including Agile, Kanban and Scrum",
     img: agile1,
@@ -2080,9 +2517,10 @@ export const data = [
     stackIcon: agileIcon,
     borderColor: null,
     clickFilterValue: "Agile",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 7.4
   },
-  //CSS comment
+  //agile comment
   {
     title: "CSS (Cascading Style Sheets) Visual Dictionary",
     img: css1,
@@ -2095,7 +2533,8 @@ export const data = [
     stackIcon: cssIcon,
     borderColor: "#1b73ba",
     clickFilterValue: "CSS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 5.4
   },
   {
     title: "Modern CSS: Master the Key Concepts of CSS for Modern Web Development",
@@ -2109,9 +2548,10 @@ export const data = [
     stackIcon: cssIcon,
     borderColor: "#1b73ba",
     clickFilterValue: "CSS",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 9
   },
-  //ruby comment
+  //CSS comment
   {
     title: "Ruby on Rails Tutorial",
     img: ruby1,
@@ -2124,9 +2564,10 @@ export const data = [
     stackIcon: rubyIcon,
     borderColor: "#aa1501",
     clickFilterValue: "Ruby",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 31.7
   },
-  //C# comment
+  //ruby comment
   {
     title: "The Ultimate Beginners Guide to C# Programming",
     img: cSharp1,
@@ -2139,9 +2580,11 @@ export const data = [
     stackIcon: cSharpIcon,
     borderColor: "#9b4f96",
     clickFilterValue: "C#",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 2.2
   },
-  //net comment
+  //C# comment
+
   {
     title: "Microservices in .NET",
     img: net1,
@@ -2152,8 +2595,26 @@ export const data = [
     description: "Второе издание данной книги представляет собой исчерпывающее руководство по созданию приложений с микросервисной архитектурой с использованием стека .NET. После подробного знакомства с архитектурным стилем микросервисов она учит практическим навыкам разработки с использованием ASP .NET.",
     stack: [".NET", "All"],
     stackIcon: netIcon,
-    borderColor: "#9b4f96",
+    borderColor: "#116eb5",
     clickFilterValue: ".NET",
-    fileFormat: "PDF"
+    fileFormat: "PDF",
+    fileSize: 17.4
   },
+  //net comment
+  {
+    title: "Head First Android Development: A Learner's Guide to Building Android Apps with Kotlin",
+    img: kotlin1,
+    link: "https://drive.google.com/file/d/1rDwZjsNhh1cXOvyCaSQVy1DmCJrAz_3T/view?usp=sharing",
+    author: "Dawn Griffiths, David Griffiths",
+    year: [2021, "All"],
+    sheets: 932,
+    description: "Если у вас есть идея для потрясающего приложения для Android, эта полностью переработанная и обновленная версия книги поможет вам быстро начать работу. Вы выйдете за рамки синтаксиса и руководств и научитесь думать, как профессиональный разработчик под Android. Эта практическая книга научит вас всему, от разработки пользовательских интерфейсов до создания многоэкранных приложений, сохраняющих данные в базах данных.",
+    stack: ["Kotlin", "All"],
+    stackIcon: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue: "Kotlin",
+    fileFormat: "EPUB",
+    fileSize: 113.7
+  },
+  //kotlin comment
 ];

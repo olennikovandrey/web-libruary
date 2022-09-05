@@ -16,6 +16,7 @@ export const stack = [
   "iOS",
   "Java",
   "JavaScript",
+  "Kotlin",
   "NodeJS",
   "PHP",
   "Python",
@@ -41,4 +42,10 @@ export const year = [
   2016,
   2015,
   2014
+];
+
+export const formats = [
+  "PDF",
+  "EPUB",
+  "MOBI"
 ];

@@ -3,9 +3,10 @@ import React, { useEffect } from "react";
 
 function App() {
   const propgressBar = () => {
+    let scrolled = 0;
     const scroll = document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = scroll / height * 100;
+    scrolled = scroll / height * 100;
     document.getElementById("progressBar").style.width = scrolled + "%";
   };
 
