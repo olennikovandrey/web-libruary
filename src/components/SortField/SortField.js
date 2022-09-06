@@ -24,8 +24,8 @@ export default function SortField(props) {
         isBToA={ isYearBToA }
         stateAToBFnName="setYearAToB"
         stateBToAFnName="setYearBToA"
-        sortValueAToB="1 - 10"
-        sortValueBToA="10 - 1"
+        sortValueAToB="&#9650;"
+        sortValueBToA="&#9660;"
       />
       <SortItem
         title="По объему издания:"
@@ -34,8 +34,8 @@ export default function SortField(props) {
         isBToA={ isSheetsBToA }
         stateAToBFnName="setSheetsAToB"
         stateBToAFnName="setSheetsBToA"
-        sortValueAToB="1 - 10"
-        sortValueBToA="10 - 1"
+        sortValueAToB="&#9650;"
+        sortValueBToA="&#9660;"
       />
       <SortItem
         title="По размеру файла:"
@@ -44,8 +44,8 @@ export default function SortField(props) {
         isBToA={ isFileSizeBToA }
         stateAToBFnName="setFileSizeAToB"
         stateBToAFnName="setFileSizeBToA"
-        sortValueAToB="1 - 10"
-        sortValueBToA="10 - 1"
+        sortValueAToB="&#9650;"
+        sortValueBToA="&#9660;"
       />
     </div>
   );

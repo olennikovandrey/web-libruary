@@ -55,6 +55,7 @@ import JS24 from "../assets/images/books/JS/24. You Don't Know JS Yet. Get Start
 import JS25 from "../assets/images/books/JS/25. Clean Code in JavaScript.jpg";
 import JS26 from "../assets/images/books/JS/26. JavaScript Frameworks for Modern Web Development.jpg";
 import JS27 from "../assets/images/books/JS/27. Advanced JavaScript.jpg";
+import JS28 from "../assets/images/books/JS/28. Graphic Javascript Algorithms.jpg";
 //REACT comment
 import React1 from "../assets/images/books/React/1. Building React Apps with Server-Side Rendering.jpg";
 import React2 from "../assets/images/books/React/2. Learning React.jpg";
@@ -66,11 +67,13 @@ import React7 from "../assets/images/books/React/7. React and React Native.jpg";
 import React8 from "../assets/images/books/React/8. Full Stack Serverless. Modern Application Development with React, AWS, and GraphQL.jpg";
 import React9 from "../assets/images/books/React/9. The React beginners handbook.jpg";
 import React10 from "../assets/images/books/React/10. React Hooks in Action. With Suspense and Concurrent Mode.jpg";
+import React11 from "../assets/images/books/React/11. The Road to React.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
 import HTML3 from "../assets/images/books/HTML/3. HTML & CSS Handbook. Learn HTML and CSS in just 1 hour.jpg";
 import HTML4 from "../assets/images/books/HTML/4. New Perspectives HTML5 and CSS3. Comprehensive.jpg";
+import HTML5 from "../assets/images/books/HTML/5. HTML5 in easy steps, Second Edition.jpg";
 
 import NODE1 from "../assets/images/books/NodeJS/1. Serverless Applications with Node.js. Using AWS Lambda and Claudia.js.jpg";
 import NODE2 from "../assets/images/books/NodeJS/2. Nest.js A Progressive Node.js Framework.jpg";
@@ -84,7 +87,7 @@ import TS1 from "../assets/images/books/TS/1. TypeScript Quickly.jpg";
 import TS2 from "../assets/images/books/TS/2. Essential TypeScript.jpg";
 import TS3 from "../assets/images/books/TS/3. Programming TypeScript. Making Your JavaScript Applications Scale.jpg";
 import TS4 from "../assets/images/books/TS/4. TypeScript in 50 Lessons.jpg";
-//Python comment
+//PT comment
 import PT1 from "../assets/images/books/Python/1. Building Versatile Mobile Apps with Python and REST.jpg";
 import PT2 from "../assets/images/books/Python/2. Fluent Python, 2nd Edition .jpg";
 import PT3 from "../assets/images/books/Python/3. Python Artificial Intelligence Projects for Beginners.jpg";
@@ -107,10 +110,18 @@ import PT19 from "../assets/images/books/Python/19. Introduction to Scientific P
 import PT20 from "../assets/images/books/Python/20. Python for Excel. A Modern Environment for Automation and Data Analysis.jpg";
 import PT21 from "../assets/images/books/Python/21. Classic Computer Science Problems in Python.jpg";
 import PT22 from "../assets/images/books/Python/22. Python Crash Course, 2nd Edition. A Hands-On, Project-Based Introduction to Programming.jpg";
-
+import PT23 from "../assets/images/books/Python/23. Hands-On Unsupervised Learning Using Python.jpg";
+import PT24 from "../assets/images/books/Python/24. Beyond the Basic Stuff with Python.jpg";
+import PT25 from "../assets/images/books/Python/25. Advanced Python Development.jpg";
+import PT26 from "../assets/images/books/Python/26. Pandas in Action.jpg";
+import PT27 from "../assets/images/books/Python/27. Create GUI Applications with Python & Qt5.jpg";
+import PT28 from "../assets/images/books/Python/28. Coding with Python. A Simple And Straightforward Guide For Beginners To Learn Fast Programming With Python.jpg";
+import PT29 from "../assets/images/books/Python/29. Full Stack Python Security. Cryptography, TLS, and attack resistance.jpg";
+//PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
 import PHP3 from "../assets/images/books/PHP/3. Learn PHP in One Day and Learn It Well.jpg";
+import PHP4 from "../assets/images/books/PHP/4. PHP and Algorithmic Thinking for the Complete Beginner.jpg";
 
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
@@ -132,10 +143,11 @@ import Security4 from "../assets/images/books/Security/4. Practical Security for
 import Security5 from "../assets/images/books/Security/5. Cross-Site Scripting Attacks. Classification, Attack, and Countermeasures.jpg";
 import Security6 from "../assets/images/books/Security/6. Web Application Security.jpg";
 import Security7 from "../assets/images/books/Security/7. Spring Security in Action.jpg";
-
+//UI comment
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
 import UI3 from "../assets/images/books/UI/3. Think Like a UX Researcher.jpg";
+import UI4 from "../assets/images/books/UI/4. Lean UX.jpg";
 //Java comment
 import JAVA1 from "../assets/images/books/Java/1. Mastering Java. A Beginner's Guide.jpg";
 import JAVA2 from "../assets/images/books/Java/2. Selenium with Java – A Beginner’s Guide.jpg";
@@ -152,19 +164,22 @@ import JAVA12 from "../assets/images/books/Java/12. Building Java Programs. A Ba
 import JAVA13 from "../assets/images/books/Java/13. Enterprise Java Microservices.jpg";
 import JAVA14 from "../assets/images/books/Java/14. Modern Java in Action. Lambdas, streams, functional and reactive programming.jpg";
 import JAVA15 from "../assets/images/books/Java/15. Reactive Systems in Java. Resilient, Event-Driven Architecture with Quarkus.jpg";
+import JAVA16 from "../assets/images/books/Java/16. Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers.jpg";
+import JAVA17 from "../assets/images/books/Java/17. Sams Teach Yourself Java in 21 Days.jpg";
 
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
 import AWS3 from "../assets/images/books/AWS/3. AWS Certified Cloud Practitioner Practice Tests 2019.jpg";
 import AWS4 from "../assets/images/books/AWS/4. Programming AWS Lambda.jpg";
 import AWS5 from "../assets/images/books/AWS/5. AWS Cookbook. Recipes for Success on AWS.jpg";
-
+//API comment
 import API1 from "../assets/images/books/API/1. Mastering API Architecture.jpg";
 import API2 from "../assets/images/books/API/2. Traefik API Gateway for Microservices.jpg";
 import API3 from "../assets/images/books/API/3. Continuous API Management.jpg";
 import API4 from "../assets/images/books/API/4. Principles of Web API Design. Delivering Value with APIs and Microservices (Final Release).jpg";
 import API5 from "../assets/images/books/API/5. Advanced API Security. OAuth 2.0 And Beyond.jpg";
 import API6 from "../assets/images/books/API/6. Web API Development with Python.jpg";
+import API7 from "../assets/images/books/API/7. The Design of Web APIs.jpg";
 
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
@@ -182,14 +197,18 @@ import Other10 from "../assets/images/books/Other/10. Refactoring at Scale.jpg";
 import Other11 from "../assets/images/books/Other/11. Building Micro-Frontends.jpg";
 import Other12 from "../assets/images/books/Other/12. AI and Machine Learning for Coders.jpg";
 import Other13 from "../assets/images/books/Other/13. Fundamentals of Software Architecture. An Engineering Approach.jpg";
+import Other14 from "../assets/images/books/Other/14. Docs for Developers. An Engineer’s Field Guide to Technical Writing.jpg";
+import Other15 from "../assets/images/books/Other/15. Data Management at Scale.jpg";
 
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
 
 import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
-
+//iOS comment
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
+import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
+import iOS3 from "../assets/images/books/iOS/3. iOS Apprentice (Eighth Edition). Beginning iOS Development with Swift and UIKit.jpg";
 //Cplus comment
 import cPlus1 from "../assets/images/books/C++/1. Beautiful C++. 30 Core Guidelines for Writing Clean, Safe, and Fast Code.jpg";
 import cPlus2 from "../assets/images/books/C++/2. C++. Практика многопоточного программирования, Второе издание.jpg";
@@ -198,22 +217,25 @@ import cPlus4 from "../assets/images/books/C++/4. Large-Scale C++ Volume I. Proc
 import cPlus5 from "../assets/images/books/C++/5. C++ Programming. From Problem Analysis to Program Design .jpg";
 import cPlus6 from "../assets/images/books/C++/6. Starting Out with C++. Early Objects.jpg";
 import cPlus7 from "../assets/images/books/C++/7. Data Parallel C++.jpg";
+import cPlus8 from "../assets/images/books/C++/8. Learn C++ Quickly.jpg";
+import cPlus9 from "../assets/images/books/C++/9. The C++ Workshop.jpg";
 
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
-
+//css comment
 import css1 from "../assets/images/books/CSS/1. CSS (Cascading Style Sheets) Visual Dictionary.jpg";
 import css2 from "../assets/images/books/CSS/2. Modern CSS. Master the Key Concepts of CSS for Modern Web Development.jpg";
+import css3 from "../assets/images/books/CSS/3. CSS in Depth.jpg";
 
 import ruby1 from "../assets/images/books/Ruby/1. Ruby on Rails Tutorial.jpg";
 
 import cSharp1 from "../assets/images/books/CSharp/1. The Ultimate Beginners Guide to cSharp  Programming.jpg";
-
+//net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
+import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 
 export const data = [
-  //JS comment
   {
     title: "Data Visualization with Python and JavaScript, 2nd Edition",
     img: JS1,
@@ -222,11 +244,11 @@ export const data = [
     year: [2022, "All"],
     sheets: 111,
     description: "Как превратить сырые, необработанные или искаженные данные в динамические интерактивные веб-визуализации? В этой практической книге автор Кайран Дейл показывает специалистам по обработке данных и аналитикам, а также разработчикам Python и JavaScript, как создать идеальный набор инструментов для работы c большими объемами данных.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 6.7
   },
   {
@@ -237,11 +259,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 561,
     description: "После прочтения книги, вы научитесь использовать TensorFlow.js для создания моделей глубокого обучения, которые запускаются непосредственно в браузере. Эта книга, написанная инженерами Google, практична и проста в прочтении. Благодаря разнообразным примерам, включающим анализ текста, обработку речи, распознавание изображений и самообучающийся игровой искусственный интеллект, вы освоите основы глубокого обучения и изучите передовые концепции, такие как переобучение существующих моделей и генерация изображений.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 1.9
   },
   {
@@ -252,7 +274,7 @@ export const data = [
     year: [2021, "All"],
     sheets: 753,
     description: "Книга в простых шагах инструктируют читателя по каждому из трех аспектов веб разработки, которые используются для создания современных веб-страниц: 1. Теги языка разметки гипертекста (HTML) 2. Правила каскадных таблиц стилей (CSS) 3. Функции JavaScript. Вы узнаете, как создавать веб-страницы для отображения текста, изображений, списков, таблиц, гиперссылок, форм, аудио и видео. Каждая глава, для укрепления знаний, содержит контрольные вопросы.",
-    stack: "JavaScript HTML CSS All",
+    stack: ["JavaScript", "HTML", "CSS", "All"],
     stackIcon: JSIcon,
     stackIcon2: htmlIcon,
     stackIcon3: cssIcon,
@@ -260,7 +282,7 @@ export const data = [
     clickFilterValue: "JavaScript",
     clickFilterValue2: "HTML",
     clickFilterValue3: "CSS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16.7
   },
   {
@@ -271,11 +293,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 344,
     description: "Когда-то JavaScript просто добавлял интерактивности к окнам веб-браузера, а теперь превратился в основательный фундамент мощного и надежного софта. В этой книге описывается проектирование API с помощью GraphQL.  Обсуждаются вопросы безопасности API, разработки высоконагруженных кроссплатформенных приложений.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 9.1
   },
   {
@@ -286,11 +308,11 @@ export const data = [
     year: [2019, "All"],
     sheets: 560,
     description: "Данное практическое динамичное руководство показывает от начала до конца, как с помощью JavaScript создавать динамические веб-страницы со специальными эффектами. Пятое издание содержит обновления, касающиеся всех основных новых функций и новейших методов и практик веб-разработки. Вы также узнаете, как расширить возможности JavaScript на стороне сервера с помощью Node.js.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 51.5
   },
   {
@@ -301,11 +323,11 @@ export const data = [
     year: [2021, "All"],
     sheets: 512,
     description: "Автоматизированное тестирование поможет вам написать высококачественное программное обеспечение за меньшее время, с большей уверенностью, с меньшим количеством ошибок и без постоянного ручного контроля. Testing JavaScript Applications — это руководство по созданию комплексного и надежного набора для тестирования JS-приложений, в котором рассказывается как о написании тестов, так и о том, как инструменты тестирования JS работают внутри.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 6.2
   },
   {
@@ -316,11 +338,11 @@ export const data = [
     year: [2018, "All"],
     sheets: 385,
     description: "В своем учебнике по JavaScript Дуглас Крокфорд начинает с рассмотрения основ, постепенно переходя к более сложным темам. Книга глубокая, лаконичная, полная кода, и есть моменты, когда она намеренно смешная. Автор больше фокусируется на особенностях языка, чем на фронтенд-разработке.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.2
   },
   {
@@ -331,11 +353,11 @@ export const data = [
     year: [2016, "All"],
     sheets: 385,
     description: "JavaScript быстро становится универсальным языком для любого типа приложений, будь то в Интернете, на компьютере, в облаке или на мобильных устройствах. Когда вы станете профессионалом JavaScript, у вас будет мощный набор навыков, который можно будет использовать во всех этих областях. Вы должны быть скрытным ниндзя, эффективным и готовым ко всему. Эта книга показывает вам, как этого достичь.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16
   },
   {
@@ -346,11 +368,11 @@ export const data = [
     year: [2019, "All"],
     sheets: 1200,
     description: "Данная книга написана для программистов среднего и продвинутого уровня. Автор объясняет многие технические детали, которые помогут вам в работе с JavaScript. В книге представлены различные темы от ООП в JavaScript до комбинирования JavaScript с HTML и другими языками разметки.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: "20.2 Мб"
   },
   {
@@ -361,11 +383,11 @@ export const data = [
     year: [2019, "All"],
     sheets: 241,
     description: "Благодаря множеству новых функций, код на JavaScript теперь выглядит лаконичнее, его удобнее отлаживать и легко понимать. Эта книга представляет собой практическое руководство по новым фичам, представленным в JavaScript, начиная с версии 6 ECMAScript и заканчивая ECMAScript 9.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.4
   },
   {
@@ -376,11 +398,11 @@ export const data = [
     year: [2021, "All"],
     sheets: 214,
     description: "По своей природе JavaScript должен быть однопоточным. Это отражено не только в библиотеках и приложениях, но и в сообщениях на онлайн-форумах, в книгах и документации. Благодаря недавним достижениям в платформе, таким как веб-воркеры в браузере, worker_threads в Node.js, а также объекты Atomics и SharedArrayBuffer, JavaScript инженеры могут создавать многопоточные приложения. Эти функции станут крупнейшим сдвигом парадигмы для самого популярного в мире языка программирования.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 8
   },
   {
@@ -391,11 +413,11 @@ export const data = [
     year: [2017, "All"],
     sheets: 325,
     description: "Основы компьютерного программирования можно перенести на все языки программирования, и JavaScript - отличный язык для изучения этих основ. Эта книга наполнена полезными примерами кода, включая такие темы, как, например, вычисление сложных процентов, стоимости инвестиций, объема цилиндра, расстояния между двумя точками, площади треугольника, площади поверхности пирамиды.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.2
   },
   {
@@ -406,11 +428,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 300,
     description: "Автор показывает, как создать Roguelike-игру с нуля, используя JavaScript. С помощью проверенной в деле библиотеки Phaser вы выполните все шаги, чтобы создать небольшую веселую веб-игру в жанре roguelite. Автор расскажет, как добавить в игру полезные функции, такие как заполнение игры врагами, добавление сокровищ и т. д. Вы получите технические знания о процедурной генерации и построении карт на основе тайлов, а также освоите навыки игрового дизайна, например, узнаете, что делает подземелья интересными и как вызывать эмоции в игре.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.9
   },
   {
@@ -421,7 +443,7 @@ export const data = [
     year: [2021, "All"],
     sheets: 826,
     description: "Создавайте интерактивные веб-сайты на основе данных, используя мощное сочетание технологий с открытым исходным кодом и веб-стандартов, даже если у вас есть только базовые знания HTML. В последней редакции этого популярного практического руководства описывается динамическое веб-программирование с использованием самых последних версий технологий: PHP, MySQL, JavaScript, CSS, HTML5, jQuery и мощной библиотеки React.",
-    stack: "JavaScript PHP MySQL All",
+    stack: ["JavaScript", "PHP", "MySQL", "All"],
     stackIcon: JSIcon,
     stackIcon2: phpIcon,
     stackIcon3: sqlIcon,
@@ -429,7 +451,7 @@ export const data = [
     clickFilterValue: "JavaScript",
     clickFilterValue2: "PHP",
     clickFilterValue3: "MySQL",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 13.5
   },
   {
@@ -440,11 +462,11 @@ export const data = [
     year: [2021, "All"],
     sheets: 358,
     description: "Зачем изобретать велосипед каждый раз, когда вы сталкиваетесь с проблемой в JavaScript? Эта книга полна рецептов кода для распространенных задач программирования, а также методик создания приложений, которые работают в любом браузере. Вы получите адаптируемые образцы кода, которые можно добавить практически в любой проект, и в процессе узнаете больше о JavaScript.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 5.4
   },
   {
@@ -455,11 +477,11 @@ export const data = [
     year: [2019, "All"],
     sheets: 526,
     description: "Эта книга делает JavaScript менее сложным в освоении для новичков, предлагая современный, максимально последовательный взгляд на язык.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 6.7
   },
   {
@@ -470,11 +492,11 @@ export const data = [
     year: [2019, "All"],
     sheets: 357,
     description: "Изучите структуры данных и алгоритмы и их связь с разработкой на JavaScript. Базовое понимание этих идей необходимо любому JavaScript-разработчику, желающему анализировать и создавать отличные программные решения. Вы узнаете, как реализовывать структуры данных, такие как хеш-таблицы, связанные списки, стеки, очереди, деревья и графы. Вы также узнаете, как создаются средства сокращения URL-адресов, например bit.ly, и что происходит с данными при загрузке PDF-файла на веб-страницу. Эта книга охватывает практическое применение структур данных и алгоритмов шифрования, поиска и сортировки.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 5.9
   },
   {
@@ -485,11 +507,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 352,
     description: "Изначально JavaScript был разработан для мелкомасштабного программирования в веб-браузерах, но современный JavaScript радикально отличается. В настоящее время программисты на JavaScript активно используют функциональное, объектно-ориентированное и асинхронное программирование, забывая о некоторых прошлых ошибочных и устаревших концепциях. Modern JavaScript for the Impatient - это полное, но краткое руководство по JavaScript E6 и не только. Книга хорошо подойдет тем, кто хочет изучить JS, зная Java, C#, C или C++.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 31.6
   },
   {
@@ -500,11 +522,11 @@ export const data = [
     year: [2017, "All"],
     sheets: 664,
     description: "Умение писать на JavaScript - обязательный навык для всех веб-разработчиков. JavaScript: Novice to Ninja - это забавное, практичное и исчерпывающее руководство по современному использованию этого обманчиво мощного языка. Во втором издании своей книги автор покажет вам, как решать реальные задачи, создавать привлекательные анимации, более умные формы и разрабатывать качественные веб-приложения.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.9
   },
   {
@@ -515,11 +537,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 340,
     description: "Создавайте веб-приложения с машинным обучением, не изучая новый язык. Эта книга поможет вам получить базовые знания о концепциях и приложениях машинного обучения. Вы не только изучите теорию, но и погрузитесь в примеры кода и проектов с TensorFlow.js. Используя навыки и знания веб-разработчика, вы добавите в свой набор инструментов совершенно новую область разработки. Это даст вам более конкретное представление о возможностях машинного обучения.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.9
   },
   {
@@ -530,11 +552,11 @@ export const data = [
     year: [2015, "All"],
     sheets: 432,
     description: "Всего за 24 урока по часу или меньше Sams Teach Yourself JavaScript за 24 часа поможет вам изучить основы веб-программирования с использованием языка JavaScript. Эта книга, предназначенная для начинающих, не имеющих опыта в программировании, реализует простой пошаговый подход, демонстрирующий, как использовать JavaScript для добавления широкого набора интерактивных фич и эффектов на ваши веб-страницы.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 15.6
   },
   {
@@ -545,11 +567,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 388,
     description: "Функциональное программирование — это парадигма разработки программного обеспечения с использованием функций. С помощью функционального программирования вы можете писать более лаконичный код, повышая этим производительность программ. Более того, язык JavaScript особенно хорошо совместим с функциональным подходом.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 6.6
   },
   {
@@ -560,11 +582,11 @@ export const data = [
     year: [2021, "All"],
     sheets: 360,
     description: "Независимо от того, создаете ли вы интерактивные сайты или серверные приложения на Node, JavaScript является наиболее широко используемым языком для веб-программирования. Благодаря регулярному появлению новых функций, улучшений языка, парадигм и потенциальных вариантов использования, JavaScript постоянно развивается. В данной книге автор учит ключевым концепциям дизайна, которые приводят к созданию чистого, компактного, модульного и простого в обслуживании кода.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 3.8
   },
   {
@@ -575,11 +597,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 145,
     description: "Многие разработчики сталкиваются с необходимостью изучения основ JavaScript. Данная книга является вторым изданием популярного руководства по языку и первой частью из шести книг курса. Несмотря на компактный формат, в каждой книге из серии содержится много полезной информации, которая пригодится на практике.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "MOBI",
+    fileFormat: "mobi",
     fileSize: 0.6
   },
   {
@@ -590,11 +612,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 548,
     description: "Создание надежных приложений начинается с создания чистого кода. В этой книге вы исследуете приемы профессионального JavaScript-разработчика, изучая все от основ JavaScript до практик написания чистого кода. Вы научитесь писать функциональный, интуитивно понятный и удобный в сопровождении код, а также поймете, как ваш код может влиять на конечного пользователя и других людей, которым придется с ним работать.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 13.6
   },
   {
@@ -605,7 +627,7 @@ export const data = [
     year: [2019, "All"],
     sheets: 591,
     description: "Если вы являетесь опытным разработчиком и хотите изучать JavaScript, данная книга поможет вам в этом. Авторы учат работать с React, VueJS и Angular. В конце каждой главы есть ссылки для дополнительного чтения.",
-    stack: "JavaScript React Angular Vue.js All",
+    stack: ["JavaScript", "React", "Angular", "Vue.js","All"],
     stackIcon: JSIcon,
     stackIcon2: reactIcon,
     stackIcon3: angularIcon,
@@ -615,7 +637,7 @@ export const data = [
     clickFilterValue2: "React",
     clickFilterValue3: "Angular",
     clickFilterValue4: "Vue.js",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.3
   },
   {
@@ -626,13 +648,29 @@ export const data = [
     year: [2019, "All"],
     sheets: 330,
     description: "Если вы ищете язык программирования для разработки гибких и эффективных приложений, хорошим выбором будет JavaScript. Advanced JavaScript - это практическое руководство, которое шаг за шагом проведет вас через JavaScript и его многочисленные особенности. Вы начнете с изучения того, как использовать синтаксис ES6, а затем поработаете с многими другими аспектами, которые может предложить современный JavaScript. Вы также изучите различные методы тестирования проектов JavaScript. В заключительных главах вы познакомитесь с функциональным программированием и научитесь использовать его для создания своих приложений. Используя эту книгу в качестве руководства, вы также сможете разрабатывать API-интерфейсы с использованием Node.js и Express, создавать интерфейсы с помощью React / Redux и мобильные приложения с помощью React Native / Expo.",
-    stack: "JavaScript All",
+    stack: ["JavaScript", "All"],
     stackIcon: JSIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 3.3
   },
+  {
+    title: "Graphic Javascript Algorithms: Graphic learn Data Structure and Algorithm for JavaScript",
+    img: JS28,
+    link: "https://drive.google.com/file/d/1buZwqb7iQQwwD8QfntfBOIzKgp3cG3rU/view?usp=sharing",
+    author: "Hu",
+    year: [2020, "All"],
+    sheets: 279,
+    description: "Вы узнаете, как реализовать такие структуры данных, как хэш-таблицы, связанные списки, стеки, очереди, деревья и графики. Разработчикам JavaScript крайне важно понимать, как работают структуры данных и как разрабатывать алгоритмы. Эта книга обеспечивают необходимую основу для работы со структурами данных и алгоритмами JavaScript.",
+    stack: ["JavaScript", "All"],
+    stackIcon: JSIcon,
+    borderColor: "#fffb00",
+    clickFilterValue: "JavaScript",
+    fileFormat: "epub",
+    fileSize: 39.5
+  },
+  //JS comment
   {
     title: "Building React Apps with Server-Side Rendering",
     img: React1,
@@ -641,11 +679,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 207,
     description: "Используйте преимущества рендеринга как на стороне клиента, так и на стороне сервера, чтобы получить максимальную отдачу от ваших приложений React. К концу этой книги вы сможете создавать и развертывать приложения React, используя Next.js фреймворк для полного рендеринга серверного HTML-кода на каждой веб-странице. Вы начнете с рассмотрения основ JavaScript и того, как они работают с основными принципами React. Затем вы перейдете к Next.js для серверных приложений. Используя эту платформу, вы создадите быстрое и безопасное приложение, которое отображает содержимое на стороне сервера, защищает конфиденциальную информацию и оптимизирует время отклика. Перед развертыванием приложения с использованием контейнеров Docker вы создадите автоматические модульные тесты, чтобы убедиться, что каждый компонент надлежащим образом выполняет свою работу",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.7
   },
   {
@@ -656,11 +694,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 488,
     description: "Если вы хотите научиться создавать эффективные веб-приложения на React, данная книга для вас. Эта обновленная версия также идеально подходит для веб-разработчиков и инженеров-программистов, которые знают основы JavaScript, CSS и HTML. В ней представлены передовые практики и шаблоны для написания современного кода на React. Никаких предварительных знаний о React или функциональном JavaScript не требуется.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.7
   },
   {
@@ -671,11 +709,11 @@ export const data = [
     year: [2021, "All"],
     sheets: 232,
     description: "Начните работу с React, технологией с открытым исходным кодом от Facebook для быстрого создания полнофункциональных веб-приложений. Обновленное для последней версии React, второе издание этого практического руководства показывает, как создавать компоненты React и организовывать их в поддерживаемые крупномасштабные приложения. Если вы знакомы с синтаксисом JavaScript, вы готовы приступить к работе.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 4.5
   },
   {
@@ -686,7 +724,7 @@ export const data = [
     year: [2020, "All"],
     sheets: 395,
     description: "React - один из самых популярных фреймворков веб-разработки, доступных сегодня, а Node.js чрезвычайно популярен для разработки на стороне сервера. Тот факт, что оба используют JavaScript, является хорошим аргументом в пользу их использования, но по мере того, как разработчики все больше используют этот язык, они начинают видеть и некоторые несовершенства; именно поэтому существует и быстро набирает популярность TypeScript. Добавьте к этому стеку Webpack и Docker, и вы получите мощный набор инструментов разработки, с которым можно создавать приложения. Работая с книгой, вы увидите, как эти инструменты действуют вместе и научитесь ими пользоваться.",
-    stack: "React TypeScript NodeJS All",
+    stack: ["React", "TypeScript", "NodeJS"],
     stackIcon: reactIcon,
     stackIcon2: TSIcon,
     stackIcon3: nodeIcon,
@@ -694,7 +732,7 @@ export const data = [
     clickFilterValue: "React",
     clickFilterValue2: "TypeScript",
     clickFilterValue3: "NodeJS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 5.6
   },
   {
@@ -705,11 +743,11 @@ export const data = [
     year: [2019, "All"],
     sheets: 201,
     description: "Данная книга - это ваш путь к освоению React продвинутого уровня для создания веб-приложений на JavaScript с использованием Firebase. Firebase позволяет подключить ваше приложение на React к базе данных, работать с механизмами входа, выхода и регистрации, а также разрешать только определенным пользователям доступ к вашему приложению. Firebase имеет возможности хостинга и входа через Google, Facebook и многое другое. Все будет объяснено в книге при самостоятельном создании бизнес-приложения. Чтобы извлечь максимальную пользу из неё, вы должны быть знакомы с основами веб-разработки, включая HTML, CSS и JavaScript. Также необходимо знать термин API, потому что API часто используются для приложений, описанных в этой книге.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 1.5
   },
   {
@@ -720,11 +758,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 716,
     description: "React в сочетании с проверенными в отрасли серверными технологиями, такими как Node, Express и MongoDB, позволяет разрабатывать и развертывать надежные полнофункциональные веб-приложения. Данное обновленное второе издание фокусируется на последних версиях и соглашениях технологий в этом стеке, а также на их новых фичах, таких как хуки в React и async / await в JavaScript. В книге также раскрываются сложные темы, такие как создание веб-приложения для учебных занятий и визуализация данных в приложении для отслеживания расходов.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 26.7
   },
   {
@@ -735,11 +773,11 @@ export const data = [
     year: [2020, "All"],
     sheets: 526,
     description: "React и React Native, инновационные фреймворки для разработки пользовательского интерфейса, созданы для написания качественных кроссплатформенных мобильных и веб-приложений. Данная книга была обновлена, чтобы соответствовать последней версии React. Поработав с книгой, вы сможете быстро создавать новые проекты. Для комфортного чтения необходимы знания  JavaScript.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.5
   },
   {
@@ -750,7 +788,7 @@ export const data = [
     year: [2020, "All"],
     sheets: 140,
     description: "Благодаря новым фреймворкам, разработчики интерфейсов и разработчики приложений для мобильных устройств могут использовать свой набор навыков для создания облачных сервисов. Разработчики могут создавать надежные приложения с готовыми к работе функциями, такими как: аутентификация, машинное обучение, чат-боты и AR-сцены, проще, чем когда-либо, используя преимущества облачных технологий. В этом практическом руководстве объясняется, как разработать полноценное приложение и задеплоить его на AWS.",
-    stack: "React AWS GraphQL All",
+    stack: ["React", "AWS", "GraphQL", "All"],
     stackIcon: reactIcon,
     stackIcon2: awsIcon,
     stackIcon3: graphqlIcon,
@@ -758,7 +796,7 @@ export const data = [
     clickFilterValue: "React",
     clickFilterValue2: "AWS",
     clickFilterValue3: "GraphQL",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 7.2
   },
   {
@@ -769,27 +807,44 @@ export const data = [
     year: [2020, "All"],
     sheets: 140,
     description: "В книге описываются основы React Js: 1. Почему реакт стал популярным; 2. Как установить реакт; 3. Классовые и функциональные компоненты; 4. Состояние компонентов; 5. Props Жизненный цикл компонентов.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 1.6
   },
   {
-    title: "React Hooks in Action: With Suspense and Concurrent Mode ",
+    title: "React Hooks in Action: With Suspense and Concurrent Mode",
     img: React10,
     link: "https://drive.google.com/file/d/1lOBHupDGslaqXqn8zqBosS2lFliMN6R2/view?usp=sharing",
     author: "John Larsen",
     year: [2020, "All"],
     sheets: 376,
     description: "Создавайте стильные, удобные и быстро загружаемые пользовательские интерфейсы в React без написания пользовательских классов. React Hooks - это новая категория функций, которые помогают управлять состоянием, жизненным циклом и сторонними эффектами в функциональных компонентах. Книга учит использовать готовые хуки, такие как useState, useReducer и useEffect, для создания собственных хуков. Ваш код станет более реюзабельным, будет требовать меньше шаблонов, и вы станете более эффективным разработчиком.",
-    stack: "React All",
+    stack: ["React", "All"],
     stackIcon: reactIcon,
     borderColor: "#03d1f6",
     clickFilterValue: "React",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 25.2
+  },
+  {
+    title: "The Road to React",
+    img: React11,
+    link: "https://drive.google.com/file/d/1U8mXyjGIgAp6YxFM5XhgcsrYWy2NDaiY/view?usp=sharing",
+    author: "Robin Wieruch",
+    year: [2020, "All"],
+    sheets: 228,
+    description: "При помощи книги вы можете изучить основы React.js, шаг за шагом создавая полноценное приложение на React. При создании приложения каждая глава книги знакомит вас с новой функцией или особенностью React. Однако автор приводит не только основы: книга углубляется в смежные темы (например, React с TypeScript, тестирование, оптимизация производительности) и реализации расширенных функций.",
+    stack: ["React", "TypeScript", "All"],
+    stackIcon: reactIcon,
+    stackIcon2: TSIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    clickFilterValue2: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 0.8
   },
   //REACT comment
   {
@@ -800,13 +855,13 @@ export const data = [
     year: [2014, "All"],
     sheets: 1104,
     description: "HTML5 и CSS3 являются важными инструментами для создания динамических веб-сайтов. Это доступное, универсальное руководство охватывает все, что вам нужно знать о каждой из этих технологий и их последних версиях, чтобы вы могли использовать их вместе. Книга также представляет способы использования HTML5 и CSS3 с JavaScript, MySQL и Ajax для создания веб-сайтов.",
-    stack: "HTML CSS All",
+    stack: ["HTML", "CSS", "All"],
     stackIcon: htmlIcon,
     stackIcon2: cssIcon,
     borderColor: "#df4a17",
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 20.6
   },
   {
@@ -817,7 +872,7 @@ export const data = [
     year: [2018, "All"],
     sheets: 810,
     description: "Вы хотите создавать веб-страницы, но у вас нет опыта? Данная книга отлично подойдёт для начала. Вы начнёте с нуля, узнаете, как работают веб-страницы, а затем постепенно начнете создавать собственные. К концу книги у вас будут навыки создания простого сайта, адаптированного для мобильных устройств.",
-    stack: "HTML CSS All",
+    stack: ["HTML", "CSS", "All"],
     stackIcon: htmlIcon,
     stackIcon2: cssIcon,
     stackIcon3: JSIcon,
@@ -825,7 +880,7 @@ export const data = [
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
     clickFilterValue3: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 76
   },
   {
@@ -836,13 +891,13 @@ export const data = [
     year: [2022, "All"],
     sheets: 50,
     description: "В этой книге рассматривается что такое HTML и CSS и как их использовать для разработки веб приложений. Вы узнаете, как создавать веб-страницы с текстом, графикой и многим другим с помощью HTML. Вы будете использовать CSS для оформления текста, создания целевых макетов страниц, добавления фоновых изображений, дизайна навигации и придания адаптивности веб-сайту, применяя медиазапросы для адаптации к различным размерам экрана.",
-    stack: "HTML CSS All",
+    stack: ["HTML", "CSS", "All"],
     stackIcon: htmlIcon,
     stackIcon2: cssIcon,
     borderColor: "#df4a17",
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 1.2
   },
   {
@@ -853,14 +908,29 @@ export const data = [
     year: [2017, "All"],
     sheets: 872,
     description: "Данная книга позволяет в совершенстве выучить особенности HTML и CSS для практического использования. Каждая глава включает в себя постановку проблемы, цели, которые вы должны достичь, и демонстрацию того, как выполнить конкретную задачу. Книга постоянно дает вам применить на практике только что изученные концепции.",
-    stack: "HTML CSS All",
+    stack: ["HTML", "CSS", "All"],
     stackIcon: htmlIcon,
     stackIcon2: cssIcon,
     borderColor: "#df4a17",
     clickFilterValue: "HTML",
     clickFilterValue2: "CSS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 43.6
+  },
+  {
+    title: "HTML5 in easy steps, Second Edition",
+    img: HTML5,
+    link: "https://drive.google.com/file/d/1HT7-z2I46Cya5aX9ZfO7wut3_v9nWMEn/view?usp=sharing",
+    author: "Mike McGrath",
+    year: [2017, "All"],
+    sheets: 240,
+    description: "Книга содержит примеры и скриншоты, иллюстрирующие особенности HTML5. Вы узнаете, как создавать веб-страницы для отображения текста, изображений, списков, таблиц, гиперссылок, аудио и видео. Каждая глава расширяет знания читателя, так что к концу книги вы получите хорошее понимание HTML5. Книга идеально подойдёт программистам, которым необходимо быстро начать работать с HTML5 или студентам, изучающим дизайн сайтов.",
+    stack: ["HTML", "All"],
+    stackIcon: htmlIcon,
+    borderColor: "#df4a17",
+    clickFilterValue: "HTML",
+    fileFormat: "pdf",
+    fileSize: 10.9
   },
   //HTML comment
   //NODE comment
@@ -876,7 +946,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 27.5
   },
   {
@@ -891,7 +961,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.7
   },
   {
@@ -906,7 +976,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 5.6
   },
   {
@@ -921,7 +991,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.1
   },
   {
@@ -936,7 +1006,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 1.6
   },
   {
@@ -951,7 +1021,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.4
   },
   {
@@ -966,7 +1036,7 @@ export const data = [
     stackIcon: nodeIcon,
     borderColor: "#84ce24",
     clickFilterValue: "NodeJS",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 3.7
   },
   //TS comment
@@ -982,7 +1052,7 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 30.7
   },
   {
@@ -997,7 +1067,7 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 10.3
   },
   {
@@ -1012,7 +1082,7 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 3.4
   },
   {
@@ -1027,7 +1097,7 @@ export const data = [
     stackIcon: TSIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.7
   },
   //TS comment
@@ -1043,7 +1113,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 9.7
   },
   {
@@ -1058,7 +1128,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 15.7
   },
   {
@@ -1073,7 +1143,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16.1
   },
   {
@@ -1088,7 +1158,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 9.8
   },
   {
@@ -1103,7 +1173,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16
   },
   {
@@ -1111,14 +1181,14 @@ export const data = [
     img: PT6,
     link: "https://drive.google.com/file/d/10LU7rddA2PQE0JvMNhTUwYtuxVAhOBFw/view?usp=sharing",
     author: "Joe Thompson",
-    year: [null, "All"],
+    year: [2016, "All"],
     sheets: 356,
     description: "Это руководство для начинающих покажет вам основы и предоставит общую информацию о мире программирования. Вы поймете, почему python является одним из самых популярных языков и каковы его преимущества и недостатки. Также, в книге описываются основы объектно-ориентированного программирования.",
     stack: "Python All",
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.5
   },
   {
@@ -1126,14 +1196,14 @@ export const data = [
     img: PT7,
     link: "https://drive.google.com/file/d/1cVZxyRBji63HMDEzvJj2x2EVehVwJeDY/view?usp=sharing",
     author: "Noah Gift, Jeremy Jones",
-    year: [null, "All"],
+    year: [2009, "All"],
     sheets: 511,
     description: "Python - идеальный язык для решения проблем, связанных с администрированием систем и автоматизацией действий. С помощью этой практической книги администраторы могут рассмотреть различные задачи, которые часто возникают при управлении системами, и узнать, как Python может обеспечить более эффективный и менее болезненный способ их решения. В каждой главе рассматривается конкретная проблема, такая как параллелизм или резервное копирование данных, и представлены решения на Python с помощью практических примеров.",
     stack: "Python All",
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.5
   },
   {
@@ -1148,7 +1218,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 0.7
   },
   {
@@ -1163,7 +1233,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.9
   },
   {
@@ -1178,7 +1248,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 1.6
   },
   {
@@ -1193,7 +1263,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 9.8
   },
   {
@@ -1208,7 +1278,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 42.4
   },
   {
@@ -1223,7 +1293,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 14.4
   },
   {
@@ -1238,7 +1308,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 1.5
   },
   {
@@ -1253,7 +1323,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.5
   },
   {
@@ -1268,7 +1338,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16
   },
   {
@@ -1283,7 +1353,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 3.5
   },
   {
@@ -1298,7 +1368,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 9.7
   },
   {
@@ -1313,7 +1383,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 1.9
   },
   {
@@ -1328,7 +1398,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 7.7
   },
   {
@@ -1343,7 +1413,7 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.3
   },
   {
@@ -1358,11 +1428,117 @@ export const data = [
     stackIcon: PTIcon,
     borderColor: "#3671a2",
     clickFilterValue: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.4
   },
-  //Python comment
-  //PHP comment
+  {
+    title: "Hands-On Unsupervised Learning Using Python",
+    img: PT23,
+    link: "https://drive.google.com/file/d/1Rj5t8vtiSlCWTXqZS-cLk3FH6mN0NAYC/view?usp=sharing",
+    author: "Ankur A. Patel",
+    year: [2020, "All"],
+    sheets: 362,
+    description: "Многие эксперты считают, что машинное обучение без учителя - это новый рубеж в области искусственного интеллекта, который может стать ключом к святому Граалю в исследованиях ИИ, так называемому общему искусственному интеллекту. Поскольку большая часть мировых данных немаркирована, традиционное обучение с учителем часто не может быть применено; здесь помогает Unsupervised Learning. Неконтролируемое обучение может быть применено в работе с немаркированными наборами данных, чтобы обнаруживать значимые закономерности, скрытые глубоко в данных, шаблоны, которые могут быть почти никогда не раскрыты людьми.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "epub",
+    fileSize: 4.6
+  },
+  {
+    title: "Beyond the Basic Stuff with Python",
+    img: PT24,
+    link: "https://drive.google.com/file/d/1N83R3MYncFx64edmToyt0tYhApF1XFwa/view?usp=sharing",
+    author: "Al Sweigart",
+    year: [2020, "All"],
+    sheets: 321,
+    description: "Данная книга - это больше, чем просто набор синтаксиса и советов по написанию 'чистого' кода. Вы узнаете, как улучшить свои навыки программирования на Python с помощью командной строки и других профессиональных инструментов, таких как средства форматирования кода, проверки типов, линтеров и контроля версий. Приобретенные вами навыки повысят ваш общий уровень программирования - не только на Python, но и на любом языке.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "epub",
+    fileSize: 3.1
+  },
+  {
+    title: "Advanced Python Development",
+    img: PT25,
+    link: "https://drive.google.com/file/d/1E37H6uP-ssAh6kE6cWzb578YIScHG1RW/view?usp=sharing",
+    author: "Matthew Wilkes",
+    year: [2020, "All"],
+    sheets: 628,
+    description: "Эта книга создана на основе базовых руководств по Python для объяснения различных особенностей языка, которые обычно не рассматриваются: от многократно используемых консольных скриптов, которые выполняют двойную работу в качестве микросервисов за счет использования точек входа, до эффективного использования asyncio для сопоставления данных из большого количества источников. Попутно книга охватывает линтинг на основе типов, тестирование с минимальными затратами и другие автоматические проверки качества, чтобы продемонстрировать надежный процесс разработки в реальном мире.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 3.1
+  },
+  {
+    title: "Pandas in Action",
+    img: PT26,
+    link: "https://drive.google.com/file/d/1bp7b70LFsR6OjrLYwy06rVndU5IAM6xn/view?usp=sharing",
+    author: "Boris Paskhaver",
+    year: [2021, "All"],
+    sheets: 440,
+    description: "Pandas быстро стала одной из самых популярных библиотек для анализа данных на Python. В своей книге автор показывает, как освоить этот универсальный инструмент и сделать следующие шаги в карьере в области науки о данных. Вы узнаете, насколько легко Pandas позволяет эффективно сортировать, анализировать, фильтровать и изменять практически любые типы данных.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 8.7
+  },
+  {
+    title: "Create GUI Applications with Python & Qt5",
+    img: PT27,
+    link: "https://drive.google.com/file/d/1A4iyuJscN0oYmmvuPJ5uDwi5bs70r7c-/view?usp=sharing",
+    author: "Martin Fitzpatrick",
+    year: [2020, "All"],
+    sheets: 791,
+    description: "Создание настольных приложений не должно быть трудным. Используя Python и Qt5, вы можете создавать полнофункциональные настольные приложения за считанные минуты. Начиная с самых основ, эта книга познакомит вас с ключевыми аспектами работы с PyQt5, которые вы можете использовать для создания реальных приложений.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 7.4
+  },
+  {
+    title: "Coding with Python: A Simple And Straightforward Guide For Beginners To Learn Fast Programming With Python",
+    img: PT28,
+    link: "https://drive.google.com/file/d/1cxAhi_xb2zCNS0i7dQHBYEjJweIy7btW/view?usp=sharing",
+    author: "Eugene Gates",
+    year: [2020, "All"],
+    sheets: 129,
+    description: "Вы хотите выучить один из самых популярных языков программирования в мире, но расстроены при мысли о необходимости учиться с нуля? Данная книга позволит вам быстро и без проблем выучить современный и простой синтаксис языка Python, чтобы после вы могли заняться изучением какой-либо прикладной технологии.",
+    stack: "Python All",
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "epub",
+    fileSize: 2.5
+  },
+  {
+    title: "Full Stack Python Security: Cryptography, TLS, and attack resistance",
+    img: PT29,
+    link: "https://drive.google.com/file/d/1pR9Y9NCuS4pVYgJWbvFsCRr8v9bGnxwB/view?usp=sharing",
+    author: "Dennis Byrne",
+    year: [2021, "All"],
+    sheets: 306,
+    description: "Вы хотите выучить один из самых популярных языков программирования в мире, но расстроены при мысли о необходимости учиться с нуля? Данная книга позволит вам быстро и без проблем выучить современный и простой синтаксис языка Python, чтобы после вы могли заняться изучением какой-либо прикладной технологии.",
+    stack: ["Python", "Web security", "All"],
+    stackIcon: PTIcon,
+    stackIcon2: lockIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    clickFilterValue2: "Web security",
+    fileFormat: "epub",
+    fileSize: 6.3
+  },
+  //PT comment
   {
     title: "PHP, MySQL, & JavaScript All-in-One For Dummies",
     img: PHP1,
@@ -1371,7 +1547,7 @@ export const data = [
     year: [2018, "All"],
     sheets: 800,
     description: "Вы начинающий веб-разработчик? Тогда PHP, MySQL, & JavaScript All-in-One For Dummies – идельный выбор! Автор расскажет вам не только о том, как приобрести необходимые навыки в HTML5/CSS3, JavaScript, PHP, MySQL, но и как эффективно применять их на практике.",
-    stack: "PHP JavaScript MySQL All",
+    stack: ["PHP", "JavaScript", "MySQL", "All"],
     stackIcon: phpIcon,
     stackIcon2: sqlIcon,
     stackIcon3: JSIcon,
@@ -1379,7 +1555,7 @@ export const data = [
     clickFilterValue: "PHP",
     clickFilterValue2: "MySQL",
     clickFilterValue3: "JavaScript",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 23.3
   },
   {
@@ -1394,13 +1570,13 @@ export const data = [
     stackIcon: phpIcon,
     borderColor: "#6181b6",
     clickFilterValue: "PHP",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.5
   },
   {
     title: "Learn PHP in One Day and Learn It Well",
     img: PHP3,
-    link: "3. Learn PHP in One Day and Learn It Well.jpg",
+    link: "https://drive.google.com/file/d/1bZJy5nPXGuvBBkgHX6P6amybg_zRiCdq/view?usp=sharing",
     author: "Jamie Chan",
     year: [2020, "All"],
     sheets: 199,
@@ -1409,10 +1585,25 @@ export const data = [
     stackIcon: phpIcon,
     borderColor: "#6181b6",
     clickFilterValue: "PHP",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 1.7
   },
-  //GraphQL comment
+  {
+    title: "PHP and Algorithmic Thinking for the Complete Beginner",
+    img: PHP4,
+    link: "https://drive.google.com/file/d/1IWOHnNQ4eY11_dJS-zm87oDmOke-6yWP/view?usp=sharing",
+    author: "Aristides Bouras",
+    year: [2020, "All"],
+    sheets: 1094,
+    description: "Тщательно переработанная, эта книга объясняет основные концепции программирования в ясной и явной форме, отталкиваясь от того, что читатель ничего не знает о компьютерном программировании. Предназначенная для всех, у кого нет знаний и опыта в программировании, но есть желание изучать программирование с PHP, книга учит алгоритмическому мышлению. Алгоритмическое мышление включает в себя больше, чем просто изучение кода. Это процесс решения проблем, который включает в себя обучение.",
+    stack: "PHP All",
+    stackIcon: phpIcon,
+    borderColor: "#6181b6",
+    clickFilterValue: "PHP",
+    fileFormat: "epub",
+    fileSize: 11.8
+  },
+  //PHP comment
   {
     title: "The Road to GraphQL",
     img: GQL1,
@@ -1425,7 +1616,7 @@ export const data = [
     stackIcon: graphqlIcon,
     borderColor: "#e10098",
     clickFilterValue: "GraphQL",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 1.2
   },
   {
@@ -1440,10 +1631,10 @@ export const data = [
     stackIcon: graphqlIcon,
     borderColor: "#e10098",
     clickFilterValue: "GraphQL",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 21.7
   },
-  //Bootstrap comment
+  //GraphQL comment
   {
     title: "Practical Bootstrap: Learn to Develop Responsively with One of the Most Popular CSS Frameworks",
     img: Boot1,
@@ -1456,9 +1647,10 @@ export const data = [
     stackIcon: bootstrapIcon,
     borderColor: "#5b4083",
     clickFilterValue: "Bootstrap",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 20.1
   },
+  //Bootstrap comment
   //Vue comment
   {
     title: "Front-End Development Projects with Vue.js",
@@ -1472,7 +1664,7 @@ export const data = [
     stackIcon: vueIcon,
     borderColor: "#41b883",
     clickFilterValue: "Vue.js",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 31.7
   },
   {
@@ -1487,7 +1679,7 @@ export const data = [
     stackIcon: vueIcon,
     borderColor: "#41b883",
     clickFilterValue: "Vue.js",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 18.6
   },
   //VS Code comment
@@ -1503,7 +1695,7 @@ export const data = [
     stackIcon: VSCodeIcon,
     borderColor: "#2489ca",
     clickFilterValue: "Visual Studio Code",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 14.5
   },
   {
@@ -1518,7 +1710,7 @@ export const data = [
     stackIcon: angularIcon,
     borderColor: "#dd0031",
     clickFilterValue: "Angular",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.5
   },
   {
@@ -1533,7 +1725,7 @@ export const data = [
     stackIcon: angularIcon,
     borderColor: "#dd0031",
     clickFilterValue: "Angular",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 12.8
   },
   //Angular comment
@@ -1549,7 +1741,7 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.5
   },
   {
@@ -1564,7 +1756,7 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 40.8
   },
   {
@@ -1581,7 +1773,7 @@ export const data = [
     borderColor: null,
     clickFilterValue: "Web security",
     clickFilterValue2: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 10.9
   },
   {
@@ -1600,7 +1792,7 @@ export const data = [
     clickFilterValue: "Web security",
     clickFilterValue2: "DevOps",
     clickFilterValue3: "Agile",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.2
   },
   {
@@ -1615,7 +1807,7 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.8
   },
   {
@@ -1630,7 +1822,7 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.7
   },
   {
@@ -1645,7 +1837,7 @@ export const data = [
     stackIcon: lockIcon,
     borderColor: null,
     clickFilterValue: "Web security",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 13.6
   },
   //Security comment
@@ -1661,7 +1853,7 @@ export const data = [
     stackIcon: uiIcon,
     borderColor: null,
     clickFilterValue: "UI/UX",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.3
   },
   {
@@ -1676,7 +1868,7 @@ export const data = [
     stackIcon: uiIcon,
     borderColor: null,
     clickFilterValue: "UI/UX",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 12.8
   },
   {
@@ -1691,8 +1883,23 @@ export const data = [
     stackIcon: uiIcon,
     borderColor: null,
     clickFilterValue: "UI/UX",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 10.8
+  },
+  {
+    title: "Lean UX",
+    img: UI4,
+    link: "https://drive.google.com/file/d/1gi-WeHWDMueseT39Nw53qGATG24T8VmJ/view?usp=sharing",
+    author: "Jeff Gothelf, Josh Seiden",
+    year: [2021, "All"],
+    sheets: 286,
+    description: "Lean UX - синоним современного дизайна и разработки продуктов. Сочетая качественный дизайн, гибкие методы работы и сильное деловое чутье, дизайнеры, менеджеры по продуктам и разработчики по всему миру делают Lean UX ведущим подходом для цифровых продуктов сегодня.",
+    stack: "UI/UX user interface All",
+    stackIcon: uiIcon,
+    borderColor: null,
+    clickFilterValue: "UI/UX",
+    fileFormat: "pdf",
+    fileSize: 7.1
   },
   //UI comment
   {
@@ -1707,7 +1914,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 5.4
   },
   {
@@ -1722,7 +1929,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 7.8
   },
   {
@@ -1737,7 +1944,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.8
   },
   {
@@ -1752,7 +1959,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 2.3
   },
   {
@@ -1767,7 +1974,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 19.5
   },
   {
@@ -1782,7 +1989,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 6.7
   },
   {
@@ -1797,7 +2004,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 5.4
   },
   {
@@ -1812,7 +2019,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 11.2
   },
   {
@@ -1827,7 +2034,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 122.3
   },
   {
@@ -1842,7 +2049,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.6
   },
   {
@@ -1857,7 +2064,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 11.3
   },
   {
@@ -1872,7 +2079,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 32.5
   },
   {
@@ -1887,7 +2094,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 2.9
   },
   {
@@ -1902,7 +2109,7 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.3
   },
   {
@@ -1917,8 +2124,38 @@ export const data = [
     stackIcon: javaIcon,
     borderColor: "#eb292a",
     clickFilterValue: "Java",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.8
+  },
+  {
+    title: "Modernizing Enterprise Java: A Concise Cloud Native Guide for Developers",
+    img: JAVA16,
+    link: "https://drive.google.com/file/d/1gOykM4AbPQrr35CL5Z3SMn8PcqF5X17a/view?usp=sharing",
+    author: "Markus Eisele, Natale Vinto",
+    year: [2021, "All"],
+    sheets: 240,
+    description: "В то время как контейнеры, микросервисы и распределенные системы занимают всё внимание в обсуждениях в мире технологий, большинство приложений, используемых сегодня, по-прежнему работают с монолитными архитектурами, которые соответствуют традиционным подходам к разработке. Эта практическая книга помогает изучить давно устоявшиеся модели на основе Java и демонстрирует, как успешно преобразовать эти монолитные приложения в более современные.",
+    stack: ["Java", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: 3.8
+  },
+  {
+    title: "Sams Teach Yourself Java in 21 Days",
+    img: JAVA17,
+    link: "https://drive.google.com/file/d/1hSRq2yBcrin_1Iqoh_OvT9OYz-4gBgMN/view?usp=sharing",
+    author: "Rogers Cadenhead",
+    year: [2020, "All"],
+    sheets: 672,
+    description: "С помощью этого руководства вы быстро освоите основы, а затем перейдете к продвинутым особенностям и концепциям современной Java. Книга была полностью обновлена для Java 11 и 12. К тому времени, когда вы прочтете книгу, вы будете хорошо разбираться в Java и библиотеках. Предыдущий опыт программирования не требуется. Следуя 21 тщательно организованному уроку из этой книги, каждый может изучить основы программирования на Java.",
+    stack: ["Java", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "epub",
+    fileSize: 49.5
   },
   //Java comment
   {
@@ -1933,7 +2170,7 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 5
   },
   {
@@ -1948,7 +2185,7 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16.5
   },
   {
@@ -1963,7 +2200,7 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 0.5
   },
   {
@@ -1980,7 +2217,7 @@ export const data = [
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
     clickFilterValu2: "Java",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 8.5
   },
   {
@@ -1995,7 +2232,7 @@ export const data = [
     stackIcon: awsIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.2
   },
   //AWS comment
@@ -2011,7 +2248,7 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 4.5
   },
   {
@@ -2030,14 +2267,14 @@ export const data = [
     clickFilterValue: "API",
     clickFilterValue2: "Java",
     clickFilterValue3: "Python",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 6.1
   },
   {
     title: "Continuous API Management: Making the Right Decisions in an Evolving Landscape, 2nd Edition",
     img: API3,
     link: "https://drive.google.com/file/d/1f1uG7UI3iTr5faMhpm9rPKT-DuLISBhy/view?usp=sharing",
-    author: "Rahul SharmaAkshay MathurAvi TsadokIsaiah Hull",
+    author: "Rahul Sharma, Akshay Mathur, Avi Tsadok, Isaiah Hull",
     year: [2021, "All"],
     sheets: 286,
     description: "Для выпуска API требуется много работы, но усилия не всегда окупаются. Чрезмерное планирование до того, как API выйдет в релиз, является напрасной тратой времени, в то время как недостаточное планирование может привести к катастрофе. Во втором издании этой книги представлены модели зрелости для отдельных API и систем с несколькими API, которые помогут вам использовать нужные человеческие и корпоративные ресурсы для достижения определенного уровня функционала.",
@@ -2045,7 +2282,7 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.5
   },
   {
@@ -2060,7 +2297,7 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.7
   },
   {
@@ -2075,7 +2312,7 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 11.8
   },
   {
@@ -2090,8 +2327,23 @@ export const data = [
     stackIcon: apiIcon,
     borderColor: null,
     clickFilterValue: "API",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.6
+  },
+  {
+    title: "The Design of Web APIs",
+    img: API7,
+    link: "https://drive.google.com/file/d/1Wlr2vtdn-QuhniwJAtH7vBdoOqf4FkMv/view?usp=sharing",
+    author: "Arnaud Lauret",
+    year: [2019, "All"],
+    sheets: 400,
+    description: "Хорошо спроектированные API приносят удовольствие при использовании. Плохо спроектированные API-интерфейсы громоздки, часто сбивают с толку и разочаровывают. The Design of Web APIs - это практическое руководство по созданию необычных API. Автор демонстрирует принципы и методы проектирования, которые можно применять как в общедоступных, так и в частных веб-API.",
+    stack: ["API", "All"],
+    stackIcon: apiIcon,
+    borderColor: null,
+    clickFilterValue: "API",
+    fileFormat: "pdf",
+    fileSize: 11.5
   },
   //API comment
   {
@@ -2106,7 +2358,7 @@ export const data = [
     stackIcon: sqlIcon,
     borderColor: "#0b6084",
     clickFilterValue: "MySQL",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.2
   },
   {
@@ -2121,7 +2373,7 @@ export const data = [
     stackIcon: sqlIcon,
     borderColor: "#0b6084",
     clickFilterValue: "MySQL",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 3.9
   },
   //MySQL comment
@@ -2137,7 +2389,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 65.2
   },
   {
@@ -2152,7 +2404,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 29
   },
   {
@@ -2167,7 +2419,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 47.9
   },
   {
@@ -2182,7 +2434,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 18.4
   },
   {
@@ -2197,7 +2449,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 5.9
   },
   {
@@ -2212,7 +2464,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 36.5
   },
   {
@@ -2227,7 +2479,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 6.4
   },
   {
@@ -2242,7 +2494,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 10
   },
   {
@@ -2257,7 +2509,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 17.1
   },
   {
@@ -2272,7 +2524,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.4
   },
   {
@@ -2287,7 +2539,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 6.7
   },
   {
@@ -2302,7 +2554,7 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 34.5
   },
   {
@@ -2317,8 +2569,38 @@ export const data = [
     stackIcon: otherIcon,
     borderColor: null,
     clickFilterValue: "Other",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 52.2
+  },
+  {
+    title: "Docs for Developers: An Engineer’s Field Guide to Technical Writing",
+    img: Other14,
+    link: "https://drive.google.com/file/d/1O5N9NjusT6lSF5uOhxXN2gE94YGA-4AH/view?usp=sharing",
+    author: "Jared Bhatti",
+    year: [2021, "All"],
+    sheets: 252,
+    description: "Эта книга научит вас составлять документацию на каждом этапе жизненного цикла разработки программного обеспечения, от изучения потребностей ваших пользователей до публикации и поддержки полезной документации для разработчиков.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "pdf",
+    fileSize: 3.6
+  },
+  {
+    title: "Data Management at Scale",
+    img: Other15,
+    link: "https://drive.google.com/file/d/1_onRd9iwHxhbnpCTS9NkfA7Fc6jaFp3w/view?usp=sharing",
+    author: "Piethein Strengholt",
+    year: [2020, "All"],
+    sheets: 348,
+    description: "Поскольку управление данными и интеграция продолжают быстро развиваться, хранение всех ваших данных в одном месте, например в хранилище данных, больше не масштабируется. В ближайшем будущем данные должны будут быть распределенными и доступными для нескольких технологических решений. Автор книги предоставляет планы, принципы, наблюдения, передовой опыт и шаблоны, которые помогут вам быстро перейти на более гибкую архитектуру.",
+    stack: ["Other", "All"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "epub",
+    fileSize: 8.9
   },
   //Other comment
   {
@@ -2333,7 +2615,7 @@ export const data = [
     stackIcon: gitIcon,
     borderColor: "#f34e24",
     clickFilterValue: "Git",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.5
   },
   {
@@ -2348,7 +2630,7 @@ export const data = [
     stackIcon: gitIcon,
     borderColor: "#f34e24",
     clickFilterValue: "Git",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 51.4
   },
   //Git comment
@@ -2364,7 +2646,7 @@ export const data = [
     stackIcon: devopsIcon,
     borderColor: null,
     clickFilterValue: "DevOps",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 10.5
   },
   {
@@ -2379,7 +2661,7 @@ export const data = [
     stackIcon: devopsIcon,
     borderColor: null,
     clickFilterValue: "DevOps",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 3.5
   },
   //DevOps comment
@@ -2395,8 +2677,38 @@ export const data = [
     stackIcon: iOSIcon,
     borderColor: "#000",
     clickFilterValue: "iOS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 8.8
+  },
+  {
+    title: "iOS 15 Programming Fundamentals with Swift",
+    img: iOS2,
+    link: "https://drive.google.com/file/d/1t1BoXrUifiU3SewZOFLgx6-Abnu15ov_/view?usp=sharing",
+    author: "Matt Neuburg",
+    year: [2021, "All"],
+    sheets: 788,
+    description: "Переходите к разработке для iOS, прочувствовав ее основы, включая Xcode 13 IDE, Cocoa Touch и последнюю версию известного языка программирования Apple Swift 5.5. С помощью этого полностью обновленного руководства вы изучите язык Swift, поймете инструменты разработки в Apple Xcode и познакомитесь с фреймворком Cocoa.",
+    stack: ["iOS", "All"],
+    stackIcon: iOSIcon,
+    borderColor: "#000",
+    clickFilterValue: "iOS",
+    fileFormat: "epub",
+    fileSize: 4.3
+  },
+  {
+    title: "iOS Apprentice (Eighth Edition): Beginning iOS Development with Swift and UIKit",
+    img: iOS3,
+    link: "https://drive.google.com/file/d/1j5u7dWX3-lbrKx6k7wNFGvnMFCGnIkDC/view?usp=sharing",
+    author: "Joey deVilla, Eli Ganim, Matthijs Hollemans",
+    year: [2019, "All"],
+    sheets: 815,
+    description: "Если вы новичок в Swift или в программировании в целом, научиться писать приложения может показаться невероятно трудной задачей. В таком случае вам может пригодиться эта книга. Она разделена на пять частей, в каждой из которых описывается отдельный проект. К концу чтения книги вы получите достаточно информации, чтобы суметь реализовать свои идеи в коде.",
+    stack: ["iOS", "All"],
+    stackIcon: iOSIcon,
+    borderColor: "#000",
+    clickFilterValue: "iOS",
+    fileFormat: "pdf",
+    fileSize: 111.1
   },
   //iOS comment
   {
@@ -2411,7 +2723,7 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 11.4
   },
   {
@@ -2426,7 +2738,7 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16.5
   },
   {
@@ -2441,7 +2753,7 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 16.6
   },
   {
@@ -2456,7 +2768,7 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 42.3
   },
   {
@@ -2471,7 +2783,7 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 51.7
   },
   {
@@ -2486,7 +2798,7 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 8.9
   },
   {
@@ -2501,8 +2813,38 @@ export const data = [
     stackIcon: cPlusIcon,
     borderColor: "#659ad2",
     clickFilterValue: "C++",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 15.3
+  },
+  {
+    title: "Learn C++ Quickly",
+    img: cPlus8,
+    link: "https://drive.google.com/file/d/1-LUP-hExzIy4yZ_PDuVmr0UzEiCSY0kN/view?usp=sharing",
+    author: "Code Quickly",
+    year: [2020, "All"],
+    sheets: 228,
+    description: "Самые успешные программы за последние 30 лет были разработаны на C++. От Microsoft Word до Facebook и Adobe Photoshop, C++ лежит в основе самых прибыльных технологий в современном мире. Это один из самых мощных языков программирования по одной простой причине: он позволяет полностью контролировать не только логику программы и графический интерфейс пользователя, но и оборудование. Выбрав эту книгу в качестве обучающего материала, вы получите пошаговое руководство, позволяющее быстро освоить сложный синтаксис C++.",
+    stack: ["C++", "All"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "pdf",
+    fileSize: 4.7
+  },
+  {
+    title: "The C++ Workshop",
+    img: cPlus9,
+    link: "https://drive.google.com/file/d/1wnVCee-4j4thWEIUJc3jedtKLYfTb7WS/view?usp=sharing",
+    author: "Dale Green, Kurt Guntheroth, Shaun Ross Mitchell",
+    year: [2020, "All"],
+    sheets: 606,
+    description: "Если вы уже знаете, что хотите изучать разработку на C++, более разумный способ - это учиться на практике. Данная книга направлена на развитие ваших практических навыков, чтобы вы могли разрабатывать высокопроизводительные программные приложения или даже свои собственные игры с эффективным современным C++. Вы будете учиться на реальных примерах, которые приведут вас к реальным результатам.",
+    stack: ["C++", "All"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "pdf",
+    fileSize: 7.1
   },
   //Cplus comment
   {
@@ -2517,7 +2859,7 @@ export const data = [
     stackIcon: agileIcon,
     borderColor: null,
     clickFilterValue: "Agile",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 7.4
   },
   //agile comment
@@ -2533,7 +2875,7 @@ export const data = [
     stackIcon: cssIcon,
     borderColor: "#1b73ba",
     clickFilterValue: "CSS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 5.4
   },
   {
@@ -2548,8 +2890,23 @@ export const data = [
     stackIcon: cssIcon,
     borderColor: "#1b73ba",
     clickFilterValue: "CSS",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 9
+  },
+  {
+    title: "CSS in Depth.jpg",
+    img: css3,
+    link: "https://drive.google.com/file/d/1quUyPrWEqZy2PfCDkc3fc22q_55DPNPF/view?usp=sharing",
+    author: "Keith J. Grant",
+    year: [2018, "All"],
+    sheets: 472,
+    description: "Книга наполнена творческими примерами использования и лучшими методиками CSS, которые помогут вам создавать качественные сайты. Вы узнаете новые факты об использовании CSS и его фичах, а также поэкспериментируете с новыми идеями, такими как адаптивный дизайн и библиотеки шаблонов.",
+    stack: ["CSS", "All"],
+    stackIcon: cssIcon,
+    borderColor: "#1b73ba",
+    clickFilterValue: "CSS",
+    fileFormat: "pdf",
+    fileSize: 14.7
   },
   //CSS comment
   {
@@ -2564,7 +2921,7 @@ export const data = [
     stackIcon: rubyIcon,
     borderColor: "#aa1501",
     clickFilterValue: "Ruby",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 31.7
   },
   //ruby comment
@@ -2580,11 +2937,10 @@ export const data = [
     stackIcon: cSharpIcon,
     borderColor: "#9b4f96",
     clickFilterValue: "C#",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 2.2
   },
   //C# comment
-
   {
     title: "Microservices in .NET",
     img: net1,
@@ -2597,8 +2953,23 @@ export const data = [
     stackIcon: netIcon,
     borderColor: "#116eb5",
     clickFilterValue: ".NET",
-    fileFormat: "PDF",
+    fileFormat: "pdf",
     fileSize: 17.4
+  },
+  {
+    title: "Concurrency in .NET: Modern patterns of concurrent and parallel programming",
+    img: net2,
+    link: "https://drive.google.com/file/d/19i1kfwO7WQDY5Cvufhg1HZQ9c0oH9_jg/view?usp=sharing",
+    author: "Riccardo Terrell",
+    year: [2018, "All"],
+    sheets: 568,
+    description: "Книга учит, как создавать параллельные и масштабируемые программы в .NET, используя функциональную парадигму. Это руководство предназначено для разработчиков, архитекторов и увлеченных программистов, которые заинтересованы в написании кода с повышенной скоростью и эффективностью путем принятия декларативного и безболезненного стиля программирования.",
+    stack: [".NET", "All"],
+    stackIcon: netIcon,
+    borderColor: "#116eb5",
+    clickFilterValue: ".NET",
+    fileFormat: "pdf",
+    fileSize: 4.2
   },
   //net comment
   {
@@ -2613,7 +2984,7 @@ export const data = [
     stackIcon: kotlinIcon,
     borderColor: "#d260a0",
     clickFilterValue: "Kotlin",
-    fileFormat: "EPUB",
+    fileFormat: "epub",
     fileSize: 113.7
   },
   //kotlin comment
