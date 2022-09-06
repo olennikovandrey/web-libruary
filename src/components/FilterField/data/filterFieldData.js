@@ -1,5 +1,5 @@
 export const stack = [
-  "All",
+  "Все",
   ".NET",
   "Agile",
   "Angular",
@@ -32,7 +32,7 @@ export const stack = [
 ];
 
 export const year = [
-  "All",
+  "Все",
   2022,
   2021,
   2020,

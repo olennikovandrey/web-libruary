@@ -8,8 +8,8 @@ export default function FilterField(props) {
   const clearAllFields = () => {
     props.setTitleFilter("");
     props.setAuthorFilter("");
-    props.setStackFilter("All");
-    props.setYearFilter("All");
+    props.setStackFilter("Все");
+    props.setYearFilter("Все");
     props.setFormatFilter("");
   };
 

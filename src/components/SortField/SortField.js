@@ -3,7 +3,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function SortField(props) {
-  const { stateSortChanger, isTitleAToB, isTitleBToA, isYearAToB, isYearBToA, isSheetsAToB, isSheetsBToA, isFileSizeAToB, isFileSizeBToA } = props;
+  const {
+    stateSortChanger, isTitleAToB, isTitleBToA, isYearAToB,
+    isYearBToA, isSheetsAToB, isSheetsBToA, isFileSizeAToB,
+    isFileSizeBToA, changeAmountPerPage } = props;
 
   return (
     <div className="sort-field-wrapper">
@@ -53,6 +56,7 @@ export default function SortField(props) {
 
 SortField.propTypes = {
   stateSortChanger: PropTypes.func,
+  changeAmountPerPage: PropTypes.func,
   isTitleAToB: PropTypes.bool,
   isTitleBToA: PropTypes.bool,
   isYearAToB: PropTypes.bool,

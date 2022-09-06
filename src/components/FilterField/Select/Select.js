@@ -61,7 +61,7 @@ export default function Select(props) {
       </label>
       <span
         className={`select-${ preClassName }__clear-btn`}
-        onClick={ (event) => event.target.matches(".select-format__clear-btn") ? stateFunc("") : stateFunc("All") }
+        onClick={ (event) => event.target.matches(".select-format__clear-btn") ? stateFunc("") : stateFunc("Все") }
       ></span>
     </div>
   );

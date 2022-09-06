@@ -3,13 +3,14 @@ import FilterField from "../FilterField/FilterField";
 import { data } from "../../data/data";
 import SortField from "../SortField/SortField";
 import NoResults from "../NoResults/NoResults";
+import Pagination from "../Pagination/Pagination";
 import React, { useState } from "react";
 
 export default function Main() {
   const [searchTitle, setSearchTitle] = useState("");
   const [searchAuthor, setSearchAuthor] = useState("");
-  const [searchYear, setSearchYear] = useState("All");
-  const [searchStack, setSearchStack] = useState("All");
+  const [searchYear, setSearchYear] = useState("Все");
+  const [searchStack, setSearchStack] = useState("Все");
   const [searchFileFormat, setSearchFileFormat] = useState("");
   const [isTitleAToB, setTitleAToB] = useState(false);
   const [isTitleBToA, setTitleBToA] = useState(false);
@@ -19,6 +20,8 @@ export default function Main() {
   const [isSheetsBToA, setSheetsBToA] = useState(false);
   const [isFileSizeAToB, setFileSizeAToB] = useState(false);
   const [isFileSizeBToA, setFileSizeBToA] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [booksPerPage, setBooksPerPage] = useState(20);
 
   const filteredData = data.filter(item =>
     item.stack.includes(searchStack) &&
@@ -28,27 +31,14 @@ export default function Main() {
     item.fileFormat.includes(searchFileFormat)
   );
 
-  const setTitleFilter = (title) => {
-    setSearchTitle(title);
-  };
+  const setTitleFilter = title => setSearchTitle(title);
+  const setAuthorFilter = author => setSearchAuthor(author);
+  const setYearFilter = year => setSearchYear(year);
+  const setStackFilter = stack => setSearchStack(stack);
+  const setFormatFilter = format => setSearchFileFormat(format);
+  const changeAmountPerRage = amount => setBooksPerPage(amount);
 
-  const setAuthorFilter = (author) => {
-    setSearchAuthor(author);
-  };
-
-  const setYearFilter = (year) => {
-    setSearchYear(year);
-  };
-
-  const setStackFilter = (stack) => {
-    setSearchStack(stack);
-  };
-
-  const setFormatFilter = (format) => {
-    setSearchFileFormat(format);
-  };
-
-  const stateSortChanger = (stateFnTitle) => {
+  const stateSortChanger = stateFnTitle => {
     if (stateFnTitle === "setTitleAToB") {
       setTitleAToB(!isTitleAToB);
       setTitleBToA(false);
@@ -133,6 +123,18 @@ export default function Main() {
     return (a, b) => a[field] < b[field] ? 1 : -1;
   }
 
+  const lastBookIndex = currentPage * booksPerPage;
+  const firstBookIndex = lastBookIndex - booksPerPage;
+  const currentPageBooks = filteredData.slice(firstBookIndex, lastBookIndex);
+  const isPaginationShow = (filteredData.length / booksPerPage) > 1;
+
+  const paginate = pageNumber => {
+    setCurrentPage(pageNumber);
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+      window.scrollBy(0, -5000);
+    }
+  };
+
   return (
     <div className="main">
       <FilterField
@@ -158,26 +160,37 @@ export default function Main() {
         isSheetsBToA={ isSheetsBToA }
         isFileSizeAToB={ isFileSizeAToB }
         isFileSizeBToA={ isFileSizeBToA }
+        changeAmountPerRage={ changeAmountPerRage }
       />
-      <section className="content">
-        {
-          filteredData.length !== 0 ? filteredData
-            .sort(isTitleAToB ? byFieldAToB("title") : undefined)
-            .sort(isTitleBToA ? byFieldBToA("title") : undefined)
-            .sort(isYearAToB ? byFieldAToB("year") : undefined)
-            .sort(isYearBToA ? byFieldBToA("year") : undefined)
-            .sort(isSheetsAToB ? byFieldAToB("sheets") : undefined)
-            .sort(isSheetsBToA ? byFieldBToA("sheets") : undefined)
-            .sort(isFileSizeAToB ? byFieldAToB("fileSize") : undefined)
-            .sort(isFileSizeBToA ? byFieldBToA("fileSize") : undefined)
-            .map(item =>
-              <BookItem
-                key={ item.title + item.author}
-                data={ item }
-                setStackFilter={ setStackFilter }
-              />
-            ) :
-            <NoResults />
+      <section>
+        <div  className="content">
+          {
+            currentPageBooks.length !== 0 ? currentPageBooks
+              .sort(isTitleAToB ? byFieldAToB("title") : undefined)
+              .sort(isTitleBToA ? byFieldBToA("title") : undefined)
+              .sort(isYearAToB ? byFieldAToB("year") : undefined)
+              .sort(isYearBToA ? byFieldBToA("year") : undefined)
+              .sort(isSheetsAToB ? byFieldAToB("sheets") : undefined)
+              .sort(isSheetsBToA ? byFieldBToA("sheets") : undefined)
+              .sort(isFileSizeAToB ? byFieldAToB("fileSize") : undefined)
+              .sort(isFileSizeBToA ? byFieldBToA("fileSize") : undefined)
+              .map(item =>
+                <BookItem
+                  key={ item.title + item.author}
+                  data={ item }
+                  setStackFilter={ setStackFilter }
+                />
+              ) :
+              <NoResults />
+          }
+        </div>
+        { isPaginationShow &&
+          <Pagination
+            booksPerPage={ booksPerPage }
+            totalBooks={ filteredData.length }
+            paginate={ paginate }
+            currentPage={ currentPage }
+          />
         }
       </section>
     </div>
