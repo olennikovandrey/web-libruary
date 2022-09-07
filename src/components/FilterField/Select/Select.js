@@ -19,7 +19,8 @@ export default function Select(props) {
       selectSingleLabels[i].addEventListener("click", (event) => {
         selectSingleTitle.textContent = event.target.textContent;
         selectSingle.setAttribute("data-state", "");
-        preClassName === "year" && stateChangerFunc(+selectSingleTitle.textContent);
+        preClassName === "year" && /[0-9]/.test(selectSingleTitle.textContent) ?
+          stateChangerFunc(Number(selectSingleTitle.textContent)) : stateChangerFunc(selectSingleTitle.textContent);
         preClassName === "stack" && stateChangerFunc(selectSingleTitle.textContent);
         preClassName === "format" && stateChangerFunc(selectSingleTitle.textContent);
       });
