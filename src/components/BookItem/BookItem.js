@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import { useSelector } from "react-redux";
 
 export default function BookItem({ data, setStackFilter }) {
   const [showInfo, setShowInfo] = useState(false);
+  const lang = useSelector(state => state.lang);
 
   return (
     <>
@@ -16,14 +18,24 @@ export default function BookItem({ data, setStackFilter }) {
           <div className="book-item__image-wrapper">
             <img src={ data.img } className="image" alt="cover" height="auto" width="200"/>
             <span className="format-name">{ data.fileFormat }</span>
-            <span className="file-size">{ data.fileSize } Мб</span>
+            <span className="file-size">
+              { data.fileSize } { lang === "english" ? "Mb" : "Мб" }
+            </span>
           </div>
           <div className="description">
-            <span className="description__author">Автор: { data.author }</span>
-            <span className="description__year">Год издания: { data.year[0] }</span>
-            <span className="description__sheets">Количество страниц: { data.sheets }</span>
+            <span className="description__author">
+              { lang === "english" ? "Author:" : "Автор:" } { data.author }
+            </span>
+            <span className="description__year">
+              { lang === "english" ? "Product year:" : "Год издания:" } { data.year[0] }
+            </span>
+            <span className="description__sheets">
+              { lang === "english" ? "Number of pages" : "Количество страниц:" } { data.sheets }
+            </span>
             <div className="description__show-info-btn" onClick={ () => setShowInfo(!showInfo) }>
-              { showInfo ? "Скрыть описание" : "Показать описание" }
+              { showInfo ? ( lang === "english" ? "Hide description" : "Скрыть описание" ) :
+                ( lang === "english" ? "Show description" : "Показать описание" )
+              }
             </div>
             {
               showInfo &&
@@ -31,7 +43,9 @@ export default function BookItem({ data, setStackFilter }) {
                 { data.description }
               </div>
             }
-            <a href={ data.link } className="description__link" target="blank">Скачать</a>
+            <a href={ data.link } className="description__link" target="blank">
+              { lang === "english" ? "Download" : "Скачать" }
+            </a>
           </div>
         </div>
       </div>

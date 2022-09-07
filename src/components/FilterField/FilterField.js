@@ -3,8 +3,12 @@ import Input from "./Input/Input";
 import Select from "./Select/Select";
 import React from "react";
 import PropTypes from "prop-types";
+import { useSelector } from "react-redux";
+
 
 export default function FilterField(props) {
+  const lang = useSelector(state => state.lang);
+
   const clearAllFields = () => {
     props.setTitleFilter("");
     props.setAuthorFilter("");
@@ -16,40 +20,40 @@ export default function FilterField(props) {
   return (
     <aside className="filter-form">
       <div>
-        <h3 className="filter-form__title">Поиск по:</h3>
+        <h3 className="filter-form__title">{ lang === "english" ? "Search by:" : "Поиск по:" }</h3>
         <div>
           <Input
             stateFunc={ props.setTitleFilter }
-            labelText="названию: "
+            labelText={ lang === "english" ? "title:" : "названию:" }
             searchValue={ props.searchTitle }
           />
           <Input
             stateFunc={ props.setAuthorFilter }
-            labelText="автору: "
+            labelText={ lang === "english" ? "author:" : "автору:" }
             searchValue={ props.searchAuthor }
           />
           <Select
             data={ stack }
             stateFunc={ props.setStackFilter }
-            labelText="технологическому стэку: "
+            labelText={ lang === "english" ? "stack:" : "технологическому стэку:" }
             searchValue={ props.searchStack }
             preClassName="stack"
           />
           <Select
             data={ year }
             stateFunc={ props.setYearFilter }
-            labelText="году издания: "
+            labelText={ lang === "english" ? "product year:" : "году издания:" }
             searchValue={ props.searchYear }
             preClassName="year"
           />
           <Select
             data={ formats }
             stateFunc={ props.setFormatFilter }
-            labelText="формату файла: "
+            labelText={ lang === "english" ? "file format:" : "формату файла: " }
             searchValue={ props.searchFileFormat }
             preClassName="format"
           />
-          <span>Найдено изданий: { props.result }</span>
+          <span>{ lang === "english" ? "Found:" : "Найдено изданий:" } { props.result }</span>
         </div>
       </div>
       <button
@@ -57,7 +61,7 @@ export default function FilterField(props) {
         className="filter-form__clear-all"
         onClick={ () => clearAllFields() }
       >
-        Сбросить все фильтры
+        { lang === "english" ? "Reset all filters" : "Сбросить все фильтры" }
       </button>
     </aside>
   );

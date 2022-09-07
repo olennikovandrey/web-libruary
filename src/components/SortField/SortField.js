@@ -1,8 +1,12 @@
 import SortItem from "./SortItem";
 import SortSelect from "./SortSelect/SortSelect";
 import { amountPerPage } from "../FilterField/data/filterFieldData";
+import russian from "../../assets/images/sorf-field/russian.svg";
+import english from "../../assets/images/sorf-field/english.svg";
+import { RU, EN } from "../../store/actions/action-types";
 import React from "react";
 import PropTypes from "prop-types";
+import { useSelector, useDispatch } from "react-redux";
 
 export default function SortField(props) {
   const {
@@ -10,10 +14,13 @@ export default function SortField(props) {
     isYearBToA, isSheetsAToB, isSheetsBToA, isFileSizeAToB,
     isFileSizeBToA, changeAmountPerPage, booksPerPage } = props;
 
+  const dispatch = useDispatch();
+  const lang = useSelector(state => state.lang);
+
   return (
     <div className="sort-field-wrapper">
       <SortItem
-        title="По названию:"
+        title={ lang === "english" ? "By title:" : "По названию:" }
         stateSortChanger={ stateSortChanger }
         isAToB={ isTitleAToB }
         isBToA={ isTitleBToA }
@@ -23,7 +30,7 @@ export default function SortField(props) {
         sortValueBToA="Z - A"
       />
       <SortItem
-        title="По году выпуска:"
+        title={ lang === "english" ? "Product year:" : "По году выпуска:" }
         stateSortChanger={ stateSortChanger }
         isAToB={ isYearAToB }
         isBToA={ isYearBToA }
@@ -33,7 +40,7 @@ export default function SortField(props) {
         sortValueBToA="&#9660;"
       />
       <SortItem
-        title="По объему издания:"
+        title={ lang === "english" ? "By number of pages:" : "По объему издания:" }
         stateSortChanger={ stateSortChanger }
         isAToB={ isSheetsAToB }
         isBToA={ isSheetsBToA }
@@ -43,7 +50,7 @@ export default function SortField(props) {
         sortValueBToA="&#9660;"
       />
       <SortItem
-        title="По размеру файла:"
+        title={ lang === "english" ? "By file size:" : "По размеру файла:" }
         stateSortChanger={ stateSortChanger }
         isAToB={ isFileSizeAToB }
         isBToA={ isFileSizeBToA }
@@ -55,9 +62,15 @@ export default function SortField(props) {
       <SortSelect
         data={ amountPerPage }
         stateFunc={ changeAmountPerPage }
-        labelText="Отобразить изданий: "
+        labelText={ lang === "english" ? "Show books:" : "Отобразить изданий:" }
         booksPerPage={ +booksPerPage }
       />
+      <div className="sort-field-wrapper__flag-wrapper">
+        <img src={ russian } className="flag" alt="russian" onClick={ () => dispatch({ type: RU }) } />
+      </div>
+      <div className="sort-field-wrapper__flag-wrapper">
+        <img src={ english } className="flag" alt="english" onClick={ () => dispatch({ type: EN }) } />
+      </div>
     </div>
   );
 }

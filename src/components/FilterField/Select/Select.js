@@ -9,11 +9,9 @@ export default function Select(props) {
     const selectSingleTitle = selectSingle.querySelector(`.select-${ preClassName }__title`);
     const selectSingleLabels = selectSingle.querySelectorAll(`.select-${ preClassName }__label`);
 
-    if ((selectSingle.getAttribute("data-state") === "active")) {
-      selectSingle.setAttribute("data-state", "");
-    } else {
+    selectSingle.getAttribute("data-state") === "active" ?
+      selectSingle.setAttribute("data-state", "") :
       selectSingle.setAttribute("data-state", "active");
-    }
 
     for (let i = 0; i < selectSingleLabels.length; i ++) {
       selectSingleLabels[i].addEventListener("click", (event) => {
