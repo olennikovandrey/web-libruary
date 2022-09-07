@@ -1,4 +1,6 @@
 import SortItem from "./SortItem";
+import SortSelect from "./SortSelect/SortSelect";
+import { amountPerPage } from "../FilterField/data/filterFieldData";
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -6,7 +8,7 @@ export default function SortField(props) {
   const {
     stateSortChanger, isTitleAToB, isTitleBToA, isYearAToB,
     isYearBToA, isSheetsAToB, isSheetsBToA, isFileSizeAToB,
-    isFileSizeBToA, changeAmountPerPage } = props;
+    isFileSizeBToA, changeAmountPerPage, booksPerPage } = props;
 
   return (
     <div className="sort-field-wrapper">
@@ -50,6 +52,12 @@ export default function SortField(props) {
         sortValueAToB="&#9650;"
         sortValueBToA="&#9660;"
       />
+      <SortSelect
+        data={ amountPerPage }
+        stateFunc={ changeAmountPerPage }
+        labelText="Отобразить изданий: "
+        booksPerPage={ +booksPerPage }
+      />
     </div>
   );
 }
@@ -64,5 +72,6 @@ SortField.propTypes = {
   isSheetsAToB: PropTypes.bool,
   isSheetsBToA: PropTypes.bool,
   isFileSizeAToB: PropTypes.bool,
-  isFileSizeBToA: PropTypes.bool
+  isFileSizeBToA: PropTypes.bool,
+  booksPerPage: PropTypes.number
 };

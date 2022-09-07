@@ -16,44 +16,49 @@ export default function FilterField(props) {
   return (
     <aside className="filter-form">
       <div>
-        <Input
-          stateFunc={ props.setTitleFilter }
-          labelText="Поиск по названию: "
-          searchValue={ props.searchTitle }
-        />
-        <Input
-          stateFunc={ props.setAuthorFilter }
-          labelText="Поиск по автору: "
-          searchValue={ props.searchAuthor }
-        />
-        <Select
-          data={ stack }
-          stateFunc={ props.setStackFilter }
-          labelText="Поиск по технологическому стэку: "
-          searchValue={ props.searchStack }
-          preClassName="stack"
-        />
-        <Select
-          data={ year }
-          stateFunc={ props.setYearFilter }
-          labelText="Поиск по году издания: "
-          searchValue={ props.searchYear }
-          preClassName="year"
-        />
-        <Select
-          data={ formats }
-          stateFunc={ props.setFormatFilter }
-          labelText="Поиск по формату файла: "
-          searchValue={ props.searchFileFormat }
-          preClassName="format"
-        />
-        <span>Найдено: { props.result }</span>
+        <h3 className="filter-form__title">Поиск по:</h3>
+        <div>
+          <Input
+            stateFunc={ props.setTitleFilter }
+            labelText="названию: "
+            searchValue={ props.searchTitle }
+          />
+          <Input
+            stateFunc={ props.setAuthorFilter }
+            labelText="автору: "
+            searchValue={ props.searchAuthor }
+          />
+          <Select
+            data={ stack }
+            stateFunc={ props.setStackFilter }
+            labelText="технологическому стэку: "
+            searchValue={ props.searchStack }
+            preClassName="stack"
+          />
+          <Select
+            data={ year }
+            stateFunc={ props.setYearFilter }
+            labelText="году издания: "
+            searchValue={ props.searchYear }
+            preClassName="year"
+          />
+          <Select
+            data={ formats }
+            stateFunc={ props.setFormatFilter }
+            labelText="формату файла: "
+            searchValue={ props.searchFileFormat }
+            preClassName="format"
+          />
+          <span>Найдено изданий: { props.result }</span>
+        </div>
       </div>
       <button
         type="button"
         className="filter-form__clear-all"
         onClick={ () => clearAllFields() }
-      >Сбросить все фильтры</button>
+      >
+        Сбросить все фильтры
+      </button>
     </aside>
   );
 }

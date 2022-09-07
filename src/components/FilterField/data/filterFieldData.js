@@ -50,3 +50,9 @@ export const formats = [
   "epub",
   "mobi"
 ];
+
+export const amountPerPage = [
+  20,
+  50,
+  100
+];

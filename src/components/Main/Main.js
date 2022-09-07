@@ -36,7 +36,7 @@ export default function Main() {
   const setYearFilter = year => setSearchYear(year);
   const setStackFilter = stack => setSearchStack(stack);
   const setFormatFilter = format => setSearchFileFormat(format);
-  const changeAmountPerRage = amount => setBooksPerPage(amount);
+  const changeAmountPerPage = amount => setBooksPerPage(amount);
 
   const stateSortChanger = stateFnTitle => {
     if (stateFnTitle === "setTitleAToB") {
@@ -160,12 +160,13 @@ export default function Main() {
         isSheetsBToA={ isSheetsBToA }
         isFileSizeAToB={ isFileSizeAToB }
         isFileSizeBToA={ isFileSizeBToA }
-        changeAmountPerRage={ changeAmountPerRage }
+        changeAmountPerPage={ changeAmountPerPage }
+        booksPerPage={ +booksPerPage }
       />
       <section>
         <div  className="content">
           {
-            currentPageBooks.length !== 0 ? currentPageBooks
+            filteredData.length !== 0 ? currentPageBooks
               .sort(isTitleAToB ? byFieldAToB("title") : undefined)
               .sort(isTitleBToA ? byFieldBToA("title") : undefined)
               .sort(isYearAToB ? byFieldAToB("year") : undefined)
@@ -186,7 +187,7 @@ export default function Main() {
         </div>
         { isPaginationShow &&
           <Pagination
-            booksPerPage={ booksPerPage }
+            booksPerPage={ +booksPerPage }
             totalBooks={ filteredData.length }
             paginate={ paginate }
             currentPage={ currentPage }

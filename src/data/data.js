@@ -68,6 +68,7 @@ import React8 from "../assets/images/books/React/8. Full Stack Serverless. Moder
 import React9 from "../assets/images/books/React/9. The React beginners handbook.jpg";
 import React10 from "../assets/images/books/React/10. React Hooks in Action. With Suspense and Concurrent Mode.jpg";
 import React11 from "../assets/images/books/React/11. The Road to React.jpg";
+import React12 from "../assets/images/books/React/12. React Cookbook. Recipes for Mastering the React Framework .jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -83,11 +84,12 @@ import NODE4 from "../assets/images/books/NodeJS/4. Node.js Design Patterns.jpg"
 import NODE5 from "../assets/images/books/NodeJS/5. Beginning API Development with Node.js.jpg";
 import NODE6 from "../assets/images/books/NodeJS/6. Node.js. Novice to Ninja.jpg";
 import NODE7 from "../assets/images/books/NodeJS/7. Distributed Systems with Node.js.jpg";
-
+//TS comment
 import TS1 from "../assets/images/books/TS/1. TypeScript Quickly.jpg";
 import TS2 from "../assets/images/books/TS/2. Essential TypeScript.jpg";
 import TS3 from "../assets/images/books/TS/3. Programming TypeScript. Making Your JavaScript Applications Scale.jpg";
 import TS4 from "../assets/images/books/TS/4. TypeScript in 50 Lessons.jpg";
+import TS5 from "../assets/images/books/TS/5. Programming with Types.jpg";
 //PT comment
 import PT1 from "../assets/images/books/Python/1. Building Versatile Mobile Apps with Python and REST.jpg";
 import PT2 from "../assets/images/books/Python/2. Fluent Python, 2nd Edition .jpg";
@@ -118,19 +120,24 @@ import PT26 from "../assets/images/books/Python/26. Pandas in Action.jpg";
 import PT27 from "../assets/images/books/Python/27. Create GUI Applications with Python & Qt5.jpg";
 import PT28 from "../assets/images/books/Python/28. Coding with Python. A Simple And Straightforward Guide For Beginners To Learn Fast Programming With Python.jpg";
 import PT29 from "../assets/images/books/Python/29. Full Stack Python Security. Cryptography, TLS, and attack resistance.jpg";
+import PT30 from "../assets/images/books/Python/30. Mastering Large Datasets with Python.jpg";
+import PT31 from "../assets/images/books/Python/31. Financial Theory with Python.jpg";
+import PT32 from "../assets/images/books/Python/32. Robust Python. Write Clean and Maintainable Code.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
 import PHP3 from "../assets/images/books/PHP/3. Learn PHP in One Day and Learn It Well.jpg";
 import PHP4 from "../assets/images/books/PHP/4. PHP and Algorithmic Thinking for the Complete Beginner.jpg";
+import PHP5 from "../assets/images/books/PHP/5. Programming PHP. Creating Dynamic Web Pages.jpg";
 
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
 
 import Boot1 from "../assets/images/books/Bootstrap/1. Practical Bootstrap. Learn to Develop Responsively with One of the Most Popular CSS Frameworks.jpg";
-
+//Vue comment
 import Vue1 from "../assets/images/books/Vue/1. Front-End Development Projects with Vue.js.jpg";
 import Vue2 from "../assets/images/books/Vue/2. Fullstack Vue.jpg";
+import Vue3 from "../assets/images/books/Vue/3. Learn Vue JS 2 + Google Maps API for Beginners.jpg";
 
 import VSCode1 from "../assets/images/books/VS Code/1. Visual Studio Code. End-to-End Editing and Debugging Tools for Web Developers.jpg";
 
@@ -168,12 +175,15 @@ import JAVA15 from "../assets/images/books/Java/15. Reactive Systems in Java. Re
 import JAVA16 from "../assets/images/books/Java/16. Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers.jpg";
 import JAVA17 from "../assets/images/books/Java/17. Sams Teach Yourself Java in 21 Days.jpg";
 import JAVA18 from "../assets/images/books/Java/18. Beginning Programming with Java For Dummies.jpg";
-
+import JAVA19 from "../assets/images/books/Java/19. Java to Kotlin. A Refactoring Guidebook.jpg";
+import JAVA20 from "../assets/images/books/Java/20. Java. 2021 Beginners Programming Guide. 33 Best Java Tips and Tricks.jpg";
+//aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
 import AWS3 from "../assets/images/books/AWS/3. AWS Certified Cloud Practitioner Practice Tests 2019.jpg";
 import AWS4 from "../assets/images/books/AWS/4. Programming AWS Lambda.jpg";
 import AWS5 from "../assets/images/books/AWS/5. AWS Cookbook. Recipes for Success on AWS.jpg";
+import AWS6 from "../assets/images/books/AWS/6. Security and Microservice Architecture on AWS.jpg";
 //API comment
 import API1 from "../assets/images/books/API/1. Mastering API Architecture.jpg";
 import API2 from "../assets/images/books/API/2. Traefik API Gateway for Microservices.jpg";
@@ -182,9 +192,11 @@ import API4 from "../assets/images/books/API/4. Principles of Web API Design. De
 import API5 from "../assets/images/books/API/5. Advanced API Security. OAuth 2.0 And Beyond.jpg";
 import API6 from "../assets/images/books/API/6. Web API Development with Python.jpg";
 import API7 from "../assets/images/books/API/7. The Design of Web APIs.jpg";
-
+import API8 from "../assets/images/books/API/8. API Design Patterns.jpg";
+//sql comment
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
+import SQL3 from "../assets/images/books/MySQL/3. Learning MySQL. Get a Handle on Your Data.jpg";
 //Other comment
 import Other1 from "../assets/images/books/Other/1. Control Systems Engineering.jpg";
 import Other2 from "../assets/images/books/Other/2. The Book of Crypto.jpg";
@@ -201,12 +213,14 @@ import Other12 from "../assets/images/books/Other/12. AI and Machine Learning fo
 import Other13 from "../assets/images/books/Other/13. Fundamentals of Software Architecture. An Engineering Approach.jpg";
 import Other14 from "../assets/images/books/Other/14. Docs for Developers. An Engineer’s Field Guide to Technical Writing.jpg";
 import Other15 from "../assets/images/books/Other/15. Data Management at Scale.jpg";
-
+import Other16 from "../assets/images/books/Other/16. Building Microservices.jpg";
+//git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
-
+//devops comment
 import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
+import DevOps3 from "../assets/images/books/DevOps/3. Cloud Native DevOps with Kubernetes.jpg";
 //iOS comment
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
@@ -221,16 +235,23 @@ import cPlus6 from "../assets/images/books/C++/6. Starting Out with C++. Early O
 import cPlus7 from "../assets/images/books/C++/7. Data Parallel C++.jpg";
 import cPlus8 from "../assets/images/books/C++/8. Learn C++ Quickly.jpg";
 import cPlus9 from "../assets/images/books/C++/9. The C++ Workshop.jpg";
-
+import cPlus10 from "../assets/images/books/C++/10. C++. Simple and Effective Tips and Tricks to learn C++ Programming Effectively.jpg";
+import cPlus11 from "../assets/images/books/C++/11. C++ for Lazy Programmers.jpg";
+import cPlus12 from "../assets/images/books/C++/12. C++20 Recipes.jpg";
+//agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 //css comment
 import css1 from "../assets/images/books/CSS/1. CSS (Cascading Style Sheets) Visual Dictionary.jpg";
 import css2 from "../assets/images/books/CSS/2. Modern CSS. Master the Key Concepts of CSS for Modern Web Development.jpg";
 import css3 from "../assets/images/books/CSS/3. CSS in Depth.jpg";
-
+//ruby comment
 import ruby1 from "../assets/images/books/Ruby/1. Ruby on Rails Tutorial.jpg";
-
+import ruby2 from "../assets/images/books/Ruby/2. The Well-Grounded Rubyist.jpg";
+import ruby3 from "../assets/images/books/Ruby/3. Ruby Programming for Beginners.jpg";
+//csharp com
 import cSharp1 from "../assets/images/books/CSharp/1. The Ultimate Beginners Guide to cSharp  Programming.jpg";
+import cSharp2 from "../assets/images/books/CSharp/2. cShapr Cookbook. Modern Recipes for Professional Developers.jpg";
+import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
@@ -848,6 +869,21 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 0.8
   },
+  {
+    title: "React Cookbook: Recipes for Mastering the React Framework ",
+    img: React12,
+    link: "https://drive.google.com/file/d/1WygGkv7FsfLFnqS279uf_01NTM-hQvxn/view?usp=sharing",
+    author: "David Griffiths, Dawn Griffiths",
+    year: [2021, "Все"],
+    sheets: 512,
+    description: "React поможет вам создать приложение и начать работать над ним всего за несколько минут. Но научиться складывать все детали воедино действительно сложно. Как валидировать форму? Или реализовать сложное многоступенчатое действие пользователя без написания запутанного кода? Как тестировать свой код? Сделать его переиспользуемым? Подключить его к бэкэнду? React Cookbook дает ответы быстро.",
+    stack: ["React", "Все"],
+    stackIcon: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    fileFormat: "epub",
+    fileSize: 13.3
+  },
   //REACT comment
   {
     title: "HTML5 and CSS3 All-in-One For Dummies",
@@ -1117,6 +1153,21 @@ export const data = [
     clickFilterValue: "TypeScript",
     fileFormat: "pdf",
     fileSize: 8.7
+  },
+  {
+    title: "Programming with Types",
+    img: TS5,
+    link: "https://drive.google.com/file/d/1gUT6ButV_b0N3SI2ZzAy4Tnp-kcJm6tK/view?usp=sharing",
+    author: "Vlad Riscutia",
+    year: [2019, "Все"],
+    sheets: 325,
+    description: "Ошибки, связанные с типами, широко распространены и могут дорого обойтись любому разработчику. Воспользовавшись преимуществами строгой типизации, доступными в большинстве современных языков программирования, вы сможете устранить целые классы ошибок. Автор книги учит базовым методикам для написания безопасного, правильного, простого для тестирования программного обеспечения.",
+    stack: ["TypeScript", "Все"],
+    stackIcon: TSIcon,
+    borderColor: "#0176c5",
+    clickFilterValue: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 5
   },
   //TS comment
   {
@@ -1556,6 +1607,51 @@ export const data = [
     fileFormat: "epub",
     fileSize: 6.3
   },
+  {
+    title: "Mastering Large Datasets with Python",
+    img: PT30,
+    link: "https://drive.google.com/file/d/1ChiR6HuThQAJM8jN_nsgQMrdI-sEAaM4/view?usp=sharing",
+    author: "John T. Wolohan",
+    year: [2020, "Все"],
+    sheets: 312,
+    description: "Современные решения для анализа данных должны быть чистыми, удобными для чтения и масштабируемыми. В своей книге автор учит тому, как можно взять небольшой проект и масштабировать его, используя функционально зависимый подход в программировании на Python. Вы изучите методы и встроенные инструменты Python, которые обеспечивают ясность и масштабируемость, такие как высокопроизводительный метод параллелизма, а также распределенные технологии, обеспечивающие высокую пропускную способность в работе с данными. Большие упражнения в этом практическом руководстве закрепят полученные важные навыки, которые пригодятся в любом крупномасштабном проекте в области науки о данных.",
+    stack: ["Python", "Все"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 17.4
+  },
+  {
+    title: "Financial Theory with Python",
+    img: PT31,
+    link: "https://drive.google.com/file/d/1D-api_2fo5OQ0dDTUseTSXGvHJ-VKRQn/view?usp=sharing",
+    author: "Yves Hilpisch",
+    year: [2021, "Все"],
+    sheets: 298,
+    description: "Сегодня финансы, математика и программирование неразрывно связаны. В этой книге представлены соответствующие основы каждой дисциплины, чтобы дать вам основные инструменты, необходимые для начала работы в мире вычислительных финансов.",
+    stack: ["Python", "Все"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "epub",
+    fileSize: 8.7
+  },
+  {
+    title: "Robust Python: Write Clean and Maintainable Code",
+    img: PT32,
+    link: "https://drive.google.com/file/d/1Y9EhdeA_5QTTYa_wUVBJ1jFpT7dcXv4t/view?usp=sharing",
+    author: "Patrick Viafore",
+    year: [2021, "Все"],
+    sheets: 380,
+    description: "Кажется, что ваши проекты Python становятся все больше и больше? Вы чувствуете боль, когда ваша кодовая база расширяется и становится все сложнее отлаживать и поддерживать? Python - это простой язык для изучения и использования, и это также означает, что системы могут быстро вырасти за пределы понимания. К счастью, у Python есть функции, которые помогают разработчикам преодолеть проблемы с поддержкой кода.",
+    stack: ["Python", "Все"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "epub",
+    fileSize: 6.3
+  },
   //PT comment
   {
     title: "PHP, MySQL, & JavaScript Все-in-One For Dummies",
@@ -1621,6 +1717,21 @@ export const data = [
     fileFormat: "epub",
     fileSize: 11.8
   },
+  {
+    title: "Programming PHP: Creating Dynamic Web Pages",
+    img: PHP5,
+    link: "https://drive.google.com/file/d/1_R8md63f_D-RcpNxeXzTKV3FNHT7cpPK/view?usp=sharing",
+    author: "Kevin Tatroe, Peter MacIntyre",
+    year: [2020, "Все"],
+    sheets: 544,
+    description: "В этой обновленной книге авторы учат всему, что вам нужно знать для создания эффективных веб-приложений с использованием новейших особенностей PHP 7.4. Вы начнете с общих понятий, а затем погрузитесь в синтаксис языка, методы программирования и другие детали, используя примеры, которые иллюстрируют как правильное использование, так и общие идиомы.",
+    stack: ["PHP", "Все"],
+    stackIcon: phpIcon,
+    borderColor: "#6181b6",
+    clickFilterValue: "PHP",
+    fileFormat: "epub",
+    fileSize: 3.5
+  },
   //PHP comment
   {
     title: "The Road to GraphQL",
@@ -1669,7 +1780,6 @@ export const data = [
     fileSize: 20.1
   },
   //Bootstrap comment
-  //Vue comment
   {
     title: "Front-End Development Projects with Vue.js",
     img: Vue1,
@@ -1700,6 +1810,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 18.6
   },
+  {
+    title: "Learn Vue JS 2 + Google Maps API for Beginners",
+    img: Vue3,
+    link: "https://drive.google.com/file/d/1RmqdEmUlBUYa1RORaLwi1zhbHoNjnNpf/view?usp=sharing",
+    author: "Raja Tamil",
+    year: [2020, "Все"],
+    sheets: 147,
+    description: "Google Maps API - надежный инструмент, который часто выбирают при создании приложений, работающих с местоположением пользователя. В книге автор учит создавать программы с использованием Vue.js, приводя в пример некоторые приложения. Книга основана на популярном курсе с Udemy.",
+    stack: ["Vue.js", "Все"],
+    stackIcon: vueIcon,
+    borderColor: "#41b883",
+    clickFilterValue: "Vue.js",
+    fileFormat: "pdf",
+    fileSize: 5.3
+  },
+  //Vue comment
   //VS Code comment
   {
     title: "Visual Studio Code: End-to-End Editing and Debugging Tools for Web Developers",
@@ -2190,6 +2316,38 @@ export const data = [
     fileFormat: "epub",
     fileSize: 9.3
   },
+  {
+    title: "Java to Kotlin: A Refactoring Guidebook",
+    img: JAVA19,
+    link: "https://drive.google.com/file/d/17vPNhkLKZCDrhTjYgzhvvAzP9yqKkTPn/view?usp=sharing",
+    author: "Duncan McGregor, Nat Pryce",
+    year: [2021, "Все"],
+    sheets: 424,
+    description: "Книга учит миграции кода с Java на Kotlin. Получаемый код проще, выразительнее и его легче изменять. К концу чтения книги вы будете уверенно рефакторить код, научитесь писать на Kotlin приложения с нуля и управлять кодовой базой из двух языков по мере ее развития с течением времени.",
+    stack: ["Java", "Kotlin", "Все"],
+    stackIcon: javaIcon,
+    stackIcon2: kotlinIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    clickFilterValue2: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 2.7
+  },
+  {
+    title: "Java: 2021 Beginners Programming Guide. 33 Best Java Tips and Tricks",
+    img: JAVA20,
+    link: "hhttps://drive.google.com/file/d/1dEoXg8HTFiSfMJnV3Mi0PZCpqI7-iaVs/view?usp=sharing",
+    author: "Richard McGuire",
+    year: [2021, "Все"],
+    sheets: 366,
+    description: "Java - это язык программирования и вычислительная платформа, разработанная Sun Microsystems в 1995 году. Каждый день создается все больше и больше программ и веб-сайтов, совместимых с Java. Она считается надежным, быстрым и безопасным языком для создания больших программных приложений. Автор книги научит основам программирования на этом языке.",
+    stack: ["Java", "Все"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: 1
+  },
   //Java comment
   {
     title: "AWS All-in-One Security Guide: Design, Build, Monitor, and Manage a Fortified Application Ecosystem on AWS",
@@ -2267,6 +2425,21 @@ export const data = [
     clickFilterValue: "AWS",
     fileFormat: "pdf",
     fileSize: 8.2
+  },
+  {
+    title: "Security and Microservice Architecture on AWS",
+    img: AWS6,
+    link: "https://drive.google.com/file/d/1IQPYE5DgXRFOXwTbh34jJ_emc37WQuXJ/view?usp=sharing",
+    author: "Gaurav Raje",
+    year: [2021, "Все"],
+    sheets: 396,
+    description: "Когда организации разрабатывают микросервисы для облачных систем, о безопасности обычно думают во вторую очередь. Большинство компаний сегодня подвержены потенциальным угрозам безопасности, но их ответы часто являются скорее реактивными, чем упреждающими. Это приводит к излишне сложным системам, которые сложно реализовать, а еще сложнее ими управлять и их масштабировать. Автор книги покажет вам, как создавать высоконадежные системы на AWS без увеличения накладных расходов.",
+    stack: ["AWS", "Все"],
+    stackIcon: awsIcon,
+    borderColor: "#ff9a00",
+    clickFilterValue: "AWS",
+    fileFormat: "pdf",
+    fileSize: 12.6
   },
   //AWS comment
   {
@@ -2378,6 +2551,21 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 11.5
   },
+  {
+    title: "API Design Patterns",
+    img: API8,
+    link: "https://drive.google.com/file/d/1VV6KzLa92Zun_vh9SfODV43kG_BIJaUq/view?usp=sharing",
+    author: "JJ Geewax",
+    year: [2021, "Все"],
+    sheets: 480,
+    description: "Книга раскрывает передовой опыт создания стабильных и удобных API. Шаблоны проектирования можно применять для решения общих проблем API и гибко изменять в соответствии с вашими конкретными потребностями. Практические примеры и соответствующие варианты использования иллюстрируют шаблоны для основ API, расширенных функций и даже необычных сценариев.",
+    stack: ["API", "Все"],
+    stackIcon: apiIcon,
+    borderColor: null,
+    clickFilterValue: "API",
+    fileFormat: "pdf",
+    fileSize: 11.5
+  },
   //API comment
   {
     title: "High Performance MySQL: Proven Strategies for Operating at Scale, 4th Edition",
@@ -2408,6 +2596,21 @@ export const data = [
     clickFilterValue: "MySQL",
     fileFormat: "epub",
     fileSize: 3.9
+  },
+  {
+    title: "Learning MySQL: Get a Handle on Your Data",
+    img: SQL3,
+    link: "https://drive.google.com/file/d/19cbP8tLvGrQYshP0A9mp3AAwqp5MKT1i/view?usp=sharing",
+    author: "Vinicius M. Grippa, Sergey Kuzmichev",
+    year: [2021, "Все"],
+    sheets: 632,
+    description: "Получите исчерпывающий обзор того, как настроить и разработать эффективную базу данных с MySQL. Это полностью обновленное издание охватывает последнюю версию MySQL, включая ее наиболее важные аспекты. Независимо от того, развертываете ли вы среду, устраняете неполадки или участвуете в аварийном восстановлении, это практическое руководство поможет найти информацию и инструменты, необходимые для полного использования преимуществ этой мощной СУБД.",
+    stack: ["MySQL", "Все"],
+    stackIcon: sqlIcon,
+    borderColor: "#0b6084",
+    clickFilterValue: "MySQL",
+    fileFormat: "epub",
+    fileSize: 10.6
   },
   //MySQL comment
   {
@@ -2635,6 +2838,21 @@ export const data = [
     fileFormat: "epub",
     fileSize: 8.9
   },
+  {
+    title: "Building Microservices",
+    img: Other16,
+    link: "https://drive.google.com/file/d/1Nbs4ZNAIC_oVZLYZp0ENJ1aR_jhgnL5-/view?usp=sharing",
+    author: "Sam Newman",
+    year: [2021, "Все"],
+    sheets: 616,
+    description: "По мере того как организации переходят от монолитных приложений к более мелким автономным микросервисам, распределенные системы становятся более детализированными. Но разработка этих новых систем сопряжена с множеством проблем. Это расширенное второе издание дает целостное представление в тех темах, которые необходимо учитывать при построении, управлении и масштабировании архитектур микросервисов.",
+    stack: ["Other", "Все"],
+    stackIcon: otherIcon,
+    borderColor: null,
+    clickFilterValue: "Other",
+    fileFormat: "epub",
+    fileSize: 10.3
+  },
   //Other comment
   {
     title: "Head First Git",
@@ -2696,6 +2914,21 @@ export const data = [
     clickFilterValue: "DevOps",
     fileFormat: "pdf",
     fileSize: 3.5
+  },
+  {
+    title: "Cloud Native DevOps with Kubernetes",
+    img: DevOps3,
+    link: "https://drive.google.com/file/d/1CM0rBbKil7WDaPb1uMCA5VBoIjDMWznd/view?usp=sharing",
+    author: "John Arundel, Justin Domingus",
+    year: [2019, "Все"],
+    sheets: 346,
+    description: "Эта книга показывает разработчикам, как применять стандартные практики DevOps для Kubernetes в cloud-native контексте. Вы узнаете все об экосистеме Kubernetes и найдете проверенные в бою решения частых проблем.",
+    stack: ["DevOps", "Все"],
+    stackIcon: devopsIcon,
+    borderColor: null,
+    clickFilterValue: "DevOps",
+    fileFormat: "pdf",
+    fileSize: 11.8
   },
   //DevOps comment
   {
@@ -2879,6 +3112,51 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 7.1
   },
+  {
+    title: "C++: Simple and Effective Tips and Tricks to learn C++ Programming Effectively",
+    img: cPlus10,
+    link: "https://drive.google.com/file/d/1qNuJMkW3pwyrSXyWr_ZAv8InPUomlWPz/view?usp=sharing",
+    author: "Benjamin Smith",
+    year: [2020, "Все"],
+    sheets: 150,
+    description: "Надоело искать среди множества учебников простое и удобное для чтения руководство? Программистский жаргон и неполные объяснения концепций замедляют обучение? Если вы ищете справочник, в котором освещаются фундаментальные и ключевые компоненты программирования на C++, эта книга отлично подойдет.",
+    stack: ["C++", "Все"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "epub",
+    fileSize: 1.5
+  },
+  {
+    title: "C++ for Lazy Programmers",
+    img: cPlus11,
+    link: "https://drive.google.com/file/d/1tIfa7ZPWb3kzuUKtFwG9nucQWO5vnGA8/view?usp=sharing",
+    author: "Will Briggs",
+    year: [2019, "Все"],
+    sheets: 672,
+    description: "Эта книга поможет вам выучить язык C++. Она предоставляет подробную информацию как по компиляторам Visual Studio, так и по компиляторам g++, а также их отладчикам. Работая с книгой, вы выполните ряд лабораторных работ: проекты, предназначенные для улучшения ваших способностей, проверки новых навыков. Вы не только познакомитесь с основами языка, но и узнаете, как создать интересный проект аркадной игры на C++. После прочтения этой книги вы будете готовы к созданию своего первого полноценного приложения на C++ или игрового проекта самостоятельно.",
+    stack: ["C++", "Все"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "pdf",
+    fileSize: 12.8
+  },
+  {
+    title: "C++20 Recipes",
+    img: cPlus12,
+    link: "https://drive.google.com/file/d/12oU_hQ1fHjPWno93u_zzcEK_vNgADSQC/view?usp=sharing",
+    author: "J. Burton Browning, Bruce Sutherland",
+    year: [2020, "Все"],
+    sheets: 660,
+    description: "Откройте для себя новейшие основные фичи C++20, включая модули, концепты, spaceship оператор и умные указатели. Эта книга представляет собой удобное справочное руководство, которое охватывает новый стандарт языка C++, а также некоторые шаблоны кода, доступные в стандартной библиотеке шаблонов.",
+    stack: ["C++", "Все"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "pdf",
+    fileSize: 16.5
+  },
   //Cplus comment
   {
     title: "AGILE in Practice: Practical Use-cases on Project Management Methods including Agile, Kanban and Scrum",
@@ -2957,6 +3235,36 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 31.7
   },
+  {
+    title: "The Well-Grounded Rubyist",
+    img: ruby2,
+    link: "https://drive.google.com/file/d/1OCtmbq2G5nEKWfrD2mQ52N--ARS9-TjT/view?usp=sharing",
+    author: "David A. Black, Joseph Leo III",
+    year: [2019, "Все"],
+    sheets: 584,
+    description: "Авторы показывают возможности Ruby в удобном для чтения и непринуждённом стиле. В начале книги вы узнаете об основных принципах языка, когда будете писать свои первые небольшие программы. Затем вы постепенно перейдёте к таким темам, как рефлексия, многопоточность и рекурсия, укрепляя знания упражнениями, чтобы постоянно практиковать свои навыки.",
+    stack: ["Ruby", "Все"],
+    stackIcon: rubyIcon,
+    borderColor: "#aa1501",
+    clickFilterValue: "Ruby",
+    fileFormat: "pdf",
+    fileSize: 4.5
+  },
+  {
+    title: "Ruby Programming for Beginners",
+    img: ruby3,
+    link: "https://drive.google.com/file/d/1w8kW71JXgugkkdDzNtmqWvOY6U3pitHy/view?usp=sharing",
+    author: "Nathan Metzler",
+    year: [2020, "Все"],
+    sheets: 148,
+    description: "Вы совсем новичок в программировании и ищете отличный, простой для понимания язык, который можно было бы выучить в первую очередь? Ruby не зря используется в некоторых из самых популярных и загруженных пользователями веб-приложений. Его легко поддерживать и он предназначен для одновременной работы. В этом руководстве Натан Метцлер показывает, как легко начать работу с Ruby и начать писать свои собственные приложения.",
+    stack: ["Ruby", "Все"],
+    stackIcon: rubyIcon,
+    borderColor: "#aa1501",
+    clickFilterValue: "Ruby",
+    fileFormat: "pdf",
+    fileSize: 4.3
+  },
   //ruby comment
   {
     title: "The Ultimate Beginners Guide to C# Programming",
@@ -2973,7 +3281,37 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 2.2
   },
-  //C# comment
+  {
+    title: "C# Cookbook: Modern Recipes for Professional Developers",
+    img: cSharp2,
+    link: "https://drive.google.com/file/d/10zlRp27ZqC8C9HjVYFvd_b9fnFhXkTge/view?usp=sharing",
+    author: "Joe Mayo",
+    year: [2021, "Все"],
+    sheets: 328,
+    description: "Даже если вы знакомы с синтаксисом C#, умение комбинировать различные языковые функции является критически важным навыком при создании приложений. Эта книга содержит множество рецептов, которые помогут вам решать проблемы программирования на C#, с которыми вы, вероятно, столкнетесь. Вы изучите проверенные методы, которые помогут добиться большей производительности и улучшить качество кода.",
+    stack: ["C#", "Все"],
+    stackIcon: cSharpIcon,
+    borderColor: "#9b4f96",
+    clickFilterValue: "C#",
+    fileFormat: "epub",
+    fileSize: 1.6
+  },
+  {
+    title: "Code like a Pro in C#",
+    img: cSharp3,
+    link: "https://drive.google.com/file/d/1HQVwE2MeK6aBk5BBvcR6dmzNIhyHPwMM/view?usp=sharing",
+    author: "Jort Rodenburg",
+    year: [2021, "Все"],
+    sheets: 416,
+    description: "Важнейшие бизнес-приложения во всем мире написаны на универсальном языке C# и на мощной платформе .NET и работают на настольных компьютерах, облачных системах и серверах Windows или Linux. Code Like a Pro in C# позволяет улучшить имеющиеся у вас способности в разработке ПО. Здесь нет основ по типу 'Hello World' или 'Computer Science 101' - вы будете учиться на практических примерах, реорганизовывая устаревшую кодовую базу, используя новые методы, инструменты и передовые практики, чтобы привести ее в соответствие с современными стандартами C#.",
+    stack: ["C#", "Все"],
+    stackIcon: cSharpIcon,
+    borderColor: "#9b4f96",
+    clickFilterValue: "C#",
+    fileFormat: "pdf",
+    fileSize: 39.8
+  },
+  //csharp comment
   {
     title: "Microservices in .NET",
     img: net1,
