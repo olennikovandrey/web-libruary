@@ -398,7 +398,7 @@ export const data = [
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
     fileFormat: "pdf",
-    fileSize: "20.2 Мб"
+    fileSize: 20.2
   },
   {
     title: "JavaScript Next",
@@ -2426,7 +2426,7 @@ export const data = [
     stackIcon2: javaIcon,
     borderColor: "#ff9a00",
     clickFilterValue: "AWS",
-    clickFilterValu2: "Java",
+    clickFilterValue2: "Java",
     fileFormat: "epub",
     fileSize: 8.5
   },

@@ -30,7 +30,7 @@ export default function BookItem({ data, setStackFilter }) {
               { lang === "english" ? "Product year:" : "Год издания:" } { data.year[0] }
             </span>
             <span className="description__sheets">
-              { lang === "english" ? "Number of pages" : "Количество страниц:" } { data.sheets }
+              { lang === "english" ? "Number of pages:" : "Количество страниц:" } { data.sheets }
             </span>
             <div className="description__show-info-btn" onClick={ () => setShowInfo(!showInfo) }>
               { showInfo ? ( lang === "english" ? "Hide description" : "Скрыть описание" ) :
