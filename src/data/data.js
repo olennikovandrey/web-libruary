@@ -151,6 +151,7 @@ import Security4 from "../assets/images/books/Security/4. Practical Security for
 import Security5 from "../assets/images/books/Security/5. Cross-Site Scripting Attacks. Classification, Attack, and Countermeasures.jpg";
 import Security6 from "../assets/images/books/Security/6. Web Application Security.jpg";
 import Security7 from "../assets/images/books/Security/7. Spring Security in Action.jpg";
+import Security8 from "../assets/images/books/Security/8. Security for Software Engineers.jpg";
 //UI comment
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
@@ -244,6 +245,7 @@ import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 import css1 from "../assets/images/books/CSS/1. CSS (Cascading Style Sheets) Visual Dictionary.jpg";
 import css2 from "../assets/images/books/CSS/2. Modern CSS. Master the Key Concepts of CSS for Modern Web Development.jpg";
 import css3 from "../assets/images/books/CSS/3. CSS in Depth.jpg";
+import css4 from "../assets/images/books/CSS/4. CSS Flex & Grid. Complete Guide with Real World Examples and Code Snippets (Tailwind CSS).jpg";
 //ruby comment
 import ruby1 from "../assets/images/books/Ruby/1. Ruby on Rails Tutorial.jpg";
 import ruby2 from "../assets/images/books/Ruby/2. The Well-Grounded Rubyist.jpg";
@@ -910,7 +912,7 @@ export const data = [
     year: [2018, "Все"],
     sheets: 810,
     description: "Вы хотите создавать веб-страницы, но у вас нет опыта? Данная книга отлично подойдёт для начала. Вы начнёте с нуля, узнаете, как работают веб-страницы, а затем постепенно начнете создавать собственные. К концу книги у вас будут навыки создания простого сайта, адаптированного для мобильных устройств.",
-    stack: ["HTML", "CSS", "Все"],
+    stack: ["HTML", "CSS", "JavaScript", "Все"],
     stackIcon: htmlIcon,
     stackIcon2: cssIcon,
     stackIcon3: JSIcon,
@@ -1741,10 +1743,12 @@ export const data = [
     year: [2018, "Все"],
     sheets: 352,
     description: "Книга полна примеров приложений, аналогичные которым вы можете создать с помощью React.js и Node.js. Автор учит создавать full-stack приложения на JavaScript. Чтобы извлечь максимальную пользу из этой книги, вы должны быть знакомы с основами веб-разработки, иметь некоторые знания HTML, CSS и JavaScript.",
-    stack: ["GraphQL", "Все"],
+    stack: ["GraphQL", "JavaScript", "Все"],
     stackIcon: graphqlIcon,
+    stackIcon2: JSIcon,
     borderColor: "#e10098",
     clickFilterValue: "GraphQL",
+    clickFilterValue2: "JavaScript",
     fileFormat: "pdf",
     fileSize: 1.2
   },
@@ -1983,6 +1987,21 @@ export const data = [
     clickFilterValue: "Web security",
     fileFormat: "pdf",
     fileSize: 13.6
+  },
+  {
+    title: "Security for Software Engineers",
+    img: Security8,
+    link: "https://drive.google.com/file/d/1rj3SmSFYfym4IbG2cq5rSnSpE0_8-sOh/view?usp=sharing",
+    author: "Laurentiu Spilca",
+    year: [2019, "Все"],
+    sheets: 350,
+    description: "Security for Software Engineers предназначена для ознакомления с концепциями безопасности студентов бакалавриата по разработке программного обеспечения. Книга разделена на четыре части, каждая из которых посвящена видам деятельности, в которых программист, скорее всего, будет участвовать в отрасли. В книге рассматриваются ключевые области векторов атак, усиления защиты кода, конфиденциальности и социальной инженерии. Каждая тема рассматривается с теоретической точки зрения и с точки зрения практического применения.",
+    stack: ["Web security", "Все"],
+    stackIcon: lockIcon,
+    borderColor: null,
+    clickFilterValue: "Web security",
+    fileFormat: "pdf",
+    fileSize: 48
   },
   //Security comment
   {
@@ -3205,7 +3224,7 @@ export const data = [
     fileSize: 9
   },
   {
-    title: "CSS in Depth.jpg",
+    title: "CSS in Depth",
     img: css3,
     link: "https://drive.google.com/file/d/1quUyPrWEqZy2PfCDkc3fc22q_55DPNPF/view?usp=sharing",
     author: "Keith J. Grant",
@@ -3218,6 +3237,21 @@ export const data = [
     clickFilterValue: "CSS",
     fileFormat: "pdf",
     fileSize: 14.7
+  },
+  {
+    title: "CSS Flex & Grid: Complete Guide with Real World Examples and Code Snippets (Tailwind CSS)",
+    img: css4,
+    link: "https://drive.google.com/file/d/1xt6bqFXr9NlNRflSMrmBObZ-mLTNlRG2/view?usp=sharing",
+    author: "Shruti Balasa",
+    year: [2021, "Все"],
+    sheets: 175,
+    description: "Станьте профессионалом в создании компонентов и макетов с помощью CSS Flexbox и Grid. Узнайте больше, просмотрев подготовленный список из более чем 70 реальных вариантов использования и примеров, описанных в Tailwind CSS. Получите доступ к закрытым ссылкам CodePen с рабочими демонстрациями для всех примеров.",
+    stack: ["CSS", "Все"],
+    stackIcon: cssIcon,
+    borderColor: "#1b73ba",
+    clickFilterValue: "CSS",
+    fileFormat: "pdf",
+    fileSize: 20.4
   },
   //CSS comment
   {

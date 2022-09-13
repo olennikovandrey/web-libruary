@@ -1,7 +1,7 @@
 import { RU, EN } from "./actions/action-types";
 
 export const initState = {
-  lang: "english"
+  lang: "russian"
 };
 
 const reducer = (state = initState, action) => {
