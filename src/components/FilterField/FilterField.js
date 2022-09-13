@@ -1,4 +1,4 @@
-import { stack, year, formats } from "./data/filterFieldData";
+import { stackRU, yearRU, stackEN, yearEN, formats } from "./data/filterFieldData";
 import Input from "./Input/Input";
 import Select from "./Select/Select";
 import React from "react";
@@ -33,14 +33,14 @@ export default function FilterField(props) {
             searchValue={ props.searchAuthor }
           />
           <Select
-            data={ stack }
+            data={ lang === "english" ? stackEN : stackRU }
             stateFunc={ props.setStackFilter }
             labelText={ lang === "english" ? "stack:" : "технологическому стэку:" }
             searchValue={ props.searchStack }
             preClassName="stack"
           />
           <Select
-            data={ year }
+            data={ lang === "english" ? yearEN : yearRU }
             stateFunc={ props.setYearFilter }
             labelText={ lang === "english" ? "product year:" : "году издания:" }
             searchValue={ props.searchYear }
