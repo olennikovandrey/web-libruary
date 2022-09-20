@@ -132,8 +132,9 @@ import PHP5 from "../assets/images/books/PHP/5. Programming PHP. Creating Dynami
 
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
-
+//Bootstrap comment
 import Boot1 from "../assets/images/books/Bootstrap/1. Practical Bootstrap. Learn to Develop Responsively with One of the Most Popular CSS Frameworks.jpg";
+import Boot2 from "../assets/images/books/Bootstrap/2. Bootstrap 5 Foundations.jpg";
 //Vue comment
 import Vue1 from "../assets/images/books/Vue/1. Front-End Development Projects with Vue.js.jpg";
 import Vue2 from "../assets/images/books/Vue/2. Fullstack Vue.jpg";
@@ -157,6 +158,7 @@ import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginne
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
 import UI3 from "../assets/images/books/UI/3. Think Like a UX Researcher.jpg";
 import UI4 from "../assets/images/books/UI/4. Lean UX.jpg";
+import UI5 from "../assets/images/books/UI/5. Laws of UX. Using Psychology to Design Better Products & Services.jpg";
 //Java comment
 import JAVA1 from "../assets/images/books/Java/1. Mastering Java. A Beginner's Guide.jpg";
 import JAVA2 from "../assets/images/books/Java/2. Selenium with Java – A Beginner’s Guide.jpg";
@@ -194,6 +196,7 @@ import API5 from "../assets/images/books/API/5. Advanced API Security. OAuth 2.0
 import API6 from "../assets/images/books/API/6. Web API Development with Python.jpg";
 import API7 from "../assets/images/books/API/7. The Design of Web APIs.jpg";
 import API8 from "../assets/images/books/API/8. API Design Patterns.jpg";
+import API9 from "../assets/images/books/API/9. Beginning Django API with React. Build Django 4 Web APIs with React Full Stack Applications.jpg";
 //sql comment
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
@@ -1783,6 +1786,21 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 20.1
   },
+  {
+    title: "Bootstrap 5 Foundations",
+    img: Boot2,
+    link: "https://drive.google.com/file/d/13z4iLX6niwajyDQ_ct-9-s45OBomw6_7/view?usp=sharing",
+    author: "Daniel Charles Foreman",
+    year: [2021, "Все", "All"],
+    sheets: 173,
+    description: "Bootstrap - это фреймворк HTML5, CSS и JavaScript, который занимает 72% рынка. Он используется для быстрого и легкого создания адаптивных веб-сайтов. Эта электронная книга даст вам понимание, необходимое для того, чтобы овладеть навыками HTML5 и использовать их с самым популярным в мире веб-фреймворком.",
+    stack: ["Bootstrap", "Все", "All"],
+    stackIcon: bootstrapIcon,
+    borderColor: "#5b4083",
+    clickFilterValue: "Bootstrap",
+    fileFormat: "epub",
+    fileSize: 6.5
+  },
   //Bootstrap comment
   {
     title: "Front-End Development Projects with Vue.js",
@@ -2063,6 +2081,21 @@ export const data = [
     clickFilterValue: "UI/UX",
     fileFormat: "pdf",
     fileSize: 7.1
+  },
+  {
+    title: "Laws of UX. Using Psychology to Design Better Products & Services",
+    img: UI5,
+    link: "https://drive.google.com/file/d/1fxPhRtRQowS1xgHh8xwx7YRORwpGIUFV/view?usp=sharing",
+    author: "Jon Yablonski",
+    year: [2020, "Все", "All"],
+    sheets: 137,
+    description: "Это практическое руководство объясняет, как вы можете применять ключевые принципы психологии для создания продуктов, которые являются более интуитивными и ориентированными на человека. Автор Джон Яблонски разбирает дизайн приложений, чтобы привести наглядные примеры того, как дизайнеры UX могут создавать дизайн, адаптирующийся к тому, как пользователи воспринимают и обрабатывают цифровые интерфейсы.",
+    stack: ["UI/UX", "user interface", "Все", "All"],
+    stackIcon: uiIcon,
+    borderColor: null,
+    clickFilterValue: "UI/UX",
+    fileFormat: "pdf",
+    fileSize: 20.7
   },
   //UI comment
   {
@@ -2584,6 +2617,23 @@ export const data = [
     clickFilterValue: "API",
     fileFormat: "pdf",
     fileSize: 11.5
+  },
+  {
+    title: "Beginning Django API with React: Build Django 4 Web APIs with React Full Stack Applications",
+    img: API9,
+    link: "https://drive.google.com/file/d/1urD3OPKsfa7RfM4lvdZeR8VjYR-Oo7S5/view?usp=sharing",
+    author: "Correa, Daniel & Lim, Greg",
+    year: [2022, "Все", "All"],
+    sheets: 161,
+    description: "В этой книге автор отправит вас в увлекательное,  путешествие по изучению разработки стека Django + React. Вы начнете создавать свое первое приложение с Django и React в течение нескольких минут. Каждая глава написана лаконично и прямо по существу, без лишней информации, которая не относится к разработке. В конце концов, у вас будет работающее приложение Todo, развернутое в Интернете.",
+    stack: ["API", "React", "Все", "All"],
+    stackIcon: apiIcon,
+    stackIcon2: reactIcon,
+    borderColor: null,
+    clickFilterValue: "API",
+    clickFilterValue2: "React",
+    fileFormat: "pdf",
+    fileSize: 3
   },
   //API comment
   {
