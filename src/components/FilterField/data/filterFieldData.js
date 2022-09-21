@@ -17,6 +17,7 @@ export const stackRU = [
   "Java",
   "JavaScript",
   "Kotlin",
+  "Lavarel",
   "NodeJS",
   "PHP",
   "Python",

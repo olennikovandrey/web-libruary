@@ -27,6 +27,7 @@ import rubyIcon from "../assets/images/technologies/ruby.svg";
 import cSharpIcon from "../assets/images/technologies/cSharp.svg";
 import netIcon from "../assets/images/technologies/net-without-word.svg";
 import kotlinIcon from "../assets/images/technologies/kotlin.svg";
+import lavarelIcon from "../assets/images/technologies/lavarel.svg";
 
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
@@ -129,6 +130,7 @@ import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Pract
 import PHP3 from "../assets/images/books/PHP/3. Learn PHP in One Day and Learn It Well.jpg";
 import PHP4 from "../assets/images/books/PHP/4. PHP and Algorithmic Thinking for the Complete Beginner.jpg";
 import PHP5 from "../assets/images/books/PHP/5. Programming PHP. Creating Dynamic Web Pages.jpg";
+import PHP6 from "../assets/images/books/PHP/6. PHP and MySQL Web Development.jpg";
 
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
@@ -262,6 +264,10 @@ import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
+//lavarel com
+import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
+import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
+import lavarel3 from "../assets/images/books/Lavarel/3. Practical Laravel. Develop clean MVC web applications.jpg";
 
 export const data = [
   {
@@ -1736,6 +1742,25 @@ export const data = [
     clickFilterValue: "PHP",
     fileFormat: "epub",
     fileSize: 3.5
+  },
+  {
+    title: "PHP and MySQL Web Development",
+    img: PHP6,
+    link: "https://drive.google.com/file/d/14AfeM-9wUahoCETPV4EsXtNfUd0bApOM/view?usp=sharing",
+    author: "Люк Веллинг, Лаура Томсон",
+    year: [2017, "Все", "All"],
+    sheets: 544,
+    description: "Можно прочитать книги по PHP и SQL, выучить основы языков, но так и не разобраться в том, как же разрабатывать сложные веб- приложения, а можно прочитать следующее пособие, в котором вы, кроме тех же основ, найдёте важные главы о том, как проектировать и создавать базы данных, как реализовывать аутентификацию пользователей и корзину для покупок, найдёте информацию по веб-безопасности ваших приложений, а также узнаете, как объединять технологии клиентской и серверной сторон за счет использования при разработке приложений технологии JavaScript. К тому же последние главы посвящены разработке веб-почты при помощи популярного фреймворка Laravel.",
+    stack: ["PHP", "MySQL", "Lavarel", "Все", "All"],
+    stackIcon: phpIcon,
+    stackIcon2: sqlIcon,
+    stackIcon3: lavarelIcon,
+    borderColor: "#6181b6",
+    clickFilterValue: "PHP",
+    clickFilterValue2: "MySQL",
+    clickFilterValue3: "Lavarel",
+    fileFormat: "pdf",
+    fileSize: 1.8
   },
   //PHP comment
   {
@@ -3443,4 +3468,52 @@ export const data = [
     fileSize: 113.7
   },
   //kotlin comment
+  {
+    title: "Easy Laravel 5: A Hands On Introduction Using a Real-World Project",
+    img: lavarel1,
+    link: "https://drive.google.com/file/d/1BUasjHBrBINiojduFMBlx3LhEISYo6gs/view?usp=sharing",
+    author: "W. Jason Gilmore",
+    year: [2018, "Все", "All"],
+    sheets: 289,
+    description: "Вы должны были уже привыкнуть к тому, что в реальном мире большие коммерческие веб-приложения пишутся с помощью фреймворков, потому что это качественно, быстро и надёжно. Если вы хорошо знаете PHP и принципы объектно-ориентированного программирования, то вам не составит большого труда понять, как работает система фреймворка, как обрабатывается пользовательский запрос и подготавливается ответ от приложения и как осуществляется общение компонентов MVC.",
+    stack: ["Lavarel", "Vue.js", "Все", "All"],
+    stackIcon: lavarelIcon,
+    stackIcon2: vueIcon,
+    borderColor: "#f13125",
+    clickFilterValue: "Lavarel",
+    clickFilterValue2: "Vue.js",
+    fileFormat: "pdf",
+    fileSize: 8.4
+  },
+  {
+    title: "Laravel: Up & Running: A Framework for Building Modern PHP Apps",
+    img: lavarel2,
+    link: "https://drive.google.com/file/d/14h7tEbetaJTUpxFPuxyX-sGMctGldVic/view?usp=sharing",
+    author: "Matt Stauffer",
+    year: [2019, "Все", "All"],
+    sheets: 544,
+    description: "Фреймворк Laravel отличает от других фрейворков PHP скорость и простота для начинающих. Он позволяет быстро создавать новые сайты с качественным читабельным кодом. Второе издание этого руководства предоставляет исчерпывающее введение в работу с одним из самых популярных фреймворков.",
+    stack: ["Lavarel", "Все", "All"],
+    stackIcon: lavarelIcon,
+    borderColor: "#f13125",
+    clickFilterValue: "Lavarel",
+    fileFormat: "pdf",
+    fileSize: 7.8
+  },
+  {
+    title: "Practical Laravel: Develop clean MVC web applications",
+    img: lavarel3,
+    link: "https://drive.google.com/file/d/1uwn7S68urulFeAYtf6rm6r0236lP8MkT/view?usp=sharing",
+    author: "Vallejo",
+    year: [2022, "Все", "All"],
+    sheets: 243,
+    description: "Laravel - это фреймворк для веб-приложений на PHP с элегантным синтаксисом. В книге мы будем использовать Laravel для разработки приложения интернет-магазина, которое использует множество функций фреймворка. Приложение интернет-магазина станет средством для понимания простых и сложных концепций Laravel и того, как функции Laravel можно использовать для реализации коммерческих приложений.",
+    stack: ["Lavarel", "Все", "All"],
+    stackIcon: lavarelIcon,
+    borderColor: "#f13125",
+    clickFilterValue: "Lavarel",
+    fileFormat: "pdf",
+    fileSize: 18.1
+  },
+  //lavarel com
 ];
