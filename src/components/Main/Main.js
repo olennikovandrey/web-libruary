@@ -31,7 +31,7 @@ export default function Main() {
     item.fileFormat.includes(searchFileFormat)
   );
 
-  const stateChangerFn = (value, stateFn) => {
+  const stateChangerFn = (stateFn, value) => {
     setCurrentPage(1);
     stateFn(value);
     window.scrollBy(0, -document.body.scrollHeight);
@@ -142,6 +142,7 @@ export default function Main() {
         setSearchYear={ setSearchYear }
         setSearchStack={ setSearchStack }
         setSearchFileFormat={ setSearchFileFormat }
+        setCurrentPage={ setCurrentPage }
         stateChangerFn={ stateChangerFn }
         searchTitle={ searchTitle }
         searchAuthor={ searchAuthor }

@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 export default function FilterField(props) {
   const lang = useSelector(state => state.lang);
   const {
-    stateChangerFn, setSearchTitle, setSearchAuthor, setSearchStack, setSearchYear, setSearchFileFormat,
+    stateChangerFn, setCurrentPage, setSearchTitle, setSearchAuthor, setSearchStack, setSearchYear, setSearchFileFormat,
     searchTitle, searchAuthor, searchStack, searchYear, searchFileFormat, result } = props;
 
   const clearAllFields = () => {
@@ -39,24 +39,24 @@ export default function FilterField(props) {
           />
           <Select
             data={ lang === "english" ? stackEN : stackRU }
-            stateChangerFn={ stateChangerFn}
             stateFunc={ setSearchStack }
+            setCurrentPage={ setCurrentPage }
             labelText={ lang === "english" ? "stack:" : "технологическому стэку:" }
             searchValue={ searchStack }
             preClassName="stack"
           />
           <Select
             data={ lang === "english" ? yearEN : yearRU }
-            stateChangerFn={ stateChangerFn}
             stateFunc={ setSearchYear }
+            setCurrentPage={ setCurrentPage }
             labelText={ lang === "english" ? "product year:" : "году издания:" }
             searchValue={ searchYear }
             preClassName="year"
           />
           <Select
             data={ formats }
-            stateChangerFn={ stateChangerFn}
             stateFunc={ setSearchFileFormat }
+            setCurrentPage={ setCurrentPage }
             labelText={ lang === "english" ? "file format:" : "формату файла: " }
             searchValue={ searchFileFormat }
             preClassName="format"
@@ -76,6 +76,7 @@ export default function FilterField(props) {
 }
 
 FilterField.propTypes = {
+  setCurrentPage: PropTypes.func,
   stateChangerFn: PropTypes.func,
   setSearchStack: PropTypes.func,
   setSearchYear: PropTypes.func,

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function Select(props) {
-  const { stateChangerFn, stateFunc, data, labelText, searchValue, preClassName } = props;
+  const { setCurrentPage, stateFunc, data, labelText, searchValue, preClassName } = props;
 
   const selectChanger = (stateChangerFunc) => {
     const selectSingle = document.querySelector(`.select-${ preClassName }__wrapper`);
@@ -21,6 +21,7 @@ export default function Select(props) {
           stateChangerFunc(Number(selectSingleTitle.textContent)) : stateChangerFunc(selectSingleTitle.textContent);
         preClassName === "stack" && stateChangerFunc(selectSingleTitle.textContent);
         preClassName === "format" && stateChangerFunc(selectSingleTitle.textContent);
+        setCurrentPage(1);
       });
     }
 
@@ -60,15 +61,14 @@ export default function Select(props) {
       </label>
       <span
         className={`select-${ preClassName }__clear-btn`}
-        onClick={ (event) => event.target.matches(".select-format__clear-btn") ? stateChangerFn("", stateFunc) :
-          stateChangerFn("Все", stateFunc) }
+        onClick={ (event) => event.target.matches(".select-format__clear-btn") ? stateFunc("") : stateFunc("Все") }
       ></span>
     </div>
   );
 }
 
 Select.propTypes = {
-  stateChangerFn: PropTypes.func,
+  setCurrentPage: PropTypes.func,
   stateFunc: PropTypes.func,
   data: PropTypes.array,
   labelText: PropTypes.string,

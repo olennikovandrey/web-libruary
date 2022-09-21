@@ -8,9 +8,9 @@ export default function Input(props) {
     <div className="input-wrapper">
       <label>
         { labelText }
-        <input type="text" value={ searchValue } onChange={ (event) => stateChangerFn(event.target.value, stateFunc) } />
+        <input type="text" value={ searchValue } onChange={ (event) => stateChangerFn(stateFunc, event.target.value) } />
       </label>
-      <span className="clear-btn" onClick={ () => stateChangerFn(" ", stateFunc) }></span>
+      <span className="clear-btn" onClick={ () => stateChangerFn(stateFunc, " ") }></span>
     </div>
   );
 }
