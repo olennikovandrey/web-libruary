@@ -31,12 +31,11 @@ export default function Main() {
     item.fileFormat.includes(searchFileFormat)
   );
 
-  const setTitleFilter = title => setSearchTitle(title);
-  const setAuthorFilter = author => setSearchAuthor(author);
-  const setYearFilter = year => setSearchYear(year);
-  const setStackFilter = stack => setSearchStack(stack);
-  const setFormatFilter = format => setSearchFileFormat(format);
-  const changeAmountPerPage = amount => setBooksPerPage(amount);
+  const stateChangerFn = (value, stateFn) => {
+    setCurrentPage(1);
+    stateFn(value);
+    window.scrollBy(0, -document.body.scrollHeight);
+  };
 
   const stateSortChanger = stateFnTitle => {
     if (stateFnTitle === "setTitleAToB") {
@@ -131,18 +130,19 @@ export default function Main() {
   const paginate = pageNumber => {
     setCurrentPage(pageNumber);
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-      window.scrollBy(0, -5000);
+      window.scrollBy(0, -document.body.scrollHeight);
     }
   };
 
   return (
     <div className="main">
       <FilterField
-        setTitleFilter={ setTitleFilter }
-        setAuthorFilter={ setAuthorFilter }
-        setYearFilter={ setYearFilter }
-        setStackFilter={ setStackFilter }
-        setFormatFilter={ setFormatFilter }
+        setSearchTitle={ setSearchTitle }
+        setSearchAuthor={ setSearchAuthor }
+        setSearchYear={ setSearchYear }
+        setSearchStack={ setSearchStack }
+        setSearchFileFormat={ setSearchFileFormat }
+        stateChangerFn={ stateChangerFn }
         searchTitle={ searchTitle }
         searchAuthor={ searchAuthor }
         searchYear={ searchYear }
@@ -160,7 +160,7 @@ export default function Main() {
         isSheetsBToA={ isSheetsBToA }
         isFileSizeAToB={ isFileSizeAToB }
         isFileSizeBToA={ isFileSizeBToA }
-        changeAmountPerPage={ changeAmountPerPage }
+        changeAmountPerPage={ setBooksPerPage }
         booksPerPage={ +booksPerPage }
       />
       <section>
@@ -179,7 +179,7 @@ export default function Main() {
                 <BookItem
                   key={ item.title + item.author}
                   data={ item }
-                  setStackFilter={ setStackFilter }
+                  setStackFilter={ setSearchStack }
                 />
               ) :
               <NoResults />

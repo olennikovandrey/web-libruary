@@ -8,13 +8,16 @@ import { useSelector } from "react-redux";
 
 export default function FilterField(props) {
   const lang = useSelector(state => state.lang);
+  const {
+    stateChangerFn, setSearchTitle, setSearchAuthor, setSearchStack, setSearchYear, setSearchFileFormat,
+    searchTitle, searchAuthor, searchStack, searchYear, searchFileFormat, result } = props;
 
   const clearAllFields = () => {
-    props.setTitleFilter("");
-    props.setAuthorFilter("");
-    props.setStackFilter("Все");
-    props.setYearFilter("Все");
-    props.setFormatFilter("");
+    setSearchTitle("");
+    setSearchAuthor("");
+    setSearchStack("Все");
+    setSearchYear("Все");
+    setSearchFileFormat("");
   };
 
   return (
@@ -23,37 +26,42 @@ export default function FilterField(props) {
         <h3 className="filter-form__title">{ lang === "english" ? "Search by:" : "Поиск по:" }</h3>
         <div>
           <Input
-            stateFunc={ props.setTitleFilter }
+            stateChangerFn={ stateChangerFn}
+            stateFunc={ setSearchTitle }
             labelText={ lang === "english" ? "title:" : "названию:" }
-            searchValue={ props.searchTitle }
+            searchValue={ searchTitle }
           />
           <Input
-            stateFunc={ props.setAuthorFilter }
+            stateChangerFn={ stateChangerFn }
+            stateFunc={ setSearchAuthor }
             labelText={ lang === "english" ? "author:" : "автору:" }
-            searchValue={ props.searchAuthor }
+            searchValue={ searchAuthor }
           />
           <Select
             data={ lang === "english" ? stackEN : stackRU }
-            stateFunc={ props.setStackFilter }
+            stateChangerFn={ stateChangerFn}
+            stateFunc={ setSearchStack }
             labelText={ lang === "english" ? "stack:" : "технологическому стэку:" }
-            searchValue={ props.searchStack }
+            searchValue={ searchStack }
             preClassName="stack"
           />
           <Select
             data={ lang === "english" ? yearEN : yearRU }
-            stateFunc={ props.setYearFilter }
+            stateChangerFn={ stateChangerFn}
+            stateFunc={ setSearchYear }
             labelText={ lang === "english" ? "product year:" : "году издания:" }
-            searchValue={ props.searchYear }
+            searchValue={ searchYear }
             preClassName="year"
           />
           <Select
             data={ formats }
-            stateFunc={ props.setFormatFilter }
+            stateChangerFn={ stateChangerFn}
+            stateFunc={ setSearchFileFormat }
             labelText={ lang === "english" ? "file format:" : "формату файла: " }
-            searchValue={ props.searchFileFormat }
+            searchValue={ searchFileFormat }
             preClassName="format"
           />
-          <span>{ lang === "english" ? "Found:" : "Найдено изданий:" } { props.result }</span>
+          <span>{ lang === "english" ? "Found:" : "Найдено изданий:" } { result }</span>
         </div>
       </div>
       <button
@@ -68,11 +76,12 @@ export default function FilterField(props) {
 }
 
 FilterField.propTypes = {
-  setStackFilter: PropTypes.func,
-  setYearFilter: PropTypes.func,
-  setTitleFilter: PropTypes.func,
-  setAuthorFilter: PropTypes.func,
-  setFormatFilter: PropTypes.func,
+  stateChangerFn: PropTypes.func,
+  setSearchStack: PropTypes.func,
+  setSearchYear: PropTypes.func,
+  setSearchTitle: PropTypes.func,
+  setSearchAuthor: PropTypes.func,
+  setSearchFileFormat: PropTypes.func,
   searchStack: PropTypes.string,
   searchYear: PropTypes.oneOfType([
     PropTypes.string,

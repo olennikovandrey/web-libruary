@@ -2,23 +2,23 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 
-export default function BookItem({ data, setStackFilter }) {
+export default function BookItem({ data, setSearchStack }) {
   const [showInfo, setShowInfo] = useState(false);
   const lang = useSelector(state => state.lang);
 
   return (
     <>
       <div key={ data.title } className="book-item" style={ { borderLeftColor: data.borderColor } }>
-        <img src={ data.stackIcon } className="book-item__stack-icon" alt="icon" name={ data.clickFilterValue } onClick={ (event) => setStackFilter(event.target.name) }/>
-        { data.stackIcon2 && <img src={ data.stackIcon2 } className="book-item__stack-icon-second" alt="icon2" name={ data.clickFilterValue2 } onClick={ (event) => setStackFilter(event.target.name) }/> }
-        { data.stackIcon3 && <img src={ data.stackIcon3 } className="book-item__stack-icon-third" alt="icon3" name={ data.clickFilterValue3 } onClick={ (event) => setStackFilter(event.target.name) }/> }
-        { data.stackIcon4 && <img src={ data.stackIcon4 } className="book-item__stack-icon-fourth" alt="icon4" name={ data.clickFilterValue4 } onClick={ (event) => setStackFilter(event.target.name) }/> }
-        <span className="book-item__title" >{ data.title }</span>
+        <img src={ data.stackIcon } className="book-item__stack-icon" alt="icon" name={ data.clickFilterValue } onClick={ (event) => setSearchStack(event.target.name) }/>
+        { data.stackIcon2 && <img src={ data.stackIcon2 } className="book-item__stack-icon-second" alt="icon2" name={ data.clickFilterValue2 } onClick={ (event) => setSearchStack(event.target.name) }/> }
+        { data.stackIcon3 && <img src={ data.stackIcon3 } className="book-item__stack-icon-third" alt="icon3" name={ data.clickFilterValue3 } onClick={ (event) => setSearchStack(event.target.name) }/> }
+        { data.stackIcon4 && <img src={ data.stackIcon4 } className="book-item__stack-icon-fourth" alt="icon4" name={ data.clickFilterValue4 } onClick={ (event) => setSearchStack(event.target.name) }/> }
+        <span className="book-item__title">{ data.title }</span>
         <div className="book-item__description">
           <div className="book-item__image-wrapper">
             <img src={ data.img } className="image" alt="cover" height="auto" width="200"/>
-            <span className="format-name">{ data.fileFormat }</span>
-            <span className="file-size">
+            <span className="format-name" style={ { border: `2px solid ${data.borderColor}` } }>{ data.fileFormat }</span>
+            <span className="file-size" style={ { border: `2px solid ${data.borderColor}` } }>
               { data.fileSize } { lang === "english" ? "Mb" : "Мб" }
             </span>
           </div>
@@ -56,5 +56,5 @@ export default function BookItem({ data, setStackFilter }) {
 
 BookItem.propTypes = {
   data: PropTypes.object,
-  setStackFilter: PropTypes.func
+  setSearchStack: PropTypes.func
 };
