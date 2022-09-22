@@ -76,6 +76,7 @@ import React15 from "../assets/images/books/React/15. Beginning React Native wit
 import React16 from "../assets/images/books/React/16. Full-Stack React, TypeScript, and Node.jpg";
 import React17 from "../assets/images/books/React/17. Fullstack React with TypeScript.jpg";
 import React18 from "../assets/images/books/React/18. React Design Patterns and Best Practices.jpg";
+import React19 from "../assets/images/books/React/19. ASP .NET Core 3 and React.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -147,11 +148,18 @@ import Boot2 from "../assets/images/books/Bootstrap/2. Bootstrap 5 Foundations.j
 import Vue1 from "../assets/images/books/Vue/1. Front-End Development Projects with Vue.js.jpg";
 import Vue2 from "../assets/images/books/Vue/2. Fullstack Vue.jpg";
 import Vue3 from "../assets/images/books/Vue/3. Learn Vue JS 2 + Google Maps API for Beginners.jpg";
+import Vue4 from "../assets/images/books/Vue/4. Building Vue.js Applications with GraphQL.jpg";
+import Vue5 from "../assets/images/books/Vue/5. Vue.js 3 Cookbook.jpg";
+import Vue6 from "../assets/images/books/Vue/6. Building Forms with Vue.js.jpg";
 
 import VSCode1 from "../assets/images/books/VS Code/1. Visual Studio Code. End-to-End Editing and Debugging Tools for Web Developers.jpg";
-
+//Angular comment
 import Angular1 from "../assets/images/books/Angular/1. Learning Angular.jpg";
 import Angular2 from "../assets/images/books/Angular/2. Building Offline Applications with Angular.jpg";
+import Angular3 from "../assets/images/books/Angular/3. Angular Design Patterns. Implement the Gang of Four patterns in your apps with Angular.jpg";
+import Angular4 from "../assets/images/books/Angular/4. Getting MEAN with Mongo, Express, Angular, and Node, 2ED.jpg";
+import Angular5 from "../assets/images/books/Angular/5. Angular Development with TypeScript.jpg";
+import Angular6 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -269,6 +277,7 @@ import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Ear
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
+import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 //lavarel com
@@ -1007,6 +1016,23 @@ export const data = [
     clickFilterValue: "React",
     fileFormat: "pdf",
     fileSize: 7.2
+  },
+  {
+    title: "ASP .NET Core 3 and React",
+    img: React19,
+    link: "https://drive.google.com/file/d/1dnS1M1SBiqfm9ixcBLHjDyo0qtPOqnM1/view?usp=sharing",
+    author: "Carl Rippon",
+    year: [2019, "Все", "All"],
+    sheets: 598,
+    description: "Microsoft ASP .NET Core - это надежный и высокопроизводительный кроссплатформенный веб-API фреймворк, а React от Facebook использует JavaScript для обеспечения качественного взаимодействия с пользователем в клиентской сети. Вместе они могут использоваться для создания приложений с повышенной безопасностью и масштабируемостью на каждом уровне. Поработав с данной книгой, в скором времени вы сможете писать приложения, используя все возможности C# и JavaScript.",
+    stack: ["React", ".NET", "Все", "All"],
+    stackIcon: reactIcon,
+    stackIcon2: netIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    clickFilterValue2: ".NET",
+    fileFormat: "pdf",
+    fileSize: 12.8
   },
   //REACT comment
   {
@@ -1991,6 +2017,53 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 5.3
   },
+  {
+    title: "Building Vue.js Applications with GraphQL",
+    img: Vue4,
+    link: "https://drive.google.com/file/d/1MjzngOVeSIridcvW0TxELQTu-xQlczWk/view?usp=sharing",
+    author: "Heitor Ramon Ribeiro",
+    year: [2021, "Все", "All"],
+    sheets: 298,
+    description: "С момента своего выпуска Facebook в 2012 году GraphQL покорил Интернет штурмом. Огромные компании, такие как Airbnb и Audi, начали применять его, в то время как малые и средние компании теперь осознают его потенциал. С помощью рецептов, приведенных в этой книге, вы узнаете, как создать полноценное приложение-чат в реальном времени с нуля, используя GraphQL и Vue.js.",
+    stack: ["Vue.js", "GraphQL", "Все", "All"],
+    stackIcon: vueIcon,
+    stackIcon2: graphqlIcon,
+    borderColor: "#41b883",
+    clickFilterValue: "Vue.js",
+    clickFilterValue2: "GraphQL",
+    fileFormat: "epub",
+    fileSize: 4.4
+  },
+  {
+    title: "Vue.js 3 Cookbook",
+    img: Vue5,
+    link: "https://drive.google.com/file/d/1VU0W7BVPAYt7K-TFIpE27yKNaG2_hAai/view?usp=sharing",
+    author: "Heitor Ramon Ribeiro",
+    year: [2020, "Все", "All"],
+    sheets: 562,
+    description: "Vue.js - это прогрессивный веб-фреймворк для создания профессиональных пользовательских интерфейсов для ваших веб-приложений. Vue.js 3 усилен архитектурными улучшениями, новыми базовыми языками, процессами рендеринга и отдельными основными компонентами. К концу чтения этой книги о Vue.js вы сможете выявлять и решать задачи, с которыми сталкиваются разработчики при создании приложений на Vue.js, и получите возможность применять фреймворк Vue.js для веб-проектов любого масштаба.",
+    stack: ["Vue.js", "Все", "All"],
+    stackIcon: vueIcon,
+    borderColor: "#41b883",
+    clickFilterValue: "Vue.js",
+    fileFormat: "epub",
+    fileSize: 5.3
+  },
+  {
+    title: "Building Forms with Vue.js",
+    img: Vue6,
+    link: "https://drive.google.com/file/d/1tr5MzD6WAok6UO3F8eIGoJduz-3n25rI/view?usp=sharing",
+    author: "Marina Mosti",
+    year: [2019, "Все", "All"],
+    sheets: 110,
+    description: "Практически каждое веб-приложение и сайт так или иначе обрабатывают ввод данных пользователем, от форм регистрации и обработки входа в систему до регистрации и целевых страниц. Автор книги придерживается пошагового подхода, который поможет вам научиться создавать эффективные и качественные пользовательские интерфейсы путем написания быстрых и простых в использовании форм.",
+    stack: ["Vue.js", "Все", "All"],
+    stackIcon: vueIcon,
+    borderColor: "#41b883",
+    clickFilterValue: "Vue.js",
+    fileFormat: "epub",
+    fileSize: 3.6
+  },
   //Vue comment
   //VS Code comment
   {
@@ -2037,6 +2110,70 @@ export const data = [
     clickFilterValue: "Angular",
     fileFormat: "pdf",
     fileSize: 12.8
+  },
+  {
+    title: "Angular Design Patterns: Implement the Gang of Four patterns in your apps with Angular",
+    img: Angular3,
+    link: "https://drive.google.com/file/d/1By3j_bEPqGrFpQ8M5BrDPhOIiOf50Pxx/view?usp=sharing",
+    author: "Mathieu Nayrolles",
+    year: [2018, "Все", "All"],
+    sheets: 159,
+    description: "Эта книга представляет собой увлекательное путешествие по наиболее ценным шаблонам проектирования с использованием ангуляра, в ней будут даны четкие рекомендации по их эффективному использованию. Вы узнаете о некоторых из лучших способов работы с Angular и о том, как использовать его для обеспечения стабильности и производительности приложений.",
+    stack: ["Angular", "Все", "All"],
+    stackIcon: angularIcon,
+    borderColor: "#dd0031",
+    clickFilterValue: "Angular",
+    fileFormat: "epub",
+    fileSize: 1.8
+  },
+  {
+    title: "Getting MEAN with Mongo, Express, Angular, and Node, 2ED",
+    img: Angular4,
+    link: "https://drive.google.com/file/d/1YI_mdKk3uREYVGspqj2fG08lw1whXWsX/view?usp=sharing",
+    author: "Simon Holmes Clive Herber",
+    year: [2019, "Все", "All"],
+    sheets: 505,
+    description: "Эта книга представляет собой увлекательное путешествие по наиболее ценным шаблонам проектирования с использованием ангуляра, в ней будут даны четкие рекомендации по их эффективному использованию. Вы узнаете о некоторых из лучших способов работы с Angular и о том, как использовать его для обеспечения стабильности и производительности приложений.",
+    stack: ["Angular", "NodeJS", "Все", "All"],
+    stackIcon: angularIcon,
+    stackIcon2: nodeIcon,
+    borderColor: "#dd0031",
+    clickFilterValue: "Angular",
+    clickFilterValue2: "NodeJS",
+    fileFormat: "pdf",
+    fileSize: 10.8
+  },
+  {
+    title: "Angular Development with TypeScript",
+    img: Angular5,
+    link: "https://drive.google.com/file/d/1Kh4r5sbzrXdRZSab2poKRkgwcQbsthz2/view?usp=sharing",
+    author: "Yakov Fain, Anton Moiseev",
+    year: [2018, "Все", "All"],
+    sheets: 560,
+    description: "Автор книги учит создавать веб-приложения с помощью Angular и TypeScript. Написанное в доступном, живом стиле, это подробное руководство охватывает основные задачи, такие как управление состоянием, данные, формы и связь с сервером, когда вы создаете полнофункциональное приложение. Вы получите навыки, необходимые для написания классов и интерфейсов с помощью TypeScript, а также узнаете, как увеличить продуктивность разработки.",
+    stack: ["Angular", "TypeScript", "Все", "All"],
+    stackIcon: angularIcon,
+    stackIcon2: TSIcon,
+    borderColor: "#dd0031",
+    clickFilterValue: "Angular",
+    clickFilterValue2: "TypeScript",
+    fileFormat: "epub",
+    fileSize: 8.7
+  },
+  {
+    title: "Angular for Enterprise-Ready Web Applications",
+    img: Angular6,
+    link: "https://drive.google.com/file/d/1ig-Tn-PBcEudQaDcuc0HTbTO85A7qXk2/view?usp=sharing",
+    author: "Doguhan Uluca",
+    year: [2020, "Все", "All"],
+    sheets: 824,
+    description: "Данная книга представляет собой пересмотренное и обновленное издание бестселлера по созданию корпоративных веб-приложений с использованием фреймворка Angular. Вы начнете с изучения основ программирования на Angular. Используя метод Канбан и инструменты GitHub, вы научитесь создавать приложения с Angular Material, а также использовать шаблоны реактивного программирования с RxJS. К концу книги вы познакомитесь со всем спектром современной веб-разработки и полнофункциональной архитектурой, шаблонами и практиками обучения, которые помогут добиться успеха вам как индивидуальному разработчику или в команде.",
+    stack: ["Angular", "Все", "All"],
+    stackIcon: angularIcon,
+    borderColor: "#dd0031",
+    clickFilterValue: "Angular",
+    fileFormat: "pdf",
+    fileSize: 18.7
   },
   //Angular comment
   {
@@ -3587,6 +3724,23 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 4.2
   },
+  {
+    title: "Beginning gRPC with ASP.NET Core 6: Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 ",
+    img: net3,
+    link: "https://drive.google.com/file/d/1ex6ivom5In2eUsCisYTPat1aCqcDuAld/view?usp=sharing",
+    author: "Anthony Giretti",
+    year: [2022, "Все", "All"],
+    sheets: 489,
+    description: "Эта книга научит вас, как разрабатывать приложения, используя лучшие техники, такие как мониторинг, журналирование, взаимодействие через gRPC и многое другое. В книге описывается разработка CRUD приложения, которое взаимодействует с базой данных SQL Server через ORM Entity Framework. Основываясь на бекенде, клиентская часть будет разрабатываться на Angular.",
+    stack: [".NET", "Angular", "Все", "All"],
+    stackIcon: netIcon,
+    stackIcon2: angularIcon,
+    borderColor: "#116eb5",
+    clickFilterValue: ".NET",
+    clickFilterValue2: "Angular",
+    fileFormat: "pdf",
+    fileSize: 10.3
+  },
   //net comment
   {
     title: "Head First Android Development: A Learner's Guide to Building Android Apps with Kotlin",
@@ -3612,12 +3766,12 @@ export const data = [
     year: [2018, "Все", "All"],
     sheets: 289,
     description: "Вы должны были уже привыкнуть к тому, что в реальном мире большие коммерческие веб-приложения пишутся с помощью фреймворков, потому что это качественно, быстро и надёжно. Если вы хорошо знаете PHP и принципы объектно-ориентированного программирования, то вам не составит большого труда понять, как работает система фреймворка, как обрабатывается пользовательский запрос и подготавливается ответ от приложения и как осуществляется общение компонентов MVC.",
-    stack: ["Lavarel", "Vue.js", "Все", "All"],
+    stack: ["Lavarel", "PHP", "Все", "All"],
     stackIcon: lavarelIcon,
-    stackIcon2: vueIcon,
+    stackIcon2: phpIcon,
     borderColor: "#f13125",
     clickFilterValue: "Lavarel",
-    clickFilterValue2: "Vue.js",
+    clickFilterValue2: "PHP",
     fileFormat: "pdf",
     fileSize: 8.4
   },
