@@ -181,6 +181,7 @@ export default function Main() {
                   key={ item.title + item.author}
                   data={ item }
                   setSearchStack={ setSearchStack }
+                  stateChangerFn={ stateChangerFn }
                 />
               ) :
               <NoResults />

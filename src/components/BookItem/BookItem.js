@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 
-export default function BookItem({ data, setSearchStack }) {
+export default function BookItem({ data, setSearchStack, stateChangerFn }) {
   const [showInfo, setShowInfo] = useState(false);
   const lang = useSelector(state => state.lang);
 
   return (
     <>
       <div key={ data.title } className="book-item" style={ { borderLeftColor: data.borderColor } }>
-        <img src={ data.stackIcon } className="book-item__stack-icon" alt="icon" name={ data.clickFilterValue } onClick={ (event) => setSearchStack(event.target.name) }/>
-        { data.stackIcon2 && <img src={ data.stackIcon2 } className="book-item__stack-icon-second" alt="icon2" name={ data.clickFilterValue2 } onClick={ (event) => setSearchStack(event.target.name) }/> }
-        { data.stackIcon3 && <img src={ data.stackIcon3 } className="book-item__stack-icon-third" alt="icon3" name={ data.clickFilterValue3 } onClick={ (event) => setSearchStack(event.target.name) }/> }
-        { data.stackIcon4 && <img src={ data.stackIcon4 } className="book-item__stack-icon-fourth" alt="icon4" name={ data.clickFilterValue4 } onClick={ (event) => setSearchStack(event.target.name) }/> }
+        <img src={ data.stackIcon } className="book-item__stack-icon" alt="icon" name={ data.clickFilterValue } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/>
+        { data.stackIcon2 && <img src={ data.stackIcon2 } className="book-item__stack-icon-second" alt="icon2" name={ data.clickFilterValue2 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
+        { data.stackIcon3 && <img src={ data.stackIcon3 } className="book-item__stack-icon-third" alt="icon3" name={ data.clickFilterValue3 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
+        { data.stackIcon4 && <img src={ data.stackIcon4 } className="book-item__stack-icon-fourth" alt="icon4" name={ data.clickFilterValue4 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
         <span className="book-item__title">{ data.title }</span>
         <div className="book-item__description">
           <div className="book-item__image-wrapper">
@@ -56,5 +56,6 @@ export default function BookItem({ data, setSearchStack }) {
 
 BookItem.propTypes = {
   data: PropTypes.object,
+  stateChangerFn: PropTypes.func,
   setSearchStack: PropTypes.func
 };
