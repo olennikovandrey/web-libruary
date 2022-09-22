@@ -180,7 +180,7 @@ export default function Main() {
                 <BookItem
                   key={ item.title + item.author}
                   data={ item }
-                  setStackFilter={ setSearchStack }
+                  setSearchStack={ setSearchStack }
                 />
               ) :
               <NoResults />

@@ -70,6 +70,12 @@ import React9 from "../assets/images/books/React/9. The React beginners handbook
 import React10 from "../assets/images/books/React/10. React Hooks in Action. With Suspense and Concurrent Mode.jpg";
 import React11 from "../assets/images/books/React/11. The Road to React.jpg";
 import React12 from "../assets/images/books/React/12. React Cookbook. Recipes for Mastering the React Framework .jpg";
+import React13 from "../assets/images/books/React/13. MERN Projects for Beginners. Create Five Social Web Apps Using MongoDB, Express.js, React, and Node.jpg";
+import React14 from "../assets/images/books/React/14. React to Python.jpg";
+import React15 from "../assets/images/books/React/15. Beginning React Native with Hooks.jpg";
+import React16 from "../assets/images/books/React/16. Full-Stack React, TypeScript, and Node.jpg";
+import React17 from "../assets/images/books/React/17. Fullstack React with TypeScript.jpg";
+import React18 from "../assets/images/books/React/18. React Design Patterns and Best Practices.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -259,6 +265,7 @@ import ruby3 from "../assets/images/books/Ruby/3. Ruby Programming for Beginners
 import cSharp1 from "../assets/images/books/CSharp/1. The Ultimate Beginners Guide to cSharp  Programming.jpg";
 import cSharp2 from "../assets/images/books/CSharp/2. cShapr Cookbook. Modern Recipes for Professional Developers.jpg";
 import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.jpg";
+import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Early Release).jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
@@ -327,10 +334,16 @@ export const data = [
     year: [2020, "Все", "All"],
     sheets: 344,
     description: "Когда-то JavaScript просто добавлял интерактивности к окнам веб-браузера, а теперь превратился в основательный фундамент мощного и надежного софта. В этой книге описывается проектирование API с помощью GraphQL.  Обсуждаются вопросы безопасности API, разработки высоконагруженных кроссплатформенных приложений.",
-    stack: ["JavaScript", "Все", "All"],
+    stack: ["JavaScript", "GraphQL", "React", "API", "Все", "All"],
     stackIcon: JSIcon,
+    stackIcon2: graphqlIcon,
+    stackIcon3: reactIcon,
+    stackIcon4: apiIcon,
     borderColor: "#fffb00",
     clickFilterValue: "JavaScript",
+    clickFilterValue2: "GraphQL",
+    clickFilterValue3: "React",
+    clickFilterValue4: "API",
     fileFormat: "pdf",
     fileSize: 9.1
   },
@@ -881,7 +894,7 @@ export const data = [
     fileSize: 0.8
   },
   {
-    title: "React Cookbook: Recipes for Mastering the React Framework ",
+    title: "React Cookbook: Recipes for Mastering the React Framework",
     img: React12,
     link: "https://drive.google.com/file/d/1WygGkv7FsfLFnqS279uf_01NTM-hQvxn/view?usp=sharing",
     author: "David Griffiths, Dawn Griffiths",
@@ -894,6 +907,106 @@ export const data = [
     clickFilterValue: "React",
     fileFormat: "epub",
     fileSize: 13.3
+  },
+  {
+    title: "MERN Projects for Beginners: Create Five Social Web Apps Using MongoDB, Express.js, React, and Node",
+    img: React13,
+    link: "https://drive.google.com/file/d/11Y53UZgAU136XhDLplDQciNqqfOmbAFF/view?usp=sharing",
+    author: "Nabendu Biswas",
+    year: [2021, "Все", "All"],
+    sheets: 396,
+    description: "Узнайте, как использовать  MERN стек (MongoDB, Express.js , React, add Node) для создания нескольких веб-приложений: для знакомств, обмена видео, обмена сообщениями и социальных сетей. При создании этих веб-приложений вы изучите ключевые концепции, в том числе как использовать React hooks, Redux, MongoDB, Express, Heroku, Firebase, Material UI и аутентификацию через Google. Расширяя свое портфолио создаваемыми вами проектами, вы будете хорошо подготовлены как full stack разработчик.",
+    stack: ["React", "NodeJS", "Все", "All"],
+    stackIcon: reactIcon,
+    stackIcon2: nodeIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    clickFilterValue2: "NodeJS",
+    fileFormat: "pdf",
+    fileSize: 10.6
+  },
+  {
+    title: "React to Python",
+    img: React14,
+    link: "https://drive.google.com/file/d/1RfRagCaJZMUOSbSz1VuI8QcG5XG2pRBf/view?usp=sharing",
+    author: "John Sheehan",
+    year: [2021, "Все", "All"],
+    sheets: 533,
+    description: "Научитесь создавать адаптивные интерфейсные веб-приложения на Python с использованием библиотек JavaScript React и Material-UI без необходимости программирования на JavaScript! Как это возможно? Используя транспилятор Transcrypt, который превращает ваш код на Python в JavaScript. Эта книга описывает инструменты разработчика и библиотеки, необходимые для разработки интерфейсных веб-приложений с использованием Python, с особым акцентом на React и Material-UI.",
+    stack: ["React", "Python", "Все", "All"],
+    stackIcon: reactIcon,
+    stackIcon2: PTIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    clickFilterValue2: "Python",
+    fileFormat: "epub",
+    fileSize: 6.3
+  },
+  {
+    title: "Beginning React Native with Hooks",
+    img: React15,
+    link: "https://drive.google.com/file/d/14LBqbI5-HpmOZx3dq9R9RehgomhO0Iuj/view?usp=sharing",
+    author: "Greg Lim",
+    year: [2020, "Все", "All"],
+    sheets: 152,
+    description: "React Native, разработанный Facebook, является одним из ведущих фреймворков для создания мобильных приложений под Android и iOS. Автор книги предлагает изучить эту современную платформу. Работая с ней, вы используете небольшие управляемые компоненты для создания мобильных приложений, которые работают и выглядят нативно.",
+    stack: ["React", "Все", "All"],
+    stackIcon: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    fileFormat: "epub",
+    fileSize: 2.6
+  },
+  {
+    title: "Full-Stack React, TypeScript, and Node",
+    img: React16,
+    link: "https://drive.google.com/file/d/1fvIi68C3kEdFY-_sRsxLVuEyH9Cu6ELG/view?usp=sharing",
+    author: "David Choi",
+    year: [2020, "Все", "All"],
+    sheets: 648,
+    description: "React устанавливает стандарт для создания высокопроизводительных клиентских веб-приложений. Node.js используется на тысячах веб-сайтов, в то время как GraphQL становится стандартным способом для крупных веб-сайтов предоставлять данные и услуги своим пользователям. Все вместе эти технологии, усиленные возможностями TypeScript, становятся передовым стеком для разработки веб-приложений.",
+    stack: ["React", "TypeScript", "NodeJS", "Все", "All"],
+    stackIcon: reactIcon,
+    stackIcon2: TSIcon,
+    stackIcon3: nodeIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    clickFilterValue2: "TypeScript",
+    clickFilterValue3: "NodeJS",
+    fileFormat: "pdf",
+    fileSize: 27.7
+  },
+  {
+    title: "Fullstack React with TypeScript",
+    img: React17,
+    link: "https://drive.google.com/file/d/1SFcD34vdbye-4HzZsrbEElexMLCdyVEG/view?usp=sharing",
+    author: "Maksim Ivanov, Alex Bespoyasov, Nate Murray",
+    year: [2020, "Все", "All"],
+    sheets: 532,
+    description: "Это практическое руководство, которое поможет вам и вашей команде в кратчайшие сроки начать писать приложения React с TypeScript (и хуками). Кол-во проектов с TypeScript и React в прошлом году резко возросло - и не зря. Это мощная комбинация, которая может предотвратить ошибки и помочь вам быстрее выпускать продукты.",
+    stack: ["React", "TypeScript", "Все", "All"],
+    stackIcon: reactIcon,
+    stackIcon2: TSIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    clickFilterValue2: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 13.4
+  },
+  {
+    title: "React Design Patterns and Best Practices",
+    img: React18,
+    link: "https://drive.google.com/file/d/19MDBFGpQyMykp4dXR3q8KajE_j8TABzO/view?usp=sharing",
+    author: "Carlos Santana Roldan",
+    year: [2019, "Все", "All"],
+    sheets: 350,
+    description: "В книге рассказывается о том, как, работая с React.js, применять существующие шаблоны проектирования в разных ситуациях, будь то новые или уже существующие проекты. Книга поможет вам начать работать с React, создавая ваши проекты более гибкими, эффективными и простыми в обращении, значительно повышая скорость рабочего процесса без снижения качества.",
+    stack: ["React", "Все", "All"],
+    stackIcon: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    fileFormat: "pdf",
+    fileSize: 7.2
   },
   //REACT comment
   {
@@ -1113,10 +1226,16 @@ export const data = [
     year: [2020, "Все", "All"],
     sheets: 350,
     description: "TypeScript - это JavaScript с важным обновлением! Добавив строгую систему типов в JavaScript, TypeScript может помочь вам устранить целые категории ошибок времени выполнения. Читая книгу, вы c помощью практических примеров и проектов научитесь создавать надежные приложения под руководством опытных веб-разработчиков Якова Файна и Антона Моисеева.",
-    stack: ["TypeScript", "Все", "All"],
+    stack: ["TypeScript", "Angular", "React", "Vue.js", "Все", "All"],
     stackIcon: TSIcon,
+    stackIcon2: angularIcon,
+    stackIcon3: reactIcon,
+    stackIcon4: vueIcon,
     borderColor: "#0176c5",
     clickFilterValue: "TypeScript",
+    clickFilterValue2: "Angular",
+    clickFilterValue3: "React",
+    clickFilterValue4: "Vue.js",
     fileFormat: "pdf",
     fileSize: 30.7
   },
@@ -3419,6 +3538,23 @@ export const data = [
     clickFilterValue: "C#",
     fileFormat: "pdf",
     fileSize: 39.8
+  },
+  {
+    title: "Learning Blazor (First Early Release)",
+    img: cSharp4,
+    link: "https://drive.google.com/file/d/1f6f211Juf9pXsjucWg2cniFZ7jFni6qj/view?usp=sharing",
+    author: "David Pine",
+    year: [2022, "Все", "All"],
+    sheets: 189,
+    description: "Воспользуйтесь преимуществами своих навыков в C# для создания пользовательского интерфейса и взаимодействия с .NET на стороне клиента. Из этого практического руководства вы узнаете, как использовать Blazor WebAssembly для разработки веб-интерфейсов. Построенный на ASP.NET, Blazor представляет возможность разрабатывать одностраничные приложения (SPA). Автор Дэвид Пейн, который специализируется на разработке .NET и Azure в Microsoft, объясняет, как WebAssembly позволяет запускать в браузере многие языки программирования, не основанные на JavaScript.",
+    stack: ["C#", ".NET", "Все", "All"],
+    stackIcon: cSharpIcon,
+    stackIcon2: netIcon,
+    borderColor: "#9b4f96",
+    clickFilterValue: "C#",
+    clickFilterValue2: ".NET",
+    fileFormat: "pdf",
+    fileSize: 2
   },
   //csharp comment
   {
