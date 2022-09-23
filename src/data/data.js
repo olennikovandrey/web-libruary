@@ -28,7 +28,7 @@ import cSharpIcon from "../assets/images/technologies/cSharp.svg";
 import netIcon from "../assets/images/technologies/net-without-word.svg";
 import kotlinIcon from "../assets/images/technologies/kotlin.svg";
 import lavarelIcon from "../assets/images/technologies/lavarel.svg";
-
+//js comment
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
 import JS3 from "../assets/images/books/JS/3. Html, Css & Javascript in easy steps Special Edition (2020), Mike McGrath.jpg";
@@ -84,7 +84,7 @@ import HTML3 from "../assets/images/books/HTML/3. HTML & CSS Handbook. Learn HTM
 import HTML4 from "../assets/images/books/HTML/4. New Perspectives HTML5 and CSS3. Comprehensive.jpg";
 import HTML5 from "../assets/images/books/HTML/5. HTML5 in easy steps, Second Edition.jpg";
 import HTML6 from "../assets/images/books/HTML/6. HTML and CSS. Visual QuickStart Guide, 9th Edition.jpg";
-
+//node comment
 import NODE1 from "../assets/images/books/NodeJS/1. Serverless Applications with Node.js. Using AWS Lambda and Claudia.js.jpg";
 import NODE2 from "../assets/images/books/NodeJS/2. Nest.js A Progressive Node.js Framework.jpg";
 import NODE3 from "../assets/images/books/NodeJS/3. Get Programming with Node.js.jpg";
@@ -138,7 +138,7 @@ import PHP3 from "../assets/images/books/PHP/3. Learn PHP in One Day and Learn I
 import PHP4 from "../assets/images/books/PHP/4. PHP and Algorithmic Thinking for the Complete Beginner.jpg";
 import PHP5 from "../assets/images/books/PHP/5. Programming PHP. Creating Dynamic Web Pages.jpg";
 import PHP6 from "../assets/images/books/PHP/6. PHP and MySQL Web Development.jpg";
-
+//gql comment
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
 //Bootstrap comment
@@ -151,7 +151,7 @@ import Vue3 from "../assets/images/books/Vue/3. Learn Vue JS 2 + Google Maps API
 import Vue4 from "../assets/images/books/Vue/4. Building Vue.js Applications with GraphQL.jpg";
 import Vue5 from "../assets/images/books/Vue/5. Vue.js 3 Cookbook.jpg";
 import Vue6 from "../assets/images/books/Vue/6. Building Forms with Vue.js.jpg";
-
+//vs comment
 import VSCode1 from "../assets/images/books/VS Code/1. Visual Studio Code. End-to-End Editing and Debugging Tools for Web Developers.jpg";
 //Angular comment
 import Angular1 from "../assets/images/books/Angular/1. Learning Angular.jpg";
@@ -196,6 +196,7 @@ import JAVA17 from "../assets/images/books/Java/17. Sams Teach Yourself Java in 
 import JAVA18 from "../assets/images/books/Java/18. Beginning Programming with Java For Dummies.jpg";
 import JAVA19 from "../assets/images/books/Java/19. Java to Kotlin. A Refactoring Guidebook.jpg";
 import JAVA20 from "../assets/images/books/Java/20. Java. 2021 Beginners Programming Guide. 33 Best Java Tips and Tricks.jpg";
+import JAVA21 from "../assets/images/books/Java/21. Pro Java Microservices with Quarkus and Kubernetes. A Hands-on Guide.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -2680,6 +2681,21 @@ export const data = [
     clickFilterValue: "Java",
     fileFormat: "pdf",
     fileSize: 1
+  },
+  {
+    title: "Pro Java Microservices with Quarkus and Kubernetes: A Hands-on Guide",
+    img: JAVA21,
+    link: "https://drive.google.com/file/d/1r8q2FIDQIfZkq_MrPQf8qHab-lxZHW43/view?usp=sharing",
+    author: "Nebrass Lamouchi",
+    year: [2021, "Все", "All"],
+    sheets: 428,
+    description: "Проектируйте микросервисы с использованием Java и платформы Red Hat Quarks Framework. Эта книга поможет вам быстро начать работу с микросервисами и решать  проблемы их архитектуры. В книге рассматриваются Docker и Kubernetes, которые помогут вам развернуть ваши микросервисы в облаке Для экспертов в этой книге предлагается несколько рецептов, иллюстрирующих, как разбивать монолиты, внедрять микросервисы и развертывать их в качестве контейнеров в Kubernetes.",
+    stack: ["Java", "Все", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: 14.1
   },
   //Java comment
   {
