@@ -242,6 +242,7 @@ import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
 import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
 import DevOps3 from "../assets/images/books/DevOps/3. Cloud Native DevOps with Kubernetes.jpg";
+import DevOps4 from "../assets/images/books/DevOps/4. Modern DevOps Practices. Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques.jpg";
 //iOS comment
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
@@ -3295,6 +3296,21 @@ export const data = [
     clickFilterValue: "DevOps",
     fileFormat: "pdf",
     fileSize: 11.8
+  },
+  {
+    title: "Modern DevOps Practices: Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques ",
+    img: DevOps4,
+    link: "https://drive.google.com/file/d/10sq1nhGivF_O5R4oHIepSuhpqiVU_o6Y/view?usp=sharing",
+    author: "Gaurav Agarwal",
+    year: [2021, "Все", "All"],
+    sheets: 530,
+    description: "Контейнеры полностью изменили представление разработчиков и конечных пользователей о приложениях в целом. Из этой книги вы узнаете все о контейнерах, их архитектуре и преимуществах, а также о том, как реализовать их в рамках жизненного цикла разработки. Вы узнаете, как можно перейти от мира виртуальных машин и адаптировать современные способы использования DevOps для непрерывной поставки программного обеспечения. Начав с краткого ознакомления с основными концепциями контейнеров, вы перейдете к изучению архитектурных концепций для реализации современных способов разработки приложений. Вы рассмотрите темы, связанные с Docker, Kubernetes, Ansible, Terraform, Poker и другими подобными инструментами",
+    stack: ["DevOps", "Все", "All"],
+    stackIcon: devopsIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue: "DevOps",
+    fileFormat: "pdf",
+    fileSize: 6.3
   },
   //DevOps comment
   {
