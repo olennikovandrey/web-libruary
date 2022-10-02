@@ -27,6 +27,7 @@ export const stackRU = [
   "MySQL",
   "Visual Studio Code",
   "Vue.js",
+  "Webpack",
   "Web security",
   "UI/UX",
   "Other"

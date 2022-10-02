@@ -28,6 +28,7 @@ import cSharpIcon from "../assets/images/technologies/cSharp.svg";
 import netIcon from "../assets/images/technologies/net-without-word.svg";
 import kotlinIcon from "../assets/images/technologies/kotlin.svg";
 import lavarelIcon from "../assets/images/technologies/lavarel.svg";
+import webpackIcon from "../assets/images/technologies/webpack.svg";
 //js comment
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
@@ -141,6 +142,8 @@ import PHP6 from "../assets/images/books/PHP/6. PHP and MySQL Web Development.jp
 //gql comment
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
+import GQL3 from "../assets/images/books/GraphQL/3. Fullstack GraphQL. The Complete Guide to Writing GraphQL Servers and Clients with TypeScript.jpg";
+import GQL4 from "../assets/images/books/GraphQL/4. Production Ready GraphQL.jpg";
 //Bootstrap comment
 import Boot1 from "../assets/images/books/Bootstrap/1. Practical Bootstrap. Learn to Develop Responsively with One of the Most Popular CSS Frameworks.jpg";
 import Boot2 from "../assets/images/books/Bootstrap/2. Bootstrap 5 Foundations.jpg";
@@ -286,6 +289,8 @@ import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Develop
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
 import lavarel3 from "../assets/images/books/Lavarel/3. Practical Laravel. Develop clean MVC web applications.jpg";
+//webpack comment
+import webpack1 from "../assets/images/books/Webpack/1. Webpack 5 Up and Running. A quick and practical introduction to the JavaScript application bundler.jpg";
 
 export const data = [
   {
@@ -1942,7 +1947,43 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 21.7
   },
-  //GraphQL comment
+  {
+    title: "Fullstack GraphQL: The Complete Guide to Writing GraphQL Servers and Clients with TypeScript",
+    img: GQL3,
+    link: "https://drive.google.com/file/d/1ViD01lmO5ZzDQZmJoo1JJp3oqnHUJYlw/view?usp=sharing",
+    author: "Gaetano Checinskil",
+    year: [2020, "Все", "All"],
+    sheets: 231,
+    description: "Full stack GraphQL - это руководство для  программистов по созданию серверной и клиентской логики на GraphQL с примерами на Node.js , React, TypeScript и Apollo.",
+    stack: ["GraphQL", "NodeJS", "React", "TypeScript","Все", "All"],
+    stackIcon: graphqlIcon,
+    stackIcon2: nodeIcon,
+    stackIcon3: reactIcon,
+    stackIcon4: TSIcon,
+    borderColor: "#e10098",
+    clickFilterValue: "GraphQL",
+    clickFilterValue2: "NodeJS",
+    clickFilterValue3: "React",
+    clickFilterValue4: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 7
+  },
+  {
+    title: "Production Ready GraphQL",
+    img: GQL4,
+    link: "https://drive.google.com/file/d/1FSTzK-xIkgkBi0jLSo5RDNRS1TkvL11M/view?usp=sharing",
+    author: "Marc-Andre Giroux",
+    year: [2020, "Все", "All"],
+    sheets: 180,
+    description: "Данная книга содержит полное описании того, что входит в создание GraphQL API:  дизайн, архитектура, реализация и даже документации. Примеры в книге не зависит от языка. Вместо этого они фокусируется на концепциях и шаблонах, которые реализуются независимо от того, как вы создаете сервер GraphQL.",
+    stack: ["GraphQL", "Все", "All"],
+    stackIcon: graphqlIcon,
+    borderColor: "#e10098",
+    clickFilterValue: "GraphQL",
+    fileFormat: "pdf",
+    fileSize: 2
+  },
+  //gql comment
   {
     title: "Practical Bootstrap: Learn to Develop Responsively with One of the Most Popular CSS Frameworks",
     img: Boot1,
@@ -3838,4 +3879,20 @@ export const data = [
     fileSize: 18.1
   },
   //lavarel com
+  {
+    title: "Webpack 5 Up and Running: A quick and practical introduction to the JavaScript application bundler",
+    img: webpack1,
+    link: "https://drive.google.com/file/d/1GGJVo7XJhcL64JwOZo7QT-ihcyXn9xwn/view?usp=sharing",
+    author: "Tom Owens",
+    year: [2020, "Все", "All"],
+    sheets: 220,
+    description: "Данная книга - это руководство для начинающих по пониманию компоновки приложений и структуры проекта с Webpack. Используйте модульные сборки Webpack для оптимизации производительности ваших веб-приложений. Узнайте, как Webpack облегчает объединение пакетов, и его интеграцию с Angular и Vue.js",
+    stack: ["Webpack", "Все", "All"],
+    stackIcon: webpackIcon,
+    borderColor: "#8ed6fb",
+    clickFilterValue: "Webpack",
+    fileFormat: "pdf",
+    fileSize: 3.8
+  },
+  //webpack comment
 ];
