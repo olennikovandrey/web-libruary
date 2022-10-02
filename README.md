@@ -1,6 +1,6 @@
-Online libruary for different programm languages developers.
-All literature is free, taken form open resources.
-Everybody can download it from google cloud.
+Online libruary for different programm languages developers. \
+All literature is free, taken form open resources. \
+Everybody can download it from google cloud. \
 
 Technologies: React, Redux, SASS
 
