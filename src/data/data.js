@@ -291,6 +291,7 @@ import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A
 import lavarel3 from "../assets/images/books/Lavarel/3. Practical Laravel. Develop clean MVC web applications.jpg";
 //webpack comment
 import webpack1 from "../assets/images/books/Webpack/1. Webpack 5 Up and Running. A quick and practical introduction to the JavaScript application bundler.jpg";
+import webpack2 from "../assets/images/books/Webpack/2. Webpack for Beginners.jpg";
 
 export const data = [
   {
@@ -3893,6 +3894,21 @@ export const data = [
     clickFilterValue: "Webpack",
     fileFormat: "pdf",
     fileSize: 3.8
+  },
+  {
+    title: "Webpack for Beginners",
+    img: webpack2,
+    link: "https://drive.google.com/file/d/1fSJ9Ye4xc5pDantqy8pdpOkBgpoWRkt9/view?usp=sharing",
+    author: "Mohamed Bouzid",
+    year: [2020, "Все", "All"],
+    sheets: 129,
+    description: "Webpack стал одним из самых популярных сборщиков за последние годы; он широко используется разработчиками, компаниями и организациями всех размеров, и многие веб-фреймворки используют его для управления своими проектами Вы начнете с установки и настройки Webpack и узнаете, как писать модульный код. Затем вы перейдете к использованию загрузчиков и плагинов с примерами использования  псевдонимов и разрешите удалять кэш и устанавливать сторонние библиотеки, такие как jQuery, Bootstrap, QuillJS и многое другое. К концу этой книги вы изучите webpack и будете готовы начать использовать Webpack в своих проектах.",
+    stack: ["Webpack", "Все", "All"],
+    stackIcon: webpackIcon,
+    borderColor: "#8ed6fb",
+    clickFilterValue: "Webpack",
+    fileFormat: "pdf",
+    fileSize: 4.3
   },
   //webpack comment
 ];
