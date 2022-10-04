@@ -285,6 +285,7 @@ import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern pat
 import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
+import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -3830,6 +3831,21 @@ export const data = [
     clickFilterValue: "Kotlin",
     fileFormat: "epub",
     fileSize: 113.7
+  },
+  {
+    title: "Programming Android with Kotlin",
+    img: kotlin2,
+    link: "https://drive.google.com/file/d/11oo4pu8aYqBcrssqnKDSlNmnLlbOU478/view?usp=sharing",
+    author: "Pierre-Olivier Laurence & Amanda Hinchman-Dominguez, G. Blake Meike, Mike Dunn",
+    year: [2021, "Все", "All"],
+    sheets: 459,
+    description: "С помощью этой практической книги разработчики Android узнают, как осуществить переход с Java на Kotlin. Кроме этого, в книге проводятся исследования реализации наиболее распространенных задач и как Kotlin может помочь решить проблемы параллелизма. В книге описывается structured concurrency - новая парадигма асинхронного программирования. Также, книга познакомит вас с одной из самых мощных конструкций Kotlin - корутинами",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 7.3
   },
   //kotlin comment
   {
