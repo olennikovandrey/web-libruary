@@ -29,6 +29,7 @@ import netIcon from "../assets/images/technologies/net-without-word.svg";
 import kotlinIcon from "../assets/images/technologies/kotlin.svg";
 import lavarelIcon from "../assets/images/technologies/lavarel.svg";
 import webpackIcon from "../assets/images/technologies/webpack.svg";
+import rustIcon from "../assets/images/technologies/rust.svg";
 //js comment
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
@@ -293,6 +294,8 @@ import lavarel3 from "../assets/images/books/Lavarel/3. Practical Laravel. Devel
 //webpack comment
 import webpack1 from "../assets/images/books/Webpack/1. Webpack 5 Up and Running. A quick and practical introduction to the JavaScript application bundler.jpg";
 import webpack2 from "../assets/images/books/Webpack/2. Webpack for Beginners.jpg";
+//rust comment
+import rust1 from "../assets/images/books/Rust/1. Command-Line Rust. A Project-Based Primer for Writing Rust CLIs.jpg";
 
 export const data = [
   {
@@ -3927,4 +3930,20 @@ export const data = [
     fileSize: 4.3
   },
   //webpack comment
+  {
+    title: "Command-Line Rust: A Project-Based Primer for Writing Rust CLIs",
+    img: rust1,
+    link: "https://drive.google.com/file/d/1_UtSfsQn2ckD3cn0zJtBv4ktJdWx8N8I/view?usp=share_link",
+    author: "Ken Youens-Clark",
+    year: [2022, "Все", "All"],
+    sheets: 398,
+    description: "В течение нескольких лет подряд Rust был признан 'самым любимым языком программирования' в ежегодном опросе разработчиков StackOverflow. Этот язык системного программирования с открытым исходным кодом теперь используется для всего - от игровых движков и операционных систем до компонентов браузера и движков моделирования виртуальной реальности. Но Rust также является невероятно сложным языком с заведомо трудной кривой обучения. Эта книга - отличный способ попрактиковаться в написании Rust в реальных сценариях. Кен, соавтор языка, проложил путь к развитию ваших навыков в разработке и решении распространенных проблем.",
+    stack: ["Rust", "Все", "All"],
+    stackIcon: rustIcon,
+    borderColor: "#000000",
+    clickFilterValue: "Rust",
+    fileFormat: "pdf",
+    fileSize: 16
+  },
+  //rust comment
 ];

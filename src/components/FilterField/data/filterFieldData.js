@@ -23,6 +23,7 @@ export const stackRU = [
   "Python",
   "React",
   "Ruby",
+  "Rust",
   "TypeScript",
   "MySQL",
   "Visual Studio Code",
