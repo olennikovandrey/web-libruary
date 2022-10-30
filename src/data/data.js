@@ -296,6 +296,7 @@ import webpack1 from "../assets/images/books/Webpack/1. Webpack 5 Up and Running
 import webpack2 from "../assets/images/books/Webpack/2. Webpack for Beginners.jpg";
 //rust comment
 import rust1 from "../assets/images/books/Rust/1. Command-Line Rust. A Project-Based Primer for Writing Rust CLIs.jpg";
+import rust2 from "../assets/images/books/Rust/2. Programming Rust, 2nd Edition (Early Release).jpg";
 
 export const data = [
   {
@@ -3944,6 +3945,21 @@ export const data = [
     clickFilterValue: "Rust",
     fileFormat: "pdf",
     fileSize: 16
+  },
+  {
+    title: "Programming Rust, 2nd Edition (Early Release)",
+    img: rust2,
+    link: "https://drive.google.com/file/d/1SF_Gd39z1P2Sbly_XlrTna6K1pHhQZdf/view?usp=share_link",
+    author: "Jim Blandy",
+    year: [2021, "Все", "All"],
+    sheets: 35,
+    description: "Язык программирования Rust предлагает редкое и ценное сочетание статически проверенной безопасности памяти и низкоуровневого управления. Представьте себе C++, но без висячих указателей, разыменований нулевых указателей, утечек или переполнения буфера. С помощью этого практического руководства программисты поймут правила Rust. Вы узнаете, как создавать программы, которые, как может доказать Rust, свободны от широкого класса распространенных ошибок.",
+    stack: ["Rust", "Все", "All"],
+    stackIcon: rustIcon,
+    borderColor: "#000000",
+    clickFilterValue: "Rust",
+    fileFormat: "epub",
+    fileSize: 2.7
   },
   //rust comment
 ];
