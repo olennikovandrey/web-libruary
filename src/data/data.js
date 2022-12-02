@@ -285,6 +285,7 @@ import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Ear
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
 import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
+import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3 in 1 ). Covers .NET using CSharp, Visual Basic ASP.NET.jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
@@ -3820,7 +3821,7 @@ export const data = [
     fileSize: 4.2
   },
   {
-    title: "Beginning gRPC with ASP.NET Core 6: Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 ",
+    title: "Beginning gRPC with ASP.NET Core 6: Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6",
     img: net3,
     link: "https://drive.google.com/file/d/1ex6ivom5In2eUsCisYTPat1aCqcDuAld/view?usp=sharing",
     author: "Anthony Giretti",
@@ -3835,6 +3836,21 @@ export const data = [
     clickFilterValue2: "Angular",
     fileFormat: "pdf",
     fileSize: 10.3
+  },
+  {
+    title: "Learn .Net with Programming ( 3 in 1 ): Covers .NET using C#, Visual Basic ASP.NET",
+    img: net4,
+    link: "https://drive.google.com/file/d/1BYDXQ8PtQTgpSjNS5aJ3r2cmy6r31Hqj/view?usp=share_link",
+    author: "Dr. S.H. Abbas",
+    year: [2022, "Все", "All"],
+    sheets: 377,
+    description: "Книга посвящена описанию последних тенденций и событий в .NET. Книга охватывает базовые основы программирования, логику профессионального программирования и глубокие концепции программирования в .NET, такие как операторы управления потоком в C# и Visual Basic, основные методы программирования на C#, процедуры и концепции процедурного программирования. Эта книга предоставляет свежий и актуальный контент по .NET Core в сжатом формате, который приятно читать. В ней также представлены концепции, а также последствия, проектные решения и потенциальные подводные камни разработки на .NET.",
+    stack: [".NET", "Все", "All"],
+    stackIcon: netIcon,
+    borderColor: "#116eb5",
+    clickFilterValue: ".NET",
+    fileFormat: "pdf",
+    fileSize: 5.1
   },
   //net comment
   {
