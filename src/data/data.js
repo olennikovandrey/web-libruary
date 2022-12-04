@@ -179,7 +179,7 @@ import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
 import UI3 from "../assets/images/books/UI/3. Think Like a UX Researcher.jpg";
 import UI4 from "../assets/images/books/UI/4. Lean UX.jpg";
 import UI5 from "../assets/images/books/UI/5. Laws of UX. Using Psychology to Design Better Products & Services.jpg";
-//Java comment
+//java comment
 import JAVA1 from "../assets/images/books/Java/1. Mastering Java. A Beginner's Guide.jpg";
 import JAVA2 from "../assets/images/books/Java/2. Selenium with Java – A Beginner’s Guide.jpg";
 import JAVA3 from "../assets/images/books/Java/3. Java 17 Recipes. A Problem-Solution Approach.jpg";
@@ -201,6 +201,7 @@ import JAVA18 from "../assets/images/books/Java/18. Beginning Programming with J
 import JAVA19 from "../assets/images/books/Java/19. Java to Kotlin. A Refactoring Guidebook.jpg";
 import JAVA20 from "../assets/images/books/Java/20. Java. 2021 Beginners Programming Guide. 33 Best Java Tips and Tricks.jpg";
 import JAVA21 from "../assets/images/books/Java/21. Pro Java Microservices with Quarkus and Kubernetes. A Hands-on Guide.jpg";
+import JAVA22 from "../assets/images/books/Java/22. Exceptions in Java Basics, advanced concepts, and real API examples.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -2747,7 +2748,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 14.1
   },
-  //Java comment
+  {
+    title: "Exceptions in Java: Basics, advanced concepts, and real API examples",
+    img: JAVA22,
+    link: "https://drive.google.com/file/d/1OXRPFbszGlrUWMf4xqkx2NPH3SzHei1-/view?usp=share_link",
+    author: "Nik Lumi",
+    year: [2022, "Все", "All"],
+    sheets: 212,
+    description: "Общепринято, что исключения помогают разделить различные проблемы в программировании и, следовательно, улучшить управляемость кода. Хотя мало кто будет отрицать полезность исключений, постоянно ведутся споры о том, как их следует использовать. В этой книге рассматриваются основы исключений в Java, расширенная концепция и лучшие практики, а также дается исторический обзор того, как подходили и подходят к обработке исключений в Java. Кроме того, в книге приведены примеры реальных API с анализом того, как эти API подходят к исключениям и обрабатывают их. Эта книга предполагает, что читатель знаком с основами языка программирования Java и способен написать, скомпилировать и выполнить простую программу. Также предполагается, что читатель способен читать и понимать фрагменты кода.",
+    stack: ["Java", "Все", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: 1.4
+  },
+  //java comment
   {
     title: "AWS All-in-One Security Guide: Design, Build, Monitor, and Manage a Fortified Application Ecosystem on AWS",
     img: AWS1,
