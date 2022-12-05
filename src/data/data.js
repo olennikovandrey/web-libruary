@@ -79,6 +79,7 @@ import React16 from "../assets/images/books/React/16. Full-Stack React, TypeScri
 import React17 from "../assets/images/books/React/17. Fullstack React with TypeScript.jpg";
 import React18 from "../assets/images/books/React/18. React Design Patterns and Best Practices.jpg";
 import React19 from "../assets/images/books/React/19. ASP .NET Core 3 and React.jpg";
+import React20 from "../assets/images/books/React/20. Practical Enterprise React. Become an Effective React Developer in Your Team.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -1049,6 +1050,21 @@ export const data = [
     clickFilterValue2: ".NET",
     fileFormat: "pdf",
     fileSize: 12.8
+  },
+  {
+    title: "Practical Enterprise React: Become an Effective React Developer in Your Team",
+    img: React20,
+    link: "https://drive.google.com/file/d/1dnS1M1SBiqfm9ixcBLHjDyo0qtPOqnM1/view?usp=sharing",
+    author: "Devlin Basilan Duldulao",
+    year: [2021, "Все", "All"],
+    sheets: 471,
+    description: "Научитесь писать реальные корпоративные приложения, используя основы React и самые популярные библиотеки React. Книга включает такие популярные библиотеки, как React Router v6 для навигации по маршрутам, Redux с Saga и Thunk для управления состояниями и Formik с Yup для валидации форм и ввода. Вы также будете работать с Material UI 5 (следующая основная версия самой популярной библиотеки компонентов пользовательского интерфейса в React), Axios в качестве клиентской библиотеки HTTP, JWT auth для аутентификации клиентских приложений и TypeScript. Наконец, вы научитесь развертывать приложение на Netlify и контейнеризировать приложение React, чтобы отправить его в виде отдельного экземпляра контейнера или в кластере Kubernetes.",
+    stack: ["React", "Все", "All"],
+    stackIcon: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    fileFormat: "pdf",
+    fileSize: 10
   },
   //REACT comment
   {
