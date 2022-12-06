@@ -87,6 +87,7 @@ import HTML3 from "../assets/images/books/HTML/3. HTML & CSS Handbook. Learn HTM
 import HTML4 from "../assets/images/books/HTML/4. New Perspectives HTML5 and CSS3. Comprehensive.jpg";
 import HTML5 from "../assets/images/books/HTML/5. HTML5 in easy steps, Second Edition.jpg";
 import HTML6 from "../assets/images/books/HTML/6. HTML and CSS. Visual QuickStart Guide, 9th Edition.jpg";
+import HTML7 from "../assets/images/books/HTML/7. The Essential Guide to HTML5 Using Games to Learn HTML5 and JavaScript.jpg";
 //node comment
 import NODE1 from "../assets/images/books/NodeJS/1. Serverless Applications with Node.js. Using AWS Lambda and Claudia.js.jpg";
 import NODE2 from "../assets/images/books/NodeJS/2. Nest.js A Progressive Node.js Framework.jpg";
@@ -1168,6 +1169,25 @@ export const data = [
     clickFilterValue2: "CSS",
     fileFormat: "epub",
     fileSize: 20
+  },
+  {
+    title: "The Essential Guide to HTML5: Using Games to Learn HTML5 and JavaScript",
+    img: HTML7,
+    link: "https://drive.google.com/file/d/1gp-Ci0GWKY5jeRnwRtb0JJrFHH7_tbpz/view?usp=share_link",
+    author: "Jeanine Meyer",
+    year: [2022, "Все", "All"],
+    sheets: 505,
+    description: "Получите глубокие практические знания основных инструментов, используемых для создания веб-страниц: языка гипертекстовой разметки (HTML5), каскадных таблиц стилей (CSS) и JavaScript. Эта обновленная версия включает новые и улучшенные игры и упражнения и подойдет как абсолютным новичкам, так и людям, имеющим некоторый опыт работы с языками программирования, но не знакомым с комбинацией HTML, CSS и JavaScript. Приложение содержит примеры продвинутых техник, таких как программы скалярной векторной графики, отображающие логотип HTML5 и фигурку из мультфильма, каждая из которых может меняться динамически, а также математические техники для расчета того, пересекает ли ход линию, и перенастройки расположения кругов и стрелок. Изложение каждого примера в главах и приложении включает снимки экрана и таблицы, раскрывающие структуру программы, и пояснение кода по пунктам.",
+    stack: ["HTML", "CSS", "JavaScript", "Все", "All"],
+    stackIcon: htmlIcon,
+    stackIcon2: cssIcon,
+    stackIcon3: JSIcon,
+    borderColor: "#df4a17",
+    clickFilterValue: "HTML",
+    clickFilterValue2: "CSS",
+    clickFilterValue3: "JavaScript",
+    fileFormat: "pdf",
+    fileSize: 8.5
   },
   //HTML comment
   {
