@@ -292,6 +292,7 @@ import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
+import kotlin3 from "../assets/images/books/Kotlin/3. Functional Programming in Kotlin.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -3928,6 +3929,21 @@ export const data = [
     year: [2021, "Все", "All"],
     sheets: 459,
     description: "С помощью этой практической книги разработчики Android узнают, как осуществить переход с Java на Kotlin. Кроме этого, в книге проводятся исследования реализации наиболее распространенных задач и как Kotlin может помочь решить проблемы параллелизма. В книге описывается structured concurrency - новая парадигма асинхронного программирования. Также, книга познакомит вас с одной из самых мощных конструкций Kotlin - корутинами",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 10.4
+  },
+  {
+    title: "Functional Programming in Kotlin",
+    img: kotlin3,
+    link: "https://drive.google.com/file/d/1WxJg5jf8PA7JKos1S12Bxb9AuJSljsJA/view?usp=share_link",
+    author: "Marco Vermeulen",
+    year: [2021, "Все", "All"],
+    sheets: 504,
+    description: "Освойте техники и концепции функционального программирования, чтобы создавать более безопасный, простой и эффективный код на языке Kotlin. Эта книга научит вас разрабатывать и писать приложения на языке Kotlin с использованием типизированного функционального программирования. С помощью наглядных примеров, тщательно продуманных объяснений и обширных упражнений книга переходит от базовых тем, таких как типы и структуры данных, к продвинутым темам, таким как обработка потоков.",
     stack: ["Kotlin", "Все", "All"],
     stackIcon: kotlinIcon,
     borderColor: "#d260a0",
