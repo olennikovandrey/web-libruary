@@ -135,6 +135,7 @@ import PT29 from "../assets/images/books/Python/29. Full Stack Python Security. 
 import PT30 from "../assets/images/books/Python/30. Mastering Large Datasets with Python.jpg";
 import PT31 from "../assets/images/books/Python/31. Financial Theory with Python.jpg";
 import PT32 from "../assets/images/books/Python/32. Robust Python. Write Clean and Maintainable Code.jpg";
+import PT33 from "../assets/images/books/Python/33. Pragmatic Python Programming Learning Python the Smart Way.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -1860,6 +1861,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "epub",
     fileSize: 6.3
+  },
+  {
+    title: "Pragmatic Python Programming: Learning Python the Smart Way",
+    img: PT33,
+    link: "https://drive.google.com/file/d/1ZI7hHjtABd3vEEPHebbOFEHKBKWDPdPA/view?usp=share_link",
+    author: "Gabor Gut",
+    year: [2022, "Все", "All"],
+    sheets: 211,
+    description: "Исследуйте мир языков программирования через Python и изучите основы для написания программ. Эта книга охватывает Python 3.10, объясняя его через шесть ключевых концепций. Каждая глава содержит реальный пример с практическими советами и раздел, посвященный продвинутым концепциям. Независимо от того, новичок ли вы в программировании или уже опытный разработчик, по окончании этой книги вы будете иметь твердое представление о самых современных возможностях Python в области разработки.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 3.3
   },
   //PT comment
   {
