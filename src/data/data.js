@@ -59,6 +59,7 @@ import JS25 from "../assets/images/books/JS/25. Clean Code in JavaScript.jpg";
 import JS26 from "../assets/images/books/JS/26. JavaScript Frameworks for Modern Web Development.jpg";
 import JS27 from "../assets/images/books/JS/27. Advanced JavaScript.jpg";
 import JS28 from "../assets/images/books/JS/28. Graphic Javascript Algorithms.jpg";
+import JS29 from "../assets/images/books/JS/29. JavaScript The Comprehensive Guide to Learning Professional JavaScript Programming.jpg";
 //REACT comment
 import React1 from "../assets/images/books/React/1. Building React Apps with Server-Side Rendering.jpg";
 import React2 from "../assets/images/books/React/2. Learning React.jpg";
@@ -745,6 +746,21 @@ export const data = [
     clickFilterValue: "JavaScript",
     fileFormat: "epub",
     fileSize: 39.5
+  },
+  {
+    title: "JavaScript. The Comprehensive Guide to Learning Professional JavaScript Programming",
+    img: JS29,
+    link: "https://drive.google.com/file/d/1AlAoUnW1LmCVwM9ytIrcMmlNlz7MKbh3/view?usp=share_link",
+    author: "Philip Ackermann",
+    year: [2022, "Все", "All"],
+    sheets: 1344,
+    description: "Вы узнаете все, что нужно знать о профессиональном программировании на JavaScript, от основных понятий языка до важнейших задач на стороне клиента. Создавайте динамические веб-приложения с помощью пошаговых инструкций и расширяйте свои знания, изучая разработку на стороне сервера и мобильную разработку. Работайте с расширенными возможностями языка, пишите чистый и эффективный код и многое другое!",
+    stack: ["JavaScript", "Все", "All"],
+    stackIcon: JSIcon,
+    borderColor: "#fffb00",
+    clickFilterValue: "JavaScript",
+    fileFormat: "pdf",
+    fileSize: 10.5
   },
   //JS comment
   {
