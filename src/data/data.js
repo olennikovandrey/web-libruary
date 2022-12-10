@@ -137,6 +137,7 @@ import PT30 from "../assets/images/books/Python/30. Mastering Large Datasets wit
 import PT31 from "../assets/images/books/Python/31. Financial Theory with Python.jpg";
 import PT32 from "../assets/images/books/Python/32. Robust Python. Write Clean and Maintainable Code.jpg";
 import PT33 from "../assets/images/books/Python/33. Pragmatic Python Programming Learning Python the Smart Way.jpg";
+import PT34 from "../assets/images/books/Python/34. Python 3 Without Prior Knowledge Learn how to program a neural network within 7 days.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -1892,6 +1893,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "pdf",
     fileSize: 3.3
+  },
+  {
+    title: "Python 3 Without Prior Knowledge: Learn how to program a neural network within 7 days",
+    img: PT34,
+    link: "https://drive.google.com/file/d/1ZS33jUWhaEIKhhgODcqz6qMLlh7_OQq2/view?usp=share_link",
+    author: "Benjamin Spahic",
+    year: [2022, "Все", "All"],
+    sheets: 139,
+    description: "Python 3 без предварительных знаний - научитесь программировать нейронные сети за 7 дней Не хотите ли вы научиться программировать на Python 3 без каких-либо предварительных знаний? Нет проблем - с помощью этого руководства для начинающих вы сможете в кратчайшие сроки понять основные принципы объектно-ориентированного программирования, связанные с переменными, циклами и классами. Это руководство охватывает основы программирования на языке Python. Реальные практические примеры, графики и небольшие упражнения помогают параллельно с пониманием.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 4.6
   },
   //PT comment
   {
