@@ -103,6 +103,7 @@ import TS2 from "../assets/images/books/TS/2. Essential TypeScript.jpg";
 import TS3 from "../assets/images/books/TS/3. Programming TypeScript. Making Your JavaScript Applications Scale.jpg";
 import TS4 from "../assets/images/books/TS/4. TypeScript in 50 Lessons.jpg";
 import TS5 from "../assets/images/books/TS/5. Programming with Types.jpg";
+import TS6 from "../assets/images/books/TS/6. Learning TypeScript.jpg";
 //PT comment
 import PT1 from "../assets/images/books/Python/1. Building Versatile Mobile Apps with Python and REST.jpg";
 import PT2 from "../assets/images/books/Python/2. Fluent Python, 2nd Edition .jpg";
@@ -1395,6 +1396,21 @@ export const data = [
     clickFilterValue: "TypeScript",
     fileFormat: "pdf",
     fileSize: 5
+  },
+  {
+    title: "Learning TypeScript",
+    img: TS6,
+    link: "https://drive.google.com/file/d/1RcjRHNbFaxY6VIB2Q_UcMZ95hR4i9R6A/view?usp=share_link",
+    author: "Josh Goldberg",
+    year: [2022, "Все", "All"],
+    sheets: 486,
+    description: "Вы узнаете: - Преимущества TypeScript и общие характеристики его системы типов; - Почему и как TypeScript полезен поверх JavaScript; - Как информировать свою систему типов с помощью аннотаций типов, предназначенных только для разработчиков; - Как TypeScript анализирует и понимает код, чтобы помочь вам дополнить существующие модели разработки; - Как TypeScript помогает работать с массивами, классами, функциями, объектами и другими важными встроенными конструкциями JavaScript; - Как эффективно использовать множество опций конфигурации TypeScript для адаптации компилятора TypeScript к вашим командам и проектам; - Различные интеграции IDE, такие как автоматический рефактор и интеллектуальный поиск кода, предоставляемые TypeScript, чтобы помочь вам разрабатывать быстро и с меньшим количеством ошибок.",
+    stack: ["TypeScript", "Все", "All"],
+    stackIcon: TSIcon,
+    borderColor: "#0176c5",
+    clickFilterValue: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 5.2
   },
   //TS comment
   {
