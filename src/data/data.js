@@ -254,6 +254,7 @@ import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical G
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
 import DevOps3 from "../assets/images/books/DevOps/3. Cloud Native DevOps with Kubernetes.jpg";
 import DevOps4 from "../assets/images/books/DevOps/4. Modern DevOps Practices. Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques.jpg";
+import DevOps5 from "../assets/images/books/DevOps/5. DevOps Tools for Java Developers.jpg";
 //iOS comment
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
@@ -3464,19 +3465,36 @@ export const data = [
     fileSize: 11.8
   },
   {
-    title: "Modern DevOps Practices: Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques ",
+    title: "Modern DevOps Practices: Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques",
     img: DevOps4,
     link: "https://drive.google.com/file/d/10sq1nhGivF_O5R4oHIepSuhpqiVU_o6Y/view?usp=sharing",
     author: "Gaurav Agarwal",
     year: [2021, "Все", "All"],
     sheets: 530,
-    description: "Контейнеры полностью изменили представление разработчиков и конечных пользователей о приложениях в целом. Из этой книги вы узнаете все о контейнерах, их архитектуре и преимуществах, а также о том, как реализовать их в рамках жизненного цикла разработки. Вы узнаете, как можно перейти от мира виртуальных машин и адаптировать современные способы использования DevOps для непрерывной поставки программного обеспечения. Начав с краткого ознакомления с основными концепциями контейнеров, вы перейдете к изучению архитектурных концепций для реализации современных способов разработки приложений. Вы рассмотрите темы, связанные с Docker, Kubernetes, Ansible, Terraform, Poker и другими подобными инструментами",
+    description: "Контейнеры полностью изменили представление разработчиков и конечных пользователей о приложениях в целом. Из этой книги вы узнаете все о контейнерах, их архитектуре и преимуществах, а также о том, как реализовать их в рамках жизненного цикла разработки. Вы узнаете, как можно перейти от мира виртуальных машин и адаптировать современные способы использования DevOps для непрерывной поставки программного обеспечения. Начав с краткого ознакомления с основными концепциями контейнеров, вы перейдете к изучению архитектурных концепций для реализации современных способов разработки приложений. Вы рассмотрите темы, связанные с Docker, Kubernetes, Ansible, Terraform, Poker и другими подобными инструментами.",
     stack: ["DevOps", "Все", "All"],
     stackIcon: devopsIcon,
     borderColor: "#e7e7e8",
     clickFilterValue: "DevOps",
     fileFormat: "pdf",
     fileSize: 6.3
+  },
+  {
+    title: "DevOps Tools for Java Developers",
+    img: DevOps5,
+    link: "https://drive.google.com/file/d/1Y0-sWTVGzBvYg44U0DQ1Jwc_Z0RgQ0uz/view?usp=share_link",
+    author: "Stephen Chin",
+    year: [2022, "Все", "All"],
+    sheets: 579,
+    description: "С развитием DevOps, недорогих облачных вычислений и контейнерных технологий подход Java-разработчиков к разработке сегодня кардинально изменился. Это практическое руководство поможет вам использовать преимущества микросервисов, бессерверных и облачных технологий с применением новейших методик DevOps для упрощения процесса сборки и создания высокопроизводительных команд. В список входят контроль исходных кодов с помощью Git, декларация сборки с помощью Maven и Gradle, CI/CD с помощью CircleCI, управление пакетами с помощью Artifactory, контейнеризация с помощью Docker и Kubernetes и многое другое. Создаете ли вы приложения с помощью Jakarta EE, Spring Boot, Dropwizard, MicroProfile, Micronaut или Quarkus, это исчерпывающее руководство поможет вам.",
+    stack: ["DevOps", "Java", "Все", "All"],
+    stackIcon: devopsIcon,
+    stackIcon2: javaIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue: "DevOps",
+    clickFilterValue2: "Java",
+    fileFormat: "pdf",
+    fileSize: 27.9
   },
   //DevOps comment
   {
