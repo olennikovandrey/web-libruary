@@ -139,6 +139,7 @@ import PT31 from "../assets/images/books/Python/31. Financial Theory with Python
 import PT32 from "../assets/images/books/Python/32. Robust Python. Write Clean and Maintainable Code.jpg";
 import PT33 from "../assets/images/books/Python/33. Pragmatic Python Programming Learning Python the Smart Way.jpg";
 import PT34 from "../assets/images/books/Python/34. Python 3 Without Prior Knowledge Learn how to program a neural network within 7 days.jpg";
+import PT35 from "../assets/images/books/Python/35. Time Series Forecasting in Python.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -1925,6 +1926,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "pdf",
     fileSize: 4.6
+  },
+  {
+    title: "Time Series Forecasting in Python",
+    img: PT35,
+    link: "https://drive.google.com/file/d/14aYR2Ly1m5tZecbCEjPqdx0bD-7mV5YQ/view?usp=share_link",
+    author: "Marco Peixeiro",
+    year: [2022, "Все", "All"],
+    sheets: 812,
+    description: "Стройте прогнозные модели на основе временных закономерностей в ваших данных. Освойте статистические модели, включая новые подходы глубокого обучения для прогнозирования временных рядов. Эта книга научит вас строить мощные прогностические модели на основе временных данных. Каждая модель, которую вы создадите, будет актуальной, полезной и легко реализуемой с помощью Python. Вы будете изучать интересные реальные наборы данных, такие как ежедневный курс акций Google и экономические данные по США, быстро переходя от основ к разработке крупномасштабных моделей, использующих инструменты глубокого обучения, такие как TensorFlow.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 21.3
   },
   //PT comment
   {
