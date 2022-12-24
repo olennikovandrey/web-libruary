@@ -104,6 +104,7 @@ import TS3 from "../assets/images/books/TS/3. Programming TypeScript. Making You
 import TS4 from "../assets/images/books/TS/4. TypeScript in 50 Lessons.jpg";
 import TS5 from "../assets/images/books/TS/5. Programming with Types.jpg";
 import TS6 from "../assets/images/books/TS/6. Learning TypeScript.jpg";
+import TS7 from "../assets/images/books/TS/7. Essential TypeScript 4 From Beginner to Pro 2nd Edition.jpg";
 //PT comment
 import PT1 from "../assets/images/books/Python/1. Building Versatile Mobile Apps with Python and REST.jpg";
 import PT2 from "../assets/images/books/Python/2. Fluent Python, 2nd Edition .jpg";
@@ -1413,6 +1414,21 @@ export const data = [
     clickFilterValue: "TypeScript",
     fileFormat: "pdf",
     fileSize: 5.2
+  },
+  {
+    title: "Essential TypeScript 4: From Beginner to Pro 2nd Edition",
+    img: TS7,
+    link: "https://drive.google.com/file/d/1nVE9QozSLX0mgjpKz1yDa3HkgH8RARFu/view?usp=share_link",
+    author: "Adam Freeman",
+    year: [2021, "Все", "All"],
+    sheets: 581,
+    description: "Узнайте об основных и дополнительных возможностях TypeScript, популярного супернабора языка JavaScript, в котором добавлена поддержка статической типизации. TypeScript сочетает в себе возможности типизации C# или Java с гибкостью JavaScript, уменьшая количество ошибок типизации и обеспечивая более легкий путь к разработке JavaScript. Каждая тема освещается четко и лаконично и снабжена деталями, необходимыми для эффективной работы. Наиболее важные функции рассматриваются без лишних слов и подробно, а главы включают распространенные проблемы и учат, как их избежать.",
+    stack: ["TypeScript", "Все", "All"],
+    stackIcon: TSIcon,
+    borderColor: "#0176c5",
+    clickFilterValue: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 10.1
   },
   //TS comment
   {
