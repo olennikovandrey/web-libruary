@@ -227,6 +227,7 @@ import API6 from "../assets/images/books/API/6. Web API Development with Python.
 import API7 from "../assets/images/books/API/7. The Design of Web APIs.jpg";
 import API8 from "../assets/images/books/API/8. API Design Patterns.jpg";
 import API9 from "../assets/images/books/API/9. Beginning Django API with React. Build Django 4 Web APIs with React Full Stack Applications.jpg";
+import API10 from "../assets/images/books/API/10. RESTful Web API Patterns and Practices Cookbook. Connecting and Orchestrating Microservices and Distributed Data.jpg";
 //sql comment
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
@@ -3131,6 +3132,21 @@ export const data = [
     clickFilterValue2: "React",
     fileFormat: "pdf",
     fileSize: 3
+  },
+  {
+    title: "RESTful Web API Patterns and Practices Cookbook: Connecting and Orchestrating Microservices and Distributed Data",
+    img: API10,
+    link: "https://drive.google.com/file/d/1y3ceSlnRdlwv4UNW5OSdyYgQ3aEI7t64/view?usp=share_link",
+    author: "Mike Amundsen",
+    year: [2022, "Все", "All"],
+    sheets: 468,
+    description: "Многие организации создают и поддерживают приложения, которые используют чужие сервисы. Эта книга содержит проверенные рецепты, которые помогут вам заставить эти многочисленные разрозненные части работать вместе в вашей сети. Автор предлагает пошаговые решения для поиска, подключения и обслуживания приложений, разработанных и созданных людьми за пределами организации. Работаете ли вы над мобильными приложениями, ориентированными на человека, или создаете мощные межмашинные решения, это руководство покажет вам правила, процедуры, команды и протоколы - клей, который объединяет отдельные микросервисы, чтобы они могли функционировать вместе безопасным, масштабируемым и надежным образом.",
+    stack: ["API", "Все", "All"],
+    stackIcon: apiIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue: "API",
+    fileFormat: "epub",
+    fileSize: 6
   },
   //API comment
   {
