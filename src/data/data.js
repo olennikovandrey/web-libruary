@@ -276,6 +276,7 @@ import cPlus10 from "../assets/images/books/C++/10. C++. Simple and Effective Ti
 import cPlus11 from "../assets/images/books/C++/11. C++ for Lazy Programmers.jpg";
 import cPlus12 from "../assets/images/books/C++/12. C++20 Recipes.jpg";
 import cPlus13 from "../assets/images/books/C++/13. C++ Software Design. Design Principles and Patterns for High-Quality Software.jpg";
+import cPlus14 from "../assets/images/books/C++/14. C++20 - The Complete Guide.jpg";
 //agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 //css comment
@@ -3775,7 +3776,7 @@ export const data = [
     title: "C++ Software Design: Design Principles and Patterns for High-Quality Software",
     img: cPlus13,
     link: "https://drive.google.com/file/d/1vXpRp4IesiB1iz6Krdl-wT9s1ykAxLls/view?usp=share_link",
-    author: " Klaus Iglberger",
+    author: "Klaus Iglberger",
     year: [2022, "Все", "All"],
     sheets: 435,
     description: "Хорошее проектирование программного обеспечения является залогом успеха вашего проекта. Но для этого необходимо иметь глубокое понимание последствий проектных решений и хороший обзор доступных альтернатив. С помощью этой книги опытные разработчики на C++ получат подробный, практический и не имеющий аналогов обзор проектирования программного обеспечения с помощью этого современного языка. Клаус Иглбергер объясняет, как можно управлять зависимостями и абстракциями, улучшать изменяемость и расширяемость программных объектов, а также применять и реализовывать современные паттерны проектирования, которые помогут вам воспользоваться сегодняшними возможностями. Проектирование программного обеспечения - самый важный аспект программного проекта, поскольку он влияет на самые важные свойства программного обеспечения: сопровождаемость, изменяемость и расширяемость.",
@@ -3785,6 +3786,21 @@ export const data = [
     clickFilterValue: "C++",
     fileFormat: "pdf",
     fileSize: 5.4
+  },
+  {
+    title: "C++20 - The Complete Guide",
+    img: cPlus14,
+    link: "https://drive.google.com/file/d/1S_QbRzwGLteNgRXSFHDEQqmumCzI74T1/view?usp=share_link",
+    author: "Nicolai M. Josuttis",
+    year: [2022, "Все", "All"],
+    sheets: 764,
+    description: "C++20 - это нечто грандиозное. Он изменит способ программирования более радикально, чем C++11. Объединение новых возможностей дает вам еще больше возможностей. Однако не все в нем понятно и есть скрытые ловушки. Поэтому очень важно понять все концепции C++20 и научиться извлекать из них максимальную пользу. Эта книга рассказывает о мотивации и контексте всех новых возможностей C++20 (охватывающих как язык, так и библиотеку), предоставляя множество примеров и уникальную справочную информацию как для прикладных программистов, так и для разработчиков библиотек. Основное внимание уделяется тому, как эти возможности влияют на повседневное программирование, какой эффект может дать комбинирование возможностей, и как вы можете извлечь из них пользу на практике.",
+    stack: ["C++", "Все", "All"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "pdf",
+    fileSize: 3.4
   },
   //Cplus comment
   {
