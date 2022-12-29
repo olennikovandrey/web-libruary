@@ -210,6 +210,7 @@ import JAVA19 from "../assets/images/books/Java/19. Java to Kotlin. A Refactorin
 import JAVA20 from "../assets/images/books/Java/20. Java. 2021 Beginners Programming Guide. 33 Best Java Tips and Tricks.jpg";
 import JAVA21 from "../assets/images/books/Java/21. Pro Java Microservices with Quarkus and Kubernetes. A Hands-on Guide.jpg";
 import JAVA22 from "../assets/images/books/Java/22. Exceptions in Java Basics, advanced concepts, and real API examples.jpg";
+import JAVA23 from "../assets/images/books/Java/23. Go for Java Programmers. Learn the Google Go Programming Language.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -2898,6 +2899,21 @@ export const data = [
     clickFilterValue: "Java",
     fileFormat: "pdf",
     fileSize: 1.4
+  },
+  {
+    title: "Go for Java Programmers: Learn the Google Go Programming Language",
+    img: JAVA23,
+    link: "https://drive.google.com/file/d/1W6x3MPUnem1J-VUUm_2P3lQMs4TxFj-6/view?usp=share_link",
+    author: "Barry Feigenbaum Ph.D.",
+    year: [2021, "Все", "All"],
+    sheets: 617,
+    description: "Получите глубокое представление о языке программирования Go и связанных с ним стандартных библиотеках. Эта книга ориентирована на программистов, которые уже знают язык программирования Java, и использует знания Java. Эта книга учит Go через четкое описание возможностей Go, противопоставляя их аналогичным возможностям Java и приводя обширные примеры кода. После прочтения этой книги вы будете достаточно осведомлены о Go и его библиотеках, чтобы начать эффективно программировать на языке Go. ",
+    stack: ["Java", "Все", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: 9.4
   },
   //java comment
   {
