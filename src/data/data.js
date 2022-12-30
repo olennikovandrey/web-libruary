@@ -141,6 +141,7 @@ import PT32 from "../assets/images/books/Python/32. Robust Python. Write Clean a
 import PT33 from "../assets/images/books/Python/33. Pragmatic Python Programming Learning Python the Smart Way.jpg";
 import PT34 from "../assets/images/books/Python/34. Python 3 Without Prior Knowledge Learn how to program a neural network within 7 days.jpg";
 import PT35 from "../assets/images/books/Python/35. Time Series Forecasting in Python.jpg";
+import PT36 from "../assets/images/books/Python/36. Data Structures & Algorithms in Python.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -1960,6 +1961,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "pdf",
     fileSize: 21.3
+  },
+  {
+    title: "Data Structures & Algorithms in Python",
+    img: PT36,
+    link: "https://drive.google.com/file/d/1sGkZ9rDGHB0eDjUP2sPWpDDDXBpkpp5f/view?usp=share_link",
+    author: "John Canning",
+    year: [2022, "Все", "All"],
+    sheets: 928,
+    description: "Книга фокусируется на реальных примерах, доносит ключевые идеи с помощью интуитивно понятных интерактивных визуализаций и ограничивает сложность и математику только тем, что необходимо для повышения производительности. Шаг за шагом она знакомит вас с массивами, сортировкой, стеками, очередями, связанными списками, рекурсией, двоичными деревьями, 2-3-4 деревьями, хэш-таблицами, пространственными структурами данных, графами и многим другим. Примеры кода и иллюстрации настолько понятны, что вы сможете разобраться, даже если вы почти новичок или ваш опыт связан с другими процедурными или объектно-ориентированными языками.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 40.6
   },
   //PT comment
   {
