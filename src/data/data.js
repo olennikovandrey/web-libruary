@@ -230,6 +230,7 @@ import API7 from "../assets/images/books/API/7. The Design of Web APIs.jpg";
 import API8 from "../assets/images/books/API/8. API Design Patterns.jpg";
 import API9 from "../assets/images/books/API/9. Beginning Django API with React. Build Django 4 Web APIs with React Full Stack Applications.jpg";
 import API10 from "../assets/images/books/API/10. RESTful Web API Patterns and Practices Cookbook. Connecting and Orchestrating Microservices and Distributed Data.jpg";
+import API11 from "../assets/images/books/API/11. Designing APIs with Swagger and OpenAPI.jpg";
 //sql comment
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
@@ -3180,6 +3181,21 @@ export const data = [
     clickFilterValue: "API",
     fileFormat: "epub",
     fileSize: 6
+  },
+  {
+    title: "Designing APIs with Swagger and OpenAPI",
+    img: API11,
+    link: "https://drive.google.com/file/d/1EAlTbDA6tChvBEIHdqq4UvpGMn9O2sxq/view?usp=share_link",
+    author: "Joshua S. Ponelat",
+    year: [2022, "Все", "All"],
+    sheets: 424,
+    description: "Эта книга представляет подход, основанный на проектировании. Написанная для разработчиков, только начинающих проектировать API, она прослеживает жизненный цикл проекта API от концепции до производства. Вы получите практический опыт проектирования API для конкретных бизнес-потребностей, использования инструментов с открытым исходным кодом для создания документации и создания удобных для разработчиков компонентов, таких как макеты и клиентские SDK.",
+    stack: ["API", "Все", "All"],
+    stackIcon: apiIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue: "API",
+    fileFormat: "pdf",
+    fileSize: 17.7
   },
   //API comment
   {
