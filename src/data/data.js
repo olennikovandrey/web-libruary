@@ -142,6 +142,7 @@ import PT33 from "../assets/images/books/Python/33. Pragmatic Python Programming
 import PT34 from "../assets/images/books/Python/34. Python 3 Without Prior Knowledge Learn how to program a neural network within 7 days.jpg";
 import PT35 from "../assets/images/books/Python/35. Time Series Forecasting in Python.jpg";
 import PT36 from "../assets/images/books/Python/36. Data Structures & Algorithms in Python.jpg";
+import PT37 from "../assets/images/books/Python/37. Python for Cybersecurity Using Python for Cyber Offense and Defense.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -1977,6 +1978,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "pdf",
     fileSize: 40.6
+  },
+  {
+    title: "Python for Cybersecurity: Using Python for Cyber Offense and Defense",
+    img: PT37,
+    link: "https://drive.google.com/file/d/1YBpvqdAFJSaqkcElYRdtgRgNQDgCmoH9/view?usp=share_link",
+    author: "Howard E. Poston III",
+    year: [2022, "Все", "All"],
+    sheets: 250,
+    description: "Эта книга представляет собой интуитивно понятное и практическое объяснение использования Python для обеспечения кибербезопасности. В книге на основе структуры MITRE ATT&CK рассматриваются методы кибератак, средства защиты от атак и основные проблемы кибербезопасности, с которыми сегодня сталкиваются администраторы сетей и другие заинтересованные стороны.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 8.9
   },
   //PT comment
   {
