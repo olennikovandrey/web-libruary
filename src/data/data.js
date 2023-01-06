@@ -253,6 +253,7 @@ import Other13 from "../assets/images/books/Other/13. Fundamentals of Software A
 import Other14 from "../assets/images/books/Other/14. Docs for Developers. An Engineer’s Field Guide to Technical Writing.jpg";
 import Other15 from "../assets/images/books/Other/15. Data Management at Scale.jpg";
 import Other16 from "../assets/images/books/Other/16. Building Microservices.jpg";
+import Other17 from "../assets/images/books/Other/17. Learning Regular Expressions.jpg";
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
@@ -3499,6 +3500,21 @@ export const data = [
     clickFilterValue: "Other",
     fileFormat: "epub",
     fileSize: 10.3
+  },
+  {
+    title: "Building Microservices",
+    img: Other17,
+    link: "https://drive.google.com/file/d/1n1GoxYNyYkdimtvSEqHrdYsGEPJ_K0Mp/view?usp=share_link",
+    author: "Ben Forta",
+    year: [2020, "Все", "All"],
+    sheets: 144,
+    description: "Эта книга научит вас регулярным выражениям, которые вам действительно необходимо знать, начиная с простых текстовых соответствий и заканчивая более сложными темами, включая использование обратных ссылок, условную оценку и обработку с опережением.",
+    stack: ["Other", "Все", "All"],
+    stackIcon: otherIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue: "Other",
+    fileFormat: "pdf",
+    fileSize: 2.1
   },
   //Other comment
   {
