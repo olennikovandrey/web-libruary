@@ -143,6 +143,7 @@ import PT34 from "../assets/images/books/Python/34. Python 3 Without Prior Knowl
 import PT35 from "../assets/images/books/Python/35. Time Series Forecasting in Python.jpg";
 import PT36 from "../assets/images/books/Python/36. Data Structures & Algorithms in Python.jpg";
 import PT37 from "../assets/images/books/Python/37. Python for Cybersecurity Using Python for Cyber Offense and Defense.jpg";
+import PT38 from "../assets/images/books/Python/38. Infrastructure as Code, Patterns and Practices With examples in Python and Terraform.jpg";
 //PHP comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -1994,6 +1995,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "pdf",
     fileSize: 8.9
+  },
+  {
+    title: "Infrastructure as Code, Patterns and Practices: With examples in Python and Terraform",
+    img: PT38,
+    link: "https://drive.google.com/file/d/1yD9CKvaY99wqe9yccrlt-6LJETLk3Fc7/view?usp=share_link",
+    author: "Rosemary Wang",
+    year: [2022, "Все", "All"],
+    sheets: 250,
+    description: "Вы узнаете, как создавать, тестировать и развертывать компоненты инфраструктуры таким образом, чтобы их можно было легко масштабировать и распространять на всю организацию. Книга полна гибких методов автоматизации, которые работают независимо от того, управляете ли вы своими личными проектами или вносите изменения в сеть крупного предприятия. Эта книга обучает гибким методам построения устойчивой, масштабируемой инфраструктуры, включая структурирование и совместное использование модулей, перенос унаследованных систем и многое другое. Научитесь создавать сети, балансировщики нагрузки и брандмауэры с помощью Python и Terraform, а также уверенно обновлять инфраструктуру во время работы вашего программного обеспечения.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 12.8
   },
   //PT comment
   {
