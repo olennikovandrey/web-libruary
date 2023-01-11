@@ -175,7 +175,7 @@ import Angular3 from "../assets/images/books/Angular/3. Angular Design Patterns.
 import Angular4 from "../assets/images/books/Angular/4. Getting MEAN with Mongo, Express, Angular, and Node, 2ED.jpg";
 import Angular5 from "../assets/images/books/Angular/5. Angular Development with TypeScript.jpg";
 import Angular6 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
-import Angular7 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
+import Angular7 from "../assets/images/books/Angular/7. Reactive Patterns with RxJS for Angular. A practical guide to managing your Angular application's data reactively and efficiently using RxJS 7.jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -2418,7 +2418,7 @@ export const data = [
   {
     title: "Reactive Patterns with RxJS for Angular: A practical guide to managing your Angular application's data reactively and efficiently using RxJS 7",
     img: Angular7,
-    link: "https://drive.google.com/file/d/1ig-Tn-PBcEudQaDcuc0HTbTO85A7qXk2/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1QH8ZLMQ3GNWiq-CLQWe-JY95SuWVJOy2/view?usp=share_link",
     author: "DLamis Chebbi",
     year: [2022, "Все", "All"],
     sheets: 224,
@@ -2428,7 +2428,7 @@ export const data = [
     borderColor: "#dd0031",
     clickFilterValue: "Angular",
     fileFormat: "pdf",
-    fileSize: 18.7
+    fileSize: 2.7
   },
   //Angular comment
   {
