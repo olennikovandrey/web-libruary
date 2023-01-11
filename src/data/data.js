@@ -175,6 +175,7 @@ import Angular3 from "../assets/images/books/Angular/3. Angular Design Patterns.
 import Angular4 from "../assets/images/books/Angular/4. Getting MEAN with Mongo, Express, Angular, and Node, 2ED.jpg";
 import Angular5 from "../assets/images/books/Angular/5. Angular Development with TypeScript.jpg";
 import Angular6 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
+import Angular7 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -2407,6 +2408,21 @@ export const data = [
     year: [2020, "Все", "All"],
     sheets: 824,
     description: "Данная книга представляет собой пересмотренное и обновленное издание бестселлера по созданию корпоративных веб-приложений с использованием фреймворка Angular. Вы начнете с изучения основ программирования на Angular. Используя метод Канбан и инструменты GitHub, вы научитесь создавать приложения с Angular Material, а также использовать шаблоны реактивного программирования с RxJS. К концу книги вы познакомитесь со всем спектром современной веб-разработки и полнофункциональной архитектурой, шаблонами и практиками обучения, которые помогут добиться успеха вам как индивидуальному разработчику или в команде.",
+    stack: ["Angular", "Все", "All"],
+    stackIcon: angularIcon,
+    borderColor: "#dd0031",
+    clickFilterValue: "Angular",
+    fileFormat: "pdf",
+    fileSize: 18.7
+  },
+  {
+    title: "Reactive Patterns with RxJS for Angular: A practical guide to managing your Angular application's data reactively and efficiently using RxJS 7",
+    img: Angular7,
+    link: "https://drive.google.com/file/d/1ig-Tn-PBcEudQaDcuc0HTbTO85A7qXk2/view?usp=sharing",
+    author: "DLamis Chebbi",
+    year: [2022, "Все", "All"],
+    sheets: 224,
+    description: "RxJS - это быстрая, надежная и компактная библиотека для обработки асинхронных и событийных программ. Она позволяет веб-разработчикам повышать производительность приложений, качество кода и удобство работы пользователей, поэтому использование реактивных паттернов в ваших проектах веб-разработки Angular может улучшить взаимодействие пользователей с вашими приложениями. Эта книга представляет собой пошаговое руководство по изучению всего, что связано с RxJS и реактивностью. Вы начнете с понимания важности реактивной парадигмы и новых возможностей RxJS 7. Далее вы откроете для себя различные реактивные паттерны, основанные на реальных примерах использования, для эффективного управления данными вашего приложения и реализации общих функций с использованием минимального количества строк кода.",
     stack: ["Angular", "Все", "All"],
     stackIcon: angularIcon,
     borderColor: "#dd0031",
