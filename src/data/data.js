@@ -300,6 +300,7 @@ import cSharp1 from "../assets/images/books/CSharp/1. The Ultimate Beginners Gui
 import cSharp2 from "../assets/images/books/CSharp/2. cShapr Cookbook. Modern Recipes for Professional Developers.jpg";
 import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.jpg";
 import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Early Release).jpg";
+import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in C# Refactor your legacy C# code base and improve application performance by applying best practices.jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
@@ -4099,6 +4100,21 @@ export const data = [
     clickFilterValue2: ".NET",
     fileFormat: "pdf",
     fileSize: 2
+  },
+  {
+    title: "Clean Code in C#: Refactor your legacy C# code base and improve application performance by applying best practices",
+    img: cSharp5,
+    link: "https://drive.google.com/file/d/1I-r0673KwB9gCpNEiCyXJvFo4-Q0f-7Z/view?usp=share_link",
+    author: "Jason Alls",
+    year: [2020, "Все", "All"],
+    sheets: 500,
+    description: "Традиционно ассоциируясь с разработкой настольных приложений и игр для Windows, C# сегодня используется в самых разных областях, таких как веб-приложения и облачные приложения, а также становится все более популярным для разработки мобильных устройств. Книга начинается со сравнения хорошего и плохого кода, что поможет вам понять важность стандартов, принципов и методологий кодирования. Затем вы познакомитесь с обзорами кода и их ролью в улучшении вашего кода и обеспечении соблюдения признанных в отрасли стандартов кодирования. Вы изучите передовые методы программирования для объектов, структур данных, обработки исключений и другие аспекты написания программ. Изучив проектирование API и обнаружив инструменты для улучшения качества кода, вы рассмотрите примеры плохого кода и поймете, каких практик кодирования следует избегать.",
+    stack: ["C#", ".NET", "Все", "All"],
+    stackIcon: cSharpIcon,
+    borderColor: "#9b4f96",
+    clickFilterValue: "C#",
+    fileFormat: "pdf",
+    fileSize: 7.7
   },
   //csharp comment
   {
