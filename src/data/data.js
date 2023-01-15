@@ -215,6 +215,7 @@ import JAVA20 from "../assets/images/books/Java/20. Java. 2021 Beginners Program
 import JAVA21 from "../assets/images/books/Java/21. Pro Java Microservices with Quarkus and Kubernetes. A Hands-on Guide.jpg";
 import JAVA22 from "../assets/images/books/Java/22. Exceptions in Java Basics, advanced concepts, and real API examples.jpg";
 import JAVA23 from "../assets/images/books/Java/23. Go for Java Programmers. Learn the Google Go Programming Language.jpg";
+import JAVA24 from "../assets/images/books/Java/24. Java for Web Development Create Full-Stack Java Applications with Servlets, JSP Pages, MVC Pattern and Database Connectivity .jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -2981,6 +2982,21 @@ export const data = [
     clickFilterValue: "Java",
     fileFormat: "pdf",
     fileSize: 9.4
+  },
+  {
+    title: "Java for Web Development: Create Full-Stack Java Applications with Servlets, JSP Pages, MVC Pattern and Database Connectivity",
+    img: JAVA24,
+    link: "https://drive.google.com/file/d/1XGlKTgH0Dcy_kzd0SzvZdHHWOlmeoSZi/view?usp=share_link",
+    author: "Sarika Agarwal",
+    year: [2022, "Все", "All"],
+    sheets: 212,
+    description: "Книга охватывает различные ключевые темы, включая паттерн MVC, сервлеты, JSP, подключение к базе данных, struts и локализацию. Благодаря примерам и демонстрациям вы узнаете о каждом аспекте веб-разработки и о том, как эффективно использовать Java и связанные с ней инструменты на протяжении всего процесса. Все программы выполнены в IDE NetBeans и работают на сервере Tomcat. Иерархия классов и архитектура также иллюстрируются графически. Читатели получат исчерпывающие знания о концепциях благодаря аналогиям, взятым из реальных ситуаций. Также включены вопросы для собеседования с решениями для пользователей, ищущих работу в компаниях-разработчиках программного обеспечения.",
+    stack: ["Java", "Все", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: 5.4
   },
   //java comment
   {
