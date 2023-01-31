@@ -301,8 +301,8 @@ import cSharp1 from "../assets/images/books/CSharp/1. The Ultimate Beginners Gui
 import cSharp2 from "../assets/images/books/CSharp/2. cShapr Cookbook. Modern Recipes for Professional Developers.jpg";
 import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.jpg";
 import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Early Release).jpg";
-import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in C# Refactor your legacy C# code base and improve application performance by applying best practices.jpg";
-import cSharp6 from "../assets/images/books/CSharp/6. Simple and Efficient Programming with C#. Skills to Build Applications with Visual Studio and .NET, 2nd Edition.jpg";
+import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in CSharp Refactor your legacy CSharp code base and improve application performance by applying best practices.jpg";
+import cSharp6 from "../assets/images/books/CSharp/6. Simple and Efficient Programming with CSharp. Skills to Build Applications with Visual Studio and .NET, 2nd Edition.jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
