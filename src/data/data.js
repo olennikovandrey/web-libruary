@@ -215,7 +215,7 @@ import JAVA20 from "../assets/images/books/Java/20. Java. 2021 Beginners Program
 import JAVA21 from "../assets/images/books/Java/21. Pro Java Microservices with Quarkus and Kubernetes. A Hands-on Guide.jpg";
 import JAVA22 from "../assets/images/books/Java/22. Exceptions in Java Basics, advanced concepts, and real API examples.jpg";
 import JAVA23 from "../assets/images/books/Java/23. Go for Java Programmers. Learn the Google Go Programming Language.jpg";
-import JAVA24 from "../assets/images/books/Java/24. Java for Web Development Create Full-Stack Java Applications with Servlets, JSP Pages, MVC Pattern and Database Connectivity .jpg";
+import JAVA24 from "../assets/images/books/Java/24. Java for Web Development Create Full-Stack Java Applications with Servlets, JSP Pages, MVC Pattern and Database Connectivity.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -302,6 +302,7 @@ import cSharp2 from "../assets/images/books/CSharp/2. cShapr Cookbook. Modern Re
 import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.jpg";
 import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Early Release).jpg";
 import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in C# Refactor your legacy C# code base and improve application performance by applying best practices.jpg";
+import cSharp6 from "../assets/images/books/CSharp/6. Simple and Efficient Programming with C#. Skills to Build Applications with Visual Studio and .NET, 2nd Edition.jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
@@ -4125,12 +4126,27 @@ export const data = [
     year: [2020, "Все", "All"],
     sheets: 500,
     description: "Традиционно ассоциируясь с разработкой настольных приложений и игр для Windows, C# сегодня используется в самых разных областях, таких как веб-приложения и облачные приложения, а также становится все более популярным для разработки мобильных устройств. Книга начинается со сравнения хорошего и плохого кода, что поможет вам понять важность стандартов, принципов и методологий кодирования. Затем вы познакомитесь с обзорами кода и их ролью в улучшении вашего кода и обеспечении соблюдения признанных в отрасли стандартов кодирования. Вы изучите передовые методы программирования для объектов, структур данных, обработки исключений и другие аспекты написания программ. Изучив проектирование API и обнаружив инструменты для улучшения качества кода, вы рассмотрите примеры плохого кода и поймете, каких практик кодирования следует избегать.",
-    stack: ["C#", ".NET", "Все", "All"],
+    stack: ["C#", "Все", "All"],
     stackIcon: cSharpIcon,
     borderColor: "#9b4f96",
     clickFilterValue: "C#",
     fileFormat: "pdf",
     fileSize: 7.7
+  },
+  {
+    title: "Simple and Efficient Programming with C#: Skills to Build Applications with Visual Studio and .NET, 2nd Edition",
+    img: cSharp6,
+    link: "https://drive.google.com/file/d/1x7pwmTk6eNobpZnAwrE3HNOeeGFW0zJg/view?usp=share_link",
+    author: "Vaskaran Sarcar",
+    year: [2022, "Все", "All"],
+    sheets: 340,
+    description: "Примените навыки и подходы к программированию для создания реального приложения на C# 11 с использованием последних редакций Visual Studio, C# и Microsoft .NET. Первая часть начинается с подробного обсуждения полиморфизма. Во второй части вы изучите шесть принципов проектирования, включая принципы SOLID и DRY. В третьей части вы познакомитесь с методами создания эффективных приложений. Улучшенная обработка исключений и нулевых значений - еще одна неотъемлемая часть профессионального программирования, которая подробно рассматривается в четвертой части. В заключительной части книги вы узнаете об эффективных методах управления памятью, а также об использовании и неиспользовании паттернов проектирования.",
+    stack: ["C#", "Все", "All"],
+    stackIcon: cSharpIcon,
+    borderColor: "#9b4f96",
+    clickFilterValue: "C#",
+    fileFormat: "pdf",
+    fileSize: 7.1
   },
   //csharp comment
   {
