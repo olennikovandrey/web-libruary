@@ -144,13 +144,14 @@ import PT35 from "../assets/images/books/Python/35. Time Series Forecasting in P
 import PT36 from "../assets/images/books/Python/36. Data Structures & Algorithms in Python.jpg";
 import PT37 from "../assets/images/books/Python/37. Python for Cybersecurity Using Python for Cyber Offense and Defense.jpg";
 import PT38 from "../assets/images/books/Python/38. Infrastructure as Code, Patterns and Practices With examples in Python and Terraform.jpg";
-//PHP comment
+//php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
 import PHP3 from "../assets/images/books/PHP/3. Learn PHP in One Day and Learn It Well.jpg";
 import PHP4 from "../assets/images/books/PHP/4. PHP and Algorithmic Thinking for the Complete Beginner.jpg";
 import PHP5 from "../assets/images/books/PHP/5. Programming PHP. Creating Dynamic Web Pages.jpg";
 import PHP6 from "../assets/images/books/PHP/6. PHP and MySQL Web Development.jpg";
+import PHP7 from "../assets/images/books/PHP/7. PHP. The Ultimate Guide.jpg";
 //gql comment
 import GQL1 from "../assets/images/books/GraphQL/1. The Road to GraphQL.jpg";
 import GQL2 from "../assets/images/books/GraphQL/2. GraphQL in Action.jpg";
@@ -2114,7 +2115,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 1.8
   },
-  //PHP comment
+  {
+    title: "PHP: The Ultimate Guide",
+    img: PHP7,
+    link: "https://drive.google.com/file/d/1qlzy9YIyFvqv0D7VK4TQRvwRXU5kMr6u/view?usp=share_link",
+    author: "Sufyan bin Uzayr",
+    year: [2022, "Все", "All"],
+    sheets: 380,
+    description: "Эта книга предлагает: - Пошаговый подход к решению проблем и развитию навыков; - Быстрое изучение основных концепций языка в форме \"Краш-курса\"; - Продвинутые, практические основные концепции с акцентом на реальных проблемах; - Парадигмы кодирования промышленного уровня и практико-ориентированный объяснительный подход; - Особое внимание уделяется написанию чистого и оптимизированного кода, а дополнительные главы посвящены методологии кодирования.",
+    stack: ["PHP", "Все", "All"],
+    stackIcon: phpIcon,
+    borderColor: "#6181b6",
+    clickFilterValue: "PHP",
+    fileFormat: "pdf",
+    fileSize: 6.4
+  },
+  //php comment
   {
     title: "The Road to GraphQL",
     img: GQL1,
