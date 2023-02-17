@@ -224,6 +224,7 @@ import AWS3 from "../assets/images/books/AWS/3. AWS Certified Cloud Practitioner
 import AWS4 from "../assets/images/books/AWS/4. Programming AWS Lambda.jpg";
 import AWS5 from "../assets/images/books/AWS/5. AWS Cookbook. Recipes for Success on AWS.jpg";
 import AWS6 from "../assets/images/books/AWS/6. Security and Microservice Architecture on AWS.jpg";
+import AWS7 from "../assets/images/books/AWS/7. AWS for Non-Engineers.jpg";
 //API comment
 import API1 from "../assets/images/books/API/1. Mastering API Architecture.jpg";
 import API2 from "../assets/images/books/API/2. Traefik API Gateway for Microservices.jpg";
@@ -3108,7 +3109,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 12.6
   },
-  //AWS comment
+  {
+    title: "AWS for Non-Engineers",
+    img: AWS7,
+    link: "https://drive.google.com/file/d/13_b05TLI9awPMzHpgXbnBKAY-IAipeB0/view?usp=share_link",
+    author: "Hiroko Nishimura",
+    year: [2022, "Все", "All"],
+    sheets: 152,
+    description: "Это руководство для абсолютных новичков по Amazon Web Services, ведущей платформе облачных вычислений. В этом кратком практическом руководстве вы найдете доступное для начинающих введение в концепции облачных вычислений и способы использования облака. Узнайте, как войти в AWS, получить доступ к необходимым приложениям и файлам, а также безопасно обмениваться документами и данными. Вы даже получите словарный запас, необходимый для разговора о AWS с разработчиками и администраторами.",
+    stack: ["AWS", "Все", "All"],
+    stackIcon: awsIcon,
+    borderColor: "#ff9a00",
+    clickFilterValue: "AWS",
+    fileFormat: "pdf",
+    fileSize: 10.4
+  },
+  //aws comment
   {
     title: "Mastering API Architecture",
     img: API1,
