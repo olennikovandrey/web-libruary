@@ -97,7 +97,7 @@ import NODE4 from "../assets/images/books/NodeJS/4. Node.js Design Patterns.jpg"
 import NODE5 from "../assets/images/books/NodeJS/5. Beginning API Development with Node.js.jpg";
 import NODE6 from "../assets/images/books/NodeJS/6. Node.js. Novice to Ninja.jpg";
 import NODE7 from "../assets/images/books/NodeJS/7. Distributed Systems with Node.js.jpg";
-//TS comment
+//ts comment
 import TS1 from "../assets/images/books/TS/1. TypeScript Quickly.jpg";
 import TS2 from "../assets/images/books/TS/2. Essential TypeScript.jpg";
 import TS3 from "../assets/images/books/TS/3. Programming TypeScript. Making Your JavaScript Applications Scale.jpg";
@@ -105,6 +105,7 @@ import TS4 from "../assets/images/books/TS/4. TypeScript in 50 Lessons.jpg";
 import TS5 from "../assets/images/books/TS/5. Programming with Types.jpg";
 import TS6 from "../assets/images/books/TS/6. Learning TypeScript.jpg";
 import TS7 from "../assets/images/books/TS/7. Essential TypeScript 4 From Beginner to Pro 2nd Edition.jpg";
+import TS8 from "../assets/images/books/TS/8. Modern Full-Stack Development Using TypeScript, React, Node.js, Webpack, Python, Django, and Docker, 2nd Edition.jpg";
 //PT comment
 import PT1 from "../assets/images/books/Python/1. Building Versatile Mobile Apps with Python and REST.jpg";
 import PT2 from "../assets/images/books/Python/2. Fluent Python, 2nd Edition .jpg";
@@ -1444,7 +1445,30 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 10.1
   },
-  //TS comment
+  {
+    title: "Modern Full-Stack Development: Using TypeScript, React, Node.js, Webpack, Python, Django, and Docker, 2nd Edition",
+    img: TS8,
+    link: "https://drive.google.com/file/d/1SHVZ38UjymTNu9iDgstcc_qQ6av89ogn/view?usp=share_link",
+    author: "Frank Zammetti",
+    year: [2022, "Все", "All"],
+    sheets: 525,
+    description: "Изучите, что могут предложить React, Node, Python, Django, TypeScript, Webpack и Docker по отдельности, и как они все вместе подходят для разработки современных приложений. Вы начнете с создания прочного фундамента знаний и быстро расширите его, создав три различных реальных приложения. Это не просто простые, надуманные примеры, а реальные приложения, которые вы можете установить на свои серверы и использовать в реальных условиях.  Вы также поймете, как можно использовать Docker для запуска приложений, которые вы создаете, ясным и четко определенным способом, и все это поможет вам перейти к созданию более продвинутых приложений самостоятельно.",
+    stack: ["TypeScript", "React", "NodeJS", "Webpack", "Python", "Все", "All"],
+    stackIcon: TSIcon,
+    stackIcon2: reactIcon,
+    stackIcon3: nodeIcon,
+    stackIcon4: webpackIcon,
+    stackIcon5: PTIcon,
+    borderColor: "#0176c5",
+    clickFilterValue: "TypeScript",
+    clickFilterValue2: "React",
+    clickFilterValue3: "NodeJS",
+    clickFilterValue4: "Webpack",
+    clickFilterValue5: "Python",
+    fileFormat: "pdf",
+    fileSize: 11.5
+  },
+  //ts comment
   {
     title: "Building Versatile Mobile Apps with Python and REST",
     img: PT1,
