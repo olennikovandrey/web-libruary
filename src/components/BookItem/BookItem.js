@@ -13,6 +13,7 @@ export default function BookItem({ data, setSearchStack, stateChangerFn }) {
         { data.stackIcon2 && <img src={ data.stackIcon2 } className="book-item__stack-icon-second" alt="icon2" name={ data.clickFilterValue2 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
         { data.stackIcon3 && <img src={ data.stackIcon3 } className="book-item__stack-icon-third" alt="icon3" name={ data.clickFilterValue3 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
         { data.stackIcon4 && <img src={ data.stackIcon4 } className="book-item__stack-icon-fourth" alt="icon4" name={ data.clickFilterValue4 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
+        { data.stackIcon5 && <img src={ data.stackIcon5 } className="book-item__stack-icon-fifth" alt="icon5" name={ data.clickFilterValue5 } onClick={ (event) => stateChangerFn(setSearchStack, event.target.name) }/> }
         <span className="book-item__title">{ data.title }</span>
         <div className="book-item__description">
           <div className="book-item__image-wrapper">
