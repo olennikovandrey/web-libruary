@@ -218,6 +218,7 @@ import JAVA21 from "../assets/images/books/Java/21. Pro Java Microservices with 
 import JAVA22 from "../assets/images/books/Java/22. Exceptions in Java Basics, advanced concepts, and real API examples.jpg";
 import JAVA23 from "../assets/images/books/Java/23. Go for Java Programmers. Learn the Google Go Programming Language.jpg";
 import JAVA24 from "../assets/images/books/Java/24. Java for Web Development Create Full-Stack Java Applications with Servlets, JSP Pages, MVC Pattern and Database Connectivity.jpg";
+import JAVA25 from "../assets/images/books/Java/25. Java Memory Management A comprehensive guide to garbage collection and JVM tuning.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3039,6 +3040,21 @@ export const data = [
     clickFilterValue: "Java",
     fileFormat: "pdf",
     fileSize: 5.4
+  },
+  {
+    title: "Java Memory Management: A comprehensive guide to garbage collection and JVM tuning",
+    img: JAVA25,
+    link: "https://drive.google.com/file/d/1gsp5dwvpys2Ijjx1Y5O9Jsdx8Fmny6Wm/view?usp=share_link",
+    author: "Maaike van Putten",
+    year: [2022, "Все", "All"],
+    sheets: 146,
+    description: "Понимание того, как Java организует память, важно для каждого специалиста по Java, но эта конкретная тема является общим пробелом в знаниях для многих профессионалов в области программного обеспечения. Глубокие знания о функционировании и управлении памятью невероятно полезны при написании и анализе кода, а также при отладке проблем с памятью. В этой книге вы начнете с изучения основ памяти Java. После этого вы погрузитесь в различные сегменты по отдельности. Вы изучите стек, кучу и метапространство. Затем вы будете готовы погрузиться в стандартные сборщики мусора JVM. Книга также покажет вам, как настраивать, контролировать и профилировать управление памятью JVM. В последующих главах вы узнаете, как избежать и обнаружить утечки памяти. К концу этой книги вы поймете, как Java управляет памятью и как настроить ее на благо ваших приложений.",
+    stack: ["Java", "Все", "All"],
+    stackIcon: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue: "Java",
+    fileFormat: "pdf",
+    fileSize: .4
   },
   //java comment
   {
