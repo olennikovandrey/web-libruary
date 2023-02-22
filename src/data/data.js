@@ -316,6 +316,7 @@ import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
 import kotlin3 from "../assets/images/books/Kotlin/3. Functional Programming in Kotlin.jpg";
+import kotlin4 from "../assets/images/books/Kotlin/4. Beginning Kotlin Build Applications with Better Code, Productivity, and Performance.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -4328,6 +4329,21 @@ export const data = [
     clickFilterValue: "Kotlin",
     fileFormat: "pdf",
     fileSize: 7.3
+  },
+  {
+    title: "Beginning Kotlin: Build Applications with Better Code, Productivity, and Performance",
+    img: kotlin4,
+    link: "https://drive.google.com/file/d/1u4RMfnSQAxSloGUNH-pLmCR6QsGUUt1O/view?usp=share_link",
+    author: "Ted Hagos",
+    year: [2022, "Все", "All"],
+    sheets: 249,
+    description: "Эта книга знакомит с навыками и приемами программирования на языке Kotlin, необходимыми для создания приложений. Вы узнаете, как перенести свои навыки программирования на Java в Kotlin. Книга начинается с краткого обзора языка Kotlin и постепенно переходит к более подробному изучению языка в последующих главах. Вы изучите такие основы Kotlin, как дженерики, функциональное программирование, система типов, отладка и модульное тестирование. Кроме того, с помощью свободно загружаемых онлайн-приложений книги вы узнаете, как использовать Kotlin для создания приложений Spring Boot, персистентности данных и микросервисов.",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 9.2
   },
   //kotlin comment
   {
