@@ -274,7 +274,7 @@ import DevOps5 from "../assets/images/books/DevOps/5. DevOps Tools for Java Deve
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
 import iOS3 from "../assets/images/books/iOS/3. iOS Apprentice (Eighth Edition). Beginning iOS Development with Swift and UIKit.jpg";
-//Cplus comment
+//cplus comment
 import cPlus1 from "../assets/images/books/C++/1. Beautiful C++. 30 Core Guidelines for Writing Clean, Safe, and Fast Code.jpg";
 import cPlus2 from "../assets/images/books/C++/2. C++. Практика многопоточного программирования, Второе издание.jpg";
 import cPlus3 from "../assets/images/books/C++/3. C++ Programming. Program Design Including Data Structures.jpg";
@@ -289,6 +289,7 @@ import cPlus11 from "../assets/images/books/C++/11. C++ for Lazy Programmers.jpg
 import cPlus12 from "../assets/images/books/C++/12. C++20 Recipes.jpg";
 import cPlus13 from "../assets/images/books/C++/13. C++ Software Design. Design Principles and Patterns for High-Quality Software.jpg";
 import cPlus14 from "../assets/images/books/C++/14. C++20 - The Complete Guide.jpg";
+import cPlus15 from "../assets/images/books/C++/15. Test-Driven Development with C++ A simple guide to writing bug-free Agile code.jpg";
 //agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 //css comment
@@ -4005,7 +4006,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 3.4
   },
-  //Cplus comment
+  {
+    title: "Test-Driven Development with C++: A simple guide to writing bug-free Agile code",
+    img: cPlus15,
+    link: "https://drive.google.com/file/d/1cbhyaMvWER_8PRBhPpWAA8eqM2cG75ZL/view?usp=share_link",
+    author: "Abdul Wahid Tanner",
+    year: [2022, "Все", "All"],
+    sheets: 430,
+    description: "Современный C++ - это все, что нужно для создания небольшой и практичной основы тестирования, которая улучшит дизайн любого проекта. Это позволяет думать о том, как будет использоваться код, что является первым шагом в проектировании интуитивно понятных интерфейсов. TDD - это современный сбалансированный подход к разработке программного обеспечения, который помогает создавать сопровождаемые приложения, обеспечивать модульность дизайна и писать минимальный код, что резко сокращает количество дефектов.",
+    stack: ["C++", "Все", "All"],
+    stackIcon: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue: "C++",
+    fileFormat: "pdf",
+    fileSize: 22
+  },
+  //cplus comment
   {
     title: "AGILE in Practice: Practical Use-cases on Project Management Methods including Agile, Kanban and Scrum",
     img: agile1,
