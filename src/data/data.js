@@ -243,6 +243,7 @@ import API11 from "../assets/images/books/API/11. Designing APIs with Swagger an
 import SQL1 from "../assets/images/books/MySQL/1. High Performance MySQL. Proven Strategies for Operating at Scale, 4th Edition.jpg";
 import SQL2 from "../assets/images/books/MySQL/2. Efficient MySQL Performance. Best Practices and Techniques.jpg";
 import SQL3 from "../assets/images/books/MySQL/3. Learning MySQL. Get a Handle on Your Data.jpg";
+import SQL4 from "../assets/images/books/MySQL/4. MySQL Cookbook Solutions for Database Developers and Administrators, 4th Edition.jpg";
 //Other comment
 import Other1 from "../assets/images/books/Other/1. Control Systems Engineering.jpg";
 import Other2 from "../assets/images/books/Other/2. The Book of Crypto.jpg";
@@ -3384,7 +3385,22 @@ export const data = [
     fileFormat: "epub",
     fileSize: 10.6
   },
-  //MySQL comment
+  {
+    title: "MySQL Cookbook: Solutions for Database Developers and Administrators, 4th Edition",
+    img: SQL4,
+    link: "https://drive.google.com/file/d/1ckrMioG1BM1e4CFNsz_AHczTjJMdQ1cu/view?usp=share_link",
+    author: "Bernd Öggl",
+    year: [2022, "Все", "All"],
+    sheets: 922,
+    description: "Когда вам нужны быстрые решения или техники, эта книга предоставляет десятки коротких, целенаправленных фрагментов кода, сотни отработанных примеров и четкие, сжатые объяснения для программистов, у которых нет времени (или опыта) для решения проблем MySQL с нуля. В этом обновленном четвертом издании авторы предлагают более 200 рецептов, которые охватывают мощные возможности MySQL 5.7 и 8.0. Начинающие, а также профессиональные разработчики баз данных и веб-сайтов смогут погрузиться в такие темы, как MySQL Shell, репликация MySQL и работа с JSON.",
+    stack: ["MySQL", "Все", "All"],
+    stackIcon: sqlIcon,
+    borderColor: "#0b6084",
+    clickFilterValue: "MySQL",
+    fileFormat: "pdf",
+    fileSize: 6.9
+  },
+  //sql comment
   {
     title: "Control Systems Engineering: Design and Implementation using Arm Cortex-M Microcontrollers",
     img: Other1,
