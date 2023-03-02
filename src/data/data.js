@@ -314,6 +314,7 @@ import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
 import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
 import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3 in 1 ). Covers .NET using CSharp, Visual Basic ASP.NET.jpg";
+import net5 from "../assets/images/books/.NET/5. Design Patterns in .NET 6 Reusable Approaches in C# and F# for Object-Oriented Software Design.jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
@@ -4315,6 +4316,23 @@ export const data = [
     clickFilterValue: ".NET",
     fileFormat: "pdf",
     fileSize: 5.1
+  },
+  {
+    title: "Design Patterns in .NET 6: Reusable Approaches in C# and F# for Object-Oriented Software Design",
+    img: net5,
+    link: "https://drive.google.com/file/d/19LCEf-dAawVyAD6sRR0-X0oTZu328pBt/view?usp=share_link",
+    author: "Dmitri Nesteruk",
+    year: [2022, "Все", "All"],
+    sheets: 485,
+    description: "Реализуйте паттерны проектирования в .NET 6, используя последние версии языков C# и F#. Эта книга содержит исчерпывающий обзор паттернов проектирования в том виде, в котором они используются в современном инструментарии разработчика. В дополнение к функциональному конструктору, асинхронному методу фабрики, адаптеру общего значения и составным прокси, в новом издании представлены такие темы, как циклические политики декораторов, функциональные команды, трансформаторная вариация паттерна Visitor, а также фабрики, которые могут выполнять отслеживание объектов и массовую замену.",
+    stack: [".NET", "C#", "Все", "All"],
+    stackIcon: netIcon,
+    stackIcon2: cSharpIcon,
+    borderColor: "#116eb5",
+    clickFilterValue: ".NET",
+    clickFilterValue2: "C#",
+    fileFormat: "pdf",
+    fileSize: 7.8
   },
   //net comment
   {
