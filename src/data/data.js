@@ -309,7 +309,7 @@ import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.
 import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Early Release).jpg";
 import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in CSharp Refactor your legacy CSharp code base and improve application performance by applying best practices.jpg";
 import cSharp6 from "../assets/images/books/CSharp/6. Simple and Efficient Programming with CSharp. Skills to Build Applications with Visual Studio and .NET, 2nd Edition.jpg";
-import cSharp7 from "../assets/images/books/CSharp/7. The C# Workshop Kickstart your career as a software developer with C#.jpg";
+import cSharp7 from "../assets/images/books/CSharp/7. The CSharp Workshop Kickstart your career as a software developer with CSharp .jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
