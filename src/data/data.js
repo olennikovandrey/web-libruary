@@ -315,7 +315,7 @@ import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
 import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
 import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3 in 1 ). Covers .NET using CSharp, Visual Basic ASP.NET.jpg";
-import net5 from "../assets/images/books/.NET/5. Design Patterns in .NET 6 Reusable Approaches in C# and F# for Object-Oriented Software Design.jpg";
+import net5 from "../assets/images/books/.NET/5. Design Patterns in .NET 6 Reusable Approaches in CSharp and FSharp for Object-Oriented Software Design.jpg";
 //kotlin comment
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
