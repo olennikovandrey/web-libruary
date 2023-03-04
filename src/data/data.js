@@ -309,6 +309,7 @@ import cSharp3 from "../assets/images/books/CSharp/3. Code like a Pro in CSharp.
 import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Early Release).jpg";
 import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in CSharp Refactor your legacy CSharp code base and improve application performance by applying best practices.jpg";
 import cSharp6 from "../assets/images/books/CSharp/6. Simple and Efficient Programming with CSharp. Skills to Build Applications with Visual Studio and .NET, 2nd Edition.jpg";
+import cSharp7 from "../assets/images/books/CSharp/7. The C# Workshop Kickstart your career as a software developer with C#.jpg";
 //net comment
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
@@ -4253,6 +4254,21 @@ export const data = [
     clickFilterValue: "C#",
     fileFormat: "pdf",
     fileSize: 7.1
+  },
+  {
+    title: "The C# Workshop: Kickstart your career as a software developer with C#",
+    img: cSharp7,
+    link: "https://drive.google.com/file/d/1jEdQ4d-eCuDvT-G6E1PlK5OMoLKYFkkZ/view?usp=share_link",
+    author: "Almantas Karpavicius",
+    year: [2022, "Все", "All"],
+    sheets: 780,
+    description: "C# - это мощный, универсальный язык, который может открыть множество карьерных путей. Но, как и любой другой язык программирования, изучение C# может быть сложным процессом. При наличии широкого спектра различных ресурсов трудно понять, с чего начать. Именно здесь на помощь приходит эта книга. Написанная и рецензируемая экспертами отрасли, она обеспечивает быстрый темп обучения, который поможет вам быстро написать код на C# и создать приложения. В отличие от других книг по разработке программного обеспечения, которые сосредоточены на сухих, технических объяснениях основной теории, этот Практикум отсекает шум и использует увлекательные примеры, чтобы помочь вам понять, как каждая концепция применяется в реальном мире.",
+    stack: ["C#", "Все", "All"],
+    stackIcon: cSharpIcon,
+    borderColor: "#9b4f96",
+    clickFilterValue: "C#",
+    fileFormat: "pdf",
+    fileSize: 14
   },
   //csharp comment
   {
