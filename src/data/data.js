@@ -60,7 +60,7 @@ import JS26 from "../assets/images/books/JS/26. JavaScript Frameworks for Modern
 import JS27 from "../assets/images/books/JS/27. Advanced JavaScript.jpg";
 import JS28 from "../assets/images/books/JS/28. Graphic Javascript Algorithms.jpg";
 import JS29 from "../assets/images/books/JS/29. JavaScript The Comprehensive Guide to Learning Professional JavaScript Programming.jpg";
-//REACT comment
+//react comment
 import React1 from "../assets/images/books/React/1. Building React Apps with Server-Side Rendering.jpg";
 import React2 from "../assets/images/books/React/2. Learning React.jpg";
 import React3 from "../assets/images/books/React/3. React. Up and Running. Building Web Applications.jpg";
@@ -81,6 +81,7 @@ import React17 from "../assets/images/books/React/17. Fullstack React with TypeS
 import React18 from "../assets/images/books/React/18. React Design Patterns and Best Practices.jpg";
 import React19 from "../assets/images/books/React/19. ASP .NET Core 3 and React.jpg";
 import React20 from "../assets/images/books/React/20. Practical Enterprise React. Become an Effective React Developer in Your Team.jpg";
+import React21 from "../assets/images/books/React/21. Just React. Learn React the React Way.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -1111,7 +1112,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 10
   },
-  //REACT comment
+  {
+    title: "Just React!: Learn React the React Way",
+    img: React21,
+    link: "https://drive.google.com/file/d/1dnS1M1SBiqfm9ixcBLHjDyo0qtPOqnM1/view?usp=sharing",
+    author: "Hari Narayn",
+    year: [2022, "Все", "All"],
+    sheets: 385,
+    description: "Перед вами идеальный помощник в изучении и разработке приложений React. Эта книга представляет инновационные концепции, и использует реальные примеры, основанные на наиболее рекомендуемых практиках, чтобы помочь вам заложить прочный фундамент. Этот комплексный подход обеспечивает сильный акцент на построении компонентов с помощью React. Вы начнете с изучения основ веб-технологий, JavaScript нового поколения и того, как React вписывается в эти основы. В последующих главах вы построите приложение React с нуля и узнаете о JSX, компонентах, реквизитах, управлении состоянием, контексте и событиях жизненного цикла. Попутно вы создадите многокомпонентное приложение и увидите, как компоненты взаимодействуют между собой. Также будут рассмотрены вопросы отладки и стилизации приложений React.",
+    stack: ["React", "Все", "All"],
+    stackIcon: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue: "React",
+    fileFormat: "pdf",
+    fileSize: 10.2
+  },
+  //react comment
   {
     title: "HTML5 and CSS3 All-in-One For Dummies",
     img: HTML1,
