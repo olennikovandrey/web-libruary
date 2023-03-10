@@ -146,6 +146,7 @@ import PT35 from "../assets/images/books/Python/35. Time Series Forecasting in P
 import PT36 from "../assets/images/books/Python/36. Data Structures & Algorithms in Python.jpg";
 import PT37 from "../assets/images/books/Python/37. Python for Cybersecurity Using Python for Cyber Offense and Defense.jpg";
 import PT38 from "../assets/images/books/Python/38. Infrastructure as Code, Patterns and Practices With examples in Python and Terraform.jpg";
+import PT39 from "../assets/images/books/Python/39. Metaprogramming with Python A programmer’s guide to writing reusable code to build smarter applications.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2062,6 +2063,21 @@ export const data = [
     clickFilterValue: "Python",
     fileFormat: "pdf",
     fileSize: 12.8
+  },
+  {
+    title: "Metaprogramming with Python: A programmer’s guide to writing reusable code to build smarter applications",
+    img: PT39,
+    link: "https://drive.google.com/file/d/1jXQkyYLtKbxa-pkS_MCpF2PAiRMqLSOu/view?usp=share_link",
+    author: "Sulekha AloorRavi",
+    year: [2022, "Все", "All"],
+    sheets: 402,
+    description: "В начале книги вы узнаете о необходимости и применении метапрограммирования, а затем перейдете к основам объектно-ориентированного программирования. Далее вы узнаете о простых декораторах, поработаете с метаклассами, а затем сосредоточитесь на интроспекции и рефлексии. Вы также углубитесь в дженерики и типизацию, а затем определите шаблоны для алгоритмов. По мере продвижения вы будете понимать свой код с помощью абстрактных синтаксических деревьев и изучите порядок разрешения методов. Эта книга по Python также покажет вам, как создавать собственные динамические объекты, а затем структурировать их с помощью паттернов проектирования.",
+    stack: ["Python", "Все", "All"],
+    stackIcon: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue: "Python",
+    fileFormat: "pdf",
+    fileSize: 25.2
   },
   //PT comment
   {
