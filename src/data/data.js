@@ -181,6 +181,7 @@ import Angular4 from "../assets/images/books/Angular/4. Getting MEAN with Mongo,
 import Angular5 from "../assets/images/books/Angular/5. Angular Development with TypeScript.jpg";
 import Angular6 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
 import Angular7 from "../assets/images/books/Angular/7. Reactive Patterns with RxJS for Angular. A practical guide to managing your Angular application's data reactively and efficiently using RxJS 7.jpg";
+import Angular8 from "../assets/images/books/Angular/8. Pro Angular Build Powerful and Dynamic Web Apps, 5th Edition .jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -2531,6 +2532,21 @@ export const data = [
     clickFilterValue: "Angular",
     fileFormat: "pdf",
     fileSize: 2.7
+  },
+  {
+    title: "Pro Angular: Build Powerful and Dynamic Web Apps, 5th Edition ",
+    img: Angular8,
+    link: "https://drive.google.com/file/d/1RcUcsiUBs7V8YMXSlz04rp0fHgp_6ako/view?usp=share_link",
+    author: "Adam Freeman",
+    year: [2022, "Все", "All"],
+    sheets: 905,
+    description: "Angular - это библиотека JavaScript с открытым исходным кодом, поддерживаемая компанией Google. Она имеет множество отличных возможностей для разработки на стороне сервера и используется в некоторых из самых крупных и сложных веб-приложений в мире для улучшения HTML в браузере. Ее краеугольным камнем является способность создавать приложения, которые можно расширять, поддерживать, тестировать и стандартизировать. Знание основ Angular и понимание его применения - это актив в арсенале любого разработчика.",
+    stack: ["Angular", "Все", "All"],
+    stackIcon: angularIcon,
+    borderColor: "#dd0031",
+    clickFilterValue: "Angular",
+    fileFormat: "pdf",
+    fileSize: 27
   },
   //Angular comment
   {
