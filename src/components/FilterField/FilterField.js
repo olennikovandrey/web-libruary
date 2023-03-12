@@ -1,10 +1,9 @@
-import { stackRU, yearRU, stackEN, yearEN, formats } from "./data/filterFieldData";
+import { stackRU, yearRU, stackEN, yearEN, formats, getAuthors } from "./data/filterFieldData";
 import Input from "./Input/Input";
 import Select from "./Select/Select";
 import React from "react";
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
-
 
 export default function FilterField(props) {
   const lang = useSelector(state => state.lang);
@@ -31,11 +30,13 @@ export default function FilterField(props) {
             labelText={ lang === "english" ? "title:" : "названию:" }
             searchValue={ searchTitle }
           />
-          <Input
-            stateChangerFn={ stateChangerFn }
+          <Select
+            data={ getAuthors() }
             stateFunc={ setSearchAuthor }
+            setCurrentPage={ setCurrentPage }
             labelText={ lang === "english" ? "author:" : "автору:" }
             searchValue={ searchAuthor }
+            preClassName="author"
           />
           <Select
             data={ lang === "english" ? stackEN : stackRU }

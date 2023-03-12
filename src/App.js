@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     document.addEventListener("scroll", () => propgressBar());
-    return document.addEventListener("scroll", () => propgressBar());
+    return document.removeEventListener("scroll", () => propgressBar());
   }, []);
 
   return (

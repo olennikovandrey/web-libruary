@@ -19,14 +19,13 @@ export default function Select(props) {
         selectSingle.setAttribute("data-state", "");
         preClassName === "year" && /[0-9]/.test(selectSingleTitle.textContent) ?
           stateChangerFunc(Number(selectSingleTitle.textContent)) : stateChangerFunc(selectSingleTitle.textContent);
-        preClassName === "stack" && stateChangerFunc(selectSingleTitle.textContent);
-        preClassName === "format" && stateChangerFunc(selectSingleTitle.textContent);
+        preClassName === ("stack" || "format" || "author") && stateChangerFunc(selectSingleTitle.textContent);
         setCurrentPage(1);
       });
     }
 
     document.addEventListener("click", (event) => {
-      if (!event.target.matches(".select-year, .select-stack, .select-format, .select-year *, .select-stack *, .select-format *")) {
+      if (!event.target.matches(".select-year, .select-stack, .select-format, .select-year *, .select-stack *, .select-format *, .select-author, .select-author *")) {
         selectSingle.setAttribute("data-state", "");
       }
     });
@@ -61,7 +60,8 @@ export default function Select(props) {
       </label>
       <span
         className={`select-${ preClassName }__clear-btn`}
-        onClick={ (event) => event.target.matches(".select-format__clear-btn") ? stateFunc("") : stateFunc("Все") }
+        onClick={ (event) => event.target.matches(".select-author__clear-btn") || event.target.matches(".select-format__clear-btn") ?
+          stateFunc("") : stateFunc("Все") }
       ></span>
     </div>
   );

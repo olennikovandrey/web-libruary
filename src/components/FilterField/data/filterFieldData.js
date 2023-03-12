@@ -1,3 +1,11 @@
+import { data } from "../../../data/data";
+
+export const getAuthors = () => {
+  const allAuthors = data.map(item => item.author.split(", ")).flat();
+  const allAuthorsSet = new Set(allAuthors);
+  return Array.from(allAuthorsSet).sort();
+};
+
 export const stackRU = [
   "Все",
   ".NET",

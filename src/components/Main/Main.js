@@ -181,6 +181,8 @@ export default function Main() {
                   key={ item.title + item.author}
                   data={ item }
                   setSearchStack={ setSearchStack }
+                  setCurrentPage={ setCurrentPage }
+                  setSearchAuthor={ setSearchAuthor }
                   stateChangerFn={ stateChangerFn }
                 />
               ) :
