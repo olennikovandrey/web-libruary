@@ -6,7 +6,9 @@ import { useSelector } from "react-redux";
 export default function BookItem({ data, setSearchStack, setSearchAuthor, setCurrentPage, stateChangerFn }) {
   const [showInfo, setShowInfo] = useState(false);
   const lang = useSelector(state => state.lang);
-  const hoverStyles = useHover({ filter: `drop-shadow(0 0 15px ${ data.borderColor })`, transition: ".2s" });
+  const hoverStylesForAuthor = useHover({ filter: `drop-shadow(0 0 15px ${ data.borderColor })`, transition: ".2s" });
+  const hoverStylesForDescrBtn = useHover({ filter: `drop-shadow(0 0 10px ${ data.borderColor })`, transition: ".2s", border: `1px solid ${ data.borderColor }` });
+  const hoverStylesForDownloadBtn = useHover({ filter: `drop-shadow(0 0 10px ${ data.borderColor })`, transition: ".2s", border: `1px solid ${ data.borderColor }` });
 
   return (
     <>
@@ -26,7 +28,7 @@ export default function BookItem({ data, setSearchStack, setSearchAuthor, setCur
             </span>
           </div>
           <div className="description">
-            <span className="description__author" onClick={ () => { setSearchAuthor(data.author); setCurrentPage(1); } } { ...hoverStyles }>
+            <span className="description__author" onClick={ () => { setSearchAuthor(data.author); setCurrentPage(1); } } { ...hoverStylesForAuthor }>
               { lang === "english" ? "Author:" : "Автор:" } { data.author }
             </span>
             <span className="description__year">
@@ -35,7 +37,7 @@ export default function BookItem({ data, setSearchStack, setSearchAuthor, setCur
             <span className="description__sheets">
               { lang === "english" ? "Number of pages:" : "Количество страниц:" } { data.sheets }
             </span>
-            <div className="description__show-info-btn" onClick={ () => setShowInfo(!showInfo) }>
+            <div className="description__show-info-btn" onClick={ () => setShowInfo(!showInfo) } { ...hoverStylesForDescrBtn }>
               { showInfo ? ( lang === "english" ? "Hide description" : "Скрыть описание" ) :
                 ( lang === "english" ? "Show description" : "Показать описание" )
               }
@@ -46,7 +48,7 @@ export default function BookItem({ data, setSearchStack, setSearchAuthor, setCur
                 { data.description }
               </div>
             }
-            <a href={ data.link } className="description__link" target="blank">
+            <a href={ data.link } className="description__link" target="blank" { ...hoverStylesForDownloadBtn }>
               { lang === "english" ? "Download" : "Скачать" }
             </a>
           </div>
