@@ -321,11 +321,12 @@ import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern pat
 import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
 import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3 in 1 ). Covers .NET using CSharp, Visual Basic ASP.NET.jpg";
 import net5 from "../assets/images/books/.NET/5. Design Patterns in .NET 6 Reusable Approaches in CSharp and FSharp for Object-Oriented Software Design.jpg";
-//kotlin comment
+//kotlin com
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
 import kotlin3 from "../assets/images/books/Kotlin/3. Functional Programming in Kotlin.jpg";
 import kotlin4 from "../assets/images/books/Kotlin/4. Beginning Kotlin Build Applications with Better Code, Productivity, and Performance.jpg";
+import kotlin5 from "../assets/images/books/Kotlin/5. The First Line of Code Android Programming with Kotlin.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -4513,7 +4514,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 9.2
   },
-  //kotlin comment
+  {
+    title: "The First Line of Code: Android Programming with Kotlin",
+    img: kotlin5,
+    link: "https://drive.google.com/file/d/1sCnYHln0jrJrq9fxYcw6A3wjA5ZjjRD9/view?usp=share_link",
+    author: "Lin Guo",
+    year: [2022, "Все", "All"],
+    sheets: 723,
+    description: "В этой книге знания между Android и Kotlin перемежаются таким образом, чтобы читателям было легко понять и начать работу: - Часть Android охватывает все важные аспекты платформы Android, такие как активность, сервис, поставщик контента, приемник вещания, фрагмент, базовый пользовательский интерфейс, хранение данных, сеть, Jetpack и другие знания на уровне приложений. - Часть Kotlin охватывает различные аспекты Kotlin, такие как стандартная грамматика, общие навыки, функции высшего порядка, generics, coroutines, DSL и другие знания на уровне языка.",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon1: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue1: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 18
+  },
+  //kotlin com
   {
     title: "Easy Laravel 5: A Hands On Introduction Using a Real-World Project",
     img: lavarel1,
