@@ -148,6 +148,7 @@ import PT36 from "../assets/images/books/Python/36. Data Structures & Algorithms
 import PT37 from "../assets/images/books/Python/37. Python for Cybersecurity Using Python for Cyber Offense and Defense.jpg";
 import PT38 from "../assets/images/books/Python/38. Infrastructure as Code, Patterns and Practices With examples in Python and Terraform.jpg";
 import PT39 from "../assets/images/books/Python/39. Metaprogramming with Python A programmer’s guide to writing reusable code to build smarter applications.jpg";
+import PT40 from "../assets/images/books/Python/40. Python NumPy for Beginners. NumPy Specialization for Data Science.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2119,6 +2120,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 25.2
+  },
+  {
+    title: "Python NumPy for Beginners: NumPy Specialization for Data Science",
+    img: PT40,
+    link: "https://drive.google.com/file/d/1VWpbRCeUrwQmYTnM2KG9lFF5G7eSGXb2/view?usp=share_link",
+    author: "AI Publishing",
+    year: [2022, "Все", "All"],
+    sheets: 220,
+    description: "Эта книга представляет вам практический и простой подход к быстрому изучению Python и NumPy. Эта книга отличается от других, поскольку вам предстоит не просто читать, а многое делать. За каждой теоретической концепцией следуют практические примеры, что облегчает ее освоение. Пошаговая схема этой книги упрощает процесс обучения. Автор приложил максимум усилий для того, чтобы то, что вы узнаете, закрепилось в памяти. В конце каждой из 11 глав есть короткие упражнения для проверки ваших знаний теоретических концепций, которые вы изучили.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 4.2
   },
   //PT comment
   {
