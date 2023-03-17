@@ -271,16 +271,17 @@ import Other17 from "../assets/images/books/Other/17. Learning Regular Expressio
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
-//devops comment
+//devops com
 import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
 import DevOps3 from "../assets/images/books/DevOps/3. Cloud Native DevOps with Kubernetes.jpg";
 import DevOps4 from "../assets/images/books/DevOps/4. Modern DevOps Practices. Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques.jpg";
 import DevOps5 from "../assets/images/books/DevOps/5. DevOps Tools for Java Developers.jpg";
-//iOS comment
+//ios comment
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
 import iOS3 from "../assets/images/books/iOS/3. iOS Apprentice (Eighth Edition). Beginning iOS Development with Swift and UIKit.jpg";
+import iOS4 from "../assets/images/books/iOS/4. Beginning iOS Game Center and GameKit For iOS, tvOS, and MacOS, 2nd Edition.jpg";
 //cplus comment
 import cPlus1 from "../assets/images/books/C++/1. Beautiful C++. 30 Core Guidelines for Writing Clean, Safe, and Fast Code.jpg";
 import cPlus2 from "../assets/images/books/C++/2. C++. Практика многопоточного программирования, Второе издание.jpg";
@@ -3886,7 +3887,7 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 27.9
   },
-  //DevOps comment
+  //devops com
   {
     title: "Computer Vision and Augmented Reality in iOS: OpenCV and ARKit Applications",
     img: iOS1,
@@ -3920,7 +3921,7 @@ export const data = [
   {
     title: "iOS Apprentice (Eighth Edition): Beginning iOS Development with Swift and UIKit",
     img: iOS3,
-    link: "https://drive.google.com/file/d/1j5u7dWX3-lbrKx6k7wNFGvnMFCGnIkDC/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1j5u7dWX3-lbrKx6k7wNFGvnMFCGnIkDC/view?usp=share_link",
     author: "Joey deVilla, Eli Ganim, Matthijs Hollemans",
     year: [2019, "Все", "All"],
     sheets: 815,
@@ -3931,6 +3932,21 @@ export const data = [
     clickFilterValue1: "iOS",
     fileFormat: "pdf",
     fileSize: 111.1
+  },
+  {
+    title: "Beginning iOS Game Center and GameKit: For iOS, tvOS, and MacOS, 2nd Edition",
+    img: iOS4,
+    link: "https://drive.google.com/file/d/1G8UrdZfkqv3rc65bF0-hvHoT_8zmiJFo/view?usp=share_link",
+    author: "Beau G. Bolle",
+    year: [2021, "Все", "All"],
+    sheets: 324,
+    description: "Создавайте увлекательные и отполированные игры и придавайте своим приложениям геймифицированный характер с помощью GameKit и Game Center. Это полностью обновленное новое издание классической книги Кайла Рихтера поможет вам привлечь новых пользователей с помощью социальных интеграций, многопользовательской игры и достижений. Вы сможете быстро придать своим приложениям тот уровень совершенства, на который раньше уходили недели напряженной работы и поздние ночи.",
+    stack: ["iOS", "Все", "All"],
+    stackIcon1: iOSIcon,
+    borderColor: "#000",
+    clickFilterValue1: "iOS",
+    fileFormat: "pdf",
+    fileSize: 4.3
   },
   //iOS comment
   {
