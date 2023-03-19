@@ -149,6 +149,7 @@ import PT37 from "../assets/images/books/Python/37. Python for Cybersecurity Usi
 import PT38 from "../assets/images/books/Python/38. Infrastructure as Code, Patterns and Practices With examples in Python and Terraform.jpg";
 import PT39 from "../assets/images/books/Python/39. Metaprogramming with Python A programmer’s guide to writing reusable code to build smarter applications.jpg";
 import PT40 from "../assets/images/books/Python/40. Python NumPy for Beginners. NumPy Specialization for Data Science.jpg";
+import PT41 from "../assets/images/books/Python/41. Python Unit Test Automation Automate, Organize, and Execute Unit Tests in Python, 2nd Edition.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2136,6 +2137,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 4.2
+  },
+  {
+    title: "Python Unit Test Automation: Automate, Organize, and Execute Unit Tests in Python, 2nd Edition",
+    img: PT41,
+    link: "https://drive.google.com/file/d/1XCyGC0z_L1aFszmf_IYpjpDb9JjjuIKI/view?usp=share_link",
+    author: "Ashwin Pajankar",
+    year: [2021, "Все", "All"],
+    sheets: 230,
+    description: "Узнайте, как автоматизировать модульные тесты Python 3 с помощью библиотек автоматизации, таких как doctest, unittest, nose, nose2, pytest и selenium. В этой книге рассматриваются важные концепции автоматизации тестирования программного обеспечения и демонстрируется, как автоматизировать, организовывать и выполнять модульные тесты с помощью Python. Она также знакомит читателей с концепциями автоматизации веб-браузера и протоколирования.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 2.8
   },
   //PT comment
   {
