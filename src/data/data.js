@@ -83,6 +83,7 @@ import React18 from "../assets/images/books/React/18. React Design Patterns and 
 import React19 from "../assets/images/books/React/19. ASP .NET Core 3 and React.jpg";
 import React20 from "../assets/images/books/React/20. Practical Enterprise React. Become an Effective React Developer in Your Team.jpg";
 import React21 from "../assets/images/books/React/21. Just React. Learn React the React Way.jpg";
+import React22 from "../assets/images/books/React/22. Beginning React and Firebase Create Four Beginner-Friendly Projects Using React and Firebase.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -330,6 +331,7 @@ import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with K
 import kotlin3 from "../assets/images/books/Kotlin/3. Functional Programming in Kotlin.jpg";
 import kotlin4 from "../assets/images/books/Kotlin/4. Beginning Kotlin Build Applications with Better Code, Productivity, and Performance.jpg";
 import kotlin5 from "../assets/images/books/Kotlin/5. The First Line of Code Android Programming with Kotlin.jpg";
+import kotlin6 from "../assets/images/books/Kotlin/6. Kotlin And Android Learn To Architect And Develop Android Apps In The Kotlin Programming Language.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -1159,6 +1161,21 @@ export const data = [
     clickFilterValue1: "React",
     fileFormat: "pdf",
     fileSize: 10.2
+  },
+  {
+    title: "Beginning React and Firebase: Create Four Beginner-Friendly Projects Using React and Firebase",
+    img: React22,
+    link: "https://drive.google.com/file/d/1VEmQo_ZZyj81SFohMLd8mvTHSXVv9eXj/view?usp=share_link",
+    author: "Nabendu Biswas",
+    year: [2021, "Все", "All"],
+    sheets: 193,
+    description: "Вы начнете с основ: научитесь развертывать приложение React на хостинге Firebase. Затем вы научитесь создавать полнофункциональное приложение 'ToDo', которое будет использовать базу данных Firebase для хранения списка элементов действий. Также вы научитесь создавать приложение 'Stories', в котором можно показывать короткие вертикальные видеоролики, и приложение для хранения документов. Здесь мы сможем войти в систему, используя аутентификацию Google, и научимся хранить файлы в приложении с помощью хранилища Firebase. Наконец, вы создадите приложение для социальных сетей, посвященных карьере. Ваши пользователи смогут входить в систему, используя аутентификацию по электронной почте и паролю. В этом проекте вы научитесь использовать Redux.",
+    stack: ["React", "Все", "All"],
+    stackIcon1: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue1: "React",
+    fileFormat: "pdf",
+    fileSize: 7.2
   },
   //react comment
   {
@@ -4576,6 +4593,21 @@ export const data = [
     clickFilterValue1: "Kotlin",
     fileFormat: "pdf",
     fileSize: 18
+  },
+  {
+    title: "Kotlin And Android: Learn To Architect And Develop Android Apps In The Kotlin Programming Language",
+    img: kotlin6,
+    link: "https://drive.google.com/file/d/1gbfLVIZyp3mg7OGrIMWYQwL1z1a8ezKd/view?usp=share_link",
+    author: "Evelyn Strauch",
+    year: [2021, "Все", "All"],
+    sheets: 395,
+    description: "Android - это полный набор программного обеспечения для мобильных устройств, таких как планшетные компьютеры, ноутбуки, смартфоны, устройства для чтения электронных книг, телевизионные приставки и т.д. Kotlin постоянно развивается, причем не только как язык, но и как целая экосистема с надежным инструментарием. Сейчас он легко интегрирован в Android Studio и активно используется многими компаниями для разработки Android-приложений. Так что эта книга поможет базовые моменты в архитектуре и способах разработки на Kotlin Android-приложений.",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon1: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue1: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 2.4
   },
   //kotlin com
   {
