@@ -279,6 +279,7 @@ import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. 
 import DevOps3 from "../assets/images/books/DevOps/3. Cloud Native DevOps with Kubernetes.jpg";
 import DevOps4 from "../assets/images/books/DevOps/4. Modern DevOps Practices. Implement and secure DevOps in the public cloud with cutting-edge tools, tips, tricks, and techniques.jpg";
 import DevOps5 from "../assets/images/books/DevOps/5. DevOps Tools for Java Developers.jpg";
+import DevOps6 from "../assets/images/books/DevOps/6. Automating DevOps with GitLab CICD Pipelines Build efficient CICD pipelines to verify, secure, and deploy your code using real-life examples.jpg";
 //ios comment
 import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Reality in iOS. OpenCV and ARKit Applications.jpg";
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
@@ -3919,6 +3920,23 @@ export const data = [
     clickFilterValue2: "Java",
     fileFormat: "pdf",
     fileSize: 27.9
+  },
+  {
+    title: "Automating DevOps with GitLab CI/CD Pipelines: Build efficient CI/CD pipelines to verify, secure, and deploy your code using real-life examples",
+    img: DevOps6,
+    link: "https://drive.google.com/file/d/1-pFJ9_pMuhF7lgEQ2URWHDzjoLrEd2X6/view?usp=share_link",
+    author: "Chris Timberlake",
+    year: [2023, "Все", "All"],
+    sheets: 348,
+    description: "Эта книга начинается с основ Git и GitLab, показывая, как коммитить и ревьюить код. Вы научитесь настраивать GitLab Runners для выполнения и автомасштабирования CI/CD конвейеров, а также создавать и настраивать конвейеры для многих этапов жизненного цикла разработки программного обеспечения. Вы также узнаете, где найти результаты работы конвейеров в GitLab и как интерпретировать эти результаты. В ходе работы над книгой вы приобретете навыки развертывания кода в различных средах, освоите такие возможности CI/CD-конвейеров, как подключение GitLab к кластеру Kubernetes и использование GitLab с Terraform, запуск конвейеров и повышение производительности конвейеров, использование лучших практик и советов по устранению неисправностей в неработающих конвейерах.",
+    stack: ["DevOps", "Git", "Все", "All"],
+    stackIcon1: devopsIcon,
+    stackIcon2: gitIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "DevOps",
+    clickFilterValue2: "Git",
+    fileFormat: "pdf",
+    fileSize: 27.2
   },
   //devops com
   {
