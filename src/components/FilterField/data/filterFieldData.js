@@ -44,6 +44,7 @@ export const stackRU = [
 
 export const yearRU = [
   "Все",
+  2023,
   2022,
   2021,
   2020,
