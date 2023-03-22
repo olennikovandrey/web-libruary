@@ -229,6 +229,7 @@ import JAVA24 from "../assets/images/books/Java/24. Java for Web Development Cre
 import JAVA25 from "../assets/images/books/Java/25. Java Memory Management A comprehensive guide to garbage collection and JVM tuning.jpg";
 import JAVA26 from "../assets/images/books/Java/26. Java Design Patterns A Hands-On Experience with Real-World Examples, 3rd Edition.jpg";
 import JAVA27 from "../assets/images/books/Java/27. Java Persistence with Spring Data and Hibernate.jpg";
+import JAVA28 from "../assets/images/books/Java/28. Java All-in-One For Dummies, 7th Edition.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3233,6 +3234,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 53.9
+  },
+  {
+    title: "Java All-in-One For Dummies, 7th Edition",
+    img: JAVA28,
+    link: "https://drive.google.com/file/d/1E_4HvFfgpGNkDSo4ytMqOrH6kRusGYl_/view?usp=share_link",
+    author: "Doug Lowe",
+    year: [2023, "Все", "All"],
+    sheets: 912,
+    description: "Обновленная для Java 19, эта книга включает все основные изменения в языке программирования, так что вы не отстанете. Начните с изучения основ Java - вы сможете это сделать, даже если никогда в жизни не написали ни строчки кода. Затем переходите к углубленному изучению, где вы найдете всю необходимую информацию по объектно-ориентированному программированию, Java FX, веб-разработке на Java и не только.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 10.8
   },
   //java comment
   {
