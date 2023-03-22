@@ -30,6 +30,7 @@ import kotlinIcon from "../assets/images/technologies/kotlin.svg";
 import lavarelIcon from "../assets/images/technologies/lavarel.svg";
 import webpackIcon from "../assets/images/technologies/webpack.svg";
 import rustIcon from "../assets/images/technologies/rust.svg";
+import threejsIcon from "../assets/images/technologies/three.js.svg";
 //js comment
 import JS1 from "../assets/images/books/JS/1. Data Visualization with Python and JavaScript, 2nd Edition (2022), Kyran Dale.jpg";
 import JS2 from "../assets/images/books/JS/2. Deep Learning with JavaScript Neural networks in TensorFlow.js .jpg";
@@ -227,6 +228,7 @@ import JAVA23 from "../assets/images/books/Java/23. Go for Java Programmers. Lea
 import JAVA24 from "../assets/images/books/Java/24. Java for Web Development Create Full-Stack Java Applications with Servlets, JSP Pages, MVC Pattern and Database Connectivity.jpg";
 import JAVA25 from "../assets/images/books/Java/25. Java Memory Management A comprehensive guide to garbage collection and JVM tuning.jpg";
 import JAVA26 from "../assets/images/books/Java/26. Java Design Patterns A Hands-On Experience with Real-World Examples, 3rd Edition.jpg";
+import JAVA27 from "../assets/images/books/Java/27. Java Persistence with Spring Data and Hibernate.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -270,6 +272,7 @@ import Other14 from "../assets/images/books/Other/14. Docs for Developers. An En
 import Other15 from "../assets/images/books/Other/15. Data Management at Scale.jpg";
 import Other16 from "../assets/images/books/Other/16. Building Microservices.jpg";
 import Other17 from "../assets/images/books/Other/17. Learning Regular Expressions.jpg";
+import Other18 from "../assets/images/books/Other/18. Metaverse For Dummies.jpg";
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
@@ -343,7 +346,8 @@ import webpack2 from "../assets/images/books/Webpack/2. Webpack for Beginners.jp
 //rust comment
 import rust1 from "../assets/images/books/Rust/1. Command-Line Rust. A Project-Based Primer for Writing Rust CLIs.jpg";
 import rust2 from "../assets/images/books/Rust/2. Programming Rust, 2nd Edition (Early Release).jpg";
-
+//three com
+import three1 from "../assets/images/books/Three.js/1. Learn Three.js Program 3D animations and visualizations for the web with JavaScript and WebGL, 4th Edition.jpg";
 export const data = [
   {
     title: "Data Visualization with Python and JavaScript, 2nd Edition",
@@ -3215,6 +3219,21 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 16.1
   },
+  {
+    title: "Java Persistence with Spring Data and Hibernate",
+    img: JAVA27,
+    link: "https://drive.google.com/file/d/1tdW30YOamec8p0lKlmUjjjTqpxUUbRrK/view?usp=share_link",
+    author: "Catalin Tudose",
+    year: [2023, "Все", "All"],
+    sheets: 616,
+    description: "Книга помогает исследовать Persistence в Java с использованием стандартных инструментов. Практические примеры познакомят вас с объектно-реляционным отображением и проведут вас через различные стратегии отображения в соответствии с вашими потребностями. Охватывая транзакции, тестирование постоянных приложений и нереляционные базы данных, эта книга станет вашим основным ресурсом по управлению данными в Java-приложениях.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 53.9
+  },
   //java comment
   {
     title: "AWS All-in-One Security Guide: Design, Build, Monitor, and Manage a Fortified Application Ecosystem on AWS",
@@ -3811,6 +3830,21 @@ export const data = [
     clickFilterValue1: "Other",
     fileFormat: "pdf",
     fileSize: 2.1
+  },
+  {
+    title: "Metaverse For Dummies",
+    img: Other18,
+    link: "https://drive.google.com/file/d/1ppCdYEDNtxx3lJlBSzE2HJV_jXMilWh4/view?usp=share_link",
+    author: "Ian Khan",
+    year: [2023, "Все", "All"],
+    sheets: 304,
+    description: "Узнайте, как занять свою нишу в метавселенной, благодаря легкому и понятному описанию основных технологий и платформ, руководству по ведению бизнеса в метавселенной, а также исследованию того, что метавселенная означает для спорта, образования и практически всех других сфер жизни. В книге есть даже руководство по безопасности в метавселенной, в том числе о том, как много из своей реальной жизни вы должны рассказывать в виртуальной. Эта книга отвечает на все важные вопросы о метавселенной простыми словами.",
+    stack: ["Other", "Все", "All"],
+    stackIcon1: otherIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Other",
+    fileFormat: "pdf",
+    fileSize: 13.3
   },
   //Other comment
   {
@@ -4738,4 +4772,20 @@ export const data = [
     fileSize: 2.7
   },
   //rust comment
+  {
+    title: "Learn Three.js: Program 3D animations and visualizations for the web with JavaScript and WebGL, 4th Edition",
+    img: three1,
+    link: "https://drive.google.com/file/d/16Jb1vnVxBiQjoO5erVeaTNG6Pq6qeWjy/view?usp=share_link",
+    author: "Jos Dirksen",
+    year: [2023, "Все", "All"],
+    sheets: 554,
+    description: "Книга начинается с основных концепций и строительных блоков, используемых в Three.js, и помогает вам подробно изучить эти важные темы с помощью обширных примеров и образцов кода. Вы узнаете, как создавать реалистично выглядящие 3D-объекты с помощью текстур и материалов и как загружать модели из внешнего источника. Далее вы поймете, как управлять камерой с помощью встроенных в Three.js элементов, что позволит вам летать или ходить по созданной вами 3D-сцене. В последующих главах будет рассказано об использовании видео HTML5 и элементов canvas в качестве материалов для ваших 3D-объектов. Вы узнаете, как использовать морфные цели и анимацию на основе скелета, а затем поймете, как добавить физику и обнаружение столкновений в вашу сцену. Наконец, вы научитесь сочетать Blender с Three.js и создавать VR- и AR-сцены.",
+    stack: ["Three.js", "Все", "All"],
+    stackIcon1: threejsIcon,
+    borderColor: "#000000",
+    clickFilterValue1: "Three.js",
+    fileFormat: "pdf",
+    fileSize: 125
+  },
+  //three com
 ];

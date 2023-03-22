@@ -32,6 +32,7 @@ export const stackRU = [
   "React",
   "Ruby",
   "Rust",
+  "Three.js",
   "TypeScript",
   "MySQL",
   "Visual Studio Code",
@@ -81,6 +82,8 @@ export const stackEN = [
   "Python",
   "React",
   "Ruby",
+  "Rust",
+  "Three.js",
   "TypeScript",
   "MySQL",
   "Visual Studio Code",
@@ -92,6 +95,7 @@ export const stackEN = [
 
 export const yearEN = [
   "Все",
+  2023,
   2022,
   2021,
   2020,
