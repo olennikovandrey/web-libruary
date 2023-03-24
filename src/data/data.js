@@ -231,6 +231,7 @@ import JAVA25 from "../assets/images/books/Java/25. Java Memory Management A com
 import JAVA26 from "../assets/images/books/Java/26. Java Design Patterns A Hands-On Experience with Real-World Examples, 3rd Edition.jpg";
 import JAVA27 from "../assets/images/books/Java/27. Java Persistence with Spring Data and Hibernate.jpg";
 import JAVA28 from "../assets/images/books/Java/28. Java All-in-One For Dummies, 7th Edition.jpg";
+import JAVA29 from "../assets/images/books/Java/29. Practical Design Patterns for Java Developers Hone your software design skills by implementing popular design patterns in Java.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3265,6 +3266,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 10.8
+  },
+  {
+    title: "Practical Design Patterns for Java Developers: Hone your software design skills by implementing popular design patterns in Java",
+    img: JAVA29,
+    link: "https://drive.google.com/file/d/1kVX9woHTlbiiZ-y51rJsk-QN0Vm29_UX/view?usp=share_link",
+    author: "Bruno Souza",
+    year: [2023, "Все", "All"],
+    sheets: 266,
+    description: "Паттерны проектирования - это проверенные решения стандартных проблем в проектировании и разработке программного обеспечения, позволяющие создавать многократно используемый, гибкий и сопровождаемый код. Эта книга позволит вам повысить квалификацию за счет понимания популярных паттернов, чтобы превратиться в опытного разработчика программного обеспечения.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 5.6
   },
   //java comment
   {
