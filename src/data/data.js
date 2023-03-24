@@ -195,6 +195,7 @@ import Security5 from "../assets/images/books/Security/5. Cross-Site Scripting A
 import Security6 from "../assets/images/books/Security/6. Web Application Security.jpg";
 import Security7 from "../assets/images/books/Security/7. Spring Security in Action.jpg";
 import Security8 from "../assets/images/books/Security/8. Security for Software Engineers.jpg";
+import Security9 from "../assets/images/books/Security/9. Cybersecurity All-in-One For Dummies.jpg";
 //UI comment
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
@@ -2750,6 +2751,21 @@ export const data = [
     clickFilterValue1: "Web security",
     fileFormat: "pdf",
     fileSize: 48
+  },
+  {
+    title: "Cybersecurity All-in-One For Dummies",
+    img: Security9,
+    link: "https://drive.google.com/file/d/1FOVNH1k0X2f5Wd_vL_qdPxrUk2ExWI5-/view?usp=share_link",
+    author: "Ira Winkler",
+    year: [2023, "Все", "All"],
+    sheets: 720,
+    description: "Эта книга охватывает множество тем в мире обеспечения безопасности компьютерных систем от тех, кто хочет взломать их. Она предлагает универсальный ресурс по основам кибербезопасности, личной безопасности, безопасности бизнеса, облачной безопасности, тестированию безопасности и осведомленности о безопасности. Наполненная материалами, которые помогут в обеспечении кибербезопасности как в личной жизни, так и в бизнесе, эта книга покажет вам, как защитить свои компьютеры, устройства и системы, и объяснит, почему это важно сейчас как никогда.",
+    stack: ["Web security", "Все", "All"],
+    stackIcon1: lockIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Web security",
+    fileFormat: "pdf",
+    fileSize: 15.6
   },
   //Security comment
   {
