@@ -152,6 +152,7 @@ import PT38 from "../assets/images/books/Python/38. Infrastructure as Code, Patt
 import PT39 from "../assets/images/books/Python/39. Metaprogramming with Python A programmer’s guide to writing reusable code to build smarter applications.jpg";
 import PT40 from "../assets/images/books/Python/40. Python NumPy for Beginners. NumPy Specialization for Data Science.jpg";
 import PT41 from "../assets/images/books/Python/41. Python Unit Test Automation Automate, Organize, and Execute Unit Tests in Python, 2nd Edition.jpg";
+import PT42 from "../assets/images/books/Python/42. Python Data Science Handbook Essential Tools for Working with Data, 2nd Edition.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2177,6 +2178,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 2.8
+  },
+  {
+    title: "Python Data Science Handbook: Essential Tools for Working with Data, 2nd Edition",
+    img: PT42,
+    link: "https://drive.google.com/file/d/1ptl3ixrQ0GLOqoFMDTjFzuxfXubzLKY7/view?usp=share_link",
+    author: "Jake VanderPlas",
+    year: [2023, "Все", "All"],
+    sheets: 550,
+    description: "Python является первоклассным инструментом для многих исследователей, в первую очередь благодаря своим библиотекам для хранения, манипулирования и получения информации из данных. Существует несколько ресурсов по отдельным частям этого стека науки о данных, но только в новом издании этой книги вы получите их все - IPython, NumPy, pandas, Matplotlib, scikit-learn и другие связанные инструменты.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 19.7
   },
   //PT comment
   {
