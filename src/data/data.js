@@ -341,6 +341,7 @@ import kotlin3 from "../assets/images/books/Kotlin/3. Functional Programming in 
 import kotlin4 from "../assets/images/books/Kotlin/4. Beginning Kotlin Build Applications with Better Code, Productivity, and Performance.jpg";
 import kotlin5 from "../assets/images/books/Kotlin/5. The First Line of Code Android Programming with Kotlin.jpg";
 import kotlin6 from "../assets/images/books/Kotlin/6. Kotlin And Android Learn To Architect And Develop Android Apps In The Kotlin Programming Language.jpg";
+import kotlin7 from "../assets/images/books/Kotlin/7. Numerical Methods Using Kotlin For Data Science, Analysis, and Engineering.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -4740,6 +4741,21 @@ export const data = [
     clickFilterValue1: "Kotlin",
     fileFormat: "pdf",
     fileSize: 2.4
+  },
+  {
+    title: "Numerical Methods Using Kotlin: For Data Science, Analysis, and Engineering",
+    img: kotlin7,
+    link: "https://drive.google.com/file/d/1SKuLLtGydumF8AyjIGg7xNn9BTvmGGK6/view?usp=share_link",
+    author: "Haksun Li PhD",
+    year: [2023, "Все", "All"],
+    sheets: 921,
+    description: "В этой книге вы реализуете численные алгоритмы на языке Kotlin с помощью NM Dev, объектно-ориентированной и высокопроизводительной библиотеки программирования для прикладной и промышленной математики. Узнайте, как Kotlin имеет множество преимуществ перед Java в скорости, а в некоторых случаях и простоте использования. В этой книге вы увидите, как он может.",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon1: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue1: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 42.9
   },
   //kotlin com
   {
