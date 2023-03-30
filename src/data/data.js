@@ -234,6 +234,7 @@ import JAVA26 from "../assets/images/books/Java/26. Java Design Patterns A Hands
 import JAVA27 from "../assets/images/books/Java/27. Java Persistence with Spring Data and Hibernate.jpg";
 import JAVA28 from "../assets/images/books/Java/28. Java All-in-One For Dummies, 7th Edition.jpg";
 import JAVA29 from "../assets/images/books/Java/29. Practical Design Patterns for Java Developers Hone your software design skills by implementing popular design patterns in Java.jpg";
+import JAVA30 from "../assets/images/books/Java/30. Test-Driven Development with Java Create higher-quality software by writing tests first with SOLID and hexagonal architecture.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3314,6 +3315,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 5.6
+  },
+  {
+    title: "Test-Driven Development with Java: Create higher-quality software by writing tests first with SOLID and hexagonal architecture",
+    img: JAVA30,
+    link: "https://drive.google.com/file/d/1N-QZOkEAeiRvfXToFgfN5o7kywcNdN2E/view?usp=share_link",
+    author: "Alan Mellor",
+    year: [2023, "Все", "All"],
+    sheets: 348,
+    description: "Разработка на основе тестирования позволяет разработчикам создавать хорошо продуманный код и предотвращать дефекты. Это простой, но мощный инструмент, который помогает сосредоточиться на проектировании кода, одновременно автоматически проверяя правильность его работы. Освоение TDD позволит вам эффективно использовать паттерны проектирования и стать опытным архитектором программного обеспечения.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 21.6
   },
   //java comment
   {
