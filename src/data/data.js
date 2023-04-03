@@ -347,6 +347,7 @@ import kotlin7 from "../assets/images/books/Kotlin/7. Numerical Methods Using Ko
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
 import lavarel3 from "../assets/images/books/Lavarel/3. Practical Laravel. Develop clean MVC web applications.jpg";
+import lavarel4 from "../assets/images/books/Lavarel/4. High Performance with Laravel Octane Learn to fine-tune and optimize PHP and Laravel apps using Octane and an asynchronous approach.jpg";
 //webpack comment
 import webpack1 from "../assets/images/books/Webpack/1. Webpack 5 Up and Running. A quick and practical introduction to the JavaScript application bundler.jpg";
 import webpack2 from "../assets/images/books/Webpack/2. Webpack for Beginners.jpg";
@@ -4820,6 +4821,23 @@ export const data = [
     clickFilterValue1: "Lavarel",
     fileFormat: "pdf",
     fileSize: 18.1
+  },
+  {
+    title: "High Performance with Laravel Octane: Learn to fine-tune and optimize PHP and Laravel apps using Octane and an asynchronous approach",
+    img: lavarel4,
+    link: "https://drive.google.com/file/d/1PgfQ-ptqFcvJBAOCARpa6rdNl7dSVZYc/view?usp=share_link",
+    author: "Roberto Butti",
+    year: [2023, "Все", "All"],
+    sheets: 204,
+    description: "Laravel Octane - это мощный компонент в экосистеме Laravel, который поможет вам добиться потрясающей производительности приложений. В Laravel Octane вы найдете инструменты (очереди, кэш и таблицы), которые облегчают новый асинхронный подход для повышения производительности приложений. Достоинства: + Книга предоставляет детальную информацию об использовании Laravel Octane и асинхронного подхода для оптимизации и ускорения PHP-приложений. + Автор книги имеет большой опыт в области веб-разработки и способен объяснить сложные концепции в понятной форме. Недостатки: - Книга ориентирована на разработчиков, которые уже знакомы с PHP и Laravel, поэтому для начинающих разработчиков может быть сложна. - Книга фокусируется исключительно на Laravel Octane, поэтому не рассматривает другие методы оптимизации и ускорения.",
+    stack: ["Lavarel", "PHP", "Все", "All"],
+    stackIcon1: lavarelIcon,
+    stackIcon2: phpIcon,
+    borderColor: "#f13125",
+    clickFilterValue1: "Lavarel",
+    clickFilterValue2: "PHP",
+    fileFormat: "pdf",
+    fileSize: 12.1
   },
   //lavarel com
   {
