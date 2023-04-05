@@ -188,6 +188,7 @@ import Angular5 from "../assets/images/books/Angular/5. Angular Development with
 import Angular6 from "../assets/images/books/Angular/6. Angular for Enterprise-Ready Web Applications.jpg";
 import Angular7 from "../assets/images/books/Angular/7. Reactive Patterns with RxJS for Angular. A practical guide to managing your Angular application's data reactively and efficiently using RxJS 7.jpg";
 import Angular8 from "../assets/images/books/Angular/8. Pro Angular Build Powerful and Dynamic Web Apps, 5th Edition .jpg";
+import Angular9 from "../assets/images/books/Angular/9. Spring Boot and Angular Hands-on full stack web development with Java, Spring, and Angular.jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -2647,7 +2648,7 @@ export const data = [
     fileSize: 2.7
   },
   {
-    title: "Pro Angular: Build Powerful and Dynamic Web Apps, 5th Edition ",
+    title: "Pro Angular: Build Powerful and Dynamic Web Apps, 5th Edition",
     img: Angular8,
     link: "https://drive.google.com/file/d/1RcUcsiUBs7V8YMXSlz04rp0fHgp_6ako/view?usp=share_link",
     author: "Adam Freeman",
@@ -2660,6 +2661,21 @@ export const data = [
     clickFilterValue1: "Angular",
     fileFormat: "pdf",
     fileSize: 27
+  },
+  {
+    title: "Spring Boot and Angular: Hands-on full stack web development with Java, Spring, and Angular",
+    img: Angular9,
+    link: "https://drive.google.com/file/d/1JsuizrgOSLev3LfvwnYkXY2Kk0Tyzd_X/view?usp=share_link",
+    author: "Devlin Basilan Duldulao",
+    year: [2023, "Все", "All"],
+    sheets: 392,
+    description: "Вы начнете свое путешествие по созданию Java-приложений полного стека с изучения того, как настроить конвейер CI/CD. Затем вы узнаете, как построить бэкенд для вашего приложения, руководствуясь лучшими практиками для обеспечения безопасности, производительности и тестируемости. По мере продвижения по главам вы узнаете, как создать фронтенд для вашего приложения, спроектированный для корпоративного использования. В заключительных главах вы узнаете все о развертывании приложения с помощью GitHub Actions.",
+    stack: ["Angular", "Все", "All"],
+    stackIcon1: angularIcon,
+    borderColor: "#dd0031",
+    clickFilterValue1: "Angular",
+    fileFormat: "pdf",
+    fileSize: 7.7
   },
   //Angular comment
   {
