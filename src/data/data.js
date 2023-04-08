@@ -154,6 +154,7 @@ import PT40 from "../assets/images/books/Python/40. Python NumPy for Beginners. 
 import PT41 from "../assets/images/books/Python/41. Python Unit Test Automation Automate, Organize, and Execute Unit Tests in Python, 2nd Edition.jpg";
 import PT42 from "../assets/images/books/Python/42. Python Data Science Handbook Essential Tools for Working with Data, 2nd Edition.jpg";
 import PT43 from "../assets/images/books/Python/43. Python in a Nutshell A Desktop Quick Reference, 4th Edition.jpg";
+import PT44 from "../assets/images/books/Python/44. Publishing Python Packages Test, share, and automate your projects.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2213,6 +2214,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 5.8
+  },
+  {
+    title: "Publishing Python Packages: Test, share, and automate your projects",
+    img: PT44,
+    link: "https://drive.google.com/file/d/1kuY2f5VBL-JOEWCYjRDgaA2FDrdxS-O-/view?usp=share_link",
+    author: "Dane Hillard",
+    year: [2023, "Все", "All"],
+    sheets: 248,
+    description: "Вы получите практический опыт работы с новейшими инструментами упаковки, а также узнаете все тонкости тестирования пакетов и непрерывной интеграции. Вы даже получите профессиональные советы по созданию поддерживаемого проекта с открытым исходным кодом, включая лицензирование, документацию и развитие сообщества участников.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 14.8
   },
   //PT comment
   {
