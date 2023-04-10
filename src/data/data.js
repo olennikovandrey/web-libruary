@@ -155,6 +155,7 @@ import PT41 from "../assets/images/books/Python/41. Python Unit Test Automation 
 import PT42 from "../assets/images/books/Python/42. Python Data Science Handbook Essential Tools for Working with Data, 2nd Edition.jpg";
 import PT43 from "../assets/images/books/Python/43. Python in a Nutshell A Desktop Quick Reference, 4th Edition.jpg";
 import PT44 from "../assets/images/books/Python/44. Publishing Python Packages Test, share, and automate your projects.jpg";
+import PT45 from "../assets/images/books/Python/45. Beginning Programming with Python For Dummies, 3rd Edition.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2229,6 +2230,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 14.8
+  },
+  {
+    title: "Beginning Programming with Python For Dummies, 3rd Edition",
+    img: PT45,
+    link: "https://drive.google.com/file/d/1ZuF4zJSmGHTtVtRzuGDj0C27MtRMI-f7/view?usp=share_link",
+    author: "John Paul Mueller",
+    year: [2023, "Все", "All"],
+    sheets: 416,
+    description: "Эта книгу - надежный способ изучить основы программирования с помощью языка программирования Python. Python - один из самых популярных языков, и нет лучшего способа начать изучение компьютерного программирования, чем это удобное руководство. Вы сразу же изучите основы кодирования и процесс создания простых и интересных программ. Это обновленное издание содержит новые главы, включая освещение Google Colab, расширенную информацию о функциях и объектах, а также новые примеры и графики, которые актуальны для начинающих программистов. Dummies поможет вам открыть для себя богатство возможностей Python.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 12.7
   },
   //PT comment
   {
