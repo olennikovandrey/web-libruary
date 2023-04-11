@@ -85,6 +85,7 @@ import React19 from "../assets/images/books/React/19. ASP .NET Core 3 and React.
 import React20 from "../assets/images/books/React/20. Practical Enterprise React. Become an Effective React Developer in Your Team.jpg";
 import React21 from "../assets/images/books/React/21. Just React. Learn React the React Way.jpg";
 import React22 from "../assets/images/books/React/22. Beginning React and Firebase Create Four Beginner-Friendly Projects Using React and Firebase.jpg";
+import React23 from "../assets/images/books/React/23. React Application Architecture for Production Learn best practices and expert tips to deliver enterprise-ready React web apps.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -1192,6 +1193,21 @@ export const data = [
     clickFilterValue1: "React",
     fileFormat: "pdf",
     fileSize: 7.2
+  },
+  {
+    title: "React Application Architecture for Production: Learn best practices and expert tips to deliver enterprise-ready React web apps",
+    img: React23,
+    link: "https://drive.google.com/file/d/1LO6ENd6ZBGdVfWUu9SjbdWIJEcTAUG5i/view?usp=share_link",
+    author: "Alan Alickovic",
+    year: [2023, "Все", "All"],
+    sheets: 230,
+    description: "На протяжении всей книги вы будете работать с реальными практическими примерами, демонстрирующими все рассмотренные концепции. Вы научитесь создавать современные фронтенд-приложения, созданные с нуля и готовые к производству. Начиная с обзора экосистемы React, книга поможет вам определить инструменты, доступные для решения сложных задач разработки. Затем вы перейдете к созданию API, компонентов и страниц, чтобы сформировать полноценное фронтенд-приложение. Книга также поделится лучшими практиками тестирования, обеспечения безопасности и структурированной упаковки вашего приложения, а затем, наконец, развертывания вашего приложения с учетом масштабируемости.",
+    stack: ["React", "Все", "All"],
+    stackIcon1: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue1: "React",
+    fileFormat: "pdf",
+    fileSize: 10.6
   },
   //react comment
   {
