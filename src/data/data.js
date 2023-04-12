@@ -157,6 +157,7 @@ import PT42 from "../assets/images/books/Python/42. Python Data Science Handbook
 import PT43 from "../assets/images/books/Python/43. Python in a Nutshell A Desktop Quick Reference, 4th Edition.jpg";
 import PT44 from "../assets/images/books/Python/44. Publishing Python Packages Test, share, and automate your projects.jpg";
 import PT45 from "../assets/images/books/Python/45. Beginning Programming with Python For Dummies, 3rd Edition.jpg";
+import PT46 from "../assets/images/books/Python/46. Pandas for Everyone Python Data Analysis, 2nd Edition.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2261,6 +2262,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 12.7
+  },
+  {
+    title: "Pandas for Everyone: Python Data Analysis, 2nd Edition",
+    img: PT46,
+    link: "https://drive.google.com/file/d/1ebqHhIVIfxZYBF2vPVmgrLSCpkpbvnUH/view?usp=share_link",
+    author: "Daniel Chen",
+    year: [2023, "Все", "All"],
+    sheets: 512,
+    description: "В этой книге собраны практические знания и идеи для решения реальных проблем с помощью Pandas, даже если вы новичок в анализе данных на языке Python. Автор знакомит с ключевыми понятиями на простых, но практических примерах, постепенно развивая их для решения более сложных, реальных проблем науки о данных, таких как использование регуляризации для предотвращения чрезмерной подгонки данных или когда использовать методы машинного обучения без контроля для поиска основной структуры в наборе данных.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 75.1
   },
   //PT comment
   {
