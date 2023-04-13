@@ -317,6 +317,7 @@ import cPlus14 from "../assets/images/books/C++/14. C++20 - The Complete Guide.j
 import cPlus15 from "../assets/images/books/C++/15. Test-Driven Development with C++ A simple guide to writing bug-free Agile code.jpg";
 //agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
+import agile2 from "../assets/images/books/Agile/2. Agile Model-Based Systems Engineering Cookbook Improve system development by applying proven recipes for effective agile systems engineering, 2nd Edition.jpg";
 //css comment
 import css1 from "../assets/images/books/CSS/1. CSS (Cascading Style Sheets) Visual Dictionary.jpg";
 import css2 from "../assets/images/books/CSS/2. Modern CSS. Master the Key Concepts of CSS for Modern Web Development.jpg";
@@ -4452,6 +4453,21 @@ export const data = [
     clickFilterValue1: "Agile",
     fileFormat: "pdf",
     fileSize: 7.4
+  },
+  {
+    title: "Agile Model-Based Systems Engineering Cookbook: Improve system development by applying proven recipes for effective agile systems engineering, 2nd Edition",
+    img: agile2,
+    link: "https://drive.google.com/file/d/1iE-yamR_Z0ssk_JpL4Tz36RlY6FlKg_M/view?usp=share_link",
+    author: "Dr. Bruce Powel Douglass",
+    year: [2023, "Все", "All"],
+    sheets: 600,
+    description: "Написанная всемирно известным экспертом в области MBSE, эта книга проведет вас через рабочие процессы системной инженерии в инструменте моделирования Cameo Systems Modeler SysML и покажет, как их можно использовать в рамках гибкого и основанного на моделях подхода. Вы начнете с ключевых концепций agile-методов для системной инженерии. Далее, каждый рецепт проведет вас через инициирование проекта, определение потребностей заинтересованных сторон, определение и анализ системных требований, определение архитектуры системы, выполнение торговых исследований на основе моделирования, вплоть до передачи спецификаций систем в последующую разработку.",
+    stack: ["Agile", "Все", "All"],
+    stackIcon1: agileIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Agile",
+    fileFormat: "pdf",
+    fileSize: 35.4
   },
   //agile comment
   {
