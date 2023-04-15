@@ -193,6 +193,7 @@ import Angular6 from "../assets/images/books/Angular/6. Angular for Enterprise-R
 import Angular7 from "../assets/images/books/Angular/7. Reactive Patterns with RxJS for Angular. A practical guide to managing your Angular application's data reactively and efficiently using RxJS 7.jpg";
 import Angular8 from "../assets/images/books/Angular/8. Pro Angular Build Powerful and Dynamic Web Apps, 5th Edition .jpg";
 import Angular9 from "../assets/images/books/Angular/9. Spring Boot and Angular Hands-on full stack web development with Java, Spring, and Angular.jpg";
+import Angular10 from "../assets/images/books/Angular/10. Practical Highcharts with Angular Your Essential Guide to Creating Real-time Dashboards, 2nd Edition.jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -2741,6 +2742,21 @@ export const data = [
     clickFilterValue1: "Angular",
     fileFormat: "pdf",
     fileSize: 7.7
+  },
+  {
+    title: "Practical Highcharts with Angular: Your Essential Guide to Creating Real-time Dashboards, 2nd Edition",
+    img: Angular10,
+    link: "https://drive.google.com/file/d/1XdpaglajGUllBgkB-lRgyF5EtS7kSYVq/view?usp=share_link",
+    author: "Sourabh Mishra",
+    year: [2023, "Все", "All"],
+    sheets: 308,
+    description: "Научитесь создавать потрясающие анимированные и интерактивные диаграммы с помощью Highcharts и Angular. В этом обновленном издании на основе имеющихся знаний HTML, CSS и JavaScript вы сможете создавать впечатляющие информационные панели, которые будут работать во всех современных браузерах.",
+    stack: ["Angular", "Все", "All"],
+    stackIcon1: angularIcon,
+    borderColor: "#dd0031",
+    clickFilterValue1: "Angular",
+    fileFormat: "pdf",
+    fileSize: 7.1
   },
   //Angular comment
   {
