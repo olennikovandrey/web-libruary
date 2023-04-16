@@ -86,6 +86,8 @@ import React20 from "../assets/images/books/React/20. Practical Enterprise React
 import React21 from "../assets/images/books/React/21. Just React. Learn React the React Way.jpg";
 import React22 from "../assets/images/books/React/22. Beginning React and Firebase Create Four Beginner-Friendly Projects Using React and Firebase.jpg";
 import React23 from "../assets/images/books/React/23. React Application Architecture for Production Learn best practices and expert tips to deliver enterprise-ready React web apps.jpg";
+import React24 from "../assets/images/books/React/24. Full Stack Django and React Get hands-on experience in full-stack web development with Python, React, and AWS.jpg";
+
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -1211,6 +1213,25 @@ export const data = [
     clickFilterValue1: "React",
     fileFormat: "pdf",
     fileSize: 10.6
+  },
+  {
+    title: "Full Stack Django and React: Get hands-on experience in full-stack web development with Python, React, and AWS",
+    img: React24,
+    link: "https://drive.google.com/file/d/17g0v8qp99ZkLqTruPHrFW6DQyfIm4gcN/view?usp=share_link",
+    author: "Kolawole Mangabo",
+    year: [2023, "Все", "All"],
+    sheets: 470,
+    description: "Разработчикам Django часто приходится прибегать к помощи front-end разработчиков для создания клиентских решений для своих веб-приложений. Объединяя возможности React и Django, эта книга создает полный путь обучения, позволяющий в кратчайшие сроки пройти путь от бэкенд-разработчика до разработчика полного стека. Эта книга поможет вам использовать React для создания самых современных макетов пользовательского интерфейса и Django для создания безупречного бэкенда.",
+    stack: ["React", "Python", "AWS","Все", "All"],
+    stackIcon1: reactIcon,
+    stackIcon2: PTIcon,
+    stackIcon3: awsIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue1: "React",
+    clickFilterValue2: "Python",
+    clickFilterValue3: "AWS",
+    fileFormat: "pdf",
+    fileSize: 9.5
   },
   //react comment
   {
