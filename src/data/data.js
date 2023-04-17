@@ -290,7 +290,7 @@ import Other18 from "../assets/images/books/Other/18. Metaverse For Dummies.jpg"
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
-import Git3 from "../assets/images/books/Git/3";
+import Git3 from "../assets/images/books/Git/3. GitHub For Dummies, 2nd Edition.jpg";
 //devops com
 import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
@@ -4097,7 +4097,7 @@ export const data = [
   {
     title: "GitHub For Dummies, 2nd Edition",
     img: Git3,
-    link: "https://drive.google.com/file/d/1WYqsHQM-duF0PnwNWju8sUFlA-GZLss4/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1n5Ku_WduJTAAMc55KPcownzLlMY7H3L_/view?usp=share_link",
     author: "Sarah Guthals",
     year: [2023, "Все", "All"],
     sheets: 352,
