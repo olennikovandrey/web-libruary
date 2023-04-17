@@ -290,6 +290,7 @@ import Other18 from "../assets/images/books/Other/18. Metaverse For Dummies.jpg"
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
+import Git3 from "../assets/images/books/Git/3";
 //devops com
 import DevOps1 from "../assets/images/books/DevOps/1. Lean DevOps. A Practical Guide to On Demand Service Delivery.jpg";
 import DevOps2 from "../assets/images/books/DevOps/2. DevOps for the Desperate. A Hands-On Survival Guide.jpg";
@@ -4092,6 +4093,21 @@ export const data = [
     clickFilterValue1: "Git",
     fileFormat: "pdf",
     fileSize: 51.4
+  },
+  {
+    title: "GitHub For Dummies, 2nd Edition",
+    img: Git3,
+    link: "https://drive.google.com/file/d/1WYqsHQM-duF0PnwNWju8sUFlA-GZLss4/view?usp=sharing",
+    author: "Sarah Guthals",
+    year: [2023, "Все", "All"],
+    sheets: 352,
+    description: "Написанная инженером GitHub, эта книга содержит подробную информацию о том, как работает GitHub и как вы можете использовать его, чтобы стать более эффективным, результативным и ценным членом любой совместной команды программистов.",
+    stack: ["Git", "Все", "All"],
+    stackIcon1: gitIcon,
+    borderColor: "#f34e24",
+    clickFilterValue1: "Git",
+    fileFormat: "pdf",
+    fileSize: 45.5
   },
   //Git comment
   {
