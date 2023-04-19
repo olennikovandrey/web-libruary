@@ -243,6 +243,7 @@ import JAVA27 from "../assets/images/books/Java/27. Java Persistence with Spring
 import JAVA28 from "../assets/images/books/Java/28. Java All-in-One For Dummies, 7th Edition.jpg";
 import JAVA29 from "../assets/images/books/Java/29. Practical Design Patterns for Java Developers Hone your software design skills by implementing popular design patterns in Java.jpg";
 import JAVA30 from "../assets/images/books/Java/30. Test-Driven Development with Java Create higher-quality software by writing tests first with SOLID and hexagonal architecture.jpg";
+import JAVA31 from "../assets/images/books/Java/31. Troubleshooting Java Read, debug, and optimize JVM applications.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3450,6 +3451,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 21.6
+  },
+  {
+    title: "Troubleshooting Java: Read, debug, and optimize JVM applications",
+    img: JAVA31,
+    link: "https://drive.google.com/file/d/1sG8_pqnAWtFIHeUFTjukj7qyPZ9dbacA/view?usp=share_link",
+    author: "Laurentiu Spilca",
+    year: [2023, "Все", "All"],
+    sheets: 365,
+    description: "В этой книге вы освоите методы профилирования кода, расширенной отладки и оценки журналов для поиска и устранения ошибок и проблем производительности. Вооружившись инструментами и методами, изложенными в этом бесценном руководстве, вы сэкономите время, когда вам понадобится выявить проблемы производительности, понять зависимости, найти первопричину сбоев или интерпретировать неожиданные результаты.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 33.9
   },
   //java comment
   {
