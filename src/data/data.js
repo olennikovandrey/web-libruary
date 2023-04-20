@@ -252,6 +252,7 @@ import AWS4 from "../assets/images/books/AWS/4. Programming AWS Lambda.jpg";
 import AWS5 from "../assets/images/books/AWS/5. AWS Cookbook. Recipes for Success on AWS.jpg";
 import AWS6 from "../assets/images/books/AWS/6. Security and Microservice Architecture on AWS.jpg";
 import AWS7 from "../assets/images/books/AWS/7. AWS for Non-Engineers.jpg";
+import AWS8 from "../assets/images/books/AWS/8. Distributed Serverless Architectures on AWS Design and Implement Serverless Architectures.jpg";
 //API comment
 import API1 from "../assets/images/books/API/1. Mastering API Architecture.jpg";
 import API2 from "../assets/images/books/API/2. Traefik API Gateway for Microservices.jpg";
@@ -3574,6 +3575,21 @@ export const data = [
     clickFilterValue1: "AWS",
     fileFormat: "pdf",
     fileSize: 10.4
+  },
+  {
+    title: "Distributed Serverless Architectures on AWS: Design and Implement Serverless Architectures",
+    img: AWS8,
+    link: "https://drive.google.com/file/d/1vRp8Qb_1f1GC6ZASrxYRvu3p5pU4F9_Y/view?usp=share_link",
+    author: "Jithin Jude Paul",
+    year: [2023, "Все", "All"],
+    sheets: 178,
+    description: "Вы начнете с введения в бессерверные компоненты и архитектуры, затем перейдете к платформам данных и контейнерам. Далее вы углубитесь в эти бессерверные архитектуры и узнаете, как они используют компоненты AWS на практических примерах. Вы также изучите проектирование систем в парадигме мультиоблачной архитектуры. Затем автор продемонстрирует эффективность бессерверных архитектур и преимущества экономически эффективного проектирования распределенных систем в глобальном масштабе с использованием архитектурного стиля микросервисов.",
+    stack: ["AWS", "Все", "All"],
+    stackIcon1: awsIcon,
+    borderColor: "#ff9a00",
+    clickFilterValue1: "AWS",
+    fileFormat: "pdf",
+    fileSize: 7.6
   },
   //aws comment
   {
