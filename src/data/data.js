@@ -305,6 +305,7 @@ import iOS1 from "../assets/images/books/iOS/1. Computer Vision and Augmented Re
 import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals with Swift.jpg";
 import iOS3 from "../assets/images/books/iOS/3. iOS Apprentice (Eighth Edition). Beginning iOS Development with Swift and UIKit.jpg";
 import iOS4 from "../assets/images/books/iOS/4. Beginning iOS Game Center and GameKit For iOS, tvOS, and MacOS, 2nd Edition.jpg";
+import iOS5 from "../assets/images/books/iOS/5. iOS Architecture Patterns MVC, MVP, MVVM, VIPER, and VIP in Swift.jpg";
 //cplus comment
 import cPlus1 from "../assets/images/books/C++/1. Beautiful C++. 30 Core Guidelines for Writing Clean, Safe, and Fast Code.jpg";
 import cPlus2 from "../assets/images/books/C++/2. C++. Практика многопоточного программирования, Второе издание.jpg";
@@ -4296,6 +4297,21 @@ export const data = [
     clickFilterValue1: "iOS",
     fileFormat: "pdf",
     fileSize: 4.3
+  },
+  {
+    title: "iOS Architecture Patterns: MVC, MVP, MVVM, VIPER, and VIP in Swift",
+    img: iOS5,
+    link: "https://drive.google.com/file/d/1sL-XVcQOMqlp3BTB2eZ--QdPdQpoWF7t/view?usp=share_link",
+    author: "Raúl Ferrer García",
+    year: [2023, "Все", "All"],
+    sheets: 416,
+    description: "Начните с изучения архитектурных паттернов для приложений. Вы узнаете, почему важно, чтобы ваши приложения были основаны на этих паттернах, и какие из них наиболее распространены. Затем вы рассмотрите MVC как один из самых известных и используемых паттернов. Вы увидите, как и когда он может быть реализован в ваших приложениях, а также его преимущества и недостатки. Далее вы познакомитесь с первой эволюцией модели MVC: MVP, которая представляет новый слой (Presenter) для лучшего управления представлениями. Следующей эволюцией после этого является MVVM, которая представляет слой ViewModel и его связь с представлениями через Data Binding. После того, как эти основные паттерны рассмотрены, вы прочитаете о VIPER и VIP, архитектурных паттернах, которые стремятся сделать приложения легко обслуживаемыми, модульными и высокомасштабируемыми.",
+    stack: ["iOS", "Все", "All"],
+    stackIcon1: iOSIcon,
+    borderColor: "#000",
+    clickFilterValue1: "iOS",
+    fileFormat: "pdf",
+    fileSize: 8.3
   },
   //iOS comment
   {
