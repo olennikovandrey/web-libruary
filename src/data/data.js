@@ -87,7 +87,7 @@ import React21 from "../assets/images/books/React/21. Just React. Learn React th
 import React22 from "../assets/images/books/React/22. Beginning React and Firebase Create Four Beginner-Friendly Projects Using React and Firebase.jpg";
 import React23 from "../assets/images/books/React/23. React Application Architecture for Production Learn best practices and expert tips to deliver enterprise-ready React web apps.jpg";
 import React24 from "../assets/images/books/React/24. Full Stack Django and React Get hands-on experience in full-stack web development with Python, React, and AWS.jpg";
-
+import React25 from "../assets/images/books/React/25. Learn React with TypeScript A beginner’s guide to reactive web development with React 18 and TypeScript, 2nd Edition.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -1226,7 +1226,7 @@ export const data = [
     year: [2023, "Все", "All"],
     sheets: 470,
     description: "Разработчикам Django часто приходится прибегать к помощи front-end разработчиков для создания клиентских решений для своих веб-приложений. Объединяя возможности React и Django, эта книга создает полный путь обучения, позволяющий в кратчайшие сроки пройти путь от бэкенд-разработчика до разработчика полного стека. Эта книга поможет вам использовать React для создания самых современных макетов пользовательского интерфейса и Django для создания безупречного бэкенда.",
-    stack: ["React", "Python", "AWS","Все", "All"],
+    stack: ["React", "Python", "AWS", "Все", "All"],
     stackIcon1: reactIcon,
     stackIcon2: PTIcon,
     stackIcon3: awsIcon,
@@ -1236,6 +1236,23 @@ export const data = [
     clickFilterValue3: "AWS",
     fileFormat: "pdf",
     fileSize: 9.5
+  },
+  {
+    title: "Learn React with TypeScript: A beginner’s guide to reactive web development with React 18 and TypeScript, 2nd Edition",
+    img: React24,
+    link: "https://drive.google.com/file/d/1bP9XHaM-lEevrKycpFz6QxRmyBs_Vj3F/view?usp=share_link",
+    author: "Carl Rippon",
+    year: [2023, "Все", "All"],
+    sheets: 474,
+    description: "Чтение, навигация и отладка большой кодовой базы фронтенда - основная проблема, с которой сталкиваются разработчики фронтенда. Эта книга призвана помочь веб-разработчикам изучить ReactJS и TypeScript, которые являются основой крупномасштабных приложений для многих организаций. Это второе издание обновлено, дополнено и улучшено, чтобы охватить новые возможности React 18, включая хуки, библиотеки управления состояниями, а также возможности TypeScript 4. Книга позволит вам создавать хорошо структурированные и многократно используемые компоненты React, которые легко читать и поддерживать, используя современные паттерны проектирования.",
+    stack: ["React", "TypeScript", "Все", "All"],
+    stackIcon1: reactIcon,
+    stackIcon2: TSIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue1: "React",
+    clickFilterValue2: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 38.2
   },
   //react comment
   {
