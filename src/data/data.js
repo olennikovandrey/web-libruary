@@ -1239,7 +1239,7 @@ export const data = [
   },
   {
     title: "Learn React with TypeScript: A beginner’s guide to reactive web development with React 18 and TypeScript, 2nd Edition",
-    img: React24,
+    img: React25,
     link: "https://drive.google.com/file/d/1bP9XHaM-lEevrKycpFz6QxRmyBs_Vj3F/view?usp=share_link",
     author: "Carl Rippon",
     year: [2023, "Все", "All"],
