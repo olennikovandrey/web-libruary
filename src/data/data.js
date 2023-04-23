@@ -206,6 +206,7 @@ import Security6 from "../assets/images/books/Security/6. Web Application Securi
 import Security7 from "../assets/images/books/Security/7. Spring Security in Action.jpg";
 import Security8 from "../assets/images/books/Security/8. Security for Software Engineers.jpg";
 import Security9 from "../assets/images/books/Security/9. Cybersecurity All-in-One For Dummies.jpg";
+import Security10 from "../assets/images/books/Security/10. Hack the Cybersecurity Interview A complete interview preparation guide for jumpstarting your cybersecurity career.jpg";
 //UI comment
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
@@ -2941,6 +2942,21 @@ export const data = [
     clickFilterValue1: "Web security",
     fileFormat: "pdf",
     fileSize: 15.6
+  },
+  {
+    title: "Hack the Cybersecurity Interview: A complete interview preparation guide for jumpstarting your cybersecurity career",
+    img: Security10,
+    link: "https://drive.google.com/file/d/1FOVNH1k0X2f5Wd_vL_qdPxrUk2ExWI5-/view?usp=share_link",
+    author: "Christophe Foulon",
+    year: [2023, "Все", "All"],
+    sheets: 260,
+    description: "Эта книга - всеобъемлющее руководство, которое поможет как начинающим, так и опытным специалистам по кибербезопасности подготовиться к собеседованиям в самых разных областях. Содержащая ответы авторов на различные вопросы собеседований по кибербезопасности, эта простая и практичная книга поможет вам подготовиться и быть уверенным в себе. Вы узнаете, как подготовиться и сформировать выигрышную стратегию для собеседований. Кроме того, вы поймете наиболее распространенные технические и поведенческие вопросы на собеседовании, узнав о них от настоящих профессионалов в области кибербезопасности и руководителей с многолетним опытом работы в отрасли.",
+    stack: ["Web security", "Все", "All"],
+    stackIcon1: lockIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Web security",
+    fileFormat: "pdf",
+    fileSize: 3.5
   },
   //Security comment
   {
