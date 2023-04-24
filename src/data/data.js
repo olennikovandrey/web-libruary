@@ -290,6 +290,7 @@ import Other15 from "../assets/images/books/Other/15. Data Management at Scale.j
 import Other16 from "../assets/images/books/Other/16. Building Microservices.jpg";
 import Other17 from "../assets/images/books/Other/17. Learning Regular Expressions.jpg";
 import Other18 from "../assets/images/books/Other/18. Metaverse For Dummies.jpg";
+import Other19 from "../assets/images/books/Other/19. Skills of a Successful Software Engineer.jpg";
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
@@ -4128,6 +4129,21 @@ export const data = [
     clickFilterValue1: "Other",
     fileFormat: "pdf",
     fileSize: 13.3
+  },
+  {
+    title: "Skills of a Successful Software Engineer",
+    img: Other19,
+    link: "https://drive.google.com/file/d/1TSugdygq03ryoSgEwBqcIDlnTmXB0wYF/view?usp=share_link",
+    author: "Fernando Doglio",
+    year: [2022, "Все", "All"],
+    sheets: 192,
+    description: "Эта книга представляет методы совместной работы над программными проектами. В нем вы приобретете технические навыки, такие как написание простого кода, эффективное тестирование и рефакторинг, которые необходимы для создания программного обеспечения в команде. Вы также узнаете, как поддерживать свои знания в актуальном состоянии, взаимодействовать с руководителем команды и даже как получить работу, которая вам понравится.",
+    stack: ["Other", "Все", "All"],
+    stackIcon1: otherIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Other",
+    fileFormat: "pdf",
+    fileSize: 8.5
   },
   //Other comment
   {
