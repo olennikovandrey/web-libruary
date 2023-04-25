@@ -160,6 +160,7 @@ import PT43 from "../assets/images/books/Python/43. Python in a Nutshell A Deskt
 import PT44 from "../assets/images/books/Python/44. Publishing Python Packages Test, share, and automate your projects.jpg";
 import PT45 from "../assets/images/books/Python/45. Beginning Programming with Python For Dummies, 3rd Edition.jpg";
 import PT46 from "../assets/images/books/Python/46. Pandas for Everyone Python Data Analysis, 2nd Edition.jpg";
+import PT47 from "../assets/images/books/Python/47. Adaptive Machine Learning Algorithms with Python Solve Data Analytics and Machine Learning Problems on Edge Devices.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2323,6 +2324,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 75.1
+  },
+  {
+    title: "Adaptive Machine Learning Algorithms with Python: Solve Data Analytics and Machine Learning Problems on Edge Devices",
+    img: PT47,
+    link: "https://drive.google.com/file/d/1ov9hbavzNAGOQ-gZncFHuOwgHdlecvgq/view?usp=share_link",
+    author: "Chanchal Chatterjee",
+    year: [2022, "Все", "All"],
+    sheets: 297,
+    description: "Авторы начинают с представления общей основы для создания адаптивных алгоритмов и демонстрируют, как использовать ее для решения различных проблем потоковых данных. Примеры варьируются от использования матричных функций для решения задач машинного обучения и анализа данных до более критических проблем вычисления границ. Они обрабатывают изменяющиеся во времени и нестационарные данные с минимальными затратами вычислительных ресурсов, памяти, времени ожидания и пропускной способности.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 9.4
   },
   //PT comment
   {
