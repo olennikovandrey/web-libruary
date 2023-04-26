@@ -246,6 +246,7 @@ import JAVA28 from "../assets/images/books/Java/28. Java All-in-One For Dummies,
 import JAVA29 from "../assets/images/books/Java/29. Practical Design Patterns for Java Developers Hone your software design skills by implementing popular design patterns in Java.jpg";
 import JAVA30 from "../assets/images/books/Java/30. Test-Driven Development with Java Create higher-quality software by writing tests first with SOLID and hexagonal architecture.jpg";
 import JAVA31 from "../assets/images/books/Java/31. Troubleshooting Java Read, debug, and optimize JVM applications.jpg";
+import JAVA32 from "../assets/images/books/Java/32. Introducing Blockchain with Java Program, Implement, and Extend Blockchains with Java.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3518,6 +3519,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 33.9
+  },
+  {
+    title: "Introducing Blockchain with Java: Program, Implement, and Extend Blockchains with Java",
+    img: JAVA32,
+    link: "https://drive.google.com/file/d/1cKSfZcx5t1bQyhba8P4ScbS99opfNIm3/view?usp=share_link",
+    author: "Spiro Buzharovski",
+    year: [2022, "Все", "All"],
+    sheets: 185,
+    description: "Создайте свою собственную криптовалюту, реализовав технологию блокчейн с помощью Java. Это пошаговое руководство научит вас, как создать пользовательский интерфейс с помощью Java FX и реализовать SQLite DB с помощью JDBC Driver для блокчейна. Эта книга включает многочисленные упражнения и тестовые вопросы, которые помогут вам закрепить полученные знания по мере изучения книги, а также предлагает идеи по расширению кодовой базы, чтобы сделать ее своей собственной. По завершении этой книги вы получите знания, необходимые для программирования собственных блокчейнов на Java, и завершенный проект для вашего портфолио.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 4.7
   },
   //java comment
   {
