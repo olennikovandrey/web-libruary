@@ -360,6 +360,7 @@ import kotlin4 from "../assets/images/books/Kotlin/4. Beginning Kotlin Build App
 import kotlin5 from "../assets/images/books/Kotlin/5. The First Line of Code Android Programming with Kotlin.jpg";
 import kotlin6 from "../assets/images/books/Kotlin/6. Kotlin And Android Learn To Architect And Develop Android Apps In The Kotlin Programming Language.jpg";
 import kotlin7 from "../assets/images/books/Kotlin/7. Numerical Methods Using Kotlin For Data Science, Analysis, and Engineering.jpg";
+import kotlin8 from "../assets/images/books/Kotlin/8. Kotlin Multiplatform by Tutorials Build Native Apps Faster by Sharing Code Across Platforms.jpg";
 //lavarel com
 import lavarel1 from "../assets/images/books/Lavarel/1. Easy Laravel 5. A Hands On Introduction Using a Real-World Project.jpg";
 import lavarel2 from "../assets/images/books/Lavarel/2. Laravel. Up & Running. A Framework for Building Modern PHP Apps.jpg";
@@ -5051,6 +5052,21 @@ export const data = [
     clickFilterValue1: "Kotlin",
     fileFormat: "pdf",
     fileSize: 42.9
+  },
+  {
+    title: "Kotlin Multiplatform by Tutorials: Build Native Apps Faster by Sharing Code Across Platforms",
+    img: kotlin8,
+    link: "https://drive.google.com/file/d/1WtzVfyoLuSxQU7vicVZMlho9LQ5WJHt1/view?usp=share_link",
+    author: "Carlos Mota",
+    year: [2022, "Все", "All"],
+    sheets: 485,
+    description: "Разработчикам мобильных приложений приходится часто повторять один и тот же код на разных платформах, что не только отнимает много времени, но и чревато ошибками. Большинство документации нацелено только на конкретные случаи использования, но упускает из виду нюансы, необходимые для эффективного совместного использования кода на разных платформах. Kotlin Multiplatform by Tutorials поможет вам эффективно реализовать реальные приложения для разных платформ, используя общий код. Эта книга предназначена для мобильных разработчиков и менеджеров, которые хотят изучить, как можно использовать Kotlin Multiplatform для совместного использования кода в приложениях для Android, iOS и desktop систем. Если вы хотите сократить время разработки и тестирования, написав определенные части своих приложений только один раз, эта книга поможет вам.",
+    stack: ["Kotlin", "Все", "All"],
+    stackIcon1: kotlinIcon,
+    borderColor: "#d260a0",
+    clickFilterValue1: "Kotlin",
+    fileFormat: "pdf",
+    fileSize: 52.6
   },
   //kotlin com
   {
