@@ -346,12 +346,13 @@ import cSharp4 from "../assets/images/books/CSharp/4. Learning Blazor (First Ear
 import cSharp5 from "../assets/images/books/CSharp/5. Clean Code in CSharp Refactor your legacy CSharp code base and improve application performance by applying best practices.jpg";
 import cSharp6 from "../assets/images/books/CSharp/6. Simple and Efficient Programming with CSharp. Skills to Build Applications with Visual Studio and .NET, 2nd Edition.jpg";
 import cSharp7 from "../assets/images/books/CSharp/7. The CSharp Workshop Kickstart your career as a software developer with CSharp .jpg";
-//net comment
+//net com
 import net1 from "../assets/images/books/.NET/1. Microservices in .NET.jpg";
 import net2 from "../assets/images/books/.NET/2. Concurrency in .NET. Modern patterns of concurrent and parallel programming.jpg";
 import net3 from "../assets/images/books/.NET/3. Beginning gRPC with ASP.NET Core 6. Build Applications using ASP.NET Core Razor Pages, Angular, and Best Practices in .NET 6 .jpg";
 import net4 from "../assets/images/books/.NET/4. Learn .Net with Programming ( 3 in 1 ). Covers .NET using CSharp, Visual Basic ASP.NET.jpg";
 import net5 from "../assets/images/books/.NET/5. Design Patterns in .NET 6 Reusable Approaches in CSharp and FSharp for Object-Oriented Software Design.jpg";
+import net6 from "../assets/images/books/.NET/6. Introducing .NET 6 Getting Started with Blazor, MAUI, Windows App SDK, Desktop Development, and Containers.jpg";
 //kotlin com
 import kotlin1 from "../assets/images/books/Kotlin/1. Head First Android Development. A Learner's Guide to Building Android Apps with Kotlin.jpg";
 import kotlin2 from "../assets/images/books/Kotlin/2. Programming Android with Kotlin.jpg";
@@ -4947,7 +4948,22 @@ export const data = [
     fileFormat: "pdf",
     fileSize: 7.8
   },
-  //net comment
+  {
+    title: "Introducing .NET 6: Getting Started with Blazor, MAUI, Windows App SDK, Desktop Development, and Containers",
+    img: net6,
+    link: "https://drive.google.com/file/d/1VnyzbczpdZhtQMznSRW2HIPUtsvQl6I8/view?usp=share_link",
+    author: "Nico Vermeir",
+    year: [2022, "Все", "All"],
+    sheets: 332,
+    description: "Добро пожаловать в .NET 6, единую платформу Microsoft, которая объединяет в себе все лучшее из современной и традиционной .NET Framework. Эта книга познакомит вас с новыми аспектами полностью поддерживаемого Microsoft .NET 6 Framework и научит, как извлечь из него максимальную пользу. Вы узнаете о продвижении к единому унифицированному .NET, включая MAUI и возрождение разработки настольных систем. Вы погрузитесь в Roslyn, Blazor, CLI, Containers, Cloud и многое другое, используя подход к обучению \"сначала фреймворк\". Сначала вы узнаете, что представляет собой каждый инструмент, его практическое использование и как его применять, а затем попробуете его самостоятельно для закрепления полученных знаний. И, конечно же, будет много примеров кода с использованием C# 10.",
+    stack: [".NET","Все", "All"],
+    stackIcon1: netIcon,
+    borderColor: "#116eb5",
+    clickFilterValue1: ".NET",
+    fileFormat: "pdf",
+    fileSize: 11.1
+  },
+  //net com
   {
     title: "Head First Android Development: A Learner's Guide to Building Android Apps with Kotlin",
     img: kotlin1,
