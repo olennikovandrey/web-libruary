@@ -247,6 +247,7 @@ import JAVA29 from "../assets/images/books/Java/29. Practical Design Patterns fo
 import JAVA30 from "../assets/images/books/Java/30. Test-Driven Development with Java Create higher-quality software by writing tests first with SOLID and hexagonal architecture.jpg";
 import JAVA31 from "../assets/images/books/Java/31. Troubleshooting Java Read, debug, and optimize JVM applications.jpg";
 import JAVA32 from "../assets/images/books/Java/32. Introducing Blockchain with Java Program, Implement, and Extend Blockchains with Java.jpg";
+import JAVA33 from "../assets/images/books/Java/33. Getting Skilled with Java Learn Java Programming from Scratch with Realistic Applications and Problem Solving Programmes.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3536,6 +3537,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 4.7
+  },
+  {
+    title: "Getting Skilled with Java: Learn Java Programming from Scratch with Realistic Applications and Problem Solving Programmes",
+    img: JAVA33,
+    link: "https://drive.google.com/file/d/1KcKuAfos-Yqvlko0jlb4c4ev5wLEBhup/view?usp=sharing",
+    author: "M Rashid Raza",
+    year: [2022, "Все", "All"],
+    sheets: 254,
+    description: "Эта книга охватывает все, что вам нужно знать о программировании на Java. Книга демонстрирует настройку среды разработки и переменных окружения, установку JDK, написание программ с использованием ключевых возможностей Java, устранение неполадок, развертывание приложений и их комплектацию. Каждый из аспектов программирования объясняется в доступной для понимания форме. В конце каждой главы в книге приведены многочисленные упражнения и задачи по программированию для улучшения навыков кодирования и решения проблем.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 3.7
   },
   //java comment
   {
