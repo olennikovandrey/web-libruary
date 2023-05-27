@@ -294,6 +294,7 @@ import Other16 from "../assets/images/books/Other/16. Building Microservices.jpg
 import Other17 from "../assets/images/books/Other/17. Learning Regular Expressions.jpg";
 import Other18 from "../assets/images/books/Other/18. Metaverse For Dummies.jpg";
 import Other19 from "../assets/images/books/Other/19. Skills of a Successful Software Engineer.jpg";
+import Other20 from "../assets/images/books/Other/20. Beginner’s Guide to Code Algorithms Experiments to Enhance Productivity and Solve Problems.jpg";
 //git comment
 import Git1 from "../assets/images/books/Git/1. Head First Git.jpg";
 import Git2 from "../assets/images/books/Git/2. GitHub For Dummies.jpg";
@@ -4194,6 +4195,21 @@ export const data = [
     clickFilterValue1: "Other",
     fileFormat: "pdf",
     fileSize: 8.5
+  },
+  {
+    title: "Beginner’s Guide to Code Algorithms: Experiments to Enhance Productivity and Solve Problems",
+    img: Other20,
+    link: "https://drive.google.com/file/d/1jDqu0cKGjcwErGoqUX0-D2SJ_KOrP8UY/view?usp=sharing",
+    author: "Deepankar Maitra",
+    year: [2022, "Все", "All"],
+    sheets: 168,
+    description: "В нашем все более цифровом мире кодирование является необходимым навыком. Передача алгоритма машине для выполнения ряда задач имеет жизненно важное значение. Это руководство научит вас мыслить как программист. Автор раскрывает секрет написания кода - построение хорошего алгоритма. Алгоритмическое мышление позволяет задавать правильные вопросы и переходить от решения проблем к созданию решений. Такое мышление сделает вас более привлекательным для работодателей.",
+    stack: ["Other", "Все", "All"],
+    stackIcon1: otherIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Other",
+    fileFormat: "pdf",
+    fileSize: 19.8
   },
   //Other comment
   {
