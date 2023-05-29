@@ -62,6 +62,7 @@ import JS27 from "../assets/images/books/JS/27. Advanced JavaScript.jpg";
 import JS28 from "../assets/images/books/JS/28. Graphic Javascript Algorithms.jpg";
 import JS29 from "../assets/images/books/JS/29. JavaScript The Comprehensive Guide to Learning Professional JavaScript Programming.jpg";
 import JS30 from "../assets/images/books/JS/30. JavaScript from Frontend to Backend Learn full stack JavaScript development using the MEVN stack with quick and easy steps .jpg";
+import JS31 from "../assets/images/books/JS/31. JavaScript From Zero to Hero The Most Complete Guide Ever, Master Modern JavaScript Even If You’re New to Programming.jpg";
 //react comment
 import React1 from "../assets/images/books/React/1. Building React Apps with Server-Side Rendering.jpg";
 import React2 from "../assets/images/books/React/2. Learning React.jpg";
@@ -847,7 +848,7 @@ export const data = [
     year: [2022, "Все", "All"],
     sheets: 336,
     description: "Книга начинается с основ переменных и объектов в JavaScript, а затем быстро переходит к созданию компонентов на стороне клиента с помощью Vue.js и простого приложения для управления списками. После этого внимание переключается на серверную сторону и Node.js, где вы рассмотрите модель MVC и изучите модуль Express. После того как вы освоите серверную и клиентскую части, останется только база данных. Вы познакомитесь с MongoDB и модулем Mongoose. В последней главе этого быстрого руководства вы объедините все эти части, чтобы интегрировать приложение Vue.js в сервер Node.js, используя Express для структурирования серверного кода и MongoDB для хранения информации.",
-    stack: ["JavaScript", "Vue.js", "Все", "All"],
+    stack: ["JavaScript", "Vue.js", "NodeJS", "Все", "All"],
     stackIcon1: JSIcon,
     stackIcon2: vueIcon,
     stackIcon3: nodeIcon,
@@ -857,6 +858,21 @@ export const data = [
     clickFilterValue3: "NodeJS",
     fileFormat: "pdf",
     fileSize: 7.7
+  },
+  {
+    title: "JavaScript From Zero to Hero: The Most Complete Guide Ever, Master Modern JavaScript Even If You’re New to Programming",
+    img: JS31,
+    link: "https://drive.google.com/file/d/1-yVHjRSmy1rNxxrlny2uNln4HGGAA7kn/view?usp=sharing",
+    author: "Rick Sekuloski",
+    year: [2022, "Все", "All"],
+    sheets: 390,
+    description: "Узнайте настоящую силу современного JavaScript и с легкостью изучите трудные части. С помощью этой книги вы станете настоящим программистом JavaScript! Эта книга разбита на главы для быстрого доступа и легкого понимания. В этой книге рассмотрено функциональное, объектно-ориентированное и асинхронное программирование, работа с ошибками и многое другое. Это полное руководство, которое научит вас основам JavaScript и самым продвинутым возможностям, начиная с версии JavaScript E6 и далее.",
+    stack: ["JavaScript", "Все", "All"],
+    stackIcon1: JSIcon,
+    borderColor: "#fffb00",
+    clickFilterValue1: "JavaScript",
+    fileFormat: "pdf",
+    fileSize: 19.4
   },
   //JS comment
   {
