@@ -198,6 +198,7 @@ import Angular7 from "../assets/images/books/Angular/7. Reactive Patterns with R
 import Angular8 from "../assets/images/books/Angular/8. Pro Angular Build Powerful and Dynamic Web Apps, 5th Edition .jpg";
 import Angular9 from "../assets/images/books/Angular/9. Spring Boot and Angular Hands-on full stack web development with Java, Spring, and Angular.jpg";
 import Angular10 from "../assets/images/books/Angular/10. Practical Highcharts with Angular Your Essential Guide to Creating Real-time Dashboards, 2nd Edition.jpg";
+import Angular11 from "../assets/images/books/Angular/11. Getting Started with Angular Create and Deploy Angular Applications.jpg";
 //Security comment
 import Security1 from "../assets/images/books/Security/1. Web Security for Developers.jpg";
 import Security2 from "../assets/images/books/Security/2. The Complete Cyber Security Course, Volume 1. Hackers Exposed.jpg";
@@ -2838,6 +2839,23 @@ export const data = [
     clickFilterValue1: "Angular",
     fileFormat: "pdf",
     fileSize: 7.1
+  },
+  {
+    title: "Getting Started with Angular: Create and Deploy Angular Applications",
+    img: Angular11,
+    link: "https://drive.google.com/file/d/1lNDGUqhYuZmUKktp-XsPGxkpM3ryOZfp/view?usp=sharing",
+    author: "Victor Hugo Garcia",
+    year: [2023, "Все", "All"],
+    sheets: 392,
+    description: "Погрузитесь в архитектуру приложения Angular, начиная с введения в TypeScript и ES6 и переходя к модулям и компонентам, используемым для создания сложных приложений. В этой книге представлен практический подход к тому, как стать опытным разработчиком Angular, создав три полноценных приложения. Вы начнете с обзора фреймворка Angular, где будут представлены TypeScript и ES6. Далее вы увидите, как создать приложение (RestApp) с использованием модуля in-memory для имитации API, которое взаимодействует с rest API, выполняя грубые операции. Затем следует приложение (AuthApp), которое использует сторонний сервис для обеспечения аутентификации и авторизации для обработки регистраций. Затем в шести частях вы создадите приложение (BlogApp), которое взаимодействует с базой данных MongoDB.",
+    stack: ["Angular", "TypeScript", "Все", "All"],
+    stackIcon1: angularIcon,
+    stackIcon2: TSIcon,
+    borderColor: "#dd0031",
+    clickFilterValue1: "Angular",
+    clickFilterValue2: "TypeScript",
+    fileFormat: "pdf",
+    fileSize: 12
   },
   //Angular comment
   {
