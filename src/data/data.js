@@ -162,6 +162,7 @@ import PT44 from "../assets/images/books/Python/44. Publishing Python Packages T
 import PT45 from "../assets/images/books/Python/45. Beginning Programming with Python For Dummies, 3rd Edition.jpg";
 import PT46 from "../assets/images/books/Python/46. Pandas for Everyone Python Data Analysis, 2nd Edition.jpg";
 import PT47 from "../assets/images/books/Python/47. Adaptive Machine Learning Algorithms with Python Solve Data Analytics and Machine Learning Problems on Edge Devices.jpg";
+import PT48 from "../assets/images/books/Python/48. Mastering Python Network Automation Automating Container Orchestration, Configuration, and Networking with Terraform, Calico, HAProxy, and Istio.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2361,6 +2362,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 9.4
+  },
+  {
+    title: "Mastering Python Network Automation: Automating Container Orchestration, Configuration, and Networking with Terraform, Calico, HAProxy, and Istio",
+    img: PT48,
+    link: "https://drive.google.com/file/d/1fQeuHtn7uU_qZKnE1fySWGVPdZMIBxaZ/view?usp=sharing",
+    author: "Tim Peters",
+    year: [2023, "Все", "All"],
+    sheets: 200,
+    description: "Эта книга поможет вам автоматизировать различные задачи, связанные с контейнерами, с помощью Python и его библиотек, включая оркестровку контейнеров, обнаружение сервисов, балансировку нагрузки, управление хранением контейнеров, мониторинг производительности контейнеров и скользящие обновления. Calico и Istio - два известных инструмента для создания сетки сервисов, и вы узнаете, как их установить и настроить для управления маршрутизацией трафика, безопасностью и мониторингом. Дополнительные темы, рассматриваемые в этой книге, включают автоматизацию сетевых политик, маршрутизацию рабочих нагрузок, а также сбор и отслеживание метрик, журналов и трасс. Вы также получите несколько советов и рекомендаций по сбору и визуализации метрик Istio с помощью таких инструментов, как Grafana.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 4.2
   },
   //PT comment
   {
