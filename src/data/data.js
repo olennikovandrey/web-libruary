@@ -186,6 +186,7 @@ import Vue3 from "../assets/images/books/Vue/3. Learn Vue JS 2 + Google Maps API
 import Vue4 from "../assets/images/books/Vue/4. Building Vue.js Applications with GraphQL.jpg";
 import Vue5 from "../assets/images/books/Vue/5. Vue.js 3 Cookbook.jpg";
 import Vue6 from "../assets/images/books/Vue/6. Building Forms with Vue.js.jpg";
+import Vue7 from "../assets/images/books/Vue/7. Frontend Development Projects with Vue.js 3 Learn the fundamentals of building scalable web applications and dynamic user interfaces with Vue.js, 2nd Edition.jpg";
 //vs comment
 import VSCode1 from "../assets/images/books/VS Code/1. Visual Studio Code. End-to-End Editing and Debugging Tools for Web Developers.jpg";
 //Angular comment
@@ -2684,6 +2685,21 @@ export const data = [
     clickFilterValue1: "Vue.js",
     fileFormat: "epub",
     fileSize: 3.6
+  },
+  {
+    title: "Frontend Development Projects with Vue.js 3: Learn the fundamentals of building scalable web applications and dynamic user interfaces with Vue.js, 2nd Edition",
+    img: Vue7,
+    link: "https://drive.google.com/file/d/1_0l7HN6lJ8buKAMCEp6mFeVjtzKIdr5M/view?usp=sharing",
+    author: "Maya Shavin",
+    year: [2023, "Все", "All"],
+    sheets: 628,
+    description: "Книга \"Frontend Development Projects with Vue.js 3\" поможет вам освоить основные концепции этого фреймворка JavaScript на практических примерах, имитирующих реальные веб-проекты. В этом обновленном издании вы познакомитесь со всеми аспектами нового и улучшенного Vue.js 3, работая над такими мини-проектами, как интерфейс чата, корзина для покупок, калькулятор цен, приложение для выполнения дел и генератор карточки профиля для хранения контактных данных. Эти реалистичные проекты представлены в виде небольших упражнений, которые вы сможете выполнять с удовольствием, даже бросая вызов самому себе.",
+    stack: ["Vue.js", "Все", "All"],
+    stackIcon1: vueIcon,
+    borderColor: "#41b883",
+    clickFilterValue1: "Vue.js",
+    fileFormat: "pdf",
+    fileSize: 23.2
   },
   //Vue comment
   //VS Code comment
