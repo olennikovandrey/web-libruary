@@ -163,6 +163,7 @@ import PT45 from "../assets/images/books/Python/45. Beginning Programming with P
 import PT46 from "../assets/images/books/Python/46. Pandas for Everyone Python Data Analysis, 2nd Edition.jpg";
 import PT47 from "../assets/images/books/Python/47. Adaptive Machine Learning Algorithms with Python Solve Data Analytics and Machine Learning Problems on Edge Devices.jpg";
 import PT48 from "../assets/images/books/Python/48. Mastering Python Network Automation Automating Container Orchestration, Configuration, and Networking with Terraform, Calico, HAProxy, and Istio.jpg";
+import PT49 from "../assets/images/books/Python/49. Python for Beginners.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2378,6 +2379,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 4.2
+  },
+  {
+    title: "Python for Beginners",
+    img: PT49,
+    link: "https://drive.google.com/file/d/1LhFeZRxRPMiSh9wkv3L-9dmSuOtFRN5q/view?usp=sharing",
+    author: "B. Balamurugan",
+    year: [2023, "Все", "All"],
+    sheets: 248,
+    description: "Это краткое руководство по всем материалам по Python: -Предоставляет краткую, необходимую информацию о типах и операторах Python, специальных именах методов, встроенных функциях и исключениях, часто используемых модулях стандартной библиотеки и других важных инструментах Python; -Предлагает практические советы для каждой основной области разработки как с Python 3.x, так и с Python 2.x; -Основано на последних исследованиях в области когнитивной науки и теории обучения; -Помогает читателю научиться писать эффективный, идиоматический код на языке Python, используя его лучшие и, возможно, самые игнорируемые возможности",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 14.4
   },
   //PT comment
   {
