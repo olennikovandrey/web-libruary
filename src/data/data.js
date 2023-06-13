@@ -336,6 +336,7 @@ import cPlus15 from "../assets/images/books/C++/15. Test-Driven Development with
 //agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 import agile2 from "../assets/images/books/Agile/2. Agile Model-Based Systems Engineering Cookbook Improve system development by applying proven recipes for effective agile systems engineering, 2nd Edition.jpg";
+import agile3 from "../assets/images/books/Agile/3. Agile Software Development Trends, Challenges and Applications.jpg";
 //css comment
 import css1 from "../assets/images/books/CSS/1. CSS (Cascading Style Sheets) Visual Dictionary.jpg";
 import css2 from "../assets/images/books/CSS/2. Modern CSS. Master the Key Concepts of CSS for Modern Web Development.jpg";
@@ -4766,6 +4767,21 @@ export const data = [
     clickFilterValue1: "Agile",
     fileFormat: "pdf",
     fileSize: 35.4
+  },
+  {
+    title: "Agile Software Development: Trends, Challenges and Applications",
+    img: agile3,
+    link: "https://drive.google.com/file/d/1cl8HbYjVg-JAZ4MEIXJtI-5ieUzJ_0w2/view?usp=sharing",
+    author: "Manu Sood",
+    year: [2023, "Все", "All"],
+    sheets: 400,
+    description: "Уникальное издание, которое представляет весь спектр процессов гибкой разработки программного обеспечения от фундаментальных концепций до самых высоких уровней применения, таких как анализ требований, тестирование программного обеспечения, обеспечение качества и управление рисками.",
+    stack: ["Agile", "Все", "All"],
+    stackIcon1: agileIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Agile",
+    fileFormat: "pdf",
+    fileSize: 11
   },
   //agile comment
   {
