@@ -164,6 +164,7 @@ import PT46 from "../assets/images/books/Python/46. Pandas for Everyone Python D
 import PT47 from "../assets/images/books/Python/47. Adaptive Machine Learning Algorithms with Python Solve Data Analytics and Machine Learning Problems on Edge Devices.jpg";
 import PT48 from "../assets/images/books/Python/48. Mastering Python Network Automation Automating Container Orchestration, Configuration, and Networking with Terraform, Calico, HAProxy, and Istio.jpg";
 import PT49 from "../assets/images/books/Python/49. Python for Beginners.jpg";
+import PT50 from "../assets/images/books/Python/50. Python Machine Learning Projects Learn how to build Machine Learning projects from scratch.jpg";
 //php comment
 import PHP1 from "../assets/images/books/PHP/1. PHP, MySQL, & JavaScript All-in-One For Dummies.jpg";
 import PHP2 from "../assets/images/books/PHP/2. PHP Objects, Patterns, and Practice.jpg";
@@ -2395,6 +2396,21 @@ export const data = [
     clickFilterValue1: "Python",
     fileFormat: "pdf",
     fileSize: 14.4
+  },
+  {
+    title: "Python Machine Learning Projects: Learn how to build Machine Learning projects from scratch",
+    img: PT50,
+    link: "https://drive.google.com/file/d/1YZetvyQKXjwQ5My5Mkb5ZAyPmWiEYaFF/view?usp=sharing",
+    author: "Dr. Deepali R Vora",
+    year: [2023, "Все", "All"],
+    sheets: 260,
+    description: "Книга начинается с объяснения того, насколько важно машинное обучение сегодня и какие технологии необходимы для его работы. Затем книга поможет вам ознакомиться с основными концепциями, лежащими в основе машинного обучения, включая основы программирования на Python. В ней объясняются различные типы алгоритмов машинного обучения и их применение в различных областях, таких как рекомендательные системы, анализ и добыча текста, обработка изображений и анализ социальных сетей. В конце книга кратко знакомит вас с наиболее популярными метаэвристическими алгоритмами оптимизации.",
+    stack: ["Python", "Все", "All"],
+    stackIcon1: PTIcon,
+    borderColor: "#3671a2",
+    clickFilterValue1: "Python",
+    fileFormat: "pdf",
+    fileSize: 6.4
   },
   //PT comment
   {
