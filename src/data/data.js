@@ -318,6 +318,7 @@ import iOS2 from "../assets/images/books/iOS/2. iOS 15 Programming Fundamentals 
 import iOS3 from "../assets/images/books/iOS/3. iOS Apprentice (Eighth Edition). Beginning iOS Development with Swift and UIKit.jpg";
 import iOS4 from "../assets/images/books/iOS/4. Beginning iOS Game Center and GameKit For iOS, tvOS, and MacOS, 2nd Edition.jpg";
 import iOS5 from "../assets/images/books/iOS/5. iOS Architecture Patterns MVC, MVP, MVVM, VIPER, and VIP in Swift.jpg";
+import iOS6 from "../assets/images/books/iOS/6. Animating SwiftUI Applications Create visually stunning and engaging animations for iOS with SwiftUI.jpg";
 //cplus comment
 import cPlus1 from "../assets/images/books/C++/1. Beautiful C++. 30 Core Guidelines for Writing Clean, Safe, and Fast Code.jpg";
 import cPlus2 from "../assets/images/books/C++/2. C++. Практика многопоточного программирования, Второе издание.jpg";
@@ -4526,6 +4527,21 @@ export const data = [
     clickFilterValue1: "iOS",
     fileFormat: "pdf",
     fileSize: 8.3
+  },
+  {
+    title: "Animating SwiftUI Applications: Create visually stunning and engaging animations for iOS with SwiftUI",
+    img: iOS6,
+    link: "https://drive.google.com/file/d/1NCOnK9VOQRqAxgrrMj25ukN8UkNDSRNX/view?usp=sharing",
+    author: "Stephen DeStefano",
+    year: [2023, "Все", "All"],
+    sheets: 478,
+    description: "В этой книге вы начнете с изучения основ SwiftUI и анимации, а затем перейдете к различным проектам, которые закрепят эти навыки на практике. Сначала вы изучите несколько простых проектов, а затем книга перейдет к более продвинутым проектам анимации, включая создание двух полноценных игровых приложений. Наконец, вы узнаете, как интегрировать фреймворк SpriteKit в код SwiftUI для создания потрясающих сцен с дымом, ветром, огнем, дождем и снегом, используя и комбинируя излучатели частиц в анимации SwiftUI.",
+    stack: ["iOS", "Все", "All"],
+    stackIcon1: iOSIcon,
+    borderColor: "#000",
+    clickFilterValue1: "iOS",
+    fileFormat: "pdf",
+    fileSize: 41.5
   },
   //iOS comment
   {
