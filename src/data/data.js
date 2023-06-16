@@ -335,6 +335,7 @@ import cPlus12 from "../assets/images/books/C++/12. C++20 Recipes.jpg";
 import cPlus13 from "../assets/images/books/C++/13. C++ Software Design. Design Principles and Patterns for High-Quality Software.jpg";
 import cPlus14 from "../assets/images/books/C++/14. C++20 - The Complete Guide.jpg";
 import cPlus15 from "../assets/images/books/C++/15. Test-Driven Development with C++ A simple guide to writing bug-free Agile code.jpg";
+import cPlus16 from "../assets/images/books/C++/16. Mastering C++ Network Automation Run Automation across Configuration Management, Container Orchestration, Kubernetes, and Cloud Networking.jpg";
 //agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 import agile2 from "../assets/images/books/Agile/2. Agile Model-Based Systems Engineering Cookbook Improve system development by applying proven recipes for effective agile systems engineering, 2nd Edition.jpg";
@@ -4768,6 +4769,21 @@ export const data = [
     clickFilterValue1: "C++",
     fileFormat: "pdf",
     fileSize: 22
+  },
+  {
+    title: "Mastering C++ Network Automation: Run Automation across Configuration Management, Container Orchestration, Kubernetes, and Cloud Networking",
+    img: cPlus16,
+    link: "https://drive.google.com/file/d/19VeJ1R4eXv8GyP21U4UA9I5PLvpMlNnG/view?usp=sharing",
+    author: "Justin Barbara",
+    year: [2023, "Все", "All"],
+    sheets: 210,
+    description: "В первом разделе книги рассматриваются основы создания сценариев автоматизации и тестирования. Читатели узнают, как создавать успешные сценарии автоматизации и тестировать их, чтобы убедиться, что они работают правильно. В следующем разделе описывается, как настроить среду автоматизации сети. Сюда входит настройка сетевых устройств, серверов и других компонентов, необходимых для автоматизации. Читатели узнают о различных протоколах, а также о том, как использовать Ansible для автоматизации управления конфигурацией этих устройств. Рассматриваются вопросы контейнеризации и систем оркестровки контейнеров, таких как Docker и Kubernetes. Читатели узнают, как использовать такие инструменты, как Docker Compose и Kubernetes, для автоматизации управления и развертывания рабочих нагрузок.",
+    stack: ["C++", "Все", "All"],
+    stackIcon1: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue1: "C++",
+    fileFormat: "pdf",
+    fileSize: 3.9
   },
   //cplus comment
   {
