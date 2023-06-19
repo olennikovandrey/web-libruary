@@ -336,6 +336,7 @@ import cPlus13 from "../assets/images/books/C++/13. C++ Software Design. Design 
 import cPlus14 from "../assets/images/books/C++/14. C++20 - The Complete Guide.jpg";
 import cPlus15 from "../assets/images/books/C++/15. Test-Driven Development with C++ A simple guide to writing bug-free Agile code.jpg";
 import cPlus16 from "../assets/images/books/C++/16. Mastering C++ Network Automation Run Automation across Configuration Management, Container Orchestration, Kubernetes, and Cloud Networking.jpg";
+import cPlus17 from "../assets/images/books/C++/17. C++ for beginners Your comprehensive step-by-step guide to learn everything about C++.jpg";
 //agile comment
 import agile1 from "../assets/images/books/Agile/1. AGILE in Practice.jpg";
 import agile2 from "../assets/images/books/Agile/2. Agile Model-Based Systems Engineering Cookbook Improve system development by applying proven recipes for effective agile systems engineering, 2nd Edition.jpg";
@@ -4784,6 +4785,21 @@ export const data = [
     clickFilterValue1: "C++",
     fileFormat: "pdf",
     fileSize: 3.9
+  },
+  {
+    title: "C++ for beginners: Your comprehensive step-by-step guide to learn everything about C++",
+    img: cPlus17,
+    link: "https://drive.google.com/file/d/1iJM91zA1OfwcHuW2KAyRFAVxi7vi883M/view?usp=sharing",
+    author: "Daniel Harder",
+    year: [2022, "Все", "All"],
+    sheets: 204,
+    description: "C++ был разработан для системного программирования, встраиваемого программного обеспечения, программного обеспечения с ограниченными ресурсами и больших систем, с производительностью, эффективностью и гибкостью использования в качестве основных моментов дизайна. C++ также оказался полезным во многих других контекстах, с ключевыми преимуществами программной инфраструктуры и приложений с ограниченными ресурсами, включая настольные приложения, видеоигры, серверы (например, электронная коммерция, веб-поиск или базы данных), и приложения, критичные к производительности (например, телефонные коммутаторы или космические зонды).",
+    stack: ["C++", "Все", "All"],
+    stackIcon1: cPlusIcon,
+    borderColor: "#659ad2",
+    clickFilterValue1: "C++",
+    fileFormat: "pdf",
+    fileSize: 4.1
   },
   //cplus comment
   {
