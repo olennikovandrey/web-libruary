@@ -215,6 +215,7 @@ import Security7 from "../assets/images/books/Security/7. Spring Security in Act
 import Security8 from "../assets/images/books/Security/8. Security for Software Engineers.jpg";
 import Security9 from "../assets/images/books/Security/9. Cybersecurity All-in-One For Dummies.jpg";
 import Security10 from "../assets/images/books/Security/10. Hack the Cybersecurity Interview A complete interview preparation guide for jumpstarting your cybersecurity career.jpg";
+import Security11 from "../assets/images/books/Security/11. Cyber Security The complete guide to cyber threats and protection, 2nd Edition.jpg";
 //UI comment
 import UI1 from "../assets/images/books/UI/1. Mastering Unreal Engine. A Beginner's Guide, First Edition.jpg";
 import UI2 from "../assets/images/books/UI/2. No bullshit guide to UX.jpg";
@@ -3091,6 +3092,21 @@ export const data = [
     year: [2023, "Все", "All"],
     sheets: 260,
     description: "Эта книга - всеобъемлющее руководство, которое поможет как начинающим, так и опытным специалистам по кибербезопасности подготовиться к собеседованиям в самых разных областях. Содержащая ответы авторов на различные вопросы собеседований по кибербезопасности, эта простая и практичная книга поможет вам подготовиться и быть уверенным в себе. Вы узнаете, как подготовиться и сформировать выигрышную стратегию для собеседований. Кроме того, вы поймете наиболее распространенные технические и поведенческие вопросы на собеседовании, узнав о них от настоящих профессионалов в области кибербезопасности и руководителей с многолетним опытом работы в отрасли.",
+    stack: ["Web security", "Все", "All"],
+    stackIcon1: lockIcon,
+    borderColor: "#e7e7e8",
+    clickFilterValue1: "Web security",
+    fileFormat: "pdf",
+    fileSize: 3.5
+  },
+  {
+    title: "Cyber Security: The complete guide to cyber threats and protection, 2nd Edition",
+    img: Security11,
+    link: "https://drive.google.com/file/d/1EQKTJLllQiFWVb3f1MP3eQtCHsTFDpiX/view?usp=sharing",
+    author: "David Sutton",
+    year: [2023, "Все", "All"],
+    sheets: 413,
+    description: "Это совершенно новое издание охватывает различные виды киберугроз и объясняет, что вы можете сделать для снижения этих рисков и обеспечения безопасности ваших данных. Cyber Security объясняет основы информационной безопасности, как сформировать хорошую организационную практику безопасности и как эффективно восстановиться, если случится худшее. Написанная в доступной форме, она содержит практические рекомендации и практические шаги, которые помогут лучше подготовить как ваше рабочее место, так и ваш дом.",
     stack: ["Web security", "Все", "All"],
     stackIcon1: lockIcon,
     borderColor: "#e7e7e8",
