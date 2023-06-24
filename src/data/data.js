@@ -89,6 +89,7 @@ import React22 from "../assets/images/books/React/22. Beginning React and Fireba
 import React23 from "../assets/images/books/React/23. React Application Architecture for Production Learn best practices and expert tips to deliver enterprise-ready React web apps.jpg";
 import React24 from "../assets/images/books/React/24. Full Stack Django and React Get hands-on experience in full-stack web development with Python, React, and AWS.jpg";
 import React25 from "../assets/images/books/React/25. Learn React with TypeScript A beginner’s guide to reactive web development with React 18 and TypeScript, 2nd Edition.jpg";
+import React26 from "../assets/images/books/React/26. React Key Concepts Consolidate your knowledge of React’s core features.jpg";
 //HTML comment
 import HTML1 from "../assets/images/books/HTML/1. HTML5 and CSS3 All-in-One For Dummies.jpg";
 import HTML2 from "../assets/images/books/HTML/2. Learning Web Design. A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics.jpg";
@@ -1286,6 +1287,21 @@ export const data = [
     clickFilterValue2: "TypeScript",
     fileFormat: "pdf",
     fileSize: 38.2
+  },
+  {
+    title: "React Key Concepts: Consolidate your knowledge of React’s core features",
+    img: React26,
+    link: "https://drive.google.com/file/d/1SeVZqaQ2PSeGyOMod1RF_mUjR-G8d0Eq/view?usp=sharing",
+    author: "Maximilian Schwarzmuller",
+    year: [2022, "Все", "All"],
+    sheets: 590,
+    description: "Автор написал это краткое руководство, чтобы помочь вам освоиться в мире программирования React. Простые объяснения, актуальные примеры и четкий, лаконичный подход делают это быстрое руководство идеальным ресурсом для занятых разработчиков. Эта книга раскрывает основные концепции React и объединяет его ключевые особенности с четким кратким изложением, тем самым прекрасно дополняя другие углубленные учебные ресурсы. Кроме того, оно полностью обновлено для React 18, поэтому вы можете быть уверены, что готовы к работе с последней версией.",
+    stack: ["React", "TypeScript", "Все", "All"],
+    stackIcon1: reactIcon,
+    borderColor: "#03d1f6",
+    clickFilterValue1: "React",
+    fileFormat: "pdf",
+    fileSize: 48.9
   },
   //react comment
   {
