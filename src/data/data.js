@@ -256,6 +256,7 @@ import JAVA30 from "../assets/images/books/Java/30. Test-Driven Development with
 import JAVA31 from "../assets/images/books/Java/31. Troubleshooting Java Read, debug, and optimize JVM applications.jpg";
 import JAVA32 from "../assets/images/books/Java/32. Introducing Blockchain with Java Program, Implement, and Extend Blockchains with Java.jpg";
 import JAVA33 from "../assets/images/books/Java/33. Getting Skilled with Java Learn Java Programming from Scratch with Realistic Applications and Problem Solving Programmes.jpg";
+import JAVA34 from "../assets/images/books/Java/34. Introduction to Java Through Game Development Learn Java Programming Skills by Working with Video Games.jpg";
 //aws comment
 import AWS1 from "../assets/images/books/AWS/1. AWS All-in-One Security Guide.jpg";
 import AWS2 from "../assets/images/books/AWS/2. Serverless Architectures on AWS, 2nd Edition (Final Release).jpg";
@@ -3687,6 +3688,21 @@ export const data = [
     clickFilterValue1: "Java",
     fileFormat: "pdf",
     fileSize: 3.7
+  },
+  {
+    title: "Introduction to Java Through Game Development: Learn Java Programming Skills by Working with Video Games",
+    img: JAVA34,
+    link: "https://drive.google.com/file/d/10r16D8i6EOpfQcromoyVw_1rwiqp4YzL/view?usp=sharing",
+    author: "Victor G Brusca",
+    year: [2022, "Все", "All"],
+    sheets: 262,
+    description: "Хотите научиться программировать на Java? Давайте признаем, что лучший способ научиться программировать - это писать программы. Это может быть пугающим предложением, когда над головой висит призрак многочасовых примеров простых программ командной строки. Не бойтесь! Теперь вы можете научиться программировать на Java в увлекательной форме, работая над видеоиграми. В этой книге вы сможете поработать с тремя игровыми проектами на Java и получить доступ к полному коду каждого проекта, включая полный игровой движок Java.",
+    stack: ["Java", "Все", "All"],
+    stackIcon1: javaIcon,
+    borderColor: "#eb292a",
+    clickFilterValue1: "Java",
+    fileFormat: "pdf",
+    fileSize: 7.9
   },
   //java comment
   {
