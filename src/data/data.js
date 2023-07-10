@@ -266,6 +266,7 @@ import AWS5 from "../assets/images/books/AWS/5. AWS Cookbook. Recipes for Succes
 import AWS6 from "../assets/images/books/AWS/6. Security and Microservice Architecture on AWS.jpg";
 import AWS7 from "../assets/images/books/AWS/7. AWS for Non-Engineers.jpg";
 import AWS8 from "../assets/images/books/AWS/8. Distributed Serverless Architectures on AWS Design and Implement Serverless Architectures.jpg";
+import AWS9 from "../assets/images/books/AWS/9. Applied Machine Learning and High Performance Computing on AWS Accelerate development of machine learning applications following architectural best practices.jpg"
 //API comment
 import API1 from "../assets/images/books/API/1. Mastering API Architecture.jpg";
 import API2 from "../assets/images/books/API/2. Traefik API Gateway for Microservices.jpg";
@@ -3826,6 +3827,21 @@ export const data = [
     clickFilterValue1: "AWS",
     fileFormat: "pdf",
     fileSize: 7.6
+  },
+  {
+    title: "Applied Machine Learning and High Performance Computing on AWS: Accelerate development of machine learning applications following architectural best practices",
+    img: AWS9,
+    link: "https://drive.google.com/file/d/18jDI6zoLYOFP_1RHjMlBbzDzTdeTpFn3/view?usp=sharing",
+    author: "Farooq Sabir",
+    year: [2022, "Все", "All"],
+    sheets: 398,
+    description: "Машинное обучение (ML) и высокопроизводительные вычисления (HPC) на AWS позволяют выполнять интенсивные вычислительные нагрузки в различных отраслях и новых приложениях. Книга содержит сквозное руководство, начиная с концепций HPC для хранения данных и сетей. Затем она углубляется в часть 2 с рабочими примерами обработки больших наборов данных с помощью SageMaker Studio и EMR, построения, обучения и развертывания больших моделей с использованием распределенного обучения. В книге также рассматривается развертывание моделей на периферийных устройствах с помощью SageMaker и IoT Greengrass, а также оптимизация производительности ML-моделей для случаев использования с низкой задержкой.",
+    stack: ["AWS", "Все", "All"],
+    stackIcon1: awsIcon,
+    borderColor: "#ff9a00",
+    clickFilterValue1: "AWS",
+    fileFormat: "pdf",
+    fileSize: 20.5
   },
   //aws comment
   {
